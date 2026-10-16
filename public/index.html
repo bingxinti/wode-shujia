@@ -1,0 +1,3697 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<meta name="format-detection" content="telephone=no, email=no, address=no">
+<meta name="theme-color" content="#f3f0e8">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://bk.6-66.cc/">
+<meta name="description" content="我的书架。五个板块的阅读目录：宇宙与自然、三观修养、社会、政治、商业。">
+<title>我的书架</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f3f0e8;
+    --panel: #fffcf7;
+    --aside: #f7f4ec;
+    --ink: #1c1915;
+    --muted: #5e584e;
+    --faint: #8a8175;
+    --line: rgba(28, 25, 21, 0.1);
+    --accent: #8f2d24;
+    --mark: #f6e2a8;
+    --shadow: 0 10px 30px rgba(60, 40, 20, 0.06);
+    --surface: #fff;
+    --surface-hover: #faf6ee;
+    --chip: #f6f1e6;
+    --header: rgba(255, 252, 247, 0.92);
+    --nav-veil: rgba(243, 240, 232, 0.62);
+    --nav-bar: rgba(255, 252, 247, 0.82);
+    --nav-card: rgba(255, 252, 247, 0.96);
+    --on-ink: #fff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #2a2622;
+    --focus: #c4a15a;
+    --focus-ring: rgba(196, 161, 90, 0.18);
+    --star: #a15c12;
+    --star-empty: #d9d0c3;
+    --hover-wash: rgba(255, 255, 255, 0.72);
+    --sans: "PingFang SC", "Noto Sans SC", Inter, sans-serif;
+  }
+  html[data-theme="sepia"] {
+    --bg: #f4ecd8;
+    --panel: #fbf6e8;
+    --aside: #efe4cc;
+    --ink: #3a2c1e;
+    --muted: #6b5640;
+    --faint: #6d563e;
+    --line: rgba(58, 44, 30, 0.12);
+    --accent: #8a4b24;
+    --mark: #f0d48a;
+    --shadow: 0 10px 30px rgba(80, 50, 20, 0.07);
+    --surface: #fffaf0;
+    --surface-hover: #f6edd8;
+    --chip: #f3e6c8;
+    --header: rgba(251, 246, 232, 0.92);
+    --nav-veil: rgba(244, 236, 216, 0.62);
+    --nav-bar: rgba(251, 246, 232, 0.82);
+    --nav-card: rgba(251, 246, 232, 0.96);
+    --on-ink: #fffaf0;
+    --on-ink-muted: rgba(255, 250, 240, 0.72);
+    --ink-hover: #4a3826;
+    --focus: #b8883e;
+    --focus-ring: rgba(184, 136, 62, 0.22);
+    --star: #9a6230;
+    --star-empty: #ddcfb4;
+    --hover-wash: rgba(255, 250, 240, 0.72);
+  }
+  html[data-theme="green"] {
+    --bg: #d5ead6;
+    --panel: #f3faf3;
+    --aside: #c8e2ca;
+    --ink: #1a2b20;
+    --muted: #3e5a46;
+    --faint: #456352;
+    --line: rgba(26, 43, 32, 0.12);
+    --accent: #1d6b3c;
+    --mark: #f3e3a4;
+    --shadow: 0 10px 30px rgba(30, 60, 35, 0.07);
+    --surface: #f7fbf7;
+    --surface-hover: #e5f3e6;
+    --chip: #dcefdc;
+    --header: rgba(236, 246, 236, 0.92);
+    --nav-veil: rgba(213, 234, 214, 0.68);
+    --nav-bar: rgba(243, 250, 243, 0.82);
+    --nav-card: rgba(243, 250, 243, 0.96);
+    --on-ink: #f3faf3;
+    --on-ink-muted: rgba(243, 250, 243, 0.72);
+    --ink-hover: #24382a;
+    --focus: #3d8f55;
+    --focus-ring: rgba(61, 143, 85, 0.22);
+    --star: #8a6418;
+    --star-empty: #b7cdb8;
+    --hover-wash: rgba(255, 255, 255, 0.55);
+  }
+  html[data-theme="mist"] {
+    --bg: #e4eef2;
+    --panel: #f7fbfc;
+    --aside: #d7e4ea;
+    --ink: #1a2830;
+    --muted: #465864;
+    --faint: #4e626e;
+    --line: rgba(26, 40, 48, 0.12);
+    --accent: #1f5f78;
+    --mark: #f3e2a6;
+    --shadow: 0 10px 30px rgba(30, 50, 60, 0.07);
+    --surface: #ffffff;
+    --surface-hover: #e8f1f5;
+    --chip: #dce8ee;
+    --header: rgba(247, 251, 252, 0.92);
+    --nav-veil: rgba(228, 238, 242, 0.66);
+    --nav-bar: rgba(247, 251, 252, 0.82);
+    --nav-card: rgba(247, 251, 252, 0.96);
+    --on-ink: #f7fbfc;
+    --on-ink-muted: rgba(247, 251, 252, 0.72);
+    --ink-hover: #243640;
+    --focus: #3d7e98;
+    --focus-ring: rgba(61, 126, 152, 0.22);
+    --star: #8a6420;
+    --star-empty: #c5d3da;
+    --hover-wash: rgba(255, 255, 255, 0.7);
+  }
+  html[data-theme="night"] {
+    color-scheme: dark;
+    --bg: #1c1b19;
+    --panel: #262420;
+    --aside: #161513;
+    --ink: #e7e0d4;
+    --muted: #b5ab9d;
+    --faint: #8c8376;
+    --line: rgba(231, 224, 212, 0.14);
+    --accent: #e3a090;
+    --mark: #5e481f;
+    --shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+    --surface: #2e2c28;
+    --surface-hover: #3a3732;
+    --chip: #34312c;
+    --header: rgba(28, 27, 25, 0.92);
+    --nav-veil: rgba(22, 21, 19, 0.72);
+    --nav-bar: rgba(38, 36, 32, 0.82);
+    --nav-card: rgba(38, 36, 32, 0.96);
+    --on-ink: #1c1b19;
+    --on-ink-muted: rgba(28, 27, 25, 0.68);
+    --ink-hover: #f4efe6;
+    --focus: #c4a15a;
+    --focus-ring: rgba(196, 161, 90, 0.28);
+    --star: #e2b15c;
+    --star-empty: #4c473f;
+    --hover-wash: rgba(255, 255, 255, 0.06);
+  }
+  html[data-theme="candle"] {
+    color-scheme: dark;
+    --bg: #2a2118;
+    --panel: #362b21;
+    --aside: #221b14;
+    --ink: #f2e4cc;
+    --muted: #cbb99a;
+    --faint: #a08b70;
+    --line: rgba(242, 228, 204, 0.14);
+    --accent: #e7b56a;
+    --mark: #684818;
+    --shadow: 0 10px 28px rgba(0, 0, 0, 0.38);
+    --surface: #403226;
+    --surface-hover: #4c3c2e;
+    --chip: #46382b;
+    --header: rgba(42, 33, 24, 0.92);
+    --nav-veil: rgba(34, 27, 20, 0.72);
+    --nav-bar: rgba(54, 43, 33, 0.82);
+    --nav-card: rgba(54, 43, 33, 0.96);
+    --on-ink: #2a2118;
+    --on-ink-muted: rgba(42, 33, 24, 0.68);
+    --ink-hover: #faefdc;
+    --focus: #e7b56a;
+    --focus-ring: rgba(231, 181, 106, 0.28);
+    --star: #f0c57a;
+    --star-empty: #5c4a38;
+    --hover-wash: rgba(255, 236, 210, 0.08);
+  }
+  html[data-theme="blush"] {
+    --bg: #f3e3db;
+    --panel: #fbf3ef;
+    --aside: #ead4ca;
+    --ink: #3a2826;
+    --muted: #6a4e4a;
+    --faint: #735850;
+    --line: rgba(58, 40, 38, 0.12);
+    --accent: #8d3a46;
+    --mark: #f0d4a0;
+    --shadow: 0 10px 30px rgba(80, 40, 36, 0.07);
+    --surface: #fff8f5;
+    --surface-hover: #f6e7e0;
+    --chip: #f0ddd4;
+    --header: rgba(251, 243, 239, 0.92);
+    --nav-veil: rgba(243, 227, 219, 0.66);
+    --nav-bar: rgba(251, 243, 239, 0.82);
+    --nav-card: rgba(251, 243, 239, 0.96);
+    --on-ink: #fff8f5;
+    --on-ink-muted: rgba(255, 248, 245, 0.72);
+    --ink-hover: #4c3634;
+    --focus: #b06a72;
+    --focus-ring: rgba(176, 106, 114, 0.22);
+    --star: #8f5a22;
+    --star-empty: #dcc8be;
+    --hover-wash: rgba(255, 248, 245, 0.7);
+  }
+  html[data-theme="lake"] {
+    --bg: #d7ebe6;
+    --panel: #f3faf8;
+    --aside: #c9e2db;
+    --ink: #16302c;
+    --muted: #3c5c56;
+    --faint: #466860;
+    --line: rgba(22, 48, 44, 0.12);
+    --accent: #0e6a62;
+    --mark: #f0e0a4;
+    --shadow: 0 10px 30px rgba(20, 60, 50, 0.07);
+    --surface: #f7fcfa;
+    --surface-hover: #e3f3ee;
+    --chip: #d5ebe5;
+    --header: rgba(243, 250, 248, 0.92);
+    --nav-veil: rgba(215, 235, 230, 0.68);
+    --nav-bar: rgba(243, 250, 248, 0.82);
+    --nav-card: rgba(243, 250, 248, 0.96);
+    --on-ink: #f3faf8;
+    --on-ink-muted: rgba(243, 250, 248, 0.72);
+    --ink-hover: #21403a;
+    --focus: #2e8a80;
+    --focus-ring: rgba(46, 138, 128, 0.22);
+    --star: #8a6418;
+    --star-empty: #b7cfc8;
+    --hover-wash: rgba(255, 255, 255, 0.55);
+  }
+  html[data-theme="lilac"] {
+    --bg: #ebe4f2;
+    --panel: #f8f5fb;
+    --aside: #ddd4ea;
+    --ink: #2a2434;
+    --muted: #564e66;
+    --faint: #625a72;
+    --line: rgba(42, 36, 52, 0.12);
+    --accent: #6a4588;
+    --mark: #f0e0a8;
+    --shadow: 0 10px 30px rgba(50, 40, 70, 0.07);
+    --surface: #fcfaff;
+    --surface-hover: #eee6f4;
+    --chip: #e4dced;
+    --header: rgba(248, 245, 251, 0.92);
+    --nav-veil: rgba(235, 228, 242, 0.66);
+    --nav-bar: rgba(248, 245, 251, 0.82);
+    --nav-card: rgba(248, 245, 251, 0.96);
+    --on-ink: #f8f5fb;
+    --on-ink-muted: rgba(248, 245, 251, 0.72);
+    --ink-hover: #3a3246;
+    --focus: #8a68a4;
+    --focus-ring: rgba(138, 104, 164, 0.22);
+    --star: #8a6418;
+    --star-empty: #cfc4da;
+    --hover-wash: rgba(255, 255, 255, 0.65);
+  }
+  html[data-theme="snow"] {
+    --bg: #e8ebef;
+    --panel: #f6f7f9;
+    --aside: #dfe3e8;
+    --ink: #1c242c;
+    --muted: #4a5560;
+    --faint: #5c6874;
+    --line: rgba(28, 36, 44, 0.12);
+    --accent: #2f4f86;
+    --mark: #e3d7a4;
+    --shadow: 0 10px 30px rgba(40, 50, 60, 0.07);
+    --surface: #fbfcfd;
+    --surface-hover: #e7ebef;
+    --chip: #e2e6eb;
+    --header: rgba(246, 247, 249, 0.92);
+    --nav-veil: rgba(232, 235, 239, 0.66);
+    --nav-bar: rgba(246, 247, 249, 0.82);
+    --nav-card: rgba(246, 247, 249, 0.96);
+    --on-ink: #f6f7f9;
+    --on-ink-muted: rgba(246, 247, 249, 0.72);
+    --ink-hover: #2a343e;
+    --focus: #5c749e;
+    --focus-ring: rgba(92, 116, 158, 0.22);
+    --star: #8a5c14;
+    --star-empty: #c5ccd3;
+    --hover-wash: rgba(255, 255, 255, 0.7);
+  }
+  html[data-theme="white"] {
+    --bg: #ffffff;
+    --panel: #ffffff;
+    --aside: #f2f2f2;
+    --ink: #1a1a1a;
+    --muted: #4d4d4d;
+    --faint: #737373;
+    --line: rgba(0, 0, 0, 0.1);
+    --accent: #174ea6;
+    --mark: #d2e3fc;
+    --shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    --surface: #ffffff;
+    --surface-hover: #f3f3f3;
+    --chip: #eeeeee;
+    --header: rgba(255, 255, 255, 0.94);
+    --nav-veil: rgba(255, 255, 255, 0.74);
+    --nav-bar: rgba(255, 255, 255, 0.92);
+    --nav-card: rgba(255, 255, 255, 0.98);
+    --on-ink: #ffffff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #333333;
+    --focus: #174ea6;
+    --focus-ring: rgba(23, 78, 166, 0.22);
+    --star: #a15c12;
+    --star-empty: #d4d4d4;
+    --hover-wash: rgba(255, 255, 255, 0.8);
+  }
+  html[data-theme="marker"] {
+    --bg: #fffef5;
+    --panel: #ffffff;
+    --aside: #fff3b0;
+    --ink: #1a1a1a;
+    --muted: #3f3a28;
+    --faint: #6d6752;
+    --line: rgba(26, 26, 26, 0.12);
+    --accent: #7a4e00;
+    --mark: #ffe14a;
+    --shadow: 0 10px 28px rgba(120, 90, 0, 0.08);
+    --surface: #ffffff;
+    --surface-hover: #fff6c2;
+    --chip: #ffe56a;
+    --header: rgba(255, 248, 214, 0.94);
+    --nav-veil: rgba(255, 248, 214, 0.74);
+    --nav-bar: rgba(255, 250, 230, 0.92);
+    --nav-card: rgba(255, 255, 255, 0.98);
+    --on-ink: #ffffff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #333333;
+    --focus: #c89600;
+    --focus-ring: rgba(200, 150, 0, 0.28);
+    --star: #c98400;
+    --star-empty: #e4d7a4;
+    --hover-wash: rgba(255, 255, 255, 0.72);
+  }
+  html[data-theme="pine"] {
+    color-scheme: dark;
+    --bg: #1a2420;
+    --panel: #24302a;
+    --aside: #141c18;
+    --ink: #e4eee6;
+    --muted: #aeb8b0;
+    --faint: #949e96;
+    --line: rgba(228, 238, 230, 0.14);
+    --accent: #b7d4a4;
+    --mark: #3d5230;
+    --shadow: 0 10px 28px rgba(0, 0, 0, 0.38);
+    --surface: #2c3a32;
+    --surface-hover: #36463c;
+    --chip: #324038;
+    --header: rgba(26, 36, 32, 0.92);
+    --nav-veil: rgba(16, 24, 20, 0.74);
+    --nav-bar: rgba(36, 48, 42, 0.82);
+    --nav-card: rgba(36, 48, 42, 0.96);
+    --on-ink: #1a2420;
+    --on-ink-muted: rgba(26, 36, 32, 0.68);
+    --ink-hover: #f2f8f2;
+    --focus: #b7d4a4;
+    --focus-ring: rgba(183, 212, 164, 0.28);
+    --star: #e2b15c;
+    --star-empty: #445448;
+    --hover-wash: rgba(230, 245, 230, 0.07);
+  }
+  html[data-theme="navy"] {
+    color-scheme: dark;
+    --bg: #1a2230;
+    --panel: #243044;
+    --aside: #141a26;
+    --ink: #e4eaf3;
+    --muted: #aeb8c8;
+    --faint: #8c98aa;
+    --line: rgba(228, 234, 243, 0.14);
+    --accent: #a9c8ea;
+    --mark: #3a4e6e;
+    --shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+    --surface: #2c3a50;
+    --surface-hover: #364860;
+    --chip: #314056;
+    --header: rgba(26, 34, 48, 0.92);
+    --nav-veil: rgba(16, 22, 32, 0.74);
+    --nav-bar: rgba(36, 48, 68, 0.82);
+    --nav-card: rgba(36, 48, 68, 0.96);
+    --on-ink: #1a2230;
+    --on-ink-muted: rgba(26, 34, 48, 0.68);
+    --ink-hover: #f4f7fb;
+    --focus: #a9c8ea;
+    --focus-ring: rgba(169, 200, 234, 0.28);
+    --star: #e2b15c;
+    --star-empty: #445068;
+    --hover-wash: rgba(220, 230, 245, 0.07);
+  }
+  html[data-theme="ios"] {
+    --bg: #f2f2f7;
+    --panel: #ffffff;
+    --aside: #f2f2f7;
+    --ink: #1c1c1e;
+    --muted: #636366;
+    --faint: #8e8e93;
+    --line: rgba(60, 60, 67, 0.12);
+    --accent: #007aff;
+    --mark: #cce4ff;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    --surface: #ffffff;
+    --surface-hover: #e5e5ea;
+    --chip: #e5e5ea;
+    --header: rgba(242, 242, 247, 0.92);
+    --nav-veil: rgba(242, 242, 247, 0.72);
+    --nav-bar: rgba(255, 255, 255, 0.88);
+    --nav-card: rgba(255, 255, 255, 0.96);
+    --on-ink: #ffffff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #2c2c2e;
+    --focus: #007aff;
+    --focus-ring: rgba(0, 122, 255, 0.24);
+    --star: #ff9f0a;
+    --star-empty: #d1d1d6;
+    --hover-wash: rgba(255, 255, 255, 0.75);
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Noto Sans SC", sans-serif;
+  }
+  html[data-theme="mac"] {
+    --bg: #f5f5f7;
+    --panel: #ffffff;
+    --aside: #e4e4e8;
+    --ink: #1d1d1f;
+    --muted: #6e6e73;
+    --faint: #86868b;
+    --line: rgba(0, 0, 0, 0.1);
+    --accent: #0066cc;
+    --mark: #d4e4ff;
+    --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    --surface: #ffffff;
+    --surface-hover: #ececf0;
+    --chip: #e6e6ea;
+    --header: rgba(228, 228, 232, 0.94);
+    --nav-veil: rgba(228, 228, 232, 0.72);
+    --nav-bar: rgba(244, 244, 246, 0.9);
+    --nav-card: rgba(255, 255, 255, 0.96);
+    --on-ink: #ffffff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #2a2a2c;
+    --focus: #0066cc;
+    --focus-ring: rgba(0, 102, 204, 0.24);
+    --star: #9a6700;
+    --star-empty: #c7c7cc;
+    --hover-wash: rgba(255, 255, 255, 0.7);
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Noto Sans SC", sans-serif;
+  }
+  html[data-theme="wechat"] {
+    --bg: #ededed;
+    --panel: #ffffff;
+    --aside: #e7e7e7;
+    --ink: #111111;
+    --muted: #5c5c5c;
+    --faint: #888888;
+    --line: rgba(0, 0, 0, 0.08);
+    --accent: #07c160;
+    --mark: #c8f0d4;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    --surface: #ffffff;
+    --surface-hover: #f3f3f3;
+    --chip: #e6e6e6;
+    --header: rgba(237, 237, 237, 0.94);
+    --nav-veil: rgba(237, 237, 237, 0.72);
+    --nav-bar: rgba(247, 247, 247, 0.9);
+    --nav-card: rgba(255, 255, 255, 0.96);
+    --on-ink: #ffffff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #222222;
+    --focus: #07c160;
+    --focus-ring: rgba(7, 193, 96, 0.24);
+    --star: #9a6b12;
+    --star-empty: #cfcfcf;
+    --hover-wash: rgba(255, 255, 255, 0.7);
+  }
+  html[data-theme="qq"] {
+    --bg: #e8f4fc;
+    --panel: #ffffff;
+    --aside: #d9eefb;
+    --ink: #12202e;
+    --muted: #4d6274;
+    --faint: #6d8294;
+    --line: rgba(18, 32, 46, 0.1);
+    --accent: #12b7f5;
+    --mark: #c5e8fb;
+    --shadow: 0 10px 30px rgba(20, 60, 90, 0.07);
+    --surface: #ffffff;
+    --surface-hover: #e5f4fc;
+    --chip: #d7eef9;
+    --header: rgba(232, 244, 252, 0.94);
+    --nav-veil: rgba(232, 244, 252, 0.72);
+    --nav-bar: rgba(255, 255, 255, 0.88);
+    --nav-card: rgba(255, 255, 255, 0.96);
+    --on-ink: #ffffff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #1a3044;
+    --focus: #12b7f5;
+    --focus-ring: rgba(18, 183, 245, 0.24);
+    --star: #9a6b12;
+    --star-empty: #c5d7e4;
+    --hover-wash: rgba(255, 255, 255, 0.7);
+  }
+  html[data-theme="bili"] {
+    --bg: #fff1f4;
+    --panel: #ffffff;
+    --aside: #ffe3ea;
+    --ink: #18191c;
+    --muted: #61666d;
+    --faint: #9499a0;
+    --line: rgba(24, 25, 28, 0.1);
+    --accent: #fb7299;
+    --mark: #ffd0dc;
+    --shadow: 0 10px 30px rgba(120, 40, 60, 0.07);
+    --surface: #ffffff;
+    --surface-hover: #fff0f3;
+    --chip: #ffe4eb;
+    --header: rgba(255, 241, 244, 0.94);
+    --nav-veil: rgba(255, 241, 244, 0.72);
+    --nav-bar: rgba(255, 255, 255, 0.9);
+    --nav-card: rgba(255, 255, 255, 0.96);
+    --on-ink: #ffffff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #2a2b2e;
+    --focus: #fb7299;
+    --focus-ring: rgba(251, 114, 153, 0.24);
+    --star: #9a6b12;
+    --star-empty: #e4c9d2;
+    --hover-wash: rgba(255, 255, 255, 0.72);
+  }
+  html[data-theme="douyin"] {
+    color-scheme: dark;
+    --bg: #161823;
+    --panel: #1f2130;
+    --aside: #10121a;
+    --ink: #f5f5f7;
+    --muted: #b4b4be;
+    --faint: #8d8e98;
+    --line: rgba(245, 245, 247, 0.12);
+    --accent: #fe2c55;
+    --mark: #5c2433;
+    --shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+    --surface: #262838;
+    --surface-hover: #313348;
+    --chip: #2a2c3c;
+    --header: rgba(22, 24, 35, 0.94);
+    --nav-veil: rgba(16, 18, 26, 0.76);
+    --nav-bar: rgba(31, 33, 48, 0.88);
+    --nav-card: rgba(31, 33, 48, 0.96);
+    --on-ink: #161823;
+    --on-ink-muted: rgba(22, 24, 35, 0.68);
+    --ink-hover: #ffffff;
+    --focus: #25f4ee;
+    --focus-ring: rgba(37, 244, 238, 0.28);
+    --star: #face15;
+    --star-empty: #3d3f50;
+    --hover-wash: rgba(255, 255, 255, 0.06);
+  }
+  html[data-theme="xhs"] {
+    --bg: #fff4f3;
+    --panel: #ffffff;
+    --aside: #ffe4e1;
+    --ink: #222222;
+    --muted: #666666;
+    --faint: #8a8a8a;
+    --line: rgba(34, 34, 34, 0.1);
+    --accent: #ff2442;
+    --mark: #ffd0d4;
+    --shadow: 0 10px 30px rgba(120, 30, 40, 0.07);
+    --surface: #ffffff;
+    --surface-hover: #fff0ee;
+    --chip: #ffe8e5;
+    --header: rgba(255, 244, 243, 0.94);
+    --nav-veil: rgba(255, 244, 243, 0.72);
+    --nav-bar: rgba(255, 255, 255, 0.9);
+    --nav-card: rgba(255, 255, 255, 0.96);
+    --on-ink: #ffffff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #333333;
+    --focus: #ff2442;
+    --focus-ring: rgba(255, 36, 66, 0.22);
+    --star: #9a6b12;
+    --star-empty: #e5cfcb;
+    --hover-wash: rgba(255, 255, 255, 0.72);
+  }
+  html[data-theme="zhihu"] {
+    --bg: #f6f6f6;
+    --panel: #ffffff;
+    --aside: #eef0f4;
+    --ink: #121212;
+    --muted: #8590a6;
+    --faint: #9aa3b2;
+    --line: rgba(18, 18, 18, 0.08);
+    --accent: #0066ff;
+    --mark: #d6e6ff;
+    --shadow: 0 10px 30px rgba(20, 40, 80, 0.06);
+    --surface: #ffffff;
+    --surface-hover: #f0f2f5;
+    --chip: #eef0f4;
+    --header: rgba(255, 255, 255, 0.94);
+    --nav-veil: rgba(246, 246, 246, 0.72);
+    --nav-bar: rgba(255, 255, 255, 0.9);
+    --nav-card: rgba(255, 255, 255, 0.96);
+    --on-ink: #ffffff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #222222;
+    --focus: #0066ff;
+    --focus-ring: rgba(0, 102, 255, 0.22);
+    --star: #9a6b12;
+    --star-empty: #d5d8de;
+    --hover-wash: rgba(255, 255, 255, 0.75);
+  }
+  html[data-theme="weibo"] {
+    --bg: #fff6ec;
+    --panel: #ffffff;
+    --aside: #ffedd9;
+    --ink: #1a1a1a;
+    --muted: #636363;
+    --faint: #8a8a8a;
+    --line: rgba(26, 26, 26, 0.1);
+    --accent: #ff8200;
+    --mark: #ffe0b8;
+    --shadow: 0 10px 30px rgba(120, 70, 20, 0.07);
+    --surface: #ffffff;
+    --surface-hover: #fff3e6;
+    --chip: #ffedd9;
+    --header: rgba(255, 246, 236, 0.94);
+    --nav-veil: rgba(255, 246, 236, 0.72);
+    --nav-bar: rgba(255, 255, 255, 0.9);
+    --nav-card: rgba(255, 255, 255, 0.96);
+    --on-ink: #ffffff;
+    --on-ink-muted: rgba(255, 255, 255, 0.72);
+    --ink-hover: #333333;
+    --focus: #ff8200;
+    --focus-ring: rgba(255, 130, 0, 0.24);
+    --star: #9a6b12;
+    --star-empty: #e6d3bc;
+    --hover-wash: rgba(255, 255, 255, 0.72);
+  }
+  * { box-sizing: border-box; }
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  html, body { margin: 0; min-height: 100%; }
+  html.page-lock, html.page-lock body { overflow: hidden; }
+  body {
+    color: var(--ink);
+    background: var(--bg);
+    font-family: var(--sans);
+    line-height: 1.65;
+    transition: background-color 160ms ease, color 160ms ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+  ::selection { background: var(--mark); color: var(--ink); }
+  button, input, textarea, select { font: inherit; color: inherit; }
+  button { cursor: pointer; touch-action: manipulation; }
+  button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  input::placeholder, textarea::placeholder { color: var(--faint); }
+  .app { min-height: 100%; display: grid; grid-template-rows: auto 1fr; }
+  header {
+    display: flex; align-items: center; gap: 14px;
+    padding: calc(10px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px));
+    border-bottom: 1px solid var(--line);
+    background: var(--header); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    position: sticky; top: 0; z-index: 5;
+  }
+  .head-nav { display: flex; flex: none; align-items: center; gap: 8px; }
+  #open-nav, #open-about, #open-author, #open-fav, #open-order {
+    flex: none; border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
+    min-height: 32px; padding: 4px 12px; font-size: 14px; font-weight: 650; line-height: 1.4;
+  }
+  #open-order { display: none; }
+  #open-nav:hover, #open-about:hover, #open-author:hover, #open-fav:hover, #open-order:hover { background: var(--surface-hover); }
+  #open-nav[aria-expanded="true"], #open-about[aria-expanded="true"], #open-author[aria-expanded="true"],
+  #open-fav[aria-pressed="true"], #open-order[aria-expanded="true"] { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
+  .logo { flex: none; display: inline-flex; align-items: center; gap: 7px; font-size: 14px; font-weight: 650; line-height: 1.4; }
+  .logo .mark { width: 20px; height: 20px; border-radius: 5px; display: block; }
+  .search-wrap { flex: 0 1 420px; display: flex; align-items: center; gap: 8px; min-width: 0; }
+  .search {
+    width: 100%; min-width: 160px; background: var(--surface); border: 1px solid var(--line);
+    border-radius: 10px; padding: 6px 12px; outline: none; font-size: 14px; line-height: 1.4;
+    -webkit-appearance: none; appearance: none;
+  }
+  .search:focus { border-color: var(--focus); box-shadow: 0 0 0 4px var(--focus-ring); }
+  .match-count {
+    margin: 0; min-width: 3.2em; color: var(--muted); font-size: 14px; line-height: 1.4;
+    font-weight: 650; font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  .lang-switch { flex: none; margin-inline-start: auto; }
+  .lang-switch select {
+    border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
+    min-height: 32px; padding: 4px 8px; font-size: 14px; font-weight: 650; line-height: 1.4;
+    max-width: 11em;
+    font-family: "PingFang SC", "Hiragino Sans", "Apple SD Gothic Neo", "SF Arabic", "Geeza Pro", "Kohinoor Devanagari", sans-serif;
+  }
+  .orig {
+    margin-inline-start: 8px; color: var(--faint);
+    font-size: 0.62em; font-weight: 500; letter-spacing: 0;
+  }
+  html[lang="zh-TW"] body { font-family: "PingFang TC", "Noto Sans TC", "PingFang SC", sans-serif; }
+  html[lang="ja"] body { font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif; }
+  html[lang="ko"] body { font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  html[lang="ar"] body { font-family: "SF Arabic", "Geeza Pro", "Noto Naskh Arabic", sans-serif; line-height: 1.85; }
+  html[lang="hi"] body { font-family: "Kohinoor Devanagari", "ITF Devanagari", "Noto Sans Devanagari", sans-serif; }
+  html[lang="ar"] .book .k { letter-spacing: 0; }
+
+  .body { min-height: 0; }
+  aside {
+    background: var(--aside); border-bottom: 1px solid var(--line);
+    padding: 0 0 18px;
+  }
+  .side-tools {
+    position: sticky; top: var(--header-h, 52px); z-index: 4;
+    padding: 10px 12px 8px; background: var(--aside);
+    border-bottom: 1px solid var(--line);
+  }
+  .side-tools:empty { display: none; }
+  .side-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+  .side-actions + .side-actions { margin-top: 8px; }
+  .fav-tools { display: flex; justify-content: flex-end; margin: 0 0 10px; }
+  .side-actions button, .nav-actions button, #close-order, .confirm-actions button, .fav-tools button {
+    border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
+    min-height: 32px; padding: 4px 12px; font-size: 14px; font-weight: 650; line-height: 1.4;
+  }
+  .side-actions button:hover, .nav-actions button:hover, .confirm-actions button:hover, .fav-tools button:hover { background: var(--surface-hover); }
+  .side-actions button:disabled, .fav-tools button:disabled { opacity: 0.45; }
+  .side-actions button:disabled:hover, .fav-tools button:disabled:hover { background: var(--surface); }
+  #close-nav, #close-author, #close-order {
+    background: var(--ink); color: var(--on-ink); border-color: var(--ink);
+    font-size: 14px; font-weight: 400;
+  }
+  #close-nav:hover, #close-author:hover, #close-order:hover { background: var(--ink-hover); }
+  #order-sheet { display: contents; }
+  .order-bar {
+    display: none; align-items: center; gap: 12px; flex: none;
+  }
+  .order-bar h2 { margin: 0; font-size: 14px; font-weight: 650; line-height: 1.4; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .tree-note { color: var(--faint); font-size: 12px; margin: 8px 12px; }
+  .side-plate { margin: 0 0 8px; }
+  .side-plate-title, .side-head, .side-book {
+    display: flex; align-items: baseline; gap: 6px;
+    width: 100%; text-align: start; border: 0; background: transparent;
+    border-radius: 8px; padding: 4px 10px; min-height: 32px;
+  }
+  .side-plate-title { font-weight: 650; font-size: 15px; }
+  .side-head { position: relative; color: var(--muted); font-size: 13px; font-weight: 650; }
+  .side-book { position: relative; font-size: 13px; }
+  .side-book::after,
+  .side-head::before,
+  .side-head::after {
+    content: "";
+    position: absolute;
+    inset-inline: 10px;
+    border-bottom: 1px dashed color-mix(in srgb, var(--ink) 18%, transparent);
+    pointer-events: none;
+  }
+  .side-book::after,
+  .side-head::after { bottom: 0; }
+  .side-head::before { top: 0; }
+  .side-plate-title:hover, .side-head:hover, .side-book:hover { background: var(--hover-wash); }
+  .side-group { min-width: 0; }
+  .side-plate-title,
+  .side-group > .side-head {
+    position: sticky;
+    background: var(--aside);
+  }
+  .side-plate-title {
+    top: calc(var(--header-h, 52px) + var(--tools-h, 0px));
+    z-index: 3;
+    box-shadow: 0 1px 0 var(--line);
+  }
+  .side-group > .side-head {
+    top: calc(var(--header-h, 52px) + var(--tools-h, 0px) + var(--side-pin, 32px));
+    z-index: 2;
+  }
+  .side-group .side-group > .side-head {
+    top: calc(var(--header-h, 52px) + var(--tools-h, 0px) + var(--side-pin-2, 64px));
+    z-index: 1;
+  }
+  .side-plate-title:hover,
+  .side-group > .side-head:hover { background: var(--surface-hover); }
+  .side-plate-title.is-current,
+  .side-group > .side-head.is-current { color: var(--accent); }
+  .side-book.is-current,
+  .side-plate-title.is-current[aria-current="true"],
+  .side-head.is-current[aria-current="true"] {
+    background: var(--chip);
+    font-weight: 650;
+    box-shadow: inset 3px 0 0 var(--accent);
+  }
+  html[dir="rtl"] .side-book.is-current,
+  html[dir="rtl"] .side-plate-title.is-current[aria-current="true"],
+  html[dir="rtl"] .side-head.is-current[aria-current="true"] {
+    box-shadow: inset -3px 0 0 var(--accent);
+  }
+  .side-book.is-current:hover,
+  .side-plate-title.is-current[aria-current="true"]:hover,
+  .side-head.is-current[aria-current="true"]:hover { background: var(--chip); }
+  .idx { min-width: 1.6em; color: var(--accent); font-variant-numeric: tabular-nums; font-size: 12px; }
+  .side-plate-title .n, .val .n, .group-name .n, .author-name .n {
+    color: var(--faint); font-variant-numeric: tabular-nums; font-size: 1em; margin-inline-start: auto;
+  }
+  main { padding: 22px 36px calc(72px + env(safe-area-inset-bottom, 0px)); container-type: inline-size; container-name: catalog; }
+  .lead { margin: 0 0 8px; color: var(--muted); font-size: 14px; line-height: 1.45; }
+  .chip, .val, .group-name {
+    display: inline-flex; align-items: center; gap: 6px;
+    border: 1px solid var(--line); background: var(--surface); border-radius: 999px;
+    padding: 4px 12px; font-size: 14px; line-height: 1.4; font-weight: 450;
+  }
+  .chip:hover, .val:hover, .group-name:hover { background: var(--surface-hover); }
+  .val, .group-name { min-height: 32px; }
+  .val[aria-pressed="true"], .group-name[aria-pressed="true"] { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
+  .val[aria-pressed="true"] .n, .group-name[aria-pressed="true"] .n { color: var(--on-ink-muted); }
+  .val.is-zero:not([aria-pressed="true"]) { opacity: 0.55; }
+  .star-pick .star-fill { color: var(--star); letter-spacing: 0.06em; }
+  .star-pick .star-empty { color: var(--star-empty); letter-spacing: 0.06em; }
+  .star-pick .star-text { margin-inline-start: 2px; color: inherit; font-size: inherit; letter-spacing: 0; }
+  .val[aria-pressed="true"].star-pick .star-fill { color: #e2b15c; }
+  .val[aria-pressed="true"].star-pick .star-empty { color: var(--on-ink-muted); }
+  html[data-tone="dark"] .val[aria-pressed="true"].star-pick .star-fill { color: #8a5a12; }
+  .dim-block { padding: 12px 12px 4px; }
+  .tag-name { margin: 0 0 4px; font-size: 14px; font-weight: 650; line-height: 1.4; }
+  .hint { margin: 0 0 10px; color: var(--faint); font-size: 14px; line-height: 1.45; }
+  .values { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px; min-width: 0; }
+  .filter-branch { width: 100%; }
+  .filter-sub { margin: 8px 0 0; }
+  .plate-columns {
+    display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 12px; align-items: start;
+  }
+  .plate-col {
+    display: flex; flex-direction: column; gap: 8px; min-width: 0;
+    background: var(--nav-card);
+    border: 1px solid var(--line); border-radius: 14px; padding: 12px;
+  }
+  .plate-col > .values:first-child { display: flex; }
+  .plate-root {
+    flex: 1 1 100%; width: 100%; justify-content: flex-start;
+    font-weight: 650; background: var(--chip); border-color: transparent;
+  }
+  .plate-root .n { margin-inline-start: auto; }
+  .plate-kids { margin-top: 0; }
+  .culture-group { margin: 0 0 12px; }
+  .culture-group:last-child { margin-bottom: 0; }
+  .group-name {
+    font-weight: 650; background: transparent; border-color: transparent;
+    border-radius: 8px; padding: 2px 2px; min-height: 28px;
+  }
+  .book {
+    position: relative;
+    display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 16px; align-items: start;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+    padding: 16px 18px 14px; box-shadow: var(--shadow); margin: 0 0 12px;
+  }
+  .book-body { min-width: 0; }
+  .cover {
+    position: relative; width: 92px; aspect-ratio: 2 / 3; border-radius: 3px; overflow: hidden;
+    background: var(--surface);
+    box-shadow: inset 0 0 0 1px var(--line), 0 1px 3px rgba(40, 30, 10, 0.08);
+  }
+  .cover::before {
+    content: ""; position: absolute; top: 9px; left: 8px; right: 8px; height: 2px;
+    background: var(--accent); opacity: 0.55;
+  }
+  .cover img {
+    position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; object-fit: cover;
+  }
+  .cover-fallback {
+    box-sizing: border-box; height: 100%; margin: 0; padding: 18px 7px 8px;
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    color: var(--muted); font-size: 12px; font-weight: 650; line-height: 1.35; overflow: hidden;
+  }
+  .book h3 { margin: 0 0 6px; font-size: 22px; letter-spacing: -0.02em; line-height: 1.3; }
+  .book-actions {
+    position: absolute; z-index: 1; inset-inline-end: 14px; bottom: 12px;
+    display: flex; flex-direction: column; align-items: stretch; gap: 6px;
+    margin: 0;
+  }
+  .book-act {
+    border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
+    min-height: 32px; padding: 4px 12px; font-size: 14px; font-weight: 650; line-height: 1.4;
+    white-space: nowrap; text-align: center;
+  }
+  .book-act:hover { background: var(--surface-hover); }
+  .book-act[aria-pressed="true"], .book-act.is-done {
+    background: var(--ink); color: var(--on-ink); border-color: var(--ink);
+  }
+  .byline { margin: 0 0 8px; font-size: 14px; line-height: 1.5; }
+  .byline .pub { margin-inline-start: 14px; }
+  .aka { color: var(--muted); font-weight: 450; font-size: 0.82em; }
+  .book p { margin: 0 0 6px; max-width: 46em; }
+  .book .k { color: var(--accent); font-size: 12px; letter-spacing: 0.12em; font-weight: 650; margin-inline-end: 6px; }
+  .book-meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 8px; }
+  .book-meta span { background: var(--chip); border-radius: 999px; padding: 2px 10px; color: var(--muted); font-size: 13px; }
+  .book-side {
+    grid-column: 2; min-width: 0; margin-top: 2px;
+    display: flex; flex-direction: column; align-items: flex-start; gap: 8px;
+  }
+  .book-sum { margin: 0; }
+  .tags {
+    display: flex; flex-wrap: wrap; align-content: flex-start; gap: 6px;
+    margin: 0; min-width: 0;
+  }
+  @container catalog (min-width: 760px) {
+    .book {
+      grid-template-columns: auto minmax(12rem, 1.15fr) minmax(16rem, 0.95fr);
+      column-gap: 28px;
+    }
+    .book-body p { max-width: none; }
+    .book-side {
+      grid-column: 3; margin-top: 0;
+      align-items: flex-end; gap: 10px;
+    }
+    .book-sum { width: min(100%, 34em); text-align: start; padding-inline-end: 4.6em; }
+    .tags { order: -1; width: auto; max-width: 100%; justify-content: flex-end; }
+  }
+  .empty { color: var(--muted); max-width: 36em; }
+  .shelf { margin: 0 0 16px; scroll-margin-top: 12px; }
+  .ord {
+    display: inline-block; min-width: 1.4em; margin-inline-end: 6px;
+    color: var(--accent); font-size: 14px; font-variant-numeric: tabular-nums; font-weight: 650;
+  }
+  .stars { margin: 0 0 8px; font-size: 14px; }
+  .star-fill { color: var(--star); letter-spacing: 0.12em; }
+  .star-empty { color: var(--star-empty); letter-spacing: 0.12em; }
+  .star-text { margin-inline-start: 8px; color: var(--muted); font-size: 13px; letter-spacing: 0; }
+  .shelf-head {
+    display: flex; align-items: baseline; flex-wrap: wrap;
+    gap: 0 14px; margin: 0;
+  }
+  .shelf-head h2 {
+    margin: 0; flex: none; font-size: 22px; line-height: 1.35; letter-spacing: -0.03em;
+  }
+  .shelf-note {
+    margin: 0; flex: 1 1 20em; min-width: min(100%, 20em);
+    color: var(--muted); font-size: 14px; line-height: 1.45;
+  }
+  .subline {
+    display: flex; align-items: baseline; flex-wrap: wrap;
+    gap: 0 12px; margin: 2px 0 2px;
+  }
+  .subhead { margin: 6px 0 2px; font-size: 15px; line-height: 1.35; scroll-margin-top: 12px; }
+  .subline .subhead { margin: 0; }
+  h4.subhead { font-size: 14px; color: var(--muted); font-weight: 650; }
+  .branch-title { margin: 0 0 8px; font-size: 32px; letter-spacing: -0.03em; line-height: 1.2; }
+  mark { background: var(--mark); color: inherit; border-radius: 3px; padding: 0 2px; }
+  .veil-layer {
+    position: fixed; inset: 0; z-index: 40;
+  }
+  .veil-layer[hidden] { display: none !important; }
+  .veil-bg {
+    position: absolute; inset: 0;
+    background: var(--nav-veil);
+    backdrop-filter: blur(18px) saturate(1.15);
+    -webkit-backdrop-filter: blur(18px) saturate(1.15);
+  }
+  .veil-scroll {
+    position: relative; z-index: 1; height: 100%; overflow: auto;
+    overscroll-behavior: contain;
+  }
+  .nav-layer-bar {
+    position: sticky; top: 0; z-index: 2;
+    display: flex; align-items: center; justify-content: flex-start; flex-wrap: wrap; gap: 12px;
+    padding: 12px 20px;
+    background: var(--nav-bar);
+    backdrop-filter: blur(12px) saturate(1.15);
+    -webkit-backdrop-filter: blur(12px) saturate(1.15);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-actions { display: flex; gap: 8px; }
+  .nav-layer-bar h2 { margin: 0; font-size: 14px; font-weight: 650; line-height: 1.4; }
+  .dim-board {
+    display: flex; flex-direction: column; gap: 16px;
+    padding: 16px 20px 48px; width: 100%;
+  }
+  .dim-pack {
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px; align-items: start;
+  }
+  .dim-stack { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+  .dim-board .dim-block {
+    margin: 0; min-width: 0; background: var(--nav-card);
+    border: 1px solid var(--line); border-radius: 14px; padding: 14px 14px 16px;
+  }
+  .dim-board .plate-block {
+    background: transparent; border: 0; border-radius: 0; padding: 0;
+  }
+  .about-body { width: 100%; padding: 16px 20px 48px; }
+  .about-node { scroll-margin-top: 72px; min-width: 0; }
+  .about-kind {
+    margin: 0; color: var(--accent);
+    font-size: 12px; letter-spacing: 0.14em; font-weight: 650;
+  }
+  .about-node > header {
+    display: flex; align-items: baseline; gap: 10px; margin: 0 0 10px;
+  }
+  .about-node > header h2,
+  .about-node > header h3,
+  .about-node > header h4 { margin: 0; letter-spacing: -0.03em; line-height: 1.3; }
+  .about-node > header h2 { font-size: 26px; }
+  .about-node > header h3 { font-size: 18px; }
+  .about-node > header h4 { font-size: 16px; }
+  .about-preface { margin: 0; }
+  .about-d0 { margin: 28px 0 0; }
+  .about-d1, .about-d2 {
+    margin: 0; background: var(--nav-card);
+    border: 1px solid var(--line); border-radius: 14px; padding: 14px 14px 16px;
+  }
+  .about-d1:has(> .about-children) { grid-column: 1 / -1; }
+  .about-children {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 12px; align-items: start;
+    margin: 12px 0 0; padding: 0; border: 0;
+  }
+  .about-d1 > .about-children { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .about-pair {
+    display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+    gap: 12px; align-items: stretch;
+  }
+  .about-explain, .about-state {
+    min-width: 0; background: var(--nav-card);
+    border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px;
+  }
+  .about-d1 .about-pair, .about-d2 .about-pair { grid-template-columns: 1fr; gap: 0; }
+  .about-d1 .about-explain, .about-d1 .about-state,
+  .about-d2 .about-explain, .about-d2 .about-state {
+    background: transparent; border: 0; border-radius: 0; padding: 0;
+  }
+  .about-d1 .about-state, .about-d2 .about-state {
+    margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line);
+  }
+  .about-d1:has(> .about-children) > .about-pair { grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); gap: 12px; }
+  .about-d1:has(> .about-children) > .about-pair > .about-explain,
+  .about-d1:has(> .about-children) > .about-pair > .about-state {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px;
+    margin: 0;
+  }
+  .about-pair p { margin: 0; }
+  .about-k {
+    margin: 0 0 6px; color: var(--accent);
+    font-size: 12px; letter-spacing: 0.14em; font-weight: 650;
+  }
+  .about-toc { margin: 14px 0 0; }
+  .about-toc > .about-kind { margin: 0 0 8px; }
+  .about-toc ul { list-style: none; margin: 0; padding: 0; }
+  .about-toc > ul {
+    display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 12px; align-items: start;
+  }
+  .about-toc > ul > li {
+    min-width: 0; background: var(--nav-card);
+    border: 1px solid var(--line); border-radius: 14px; padding: 12px;
+  }
+  .about-toc ul ul { margin-top: 4px; padding-inline-start: 12px; }
+  .about-toc li { margin: 1px 0; }
+  .about-toc button {
+    border: 0; background: transparent; padding: 2px 0;
+    text-align: start; font-size: 14px; line-height: 1.45;
+  }
+  .about-toc button:hover { color: var(--accent); }
+  .about-toc .is-plate { font-weight: 650; font-size: 15px; }
+  .author-search { flex: 1 1 180px; max-width: 280px; min-width: 0; }
+  .author-board { padding: 16px 20px 48px; }
+  .author-faces {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+    gap: 12px;
+  }
+  .author-names {
+    display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px;
+  }
+  .author-faces + .author-names { margin-top: 16px; }
+  .author-card {
+    display: flex; flex-direction: column; gap: 8px; min-width: 0;
+    text-align: start; border: 1px solid var(--line); background: var(--nav-card);
+    border-radius: 14px; padding: 10px;
+  }
+  .author-card:hover { background: var(--surface-hover); }
+  .author-card[aria-pressed="true"] { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
+  .author-card[aria-pressed="true"] .author-life,
+  .author-card[aria-pressed="true"] .author-name .n,
+  .author-card[aria-pressed="true"] .author-fallback { color: var(--on-ink-muted); }
+  .author-card.is-zero:not([aria-pressed="true"]) { opacity: 0.55; }
+  .author-face {
+    position: relative; width: 100%; aspect-ratio: 1; border-radius: 10px; overflow: hidden;
+    background: var(--chip);
+  }
+  .author-face img {
+    position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 18%;
+  }
+  .author-fallback {
+    height: 100%; display: flex; align-items: center; justify-content: center;
+    color: var(--muted); font-size: 28px; font-weight: 650;
+  }
+  .author-name {
+    display: flex; align-items: baseline; gap: 6px;
+    font-size: 14px; font-weight: 650; line-height: 1.35;
+  }
+  .author-name > span:first-child {
+    min-width: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .author-life { color: var(--muted); font-size: 12px; line-height: 1.4; font-variant-numeric: tabular-nums; }
+  .author-chip {
+    display: inline-flex; align-items: baseline; gap: 6px; min-width: 0;
+    border: 1px solid var(--line); background: var(--nav-card); border-radius: 999px;
+    padding: 4px 12px; min-height: 32px;
+    font-size: 14px; line-height: 1.4; font-weight: 450;
+  }
+  .author-chip .n { margin-inline-start: 0; color: var(--faint); font-variant-numeric: tabular-nums; }
+  .author-chip:hover { background: var(--surface-hover); }
+  .author-chip[aria-pressed="true"] { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
+  .author-chip[aria-pressed="true"] .n,
+  .author-chip[aria-pressed="true"] .author-life { color: var(--on-ink-muted); }
+  .author-chip.is-zero:not([aria-pressed="true"]) { opacity: 0.55; }
+  @media (min-width: 861px) {
+    html, body, .app { height: 100%; }
+    header { position: sticky; top: 0; z-index: 6; }
+    .body { display: grid; grid-template-columns: 360px minmax(0, 1fr); }
+    aside, main { min-width: 0; }
+    main { overflow: auto; }
+    aside {
+      display: flex; flex-direction: column; overflow: hidden;
+      border-bottom: 0; border-inline-end: 1px solid var(--line);
+      padding-bottom: 0;
+    }
+    .side-tools { position: static; flex: none; }
+    #side-body {
+      flex: 1 1 auto; min-height: 0; overflow: auto;
+      padding-bottom: 18px; overscroll-behavior: contain;
+      scrollbar-gutter: stable;
+    }
+    .side-plate-title { top: 0; }
+    .side-group > .side-head { top: var(--side-pin, 32px); }
+    .side-group .side-group > .side-head { top: var(--side-pin-2, 64px); }
+  }
+  @media (max-width: 1280px) {
+    .dim-pack { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (min-width: 861px) and (max-width: 1100px) {
+    .plate-columns { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .about-toc > ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (max-width: 860px) {
+    header {
+      flex-wrap: wrap; gap: 8px;
+      padding: calc(8px + env(safe-area-inset-top, 0px)) max(12px, env(safe-area-inset-right, 0px)) 8px max(12px, env(safe-area-inset-left, 0px));
+    }
+    .logo { order: 1; flex: 1 1 auto; min-width: 0; }
+    .lang-switch { order: 2; margin-inline-start: 0; }
+    .theme-wrap { order: 3; }
+    .head-nav {
+      order: 4; flex: 1 1 100%; min-width: 0;
+      overflow-x: auto; overscroll-behavior-x: contain;
+      scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    }
+    .head-nav::-webkit-scrollbar { display: none; }
+    #open-order { display: inline-block; }
+    #open-nav, #open-about, #open-author, #open-fav, #open-order,
+    #theme-btn, .lang-switch select, .nav-actions button, #close-order, .side-actions button, .confirm-actions button, .fav-tools button { min-height: 40px; }
+    .search-wrap {
+      order: 5; flex: 1 1 100%; width: 100%;
+      flex-direction: column; align-items: stretch; gap: 2px;
+    }
+    .search, .author-search, .feedback-form input, .feedback-form textarea { font-size: 16px; }
+    .search { width: 100%; min-width: 0; min-height: 40px; padding: 8px 12px; }
+    .search::placeholder { font-size: 14px; }
+    .match-count { align-self: flex-end; }
+    .byline .k, .byline .pub { white-space: nowrap; }
+    .byline .pub { display: inline-block; margin-inline-start: 10px; }
+    .lang-switch select { font-size: 16px; max-width: 9.5em; }
+    aside { padding: 0; border-bottom: 0; background: transparent; }
+    #order-sheet { display: none; }
+    html.order-open #order-sheet {
+      display: flex; position: fixed; inset: 0; z-index: 35;
+      flex-direction: column; background: var(--aside);
+    }
+    html.order-open .order-bar {
+      display: flex;
+      padding: calc(10px + env(safe-area-inset-top, 0px)) max(12px, env(safe-area-inset-right, 0px)) 10px max(12px, env(safe-area-inset-left, 0px));
+      border-bottom: 1px solid var(--line);
+      background: var(--header);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    }
+    html.order-open #side-body {
+      flex: 1 1 auto; min-height: 0; overflow: auto;
+      overscroll-behavior: contain; -webkit-overflow-scrolling: touch;
+      padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    }
+    .side-plate-title { top: 0; }
+    .side-group > .side-head { top: var(--side-pin, 44px); }
+    .side-group .side-group > .side-head { top: var(--side-pin-2, 88px); }
+    .side-plate-title, .side-head, .side-book { min-height: 44px; }
+    .side-book > span:last-child { min-width: 0; overflow-wrap: break-word; }
+    main {
+      padding: 16px max(16px, env(safe-area-inset-right, 0px)) calc(72px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
+    }
+    .shelf, .subhead, .book { scroll-margin-top: calc(var(--header-h, 120px) + var(--tools-h, 0px) + 8px); }
+    .book { column-gap: 12px; }
+    .cover { width: 72px; }
+    .book h3 { font-size: 20px; overflow-wrap: break-word; }
+    .book-actions {
+      position: static; width: 100%;
+      flex-direction: row; flex-wrap: wrap; justify-content: flex-end;
+      margin-top: 4px;
+    }
+    .book-act { min-height: 40px; }
+    .book-sum { padding-inline-end: 0; }
+    .branch-title { font-size: 28px; }
+    .val, .group-name, .author-chip, .chip { min-height: 40px; }
+    .plate-columns { grid-template-columns: 1fr 1fr; }
+    .nav-layer-bar {
+      gap: 8px;
+      padding: calc(10px + env(safe-area-inset-top, 0px)) max(12px, env(safe-area-inset-right, 0px)) 10px max(12px, env(safe-area-inset-left, 0px));
+    }
+    .author-search { flex: 1 1 100%; max-width: none; min-height: 40px; }
+    .dim-board, .about-body, .author-board {
+      padding: 12px max(12px, env(safe-area-inset-right, 0px)) calc(28px + env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px));
+    }
+    .about-pair,
+    .about-d1:has(> .about-children) > .about-pair { grid-template-columns: 1fr; }
+    .about-toc > ul { grid-template-columns: 1fr 1fr; }
+    .about-children, .about-d1 > .about-children { grid-template-columns: 1fr; }
+    .about-node > header h2 { font-size: 24px; }
+    .author-faces { grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); }
+    .dim-pack { display: flex; flex-direction: column; }
+    .dim-stack { display: contents; }
+    .dim-cognition { order: 1; }
+    .dim-civilization { order: 2; }
+    .dim-era { order: 3; }
+    .dim-text { order: 4; }
+    .dim-subject { order: 5; }
+    .dim-need { order: 6; }
+    .dim-school { order: 7; }
+    .dim-religion { order: 8; }
+    .theme-menu { width: min(280px, calc(100vw - 24px)); }
+    .theme-option, #close-theme { min-height: 40px; }
+    #open-feedback {
+      min-height: 36px; padding: 4px 12px; font-size: 13px;
+      bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    }
+    .feedback-panel {
+      inset-inline: 12px; width: auto;
+      bottom: calc(60px + env(safe-area-inset-bottom, 0px));
+      max-height: min(70dvh, 560px);
+    }
+    .veil-scroll { -webkit-overflow-scrolling: touch; }
+  }
+  @media (max-width: 340px) {
+    .search::placeholder { font-size: 13px; }
+  }
+
+  .theme-wrap { position: relative; flex: none; }
+  #theme-btn {
+    border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
+    min-height: 32px; padding: 4px 12px; font-size: 14px; font-weight: 650; line-height: 1.4;
+  }
+  #theme-btn:hover { background: var(--surface-hover); }
+  #theme-btn[aria-expanded="true"] { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
+  .theme-menu {
+    position: absolute; inset-inline-end: 0; top: calc(100% + 8px); z-index: 30;
+    width: 280px; padding: 0 8px 8px;
+    max-height: min(70vh, 520px); overflow: auto;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+    box-shadow: var(--shadow);
+  }
+  .theme-menu[hidden] { display: none !important; }
+  .theme-bar {
+    position: sticky; top: 0; z-index: 1;
+    display: flex; align-items: flex-start; gap: 8px;
+    margin: 0 -8px 6px; padding: 8px;
+    background: var(--panel); border-bottom: 1px solid var(--line);
+    border-radius: 14px 14px 0 0;
+  }
+  .theme-note { margin: 2px 0 0; flex: 1; color: var(--faint); font-size: 12px; line-height: 1.45; }
+  #close-theme {
+    border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
+    min-height: 28px; padding: 0 10px; font-size: 13px; font-weight: 650; flex: none;
+  }
+  #close-theme:hover { background: var(--surface-hover); }
+  .theme-label { margin: 10px 6px 4px; color: var(--faint); font-size: 12px; line-height: 1.3; }
+  .theme-option {
+    display: flex; align-items: center; gap: 8px;
+    width: 100%; text-align: start; border: 0; background: transparent;
+    border-radius: 8px; min-height: 32px; padding: 4px 6px; font-size: 14px;
+  }
+  .theme-option:hover { background: var(--surface-hover); }
+  .theme-option[aria-checked="true"] { background: var(--ink); color: var(--on-ink); }
+  .swatch {
+    width: 28px; height: 18px; border-radius: 4px; flex: none;
+    background: var(--swatch-bg);
+    border: 1px solid rgba(90, 70, 40, 0.28);
+    position: relative;
+  }
+  .swatch::before, .swatch::after {
+    content: ""; position: absolute; left: 4px; height: 2px; border-radius: 1px;
+  }
+  .swatch::before { top: 4px; width: 9px; background: var(--swatch-accent); }
+  .swatch::after { top: 9px; right: 4px; background: var(--swatch-ink); }
+
+  #open-feedback {
+    position: fixed; inset-inline-end: max(12px, env(safe-area-inset-right, 0px)); bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    z-index: 26;
+    border: 1px solid var(--line); background: var(--panel); color: var(--muted);
+    border-radius: 999px; padding: 1px 8px; min-height: 22px;
+    font-size: 12px; font-weight: 650; line-height: 1.4;
+    box-shadow: var(--shadow);
+  }
+  #open-feedback:hover { background: var(--surface-hover); }
+  #open-feedback[aria-expanded="true"] { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
+  .feedback-panel {
+    position: fixed; inset-inline-end: max(12px, env(safe-area-inset-right, 0px)); bottom: calc(42px + env(safe-area-inset-bottom, 0px)); z-index: 32;
+    width: min(360px, calc(100vw - 24px));
+    max-height: min(68vh, 520px);
+    display: flex; flex-direction: column;
+    background: var(--panel); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 16px;
+    box-shadow: var(--shadow); overflow: hidden;
+  }
+  .feedback-panel[hidden] { display: none !important; }
+  .feedback-bar {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    padding: 10px 12px 0;
+  }
+  .feedback-bar h2 { margin: 0; font-size: 15px; font-weight: 650; }
+  #close-feedback {
+    border: 1px solid var(--line); background: var(--surface); border-radius: 8px;
+    min-height: 22px; padding: 0 8px; font-size: 12px; font-weight: 650;
+  }
+  #close-feedback:hover { background: var(--surface-hover); }
+  .feedback-tabs { display: flex; gap: 6px; padding: 8px 12px 0; }
+  .feedback-tabs button {
+    border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+    border-radius: 999px; min-height: 24px; padding: 1px 10px;
+    font-size: 12px; font-weight: 650;
+  }
+  .feedback-tabs button:hover { background: var(--surface-hover); }
+  .feedback-tabs button[aria-selected="true"] { background: var(--ink); color: var(--on-ink); border-color: var(--ink); }
+  .feedback-note, .feedback-status, .feedback-ip { margin: 6px 12px 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
+  .feedback-ip { font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+  .feedback-list { flex: 1; min-height: 96px; overflow: auto; margin: 8px 0 0; padding: 0 12px; }
+  .feedback-empty { margin: 8px 0; color: var(--muted); font-size: 13px; }
+  .note { padding: 8px 0; border-top: 1px solid var(--line); }
+  .note-top { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+  .note-name { font-size: 13px; font-weight: 650; }
+  .note time { color: var(--faint); font-size: 12px; font-variant-numeric: tabular-nums; flex: none; }
+  .note p { margin: 2px 0 0; font-size: 14px; line-height: 1.65; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .note p.note-ip { color: var(--faint); font-size: 12px; line-height: 1.45; font-variant-numeric: tabular-nums; }
+  .feedback-form {
+    display: flex; flex-direction: column; gap: 8px;
+    padding: 10px 12px 12px; border-top: 1px solid var(--line);
+  }
+  .feedback-form input, .feedback-form textarea {
+    width: 100%; border: 1px solid var(--line); background: var(--surface);
+    border-radius: 10px; padding: 6px 10px; outline: none;
+  }
+  .feedback-form textarea { min-height: 84px; resize: vertical; line-height: 1.65; }
+  .feedback-form input:focus, .feedback-form textarea:focus {
+    border-color: var(--focus); box-shadow: 0 0 0 4px var(--focus-ring);
+  }
+  .feedback-form button[type="submit"] {
+    align-self: flex-end; border: 1px solid var(--ink); background: var(--ink); color: var(--on-ink);
+    border-radius: 8px; min-height: 30px; padding: 2px 12px; font-size: 13px; font-weight: 650;
+  }
+  .feedback-form button[type="submit"]:disabled { opacity: 0.6; }
+
+  .confirm-layer {
+    position: fixed; inset: 0; z-index: 50;
+    display: flex; align-items: center; justify-content: center;
+    padding: max(24px, env(safe-area-inset-top, 0px)) max(24px, env(safe-area-inset-right, 0px)) max(24px, env(safe-area-inset-bottom, 0px)) max(24px, env(safe-area-inset-left, 0px));
+    background: var(--nav-veil);
+    backdrop-filter: blur(18px) saturate(1.15);
+    -webkit-backdrop-filter: blur(18px) saturate(1.15);
+  }
+  .confirm-layer[hidden] { display: none !important; }
+  .confirm-card {
+    width: min(100%, 420px);
+    background: var(--panel); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 16px;
+    box-shadow: var(--shadow); padding: 20px;
+  }
+  .confirm-card h2 { margin: 0 0 8px; font-size: 16px; font-weight: 650; line-height: 1.4; }
+  .confirm-card p { margin: 0 0 16px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+  .confirm-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 8px; }
+  #fav-clear-yes {
+    background: var(--ink); color: var(--on-ink); border-color: var(--ink); font-weight: 400;
+  }
+  #fav-clear-yes:hover { background: var(--ink-hover); }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+<script>
+try {
+  var themeIds = { sepia: 1, blush: 1, green: 1, lake: 1, mist: 1, lilac: 1, snow: 1, white: 1, marker: 1, night: 1, candle: 1, pine: 1, navy: 1, ios: 1, mac: 1, wechat: 1, qq: 1, bili: 1, douyin: 1, xhs: 1, zhihu: 1, weibo: 1 };
+  var darkIds = { night: 1, candle: 1, pine: 1, navy: 1, douyin: 1 };
+  var accentToTheme = { blue: "ios", wechat: "wechat", bili: "bili", qq: "qq" };
+  var savedTheme = localStorage.getItem("zhishi-theme");
+  var savedAccent = localStorage.getItem("zhishi-accent");
+  if (!(savedTheme && themeIds[savedTheme]) && savedAccent && accentToTheme[savedAccent]) {
+    savedTheme = accentToTheme[savedAccent];
+    localStorage.setItem("zhishi-theme", savedTheme);
+  }
+  if (savedAccent) localStorage.removeItem("zhishi-accent");
+  document.documentElement.removeAttribute("data-accent");
+  if (savedTheme && themeIds[savedTheme]) {
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    if (darkIds[savedTheme]) document.documentElement.setAttribute("data-tone", "dark");
+  }
+} catch (e) {}
+</script>
+<script>
+(function () {
+  function lockWeChatFont() {
+    try {
+      WeixinJSBridge.invoke("setFontSizeCallback", { fontSize: 0 });
+      WeixinJSBridge.on("menu:setfont", function () {
+        WeixinJSBridge.invoke("setFontSizeCallback", { fontSize: 0 });
+      });
+    } catch (e) {}
+  }
+  if (typeof WeixinJSBridge === "object" && typeof WeixinJSBridge.invoke === "function") lockWeChatFont();
+  else document.addEventListener("WeixinJSBridgeReady", lockWeChatFont, false);
+})();
+</script>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="head-nav">
+      <button type="button" id="open-order" aria-expanded="false" aria-controls="order-sheet">目录</button>
+      <button type="button" id="open-nav" aria-expanded="false" aria-controls="nav-layer">导航</button>
+      <button type="button" id="open-author" aria-expanded="false" aria-controls="author-layer">作者</button>
+      <button type="button" id="open-about" aria-expanded="false" aria-controls="about-layer">说明</button>
+      <button type="button" id="open-fav" aria-pressed="false">收藏</button>
+    </div>
+    <div class="logo" id="logo"><img class="mark" src="favicon.svg" width="20" height="20" alt=""><span id="logo-name">我的书架</span></div>
+    <div class="search-wrap">
+      <input id="q" class="search" type="search" placeholder="搜索书名、作者、年份、别名、总结或推荐语" aria-label="搜索" autocomplete="off" enterkeyhint="search" autocapitalize="off" autocorrect="off" spellcheck="false">
+      <p id="match-count" class="match-count" aria-live="polite"></p>
+    </div>
+    <label class="lang-switch">
+      <select id="lang" aria-label="语言">
+        <option value="zh-Hans">简体中文</option>
+        <option value="zh-Hant">繁體中文</option>
+        <option value="en">English</option>
+        <option value="ja">日本語</option>
+        <option value="ko">한국어</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="pt">Português</option>
+        <option value="ru">Русский</option>
+        <option value="ar">العربية</option>
+        <option value="hi">हिन्दी</option>
+      </select>
+    </label>
+    <div class="theme-wrap">
+      <button type="button" id="theme-btn" aria-haspopup="menu" aria-expanded="false" aria-controls="theme-menu">主题</button>
+      <div id="theme-menu" class="theme-menu" role="menu" aria-label="主题" hidden>
+        <div class="theme-bar">
+          <p class="theme-note">点一个就换整页的底色、字色和强调色。看过再关闭。</p>
+          <button type="button" id="close-theme">关闭</button>
+        </div>
+        <p class="theme-label" data-theme-label="themeSystem">系统</p>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="ios" aria-checked="false"><span class="swatch" style="--swatch-bg:#f2f2f7;--swatch-ink:#1c1c1e;--swatch-accent:#007aff" aria-hidden="true"></span><span>iOS</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="mac" aria-checked="false"><span class="swatch" style="--swatch-bg:#e4e4e8;--swatch-ink:#1d1d1f;--swatch-accent:#0066cc" aria-hidden="true"></span><span>苹果电脑</span></button>
+        <p class="theme-label" data-theme-label="themePlatform">平台</p>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="wechat" aria-checked="false"><span class="swatch" style="--swatch-bg:#ededed;--swatch-ink:#111111;--swatch-accent:#07c160" aria-hidden="true"></span><span>微信</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="qq" aria-checked="false"><span class="swatch" style="--swatch-bg:#e8f4fc;--swatch-ink:#12202e;--swatch-accent:#12b7f5" aria-hidden="true"></span><span>QQ</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="bili" aria-checked="false"><span class="swatch" style="--swatch-bg:#fff1f4;--swatch-ink:#18191c;--swatch-accent:#fb7299" aria-hidden="true"></span><span>哔哩哔哩</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="douyin" aria-checked="false"><span class="swatch" style="--swatch-bg:#161823;--swatch-ink:#f5f5f7;--swatch-accent:#fe2c55" aria-hidden="true"></span><span>抖音</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="xhs" aria-checked="false"><span class="swatch" style="--swatch-bg:#fff4f3;--swatch-ink:#222222;--swatch-accent:#ff2442" aria-hidden="true"></span><span>小红书</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="zhihu" aria-checked="false"><span class="swatch" style="--swatch-bg:#f6f6f6;--swatch-ink:#121212;--swatch-accent:#0066ff" aria-hidden="true"></span><span>知乎</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="weibo" aria-checked="false"><span class="swatch" style="--swatch-bg:#fff6ec;--swatch-ink:#1a1a1a;--swatch-accent:#ff8200" aria-hidden="true"></span><span>微博</span></button>
+        <p class="theme-label" data-theme-label="themeRead">阅读</p>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="paper" aria-checked="true"><span class="swatch" style="--swatch-bg:#f3f0e8;--swatch-ink:#1c1915;--swatch-accent:#8f2d24" aria-hidden="true"></span><span>宣纸</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="white" aria-checked="false"><span class="swatch" style="--swatch-bg:#ffffff;--swatch-ink:#1a1a1a;--swatch-accent:#174ea6" aria-hidden="true"></span><span>白纸</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="marker" aria-checked="false"><span class="swatch" style="--swatch-bg:#fff3b0;--swatch-ink:#1a1a1a;--swatch-accent:#7a4e00" aria-hidden="true"></span><span>高亮</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="sepia" aria-checked="false"><span class="swatch" style="--swatch-bg:#f4ecd8;--swatch-ink:#3a2c1e;--swatch-accent:#8a4b24" aria-hidden="true"></span><span>米黄</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="blush" aria-checked="false"><span class="swatch" style="--swatch-bg:#f3e3db;--swatch-ink:#3a2826;--swatch-accent:#8d3a46" aria-hidden="true"></span><span>藕色</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="green" aria-checked="false"><span class="swatch" style="--swatch-bg:#d5ead6;--swatch-ink:#1a2b20;--swatch-accent:#1d6b3c" aria-hidden="true"></span><span>护眼</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="lake" aria-checked="false"><span class="swatch" style="--swatch-bg:#d7ebe6;--swatch-ink:#16302c;--swatch-accent:#0e6a62" aria-hidden="true"></span><span>湖水</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="mist" aria-checked="false"><span class="swatch" style="--swatch-bg:#e4eef2;--swatch-ink:#1a2830;--swatch-accent:#1f5f78" aria-hidden="true"></span><span>雾青</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="lilac" aria-checked="false"><span class="swatch" style="--swatch-bg:#ebe4f2;--swatch-ink:#2a2434;--swatch-accent:#6a4588" aria-hidden="true"></span><span>藤紫</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="snow" aria-checked="false"><span class="swatch" style="--swatch-bg:#e8ebef;--swatch-ink:#1c242c;--swatch-accent:#2f4f86" aria-hidden="true"></span><span>素白</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="night" aria-checked="false"><span class="swatch" style="--swatch-bg:#1c1b19;--swatch-ink:#e7e0d4;--swatch-accent:#e3a090" aria-hidden="true"></span><span>夜间</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="candle" aria-checked="false"><span class="swatch" style="--swatch-bg:#2a2118;--swatch-ink:#f2e4cc;--swatch-accent:#e7b56a" aria-hidden="true"></span><span>烛光</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="pine" aria-checked="false"><span class="swatch" style="--swatch-bg:#1a2420;--swatch-ink:#e4eee6;--swatch-accent:#b7d4a4" aria-hidden="true"></span><span>松烟</span></button>
+        <button type="button" class="theme-option" role="menuitemradio" data-theme-pick="navy" aria-checked="false"><span class="swatch" style="--swatch-bg:#1a2230;--swatch-ink:#e4eaf3;--swatch-accent:#a9c8ea" aria-hidden="true"></span><span>墨蓝</span></button>
+      </div>
+    </div>
+  </header>
+  <div class="body">
+    <aside id="facets" aria-label="分类和导航">
+      <div class="side-tools" id="side-tools"></div>
+      <div id="order-sheet">
+        <div class="order-bar">
+          <button type="button" id="close-order">完成</button>
+          <h2 id="order-title">目录</h2>
+        </div>
+        <div id="side-body"><p class="tree-note">正在准备书目。</p></div>
+      </div>
+    </aside>
+    <main id="detail" tabindex="-1">
+      <p class="empty">正在准备书目。</p>
+    </main>
+  </div>
+</div>
+<div id="nav-layer" class="veil-layer" role="dialog" aria-modal="true" aria-labelledby="nav-title" tabindex="-1" hidden>
+  <div class="veil-bg" aria-hidden="true"></div>
+  <div class="veil-scroll">
+    <div class="nav-layer-bar">
+      <div class="nav-actions">
+        <button type="button" id="back-nav">返回</button>
+        <button type="button" data-clear>清除条件</button>
+        <button type="button" id="close-nav">完成</button>
+      </div>
+      <h2 id="nav-title">导航</h2>
+      <p id="nav-count" class="match-count"></p>
+    </div>
+    <div id="nav-body" class="dim-board"></div>
+  </div>
+</div>
+<div id="author-layer" class="veil-layer" role="dialog" aria-modal="true" aria-labelledby="author-title" tabindex="-1" hidden>
+  <div class="veil-bg" aria-hidden="true"></div>
+  <div class="veil-scroll">
+    <div class="nav-layer-bar">
+      <div class="nav-actions">
+        <button type="button" id="back-author">返回</button>
+        <button type="button" id="clear-author">清除条件</button>
+        <button type="button" id="close-author">完成</button>
+      </div>
+      <h2 id="author-title">作者</h2>
+      <input id="author-q" class="search author-search" type="search" placeholder="找作者" aria-label="找作者" autocomplete="off">
+      <p id="author-count" class="match-count"></p>
+    </div>
+    <div id="author-body" class="author-board"></div>
+  </div>
+</div>
+<div id="about-layer" class="veil-layer" role="dialog" aria-modal="true" aria-labelledby="about-title" tabindex="-1" hidden>
+  <div class="veil-bg" aria-hidden="true"></div>
+  <div class="veil-scroll">
+    <div class="nav-layer-bar">
+      <div class="nav-actions">
+        <button type="button" id="back-about">返回</button>
+      </div>
+      <h2 id="about-title">说明</h2>
+    </div>
+    <div class="about-body" id="about-body"></div>
+  </div>
+</div>
+<div id="fav-clear-layer" class="confirm-layer" role="dialog" aria-modal="true" aria-labelledby="fav-clear-title" hidden>
+  <div class="confirm-card">
+    <h2 id="fav-clear-title">清空所有收藏</h2>
+    <p id="fav-clear-text">要清掉这 4 本收藏吗？</p>
+    <div class="confirm-actions">
+      <button type="button" id="fav-clear-no">取消</button>
+      <button type="button" id="fav-clear-yes">清空</button>
+    </div>
+  </div>
+</div>
+<button type="button" id="open-feedback" aria-expanded="false" aria-controls="feedback-panel">意见反馈</button>
+<section id="feedback-panel" class="feedback-panel" role="dialog" aria-labelledby="feedback-title" hidden>
+  <div class="feedback-bar">
+    <h2 id="feedback-title">意见反馈</h2>
+    <button type="button" id="close-feedback">关闭</button>
+  </div>
+  <div class="feedback-tabs" role="tablist" aria-label="反馈分类">
+    <button type="button" id="feedback-tab-public" role="tab" aria-selected="true" aria-controls="feedback-list">公共反馈</button>
+    <button type="button" id="feedback-tab-mine" role="tab" aria-selected="false" aria-controls="feedback-list">我的反馈</button>
+  </div>
+  <p class="feedback-note">按当前 IP 分开。这个 IP 写下的在「我的反馈」。换了 IP，或认不出 IP，就在「公共反馈」。谁都能看这两边。</p>
+  <p id="feedback-ip" class="feedback-ip">还没认出当前 IP。连上服务之后，才能按 IP 分开。</p>
+  <p id="feedback-status" class="feedback-status" aria-live="polite"></p>
+  <div id="feedback-list" class="feedback-list"></div>
+  <form id="feedback-form" class="feedback-form">
+    <input id="feedback-name" maxlength="40" placeholder="怎么称呼，可以不填" aria-label="称呼，可以不填" autocomplete="nickname">
+    <textarea id="feedback-text" maxlength="2000" required placeholder="写在白板上，谁都能看见" aria-label="反馈内容"></textarea>
+    <button type="submit">写上白板</button>
+  </form>
+</section>
+<script src="data/dimensions.js"></script>
+<script src="data/books.js"></script>
+<script src="data/covers.js"></script>
+<script src="data/authors.js"></script>
+<script src="data/navigation.js"></script>
+<script src="data/feedback.js"></script>
+<script src="data/i18n/shell.js"></script>
+<script src="data/i18n/books-zh-Hant.js"></script>
+<script src="data/i18n/books-en.js"></script>
+<script src="data/i18n/books-ja.js"></script>
+<script src="data/i18n/books-ko.js"></script>
+<script src="data/i18n/books-es.js"></script>
+<script src="data/i18n/books-fr.js"></script>
+<script src="data/i18n/books-de.js"></script>
+<script src="data/i18n/books-pt.js"></script>
+<script src="data/i18n/books-ru.js"></script>
+<script src="data/i18n/books-ar.js"></script>
+<script src="data/i18n/books-hi.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const FILTER_ORDER = ["cognition", "civilization", "era", "text", "subject", "need", "school", "religion"];
+const CULTURE_GROUPS = [
+  ["groupChina", ["china"]],
+  ["groupAsia", ["india", "japan", "korea", "sea"]],
+  ["groupEurope", ["greece-rome", "christendom", "italy", "britain", "france", "germany"]],
+  ["groupOther", ["jewish", "islam-world", "usa", "russia", "latam", "africa"]],
+];
+let DIMS = [];
+let BOOKS = [];
+let COVER_IDS = new Set();
+let NAV = [];
+let CURRICULA = [];
+let selected = {};
+let selectedShelves = new Set();
+let selectedStars = new Set();
+let presentStars = [];
+let selectedAuthors = new Set();
+let authorById = new Map();
+let authorByName = new Map();
+let q = "";
+let authorQuery = "";
+let navOpen = false;
+let orderOpen = false;
+let windowLocked = false;
+let authorOpen = false;
+let aboutOpen = false;
+let scrollResults = false;
+let pendingScroll = false;
+let currentJump = "";
+let jumpLockUntil = 0;
+let readingFrame = 0;
+let searchTimer = 0;
+let lang = "zh-Hans";
+let favs = new Set();
+let favOnly = false;
+let copiedId = "";
+let copiedTimer = 0;
+const LANG_KEY = "zhishi-lang";
+const FAV_KEY = "zhishi-favs";
+function ruPlural(n, one, few, many) {
+  const m10 = n % 10;
+  const m100 = n % 100;
+  if (m10 === 1 && m100 !== 11) return n + " " + one;
+  if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return n + " " + few;
+  return n + " " + many;
+}
+const LANGS = [
+  { id: "zh-Hans", htmlLang: "zh-CN", dir: "ltr", count: n => n + " 本", people: n => n + " 位", star: n => n + "颗星", starAria: n => "推荐指数 " + n + "颗星，满分 5 颗星" },
+  { id: "zh-Hant", htmlLang: "zh-TW", dir: "ltr", count: n => n + " 本", people: n => n + " 位", star: n => n + "顆星", starAria: n => "推薦指數 " + n + "顆星，滿分 5 顆星" },
+  { id: "en", htmlLang: "en", dir: "ltr", count: n => n === 1 ? "1 book" : n + " books", people: n => n === 1 ? "1 author" : n + " authors", star: n => n === 1 ? "1 star" : n + " stars", starAria: n => "Rating " + (n === 1 ? "1 star" : n + " stars") + " out of 5" },
+  { id: "ja", htmlLang: "ja", dir: "ltr", count: n => n + " 冊", people: n => n + " 人", star: n => n + "つ星", starAria: n => "推薦 " + n + "つ星、満点は 5" },
+  { id: "ko", htmlLang: "ko", dir: "ltr", count: n => n + "권", people: n => n + "명", star: n => n + "개 별", starAria: n => "추천 " + n + "개 별, 만점 5" },
+  { id: "es", htmlLang: "es", dir: "ltr", count: n => n === 1 ? "1 libro" : n + " libros", people: n => n === 1 ? "1 autor" : n + " autores", star: n => n === 1 ? "1 estrella" : n + " estrellas", starAria: n => "Valoración: " + (n === 1 ? "1 estrella" : n + " estrellas") + " de 5" },
+  { id: "fr", htmlLang: "fr", dir: "ltr", count: n => n === 1 ? "1 livre" : n + " livres", people: n => n === 1 ? "1 auteur" : n + " auteurs", star: n => n === 1 ? "1 étoile" : n + " étoiles", starAria: n => "Note : " + (n === 1 ? "1 étoile" : n + " étoiles") + " sur 5" },
+  { id: "de", htmlLang: "de", dir: "ltr", count: n => n === 1 ? "1 Buch" : n + " Bücher", people: n => n === 1 ? "1 Autor" : n + " Autoren", star: n => n === 1 ? "1 Stern" : n + " Sterne", starAria: n => "Empfehlung " + (n === 1 ? "1 Stern" : n + " Sterne") + " von 5" },
+  { id: "pt", htmlLang: "pt", dir: "ltr", count: n => n === 1 ? "1 livro" : n + " livros", people: n => n === 1 ? "1 autor" : n + " autores", star: n => n === 1 ? "1 estrela" : n + " estrelas", starAria: n => "Avaliação: " + (n === 1 ? "1 estrela" : n + " estrelas") + " de 5" },
+  { id: "ru", htmlLang: "ru", dir: "ltr", count: n => ruPlural(n, "книга", "книги", "книг"), people: n => ruPlural(n, "автор", "автора", "авторов"), star: n => ruPlural(n, "звезда", "звезды", "звёзд"), starAria: n => "Оценка " + ruPlural(n, "звезда", "звезды", "звёзд") + " из 5" },
+  { id: "ar", htmlLang: "ar", dir: "rtl", count: n => n === 1 ? "كتاب واحد" : n === 2 ? "كتابان" : n >= 3 && n <= 10 ? n + " كتب" : n + " كتابًا", people: n => n === 1 ? "مؤلف واحد" : n === 2 ? "مؤلفان" : n + " مؤلفين", star: n => n === 1 ? "نجمة واحدة" : n === 2 ? "نجمتان" : n + " نجوم", starAria: n => "التوصية " + (n === 1 ? "نجمة واحدة" : n === 2 ? "نجمتان" : n + " نجوم") + " من 5" },
+  { id: "hi", htmlLang: "hi", dir: "ltr", count: n => n === 1 ? "1 पुस्तक" : n + " पुस्तकें", people: n => n === 1 ? "1 लेखक" : n + " लेखक", star: n => n === 1 ? "1 तारा" : n + " तारे", starAria: n => "अनुशंसा " + (n === 1 ? "1 तारा" : n + " तारे") + ", पूरे 5" },
+];
+const LANG_BY_ID = Object.fromEntries(LANGS.map(item => [item.id, item]));
+const UI_SRC = {
+  pageTitle: "我的书架",
+  nav: "导航",
+  contents: "目录",
+  navCount: "导航（{n}）",
+  back: "返回",
+  about: "说明",
+  aboutExplain: "说明",
+  aboutState: "声明",
+  aboutCharter: "总则",
+  aboutPath: "阅读路径",
+  aboutLevels: "分类层级",
+  aboutPlate: "板块",
+  aboutClass: "类",
+  aboutSchool: "家",
+  logo: "我的书架",
+  searchPlaceholder: "搜索书名、作者、年份、别名、总结或推荐语",
+  author: "作者",
+  authorCount: "作者（{n}）",
+  authorTitle: "作者",
+  authorFind: "找作者",
+  authorNone: "没有叫这个的作者。",
+  alive: "在世",
+  yearBCE: "前{y}年",
+  yearCE: "{y}年",
+  yearAbout: "约{text}",
+  centuryBCE: "前{y}世纪",
+  centuryCE: "{y}世纪",
+  published: "出版",
+  fav: "收藏",
+  favCount: "收藏（{n}）",
+  favAdd: "收藏",
+  favOn: "已收藏",
+  favEmpty: "还没有收藏。点书上的「收藏」，就会出现在这里。",
+  leadFav: "只看收藏。编号仍是这本书在所属板块里的序号。",
+  favClearAll: "清空所有收藏",
+  favClearAsk: "要清掉这 {n} 本收藏吗？",
+  favClearYes: "清空",
+  favClearNo: "取消",
+  copy: "复制",
+  copied: "已复制",
+  copyFail: "没复制成。",
+  copySep: "：",
+  pathSep: " / ",
+  copyPlace: "位置",
+  copyOrder: "序号 {n}",
+  searchLabel: "搜索",
+  asideLabel: "分类和导航",
+  preparing: "正在准备书目。",
+  clear: "清除条件",
+  done: "完成",
+  navTitle: "导航",
+  recommend: "推荐",
+  blurb: "推荐语",
+  summary: "总结",
+  leadFiltered: "编号仍是这本书在所属板块里的序号。",
+  leadDefault: "五个板块各自从 1 往下读。序号是建议的阅读先后，星级另外标在书上。",
+  emptyNone: "没有同时符合这些条件的书。",
+  emptyQuery: "没有和「{q}」有关的书。",
+  emptyValue: "「{name}」还没有收录。这一项先留着，补上书之后会从这里出现。",
+  groupHint: "点分组名称，会选中这一组。",
+  loadError: "书目没有加载。请确认 index.html 旁边有 data/books.js、data/dimensions.js 和 data/navigation.js。",
+  langLabel: "语言",
+  culture: "文化所属",
+  plate: "大板块",
+  groupChina: "中国",
+  groupAsia: "亚洲",
+  groupEurope: "欧洲",
+  groupOther: "其他",
+  markOpen: "（",
+  markClose: "）",
+  listSep: "、",
+  theme: "主题",
+  themeMenu: "主题",
+  themeNote: "点一个就换整页的底色、字色和强调色。看过再关闭。",
+  themeClose: "关闭",
+  themeSystem: "系统",
+  themePlatform: "平台",
+  themeRead: "阅读",
+  themeIos: "iOS",
+  themeMac: "苹果电脑",
+  themeWechat: "微信",
+  themeQq: "QQ",
+  themeBili: "哔哩哔哩",
+  themeDouyin: "抖音",
+  themeXhs: "小红书",
+  themeZhihu: "知乎",
+  themeWeibo: "微博",
+  themePaper: "宣纸",
+  themeWhite: "白纸",
+  themeMarker: "高亮",
+  themeSepia: "米黄",
+  themeBlush: "藕色",
+  themeGreen: "护眼",
+  themeLake: "湖水",
+  themeMist: "雾青",
+  themeLilac: "藤紫",
+  themeSnow: "素白",
+  themeNight: "夜间",
+  themeCandle: "烛光",
+  themePine: "松烟",
+  themeNavy: "墨蓝",
+  feedback: "意见反馈",
+  feedbackClose: "关闭",
+  feedbackNote: "按当前 IP 分开。这个 IP 写下的在「我的反馈」。换了 IP，或认不出 IP，就在「公共反馈」。谁都能看这两边。",
+  feedbackPublic: "公共反馈",
+  feedbackMine: "我的反馈",
+  feedbackTabs: "反馈分类",
+  feedbackIp: "当前 IP：{ip}",
+  feedbackIpUnknown: "还没认出当前 IP。连上服务之后，才能按 IP 分开。",
+  feedbackIpLabel: "IP {ip}",
+  feedbackIpMissing: "未记录 IP",
+  feedbackEmptyPublic: "公共反馈还是空的。",
+  feedbackEmptyMine: "这个 IP 还没有写过。写一条，就出现在这里。",
+  feedbackEmptyMineOffline: "还认不出当前 IP，所以这里是空的。",
+  feedbackCountPublic: "公共 {n} 条。不是当前 IP 写下的。",
+  feedbackCountMine: "我的 {n} 条。都是当前 IP 写下的。",
+  feedbackName: "怎么称呼，可以不填",
+  feedbackNameLabel: "称呼，可以不填",
+  feedbackText: "写在白板上，谁都能看见",
+  feedbackLabel: "反馈内容",
+  feedbackSubmit: "写上白板",
+  feedbackEmpty: "还没有人写。写一句，大家都能看见。",
+  feedbackAnon: "未署名",
+  feedbackCount: "共 {n} 条。公开的，谁都能看。",
+  feedbackOffline: "白板没连上。已有内容还能看，新写的要等服务开着才能送出。",
+  feedbackNeedText: "写点内容再送。",
+  feedbackSending: "正在写上白板…",
+  feedbackFail: "没送出去，请再试一次。",
+  feedbackDone: "已写上。在「我的反馈」里。",
+  feedbackUnsent: "白板没连上，这句话还没写上。",
+  feedbackReadFail: "白板读不出来。",
+  feedbackBad: "内容没送成。",
+  feedbackNameLong: "称呼太长。",
+  feedbackTextLong: "内容太长。",
+  feedbackWriteFail: "白板没有写成。",
+};
+function shellPack() {
+  return (window.ZHISHI_I18N_SHELL || {})[lang] || {};
+}
+function langMeta() {
+  return LANG_BY_ID[lang] || LANG_BY_ID["zh-Hans"];
+}
+function t(key, vars) {
+  const table = shellPack().ui || {};
+  let text = table[key] || UI_SRC[key] || key;
+  if (vars) Object.keys(vars).forEach(name => { text = text.split("{" + name + "}").join(String(vars[name])); });
+  return text;
+}
+function bookPack(id) {
+  return ((window.ZHISHI_I18N_BOOKS || {})[lang] || {})[id] || null;
+}
+function rememberLang() {
+  try { localStorage.setItem(LANG_KEY, lang); } catch (e) {}
+}
+function storedLang() {
+  try {
+    const saved = localStorage.getItem(LANG_KEY) || "";
+    if (LANG_BY_ID[saved]) return saved;
+  } catch (e) {}
+  return "zh-Hans";
+}
+const dimName = new Map();
+const valueName = new Map();
+const byId = new Map();
+const navById = new Map();
+const shelfBooks = new Map();
+const ordOf = new Map();
+const bookNavTitles = new Map();
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function fold(s) {
+  return String(s).toLowerCase();
+}
+function hi(s) {
+  const text = String(s);
+  if (!q) return esc(text);
+  const needle = fold(q);
+  const hay = fold(text);
+  if (!needle || !hay.includes(needle)) return esc(text);
+  let out = "";
+  let i = 0;
+  while (i < text.length) {
+    const at = hay.indexOf(needle, i);
+    if (at < 0) { out += esc(text.slice(i)); break; }
+    out += esc(text.slice(i, at)) + "<mark>" + esc(text.slice(at, at + needle.length)) + "</mark>";
+    i = at + needle.length;
+  }
+  return out;
+}
+function dimPackOf(dimId) {
+  return (shellPack().dim || {})[dimId] || {};
+}
+function dimLabel(dimId) {
+  if (dimId === "civilization") return t("culture");
+  if (dimId === "plate") return t("plate");
+  const pack = dimPackOf(dimId);
+  return pack.name || dimName.get(dimId) || dimId;
+}
+function valueLabel(dimId, valueId) {
+  const values = dimPackOf(dimId).values || {};
+  return values[valueId] || valueName.get(dimId + "\0" + valueId) || valueId;
+}
+function dimHint(dim) {
+  const pack = dimPackOf(dim.id);
+  return pack.hint || dim.hint || "";
+}
+function navPack(id) {
+  return (shellPack().nav || {})[id] || {};
+}
+function nodeTitle(node) {
+  return navPack(node.id).title || node.title;
+}
+function nodeNote(node) {
+  const pack = navPack(node.id);
+  if (pack.note) return pack.note;
+  return node.note || "";
+}
+function nodeMark(node) {
+  const pack = navPack(node.id);
+  if (pack.mark) return pack.mark;
+  return node.mark || "";
+}
+function nodeName(node) {
+  const mark = nodeMark(node);
+  return nodeTitle(node) + (mark ? t("markOpen") + mark + t("markClose") : "");
+}
+function bookFields(book) {
+  const pack = bookPack(book.id) || {};
+  return {
+    title: pack.title || book.title,
+    summary: pack.summary || book.summary,
+    blurb: pack.blurb || book.blurb,
+    aka: pack.aka || book.aka || [],
+    author: pack.author || book.author || "",
+    published: pack.published || book.published || "",
+    origTitle: book.title,
+    origAka: book.aka || [],
+  };
+}
+function indexNames() {
+  dimName.clear();
+  valueName.clear();
+  byId.clear();
+  navById.clear();
+  shelfBooks.clear();
+  ordOf.clear();
+  bookNavTitles.clear();
+  DIMS.forEach(dim => {
+    dimName.set(dim.id, dim.name);
+    dim.values.forEach(value => valueName.set(dim.id + "\0" + value.id, value.name));
+  });
+  BOOKS.forEach(book => byId.set(book.id, book));
+  function descendants(node) {
+    const ids = new Set(node.books || []);
+    (node.children || []).forEach(child => descendants(child).forEach(id => ids.add(id)));
+    shelfBooks.set(node.id, ids);
+    navById.set(node.id, node);
+    return ids;
+  }
+  function titles(node, ancestors) {
+    const path = ancestors.concat(node);
+    (node.books || []).forEach(id => {
+      if (!bookNavTitles.has(id)) bookNavTitles.set(id, []);
+      path.forEach(item => bookNavTitles.get(id).push(item));
+    });
+    (node.children || []).forEach(child => titles(child, path));
+  }
+  NAV.forEach(plate => {
+    descendants(plate);
+    titles(plate, []);
+  });
+  authorById = new Map();
+  authorByName = new Map();
+  (Array.isArray(window.ZHISHI_AUTHORS) ? window.ZHISHI_AUTHORS : []).forEach(row => {
+    if (!row || !row.id || !row.name) return;
+    authorById.set(row.id, row);
+    authorByName.set(row.name, row);
+  });
+  const seenAuthors = new Set(authorByName.keys());
+  BOOKS.forEach(book => {
+    const name = book.author || "";
+    if (!name || seenAuthors.has(name)) return;
+    seenAuthors.add(name);
+    const row = { id: "extra-" + seenAuthors.size, name };
+    authorById.set(row.id, row);
+    authorByName.set(name, row);
+  });
+  CURRICULA = NAV.map(plate => {
+    const items = [];
+    let n = 0;
+    function walk(node, depth) {
+      if (depth > 0) items.push({ kind: "head", node, depth });
+      (node.books || []).forEach(id => {
+        const book = byId.get(id);
+        if (!book) return;
+        n += 1;
+        ordOf.set(id, n);
+        items.push({ kind: "book", book, depth: depth + 1 });
+      });
+      (node.children || []).forEach(child => walk(child, depth + 1));
+    }
+    walk(plate, 0);
+    return { plate, items };
+  });
+  const foundStars = new Set();
+  BOOKS.forEach(book => {
+    const score = bookStar(book);
+    if (score) foundStars.add(score);
+  });
+  presentStars = [...foundStars].sort((a, b) => b - a);
+}
+function orderedDims() {
+  const map = new Map(DIMS.map(dim => [dim.id, dim]));
+  return FILTER_ORDER.map(id => map.get(id)).filter(Boolean);
+}
+function blob(book) {
+  const fields = bookFields(book);
+  const names = [];
+  Object.entries(book.dims || {}).forEach(([dim, values]) => {
+    names.push(dimLabel(dim));
+    names.push(dimName.get(dim) || "");
+    values.forEach(value => {
+      names.push(valueLabel(dim, value));
+      names.push(valueName.get(dim + "\0" + value) || "");
+    });
+  });
+  (bookNavTitles.get(book.id) || []).forEach(node => {
+    names.push(node.title);
+    names.push(nodeTitle(node));
+    if (node.mark) names.push(node.mark);
+    const mark = nodeMark(node);
+    if (mark) names.push(mark);
+  });
+  fields.aka.forEach(name => names.push(name));
+  fields.origAka.forEach(name => names.push(name));
+  if (book.stars) {
+    names.push(book.stars + "颗星");
+    names.push(langMeta().star(book.stars));
+  }
+  const ord = ordOf.get(book.id);
+  if (ord) names.push(String(ord));
+  return [fields.title, fields.origTitle, fields.author, book.author, fields.published, book.published, fields.summary, book.summary, fields.blurb, book.blurb, ...names].join("\n");
+}
+function titleHtml(book, compact) {
+  const fields = bookFields(book);
+  let html = hi(fields.title);
+  if (!compact && lang !== "zh-Hans" && lang !== "zh-Hant" && fields.title !== fields.origTitle) {
+    html += `<span class="orig">${hi(fields.origTitle)}</span>`;
+  }
+  const list = fields.aka || [];
+  if (!list.length) return html;
+  let shown = list[0];
+  if (q) {
+    const hit = list.find(name => fold(name).includes(fold(q)));
+    if (hit) shown = hit;
+  }
+  const rest = list.filter(name => name !== shown);
+  const tip = rest.length ? ` title="${esc(rest.join(t("listSep")))}"` : "";
+  html += `<span class="aka"${tip}>${t("markOpen")}${hi(shown)}${t("markClose")}</span>`;
+  return html;
+}
+function filters() {
+  const out = {};
+  orderedDims().forEach(dim => {
+    const set = selected[dim.id];
+    if (!set || !set.size) return;
+    const values = dim.values.map(value => value.id).filter(id => set.has(id));
+    if (values.length) out[dim.id] = values;
+  });
+  return out;
+}
+function hitSearchQuery(book, query) {
+  return !query || fold(blob(book)).includes(fold(query));
+}
+function hitSearch(book) {
+  return hitSearchQuery(book, q);
+}
+function matchesDims(book, filterObj) {
+  return Object.entries(filterObj).every(([dim, values]) => {
+    const has = book.dims[dim] || [];
+    return values.some(value => has.includes(value));
+  });
+}
+function inSelectedShelf(book) {
+  if (!selectedShelves.size) return true;
+  for (const id of selectedShelves) {
+    const ids = shelfBooks.get(id);
+    if (ids && ids.has(book.id)) return true;
+  }
+  return false;
+}
+function bookStar(book) {
+  const raw = Number(book.stars);
+  if (!raw) return 0;
+  const score = Math.max(1, Math.min(5, Math.round(raw)));
+  return score;
+}
+function hitStars(book) {
+  if (!selectedStars.size) return true;
+  return selectedStars.has(bookStar(book));
+}
+function inSelectedAuthor(book) {
+  if (!selectedAuthors.size) return true;
+  const row = authorByName.get(book.author || "");
+  return !!(row && selectedAuthors.has(row.id));
+}
+function hitFav(book) {
+  return !favOnly || favs.has(book.id);
+}
+function matches(book) {
+  return hitSearch(book) && inSelectedShelf(book) && hitStars(book) && inSelectedAuthor(book) && hitFav(book) && matchesDims(book, filters());
+}
+function countOf(dimId, valueId) {
+  const filterObj = filters();
+  return BOOKS.filter(book => {
+    if (!hitSearch(book) || !inSelectedShelf(book) || !hitStars(book) || !inSelectedAuthor(book) || !hitFav(book)) return false;
+    if (!(book.dims[dimId] || []).includes(valueId)) return false;
+    return Object.entries(filterObj).every(([dim, values]) => {
+      if (dim === dimId) return true;
+      return values.some(value => (book.dims[dim] || []).includes(value));
+    });
+  }).length;
+}
+function countShelf(nodeId) {
+  const ids = shelfBooks.get(nodeId) || new Set();
+  const filterObj = filters();
+  let n = 0;
+  ids.forEach(id => {
+    const book = byId.get(id);
+    if (book && hitSearch(book) && hitStars(book) && inSelectedAuthor(book) && hitFav(book) && matchesDims(book, filterObj)) n += 1;
+  });
+  return n;
+}
+function countStar(score) {
+  const filterObj = filters();
+  return BOOKS.filter(book => bookStar(book) === score && hitSearch(book) && inSelectedShelf(book) && inSelectedAuthor(book) && hitFav(book) && matchesDims(book, filterObj)).length;
+}
+function label(dimId, valueId) {
+  return dimLabel(dimId) + " · " + valueLabel(dimId, valueId);
+}
+function readHash() {
+  const params = new URLSearchParams(location.hash.replace(/^#/, ""));
+  const next = {};
+  DIMS.forEach(dim => {
+    if (dim.id === "plate") return;
+    const raw = params.get(dim.id);
+    if (!raw) return;
+    const known = new Set(dim.values.map(value => value.id));
+    const values = raw.split(",").filter(value => known.has(value));
+    if (values.length) next[dim.id] = new Set(values);
+  });
+  selected = next;
+  selectedShelves = new Set();
+  selectedStars = new Set();
+  (params.get("stars") || "").split(",").forEach(raw => {
+    const score = Number(raw);
+    if (presentStars.includes(score)) selectedStars.add(score);
+  });
+  selectedAuthors = new Set();
+  favOnly = params.get("fav") === "1";
+  (params.get("author") || "").split(",").filter(id => authorById.has(id)).forEach(id => selectedAuthors.add(id));
+  (params.get("shelf") || "").split(",").filter(id => shelfBooks.has(id)).forEach(id => selectedShelves.add(id));
+  (params.get("plate") || "").split(",").filter(Boolean).forEach(id => {
+    const nodeId = shelfBooks.has(id) ? id : "plate-" + id;
+    if (shelfBooks.has(nodeId)) selectedShelves.add(nodeId);
+  });
+  q = params.get("q") || "";
+  if ($("q").value !== q) $("q").value = q;
+  const code = params.get("lang");
+  if (code && LANG_BY_ID[code] && code !== lang) {
+    lang = code;
+    rememberLang();
+  }
+}
+function writeHash() {
+  const params = new URLSearchParams();
+  const filterObj = filters();
+  orderedDims().forEach(dim => {
+    if (filterObj[dim.id]) params.set(dim.id, filterObj[dim.id].join(","));
+  });
+  if (selectedShelves.size) params.set("shelf", [...selectedShelves].join(","));
+  const starLevels = [...selectedStars].filter(score => presentStars.includes(score)).sort((a, b) => b - a);
+  if (starLevels.length) params.set("stars", starLevels.join(","));
+  if (selectedAuthors.size) params.set("author", [...selectedAuthors].join(","));
+  if (favOnly) params.set("fav", "1");
+  if (q) params.set("q", q);
+  if (lang && lang !== "zh-Hans") params.set("lang", lang);
+  const next = params.toString();
+  const current = location.hash.startsWith("#") ? location.hash.slice(1) : "";
+  if (current === next) return;
+  history.replaceState(null, "", next ? "#" + next : location.pathname + location.search);
+}
+function markFiltered() {
+  if (navOpen || authorOpen) pendingScroll = true;
+  else scrollResults = true;
+}
+function toggle(dimId, valueId) {
+  if (!selected[dimId]) selected[dimId] = new Set();
+  if (selected[dimId].has(valueId)) selected[dimId].delete(valueId);
+  else selected[dimId].add(valueId);
+  writeHash();
+  markFiltered();
+  render();
+}
+function toggleShelf(id) {
+  if (selectedShelves.has(id)) selectedShelves.delete(id);
+  else selectedShelves.add(id);
+  writeHash();
+  markFiltered();
+  render();
+}
+function toggleGroup(ids) {
+  if (!selected.civilization) selected.civilization = new Set();
+  const allOn = ids.every(id => selected.civilization.has(id));
+  ids.forEach(id => {
+    if (allOn) selected.civilization.delete(id);
+    else selected.civilization.add(id);
+  });
+  writeHash();
+  markFiltered();
+  render();
+}
+function toggleStar(score) {
+  score = Number(score);
+  if (!presentStars.includes(score)) return;
+  if (selectedStars.has(score)) selectedStars.delete(score);
+  else selectedStars.add(score);
+  writeHash();
+  markFiltered();
+  render();
+}
+function clearFilters() {
+  selected = {};
+  selectedShelves = new Set();
+  selectedStars = new Set();
+  selectedAuthors = new Set();
+  favOnly = false;
+  writeHash();
+  markFiltered();
+  render();
+}
+function clearAuthors() {
+  selectedAuthors = new Set();
+  writeHash();
+  markFiltered();
+  render();
+}
+function previewCount() {
+  const query = ($("q").value || "").trim();
+  return BOOKS.filter(book => hitSearchQuery(book, query) && inSelectedShelf(book) && hitStars(book) && inSelectedAuthor(book) && hitFav(book) && matchesDims(book, filters())).length;
+}
+function pickedCount() {
+  const dims = Object.values(selected).reduce((sum, set) => sum + (set ? set.size : 0), 0);
+  return dims + selectedShelves.size + selectedStars.size;
+}
+function emptyCopy() {
+  if (favOnly && !favs.size) return t("favEmpty");
+  const filterObj = filters();
+  for (const [dim, values] of Object.entries(filterObj)) {
+    const empty = values.every(value => !BOOKS.some(book => (book.dims[dim] || []).includes(value)));
+    if (empty && values.length) return t("emptyValue", { name: valueLabel(dim, values[0]) });
+  }
+  if (q && !pickedCount()) return t("emptyQuery", { q });
+  return t("emptyNone");
+}
+function starFilterHtml() {
+  if (!presentStars.length) return "";
+  const meta = langMeta();
+  const buttons = presentStars.map(score => {
+    const on = selectedStars.has(score);
+    const count = countStar(score);
+    const text = meta.star(score);
+    return `<button type="button" class="val star-pick${count ? "" : " is-zero"}" data-star="${score}" aria-pressed="${on ? "true" : "false"}" aria-label="${esc(meta.starAria(score))}"><span class="star-fill" aria-hidden="true">${"★".repeat(score)}</span><span class="star-empty" aria-hidden="true">${"☆".repeat(5 - score)}</span><span class="star-text">${hi(text)}</span><span class="n">${count}</span></button>`;
+  }).join("");
+  return `<section class="dim-block star-block"><p class="tag-name">${esc(t("recommend"))}</p><div class="values">${buttons}</div></section>`;
+}
+function starHtml(book) {
+  const raw = Number(book.stars);
+  if (!raw) return "";
+  const score = Math.max(1, Math.min(5, Math.round(raw)));
+  const meta = langMeta();
+  const text = meta.star(score);
+  return `<p class="stars" aria-label="${esc(meta.starAria(score))}"><span class="k">${hi(t("recommend"))}</span><span class="star-fill" aria-hidden="true">${"★".repeat(score)}</span><span class="star-empty" aria-hidden="true">${"☆".repeat(5 - score)}</span><span class="star-text">${hi(text)}</span></p>`;
+}
+function metaHtml(book) {
+  const cog = (book.dims.cognition || []).map(id => valueLabel("cognition", id)).filter(Boolean);
+  const civ = (book.dims.civilization || []).map(id => valueLabel("civilization", id)).filter(Boolean);
+  const bits = [];
+  if (cog.length) bits.push(`<span>${hi(dimLabel("cognition"))} ${hi(cog.join(t("listSep")))}</span>`);
+  if (civ.length) bits.push(`<span>${hi(t("culture"))} ${hi(civ.join(t("listSep")))}</span>`);
+  return bits.length ? `<p class="book-meta">${bits.join("")}</p>` : "";
+}
+function coverHtml(book) {
+  const fields = bookFields(book);
+  const title = fields.title || "";
+  const marked = title.match(/《([^》]+)》/);
+  const label = (marked ? marked[1] : title).replace(/(选读|选篇|选章|选段)$/, "");
+  const img = COVER_IDS.has(book.id)
+    ? `<img src="pic/covers/${esc(book.id)}.jpg" alt="" loading="lazy" decoding="async" onerror="this.remove()">`
+    : "";
+  return `<div class="cover" aria-hidden="true">${img}<span class="cover-fallback">${hi(label)}</span></div>`;
+}
+function loadFavs() {
+  const kept = [];
+  try {
+    const raw = JSON.parse(localStorage.getItem(FAV_KEY) || "[]");
+    if (Array.isArray(raw)) {
+      const seen = new Set();
+      raw.forEach(id => {
+        if (typeof id !== "string" || !byId.has(id) || seen.has(id)) return;
+        seen.add(id);
+        kept.push(id);
+      });
+    }
+  } catch (e) {}
+  favs = new Set(kept);
+}
+function saveFavs() {
+  try { localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); } catch (e) {}
+}
+function favButtonLabel() {
+  const n = favs.size;
+  if (n || favOnly) return t("favCount", { n });
+  return t("fav");
+}
+function paintFavButton() {
+  const btn = $("open-fav");
+  if (!btn) return;
+  btn.textContent = favButtonLabel();
+  btn.setAttribute("aria-pressed", favOnly ? "true" : "false");
+}
+function toggleFav(id) {
+  if (!byId.has(id)) return;
+  if (favs.has(id)) favs.delete(id);
+  else favs.add(id);
+  saveFavs();
+  if (favOnly) {
+    render();
+    return;
+  }
+  paintFavButton();
+  const btn = document.querySelector('[data-fav="' + cssAttr(id) + '"]');
+  if (!btn) return;
+  const on = favs.has(id);
+  btn.setAttribute("aria-pressed", on ? "true" : "false");
+  btn.textContent = on ? t("favOn") : t("favAdd");
+}
+function toggleFavOnly() {
+  favOnly = !favOnly;
+  writeHash();
+  markFiltered();
+  render();
+}
+function exitFavOnly() {
+  if (!favOnly) return;
+  favOnly = false;
+  writeHash();
+  markFiltered();
+  render();
+  const btn = $("open-fav");
+  if (btn) btn.focus();
+}
+function favClearOpen() {
+  const layer = $("fav-clear-layer");
+  return !!(layer && !layer.hidden);
+}
+function paintFavClear() {
+  if (!favClearOpen()) return;
+  $("fav-clear-title").textContent = t("favClearAll");
+  $("fav-clear-text").textContent = t("favClearAsk", { n: favs.size });
+  $("fav-clear-yes").textContent = t("favClearYes");
+  $("fav-clear-no").textContent = t("favClearNo");
+}
+function commitClearFavs() {
+  favs = new Set();
+  saveFavs();
+  const layer = $("fav-clear-layer");
+  if (layer) layer.hidden = true;
+  render();
+  const back = document.querySelector("[data-fav-back]");
+  if (back) back.focus();
+}
+function askClearFavs() {
+  const n = favs.size;
+  if (n <= 3) {
+    if (n) commitClearFavs();
+    return;
+  }
+  $("fav-clear-layer").hidden = false;
+  paintFavClear();
+  $("fav-clear-no").focus();
+}
+function cssAttr(id) {
+  return (window.CSS && CSS.escape) ? CSS.escape(id) : String(id).replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+}
+function shareText(book) {
+  const fields = bookFields(book);
+  const lines = [];
+  const aka = (fields.aka || []).filter(Boolean);
+  let title = fields.title || "";
+  if (aka.length) title += t("markOpen") + aka.join(t("listSep")) + t("markClose");
+  lines.push(title);
+  if (lang !== "zh-Hans" && lang !== "zh-Hant" && fields.origTitle && fields.origTitle !== fields.title) {
+    lines.push(fields.origTitle);
+  }
+  const sep = t("copySep");
+  if (fields.author) lines.push(t("author") + sep + fields.author);
+  if (fields.published) lines.push(t("published") + sep + fields.published);
+  const score = bookStar(book);
+  if (score) lines.push(t("recommend") + sep + langMeta().star(score));
+  const path = (bookNavTitles.get(book.id) || []).map(nodeName).filter(Boolean);
+  const ord = ordOf.get(book.id);
+  if (path.length || ord) {
+    let place = path.join(t("pathSep"));
+    if (ord) place += (place ? " · " : "") + t("copyOrder", { n: ord });
+    lines.push(t("copyPlace") + sep + place);
+  } else {
+    const plates = ((book.dims || {}).plate || []).map(id => valueLabel("plate", id)).filter(Boolean);
+    if (plates.length) lines.push(t("plate") + sep + plates.join(t("listSep")));
+  }
+  ["cognition", "civilization", "school", "religion"].forEach(dimId => {
+    const values = (book.dims || {})[dimId];
+    if (!values || !values.length) return;
+    const names = values.map(value => valueLabel(dimId, value)).filter(Boolean);
+    if (names.length) lines.push(dimLabel(dimId) + sep + names.join(t("listSep")));
+  });
+  if (fields.blurb) lines.push(t("blurb") + sep + fields.blurb);
+  if (fields.summary) lines.push(t("summary") + sep + fields.summary);
+  return lines.join("\n");
+}
+async function writeClipboard(text) {
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch (e) {}
+  const area = document.createElement("textarea");
+  area.value = text;
+  area.setAttribute("readonly", "");
+  area.style.position = "fixed";
+  area.style.top = "0";
+  area.style.insetInlineStart = "0";
+  area.style.opacity = "0";
+  document.body.appendChild(area);
+  area.focus();
+  area.select();
+  let ok = false;
+  try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+  area.remove();
+  return ok;
+}
+function copyBook(id) {
+  const book = byId.get(id);
+  if (!book) return;
+  const text = shareText(book);
+  writeClipboard(text).then(ok => {
+    const btn = document.querySelector('[data-copy="' + cssAttr(id) + '"]');
+    if (btn) {
+      btn.textContent = ok ? t("copied") : t("copyFail");
+      btn.classList.toggle("is-done", !!ok);
+    }
+    copiedId = ok ? id : "";
+    clearTimeout(copiedTimer);
+    copiedTimer = setTimeout(() => {
+      copiedId = "";
+      const again = document.querySelector('[data-copy="' + cssAttr(id) + '"]');
+      if (!again) return;
+      again.textContent = t("copy");
+      again.classList.remove("is-done");
+    }, 1600);
+  });
+}
+function bookActions(book) {
+  const on = favs.has(book.id);
+  const copied = copiedId === book.id;
+  return `<div class="book-actions"><button type="button" class="book-act" data-fav="${esc(book.id)}" aria-pressed="${on ? "true" : "false"}">${esc(on ? t("favOn") : t("favAdd"))}</button><button type="button" class="book-act${copied ? " is-done" : ""}" data-copy="${esc(book.id)}">${esc(copied ? t("copied") : t("copy"))}</button></div>`;
+}
+function bookCard(book) {
+  const fields = bookFields(book);
+  const ord = ordOf.get(book.id) || "";
+  const ordHtml = ord ? `<span class="ord">${ord}</span>` : "";
+  const tags = Object.entries(book.dims || {}).flatMap(([dim, values]) => values.map(value => {
+    if (dim === "plate") return "";
+    const on = selected[dim] && selected[dim].has(value);
+    return `<button type="button" class="val" data-dim="${esc(dim)}" data-value="${esc(value)}" aria-pressed="${on ? "true" : "false"}">${hi(label(dim, value))}</button>`;
+  })).join("");
+  const byline = [];
+  if (fields.author) byline.push(`<span class="k">${hi(t("author"))}</span>${hi(fields.author)}`);
+  if (fields.published) byline.push(`<span class="k pub">${hi(t("published"))}</span>${hi(fields.published)}`);
+  const bylineHtml = byline.length ? `<p class="byline">${byline.join("")}</p>` : "";
+  const tagHtml = tags.trim() ? `<div class="tags">${tags}</div>` : "";
+  const summaryHtml = fields.summary ? `<p class="book-sum"><span class="k">${hi(t("summary"))}</span>${hi(fields.summary)}</p>` : "";
+  return `<article class="book" id="book-${esc(book.id)}">${coverHtml(book)}<div class="book-body"><h3>${ordHtml}${titleHtml(book)}</h3>${bylineHtml}${starHtml(book)}${metaHtml(book)}<p><span class="k">${hi(t("blurb"))}</span>${hi(fields.blurb)}</p></div><div class="book-side">${summaryHtml}${tagHtml}${bookActions(book)}</div></article>`;
+}
+function visibleFlags(items) {
+  const show = items.map(item => item.kind === "book" && matches(item.book));
+  for (let i = items.length - 1; i >= 0; i -= 1) {
+    if (items[i].kind !== "head") continue;
+    let on = false;
+    for (let j = i + 1; j < items.length; j += 1) {
+      if (items[j].kind === "head" && items[j].depth <= items[i].depth) break;
+      if (show[j]) { on = true; break; }
+    }
+    show[i] = on;
+  }
+  return show;
+}
+function shelfButton(node, extra) {
+  const on = selectedShelves.has(node.id);
+  const count = countShelf(node.id);
+  const cls = "val" + (extra ? " " + extra : "") + (count ? "" : " is-zero");
+  return `<button type="button" class="${cls}" data-shelf="${esc(node.id)}" aria-pressed="${on ? "true" : "false"}">${hi(nodeName(node))}<span class="n">${count}</span></button>`;
+}
+function filterTreeHtml() {
+  const plates = NAV.map(plate => {
+    const level = (plate.children || []).map(child => {
+      const grands = child.children || [];
+      if (!grands.length) return shelfButton(child);
+      return `<div class="filter-branch"><div class="values">${shelfButton(child)}</div><div class="values filter-sub">${grands.map(shelfButton).join("")}</div></div>`;
+    }).join("");
+    return `<div class="plate-col"><div class="values">${shelfButton(plate, "plate-root")}</div><div class="values plate-kids">${level}</div></div>`;
+  }).join("");
+  return `<section class="dim-block plate-block"><p class="tag-name">${esc(t("plate"))}</p><div class="plate-columns">${plates}</div></section>`;
+}
+function cultureHtml(dim) {
+  const known = new Set(dim.values.map(value => value.id));
+  const used = new Set();
+  const groups = CULTURE_GROUPS.map(([name, ids]) => {
+    const values = ids.filter(id => known.has(id));
+    values.forEach(id => used.add(id));
+    if (!values.length) return "";
+    const allOn = values.every(id => selected.civilization && selected.civilization.has(id));
+    const buttons = values.map(id => {
+      const on = selected.civilization && selected.civilization.has(id);
+      const count = countOf("civilization", id);
+      return `<button type="button" class="val${count ? "" : " is-zero"}" data-dim="civilization" data-value="${esc(id)}" aria-pressed="${on ? "true" : "false"}">${hi(valueLabel("civilization", id))}<span class="n">${count}</span></button>`;
+    }).join("");
+    return `<div class="culture-group"><button type="button" class="group-name" data-group="${esc(values.join(","))}" aria-pressed="${allOn ? "true" : "false"}">${esc(t(name))}</button><div class="values filter-sub">${buttons}</div></div>`;
+  }).join("");
+  const rest = dim.values.filter(value => !used.has(value.id)).map(value => {
+    const on = selected.civilization && selected.civilization.has(value.id);
+    const count = countOf("civilization", value.id);
+    return `<button type="button" class="val${count ? "" : " is-zero"}" data-dim="civilization" data-value="${esc(value.id)}" aria-pressed="${on ? "true" : "false"}">${hi(valueLabel("civilization", value.id))}<span class="n">${count}</span></button>`;
+  }).join("");
+  const hint = [dimHint(dim), t("groupHint")].filter(Boolean).join(" ");
+  return `<section class="dim-block dim-civilization"><p class="tag-name">${esc(t("culture"))}</p><p class="hint">${esc(hint)}</p>${groups}${rest ? `<div class="values">${rest}</div>` : ""}</section>`;
+}
+function dimHtml(dim) {
+  if (dim.id === "civilization") return cultureHtml(dim);
+  const buttons = dim.values.map(value => {
+    const on = selected[dim.id] && selected[dim.id].has(value.id);
+    const count = countOf(dim.id, value.id);
+    let name = valueLabel(dim.id, value.id);
+    if (dim.id === "school" && (value.id === "ru" || value.id === "dao")) {
+      const mark = nodeMark({ id: value.id, mark: value.id === "ru" ? "儒" : "道" });
+      name += t("markOpen") + mark + t("markClose");
+    }
+    return `<button type="button" class="val${count ? "" : " is-zero"}" data-dim="${esc(dim.id)}" data-value="${esc(value.id)}" aria-pressed="${on ? "true" : "false"}">${hi(name)}<span class="n">${count}</span></button>`;
+  }).join("");
+  return `<section class="dim-block dim-${esc(dim.id)}"><p class="tag-name">${esc(dimLabel(dim.id))}</p><p class="hint">${esc(dimHint(dim))}</p><div class="values">${buttons}</div></section>`;
+}
+const DIM_STACKS = [
+  ["cognition", "subject", "religion"],
+  ["civilization"],
+  ["era", "need"],
+  ["text", "school"],
+];
+function dimPackHtml() {
+  const dims = orderedDims();
+  const byId = new Map(dims.map(dim => [dim.id, dim]));
+  const placed = new Set(DIM_STACKS.flat());
+  const stacks = DIM_STACKS.map(ids => ids.filter(id => byId.has(id)));
+  const extra = dims.filter(dim => !placed.has(dim.id)).map(dim => dim.id);
+  if (extra.length) stacks.push(extra);
+  return `<div class="dim-pack">${stacks.filter(ids => ids.length).map(ids =>
+    `<div class="dim-stack">${ids.map(id => dimHtml(byId.get(id))).join("")}</div>`
+  ).join("")}</div>`;
+}
+function authorLabel(name) {
+  const book = BOOKS.find(item => item.author === name);
+  if (!book) return name;
+  const pack = bookPack(book.id);
+  return (pack && pack.author) || name;
+}
+function yearBit(year, precision) {
+  if (year == null || year === "") return "";
+  const value = Number(year);
+  if (!Number.isFinite(value)) return "";
+  let text;
+  if (precision && precision <= 7) {
+    const century = value < 0 ? Math.ceil(Math.abs(value) / 100) : Math.floor((value - 1) / 100) + 1;
+    text = t(value < 0 ? "centuryBCE" : "centuryCE", { y: century });
+  } else {
+    text = t(value < 0 ? "yearBCE" : "yearCE", { y: Math.abs(value) });
+  }
+  if (!precision || precision < 10) text = t("yearAbout", { text });
+  return text;
+}
+function lifeText(row) {
+  const bits = [];
+  const main = yearBit(row.born, row.precision);
+  if (main) bits.push(main);
+  (row.also || []).forEach(item => {
+    const bit = yearBit(item.born, item.precision);
+    if (bit) bits.push(bit);
+  });
+  const years = bits.join(t("listSep"));
+  if (row.status !== "alive") return years;
+  const mark = t("alive");
+  return years ? years + " · " + mark : mark;
+}
+function countAuthor(name) {
+  const filterObj = filters();
+  return BOOKS.filter(book => {
+    if ((book.author || "") !== name) return false;
+    return hitSearch(book) && inSelectedShelf(book) && hitStars(book) && hitFav(book) && matchesDims(book, filterObj);
+  }).length;
+}
+function authorRows() {
+  return [...authorByName.values()].sort((a, b) => {
+    const ai = a.image ? 0 : 1;
+    const bi = b.image ? 0 : 1;
+    if (ai !== bi) return ai - bi;
+    const ay = a.born == null ? 100000 : Number(a.born);
+    const by = b.born == null ? 100000 : Number(b.born);
+    if (ay !== by) return ay - by;
+    return String(a.name).localeCompare(String(b.name), "zh");
+  });
+}
+function shownAuthors() {
+  const query = fold(authorQuery);
+  return authorRows().filter(row => {
+    if (!query) return true;
+    return fold(row.name).includes(query) || fold(authorLabel(row.name)).includes(query);
+  });
+}
+function authorCard(row) {
+  const on = selectedAuthors.has(row.id);
+  const count = countAuthor(row.name);
+  const label = authorLabel(row.name);
+  const life = lifeText(row);
+  const mark = [...String(label || row.name).replace(/\s+/g, "")][0] || "·";
+  const img = `<img src="pic/authors/${esc(row.id)}.jpg" alt="" loading="lazy" decoding="async" onerror="this.remove()">`;
+  const lifeHtml = life ? `<span class="author-life">${hi(life)}</span>` : "";
+  const countHtml = count > 1 ? `<span class="n">${count}</span>` : "";
+  return `<button type="button" class="author-card${count ? "" : " is-zero"}" data-author="${esc(row.id)}" aria-pressed="${on ? "true" : "false"}" title="${esc(label)}"><span class="author-face" aria-hidden="true">${img}<span class="author-fallback">${esc(mark)}</span></span><span class="author-name"><span>${hi(label)}</span>${countHtml}</span>${lifeHtml}</button>`;
+}
+function authorChip(row) {
+  const on = selectedAuthors.has(row.id);
+  const count = countAuthor(row.name);
+  const label = authorLabel(row.name);
+  const countHtml = count > 1 ? `<span class="n">${count}</span>` : "";
+  const aliveHtml = row.status === "alive" ? `<span class="author-life">${hi(t("alive"))}</span>` : "";
+  return `<button type="button" class="author-chip${count ? "" : " is-zero"}" data-author="${esc(row.id)}" aria-pressed="${on ? "true" : "false"}">${hi(label)}${aliveHtml}${countHtml}</button>`;
+}
+function paintAuthors() {
+  const rows = shownAuthors();
+  const body = $("author-body");
+  if (!rows.length) {
+    body.innerHTML = `<p class="empty">${esc(t("authorNone"))}</p>`;
+  } else {
+    const faces = rows.filter(row => row.image).map(authorCard).join("");
+    const names = rows.filter(row => !row.image).map(authorChip).join("");
+    body.innerHTML =
+      (faces ? `<div class="author-faces">${faces}</div>` : "") +
+      (names ? `<div class="author-names">${names}</div>` : "");
+  }
+  $("author-count").textContent = langMeta().people(rows.length);
+}
+function toggleAuthor(id) {
+  if (!authorById.has(id)) return;
+  if (selectedAuthors.has(id)) selectedAuthors.delete(id);
+  else selectedAuthors.add(id);
+  writeHash();
+  markFiltered();
+  render();
+}
+function chipsHtml() {
+  const shelves = [...selectedShelves].map(id => {
+    const node = navById.get(id);
+    return `<button type="button" class="chip" data-shelf="${esc(id)}">${esc(node ? nodeName(node) : id)} ×</button>`;
+  }).join("");
+  const dims = Object.entries(filters()).flatMap(([dim, values]) => values.map(value =>
+    `<button type="button" class="chip" data-dim="${esc(dim)}" data-value="${esc(value)}">${esc(label(dim, value))} ×</button>`
+  )).join("");
+  const stars = [...selectedStars].sort((a, b) => b - a).map(score =>
+    `<button type="button" class="chip" data-star="${score}">${esc(t("recommend") + " · " + langMeta().star(score))} ×</button>`
+  ).join("");
+  const authors = [...selectedAuthors].map(id => {
+    const row = authorById.get(id);
+    const name = row ? authorLabel(row.name) : id;
+    return `<button type="button" class="chip" data-author="${esc(id)}">${esc(name)} ×</button>`;
+  }).join("");
+  const body = shelves + dims + stars + authors;
+  return body ? `<div class="chips">${body}</div>` : "";
+}
+function orderSideHtml() {
+  return CURRICULA.map(({ plate, items }) => {
+    const flags = visibleFlags(items);
+    if (!flags.some((on, i) => on && items[i].kind === "book")) return "";
+    const count = items.filter((item, i) => flags[i] && item.kind === "book").length;
+    const html = [];
+    let group = null;
+    let nest = null;
+    const closeNest = () => {
+      if (!nest || !group) return;
+      group.push(`<div class="side-group">${nest.join("")}</div>`);
+      nest = null;
+    };
+    const closeGroup = () => {
+      if (!group) return;
+      closeNest();
+      html.push(`<div class="side-group">${group.join("")}</div>`);
+      group = null;
+    };
+    items.forEach((item, i) => {
+      if (!flags[i]) return;
+      const pad = 8 + item.depth * 14;
+      if (item.kind === "head") {
+        const btn = `<button type="button" class="side-head" style="padding-inline-start:${pad}px" data-jump="section-${esc(item.node.id)}">${hi(nodeName(item.node))}</button>`;
+        if (item.depth <= 1) {
+          closeGroup();
+          group = [btn];
+        } else {
+          if (!group) group = [];
+          closeNest();
+          nest = [btn];
+        }
+        return;
+      }
+      const btn = `<button type="button" class="side-book" style="padding-inline-start:${pad}px" data-jump="book-${esc(item.book.id)}"><span class="idx">${ordOf.get(item.book.id)}</span><span>${titleHtml(item.book, true)}</span></button>`;
+      if (nest) nest.push(btn);
+      else if (group) group.push(btn);
+      else html.push(btn);
+    });
+    closeGroup();
+    return `<section class="side-plate"><button type="button" class="side-plate-title" data-jump="section-${esc(plate.id)}"><span>${hi(nodeTitle(plate))}</span><span class="n">${count}</span></button>${html.join("")}</section>`;
+  }).join("") || `<p class="tree-note">${esc(emptyCopy())}</p>`;
+}
+function syncSidePins() {
+  const titles = [...document.querySelectorAll(".side-plate-title")];
+  const heads = [...document.querySelectorAll(".side-group > .side-head")];
+  const titleH = titles.reduce((max, el) => Math.max(max, el.offsetHeight), 32);
+  const headH = heads.reduce((max, el) => Math.max(max, el.offsetHeight), 32);
+  const header = document.querySelector("header");
+  const tools = $("side-tools");
+  const root = document.documentElement;
+  root.style.setProperty("--side-pin", titleH + "px");
+  root.style.setProperty("--side-pin-2", (titleH + headH) + "px");
+  root.style.setProperty("--header-h", (header ? header.offsetHeight : 0) + "px");
+  root.style.setProperty("--tools-h", (tools ? tools.offsetHeight : 0) + "px");
+}
+function toolsHtml() {
+  const chips = chipsHtml();
+  if (!chips && !favOnly) return "";
+  const back = favOnly ? `<div class="side-actions"><button type="button" data-fav-back>${esc(t("back"))}</button></div>` : "";
+  const clear = `<div class="side-actions"><button type="button" data-clear>${esc(t("clear"))}</button></div>`;
+  return back + clear + chips;
+}
+function favToolsHtml() {
+  if (!favOnly) return "";
+  return `<div class="fav-tools"><button type="button" data-fav-clear${favs.size ? "" : " disabled"}>${esc(t("favClearAll"))}</button></div>`;
+}
+function wideReading() {
+  return window.matchMedia("(min-width: 861px)").matches;
+}
+function onLockTouch(ev) {
+  if (ev.target.closest("#side-body, .veil-scroll, .feedback-panel, .theme-menu, .confirm-layer")) return;
+  ev.preventDefault();
+}
+function syncWindowLock() {
+  const want = !wideReading() && (orderOpen || navOpen || authorOpen || aboutOpen);
+  document.documentElement.classList.toggle("page-lock", want);
+  if (want === windowLocked) return;
+  windowLocked = want;
+  if (want) document.addEventListener("touchmove", onLockTouch, { passive: false });
+  else document.removeEventListener("touchmove", onLockTouch);
+}
+function setOrder(open, restoreFocus) {
+  if (open && wideReading()) open = false;
+  orderOpen = !!open;
+  document.documentElement.classList.toggle("order-open", orderOpen);
+  const sheet = $("order-sheet");
+  if (sheet) {
+    if (orderOpen) {
+      sheet.setAttribute("role", "dialog");
+      sheet.setAttribute("aria-modal", "true");
+    } else {
+      sheet.removeAttribute("role");
+      sheet.removeAttribute("aria-modal");
+    }
+  }
+  const btn = $("open-order");
+  if (btn) btn.setAttribute("aria-expanded", orderOpen ? "true" : "false");
+  syncWindowLock();
+  if (orderOpen) {
+    const closeBtn = $("close-order");
+    if (closeBtn) closeBtn.focus();
+    requestAnimationFrame(() => {
+      syncSidePins();
+      syncOrderToReading(true);
+    });
+  } else if (restoreFocus && btn) btn.focus();
+}
+function openOrder() {
+  closeTheme(false);
+  closeFeedback(false);
+  if (aboutOpen) closeAbout(false);
+  if (navOpen || authorOpen) {
+    navOpen = false;
+    authorOpen = false;
+    render();
+  }
+  setOrder(true, false);
+}
+function readingScroller() {
+  return wideReading() ? $("detail") : (document.scrollingElement || document.documentElement);
+}
+function activationEdge() {
+  const wide = wideReading();
+  const scroller = readingScroller();
+  const top = wide ? scroller.getBoundingClientRect().top : 0;
+  const header = document.querySelector("header");
+  const headerH = wide ? 0 : (header ? header.offsetHeight : 0);
+  const viewH = wide ? scroller.clientHeight : window.innerHeight;
+  const remain = scroller.scrollHeight - scroller.scrollTop - scroller.clientHeight;
+  const pad = headerH + 28;
+  const span = Math.max(48, viewH - pad - 28);
+  if (remain > viewH * 0.45) return top + pad;
+  const t = Math.max(0, Math.min(1, 1 - remain / (viewH * 0.45)));
+  return top + pad + span * t;
+}
+function activeJumpId() {
+  const nodes = [...document.querySelectorAll("#detail .shelf, #detail .subhead, #detail .book")].filter(el => el.id);
+  if (!nodes.length) return "";
+  const edge = activationEdge();
+  let current = "";
+  for (const el of nodes) {
+    if (el.getBoundingClientRect().top <= edge + 1) current = el.id;
+    else break;
+  }
+  return current || nodes[0].id;
+}
+function sideButton(id) {
+  const buttons = document.querySelectorAll("#side-body [data-jump]");
+  for (const btn of buttons) {
+    if (btn.dataset.jump === id) return btn;
+  }
+  return null;
+}
+function stickyCover(btn) {
+  const plate = btn.closest(".side-plate");
+  let cover = 0;
+  if (plate && !btn.classList.contains("side-plate-title")) {
+    const title = plate.querySelector(":scope > .side-plate-title");
+    if (title) cover += title.offsetHeight;
+  }
+  let node = btn.parentElement;
+  while (node && plate && node !== plate) {
+    if (node.classList.contains("side-group")) {
+      const head = node.querySelector(":scope > .side-head");
+      if (head && head !== btn) cover += head.offsetHeight;
+    }
+    node = node.parentElement;
+  }
+  return cover;
+}
+function markCurrent(btn) {
+  document.querySelectorAll("#side-body .is-current").forEach(el => {
+    el.classList.remove("is-current");
+    el.removeAttribute("aria-current");
+  });
+  if (!btn) return;
+  btn.classList.add("is-current");
+  btn.setAttribute("aria-current", "true");
+  const plate = btn.closest(".side-plate");
+  if (!plate) return;
+  const title = plate.querySelector(":scope > .side-plate-title");
+  if (title && title !== btn) title.classList.add("is-current");
+  let node = btn.parentElement;
+  while (node && node !== plate) {
+    if (node.classList.contains("side-group")) {
+      const head = node.querySelector(":scope > .side-head");
+      if (head && head !== btn) head.classList.add("is-current");
+    }
+    node = node.parentElement;
+  }
+}
+function flowTop(el, scroller) {
+  const sticky = getComputedStyle(el).position === "sticky";
+  const prev = el.style.position;
+  if (sticky) el.style.position = "static";
+  const top = el.getBoundingClientRect().top - scroller.getBoundingClientRect().top + scroller.scrollTop;
+  if (sticky) el.style.position = prev;
+  return top;
+}
+function revealInSide(btn, force) {
+  if (!wideReading() && !orderOpen) return;
+  if (!force && performance.now() < jumpLockUntil) return;
+  const scroller = $("side-body");
+  const delta = flowTop(btn, scroller) - scroller.scrollTop - stickyCover(btn) - 2;
+  if (Math.abs(delta) < 3) return;
+  scroller.scrollTop += delta;
+}
+function syncOrderToReading(force) {
+  const id = activeJumpId();
+  if (!id) return;
+  const same = id === currentJump;
+  if (!force && same) return;
+  currentJump = id;
+  const btn = sideButton(id);
+  markCurrent(btn);
+  if (btn) revealInSide(btn, force);
+}
+function queueOrderSync() {
+  if (readingFrame) return;
+  readingFrame = requestAnimationFrame(() => {
+    readingFrame = 0;
+    syncOrderToReading(false);
+  });
+}
+function render() {
+  const scroller = $("side-body");
+  const sideTop = scroller.scrollTop;
+  const layer = $("nav-layer");
+  const layerScroll = layer.querySelector(".veil-scroll") || layer;
+  const layerTop = layerScroll.scrollTop;
+  const authorLayer = $("author-layer");
+  const authorScroll = authorLayer.querySelector(".veil-scroll") || authorLayer;
+  const authorTop = authorScroll.scrollTop;
+  const visible = BOOKS.filter(matches);
+  $("side-tools").innerHTML = toolsHtml();
+  scroller.innerHTML = orderSideHtml();
+  scroller.scrollTop = sideTop;
+  syncSidePins();
+
+  const navPicked = pickedCount();
+  const picked = navPicked + selectedAuthors.size;
+  $("open-nav").textContent = navPicked ? t("navCount", { n: navPicked }) : t("nav");
+  $("open-nav").setAttribute("aria-expanded", navOpen ? "true" : "false");
+  $("open-author").textContent = selectedAuthors.size ? t("authorCount", { n: selectedAuthors.size }) : t("author");
+  $("open-author").setAttribute("aria-expanded", authorOpen ? "true" : "false");
+  paintFavButton();
+  $("match-count").textContent = langMeta().count(previewCount());
+  if (navOpen) {
+    layer.hidden = false;
+    $("nav-body").innerHTML = starFilterHtml() + filterTreeHtml() + dimPackHtml();
+    $("nav-count").textContent = langMeta().count(visible.length);
+    layerScroll.scrollTop = layerTop;
+  } else {
+    layer.hidden = true;
+    $("nav-body").innerHTML = "";
+  }
+  if (authorOpen) {
+    authorLayer.hidden = false;
+    paintAuthors();
+    authorScroll.scrollTop = authorTop;
+  } else {
+    authorLayer.hidden = true;
+    $("author-body").innerHTML = "";
+  }
+
+  const lead = favOnly ? t("leadFav") : (picked || q ? t("leadFiltered") : t("leadDefault"));
+  const body = CURRICULA.map(({ plate, items }) => {
+    const flags = visibleFlags(items);
+    if (!flags.some((on, i) => on && items[i].kind === "book")) return "";
+    const noteText = nodeNote(plate);
+    const note = noteText ? `<p class="shelf-note">${hi(noteText)}</p>` : "";
+    const parts = [];
+    for (let i = 0; i < items.length; i += 1) {
+      if (!flags[i]) continue;
+      const item = items[i];
+      if (item.kind === "book") {
+        parts.push(bookCard(item.book));
+        continue;
+      }
+      const tag = item.depth === 1 ? "h3" : "h4";
+      const head = `<${tag} class="subhead" id="section-${esc(item.node.id)}">${hi(nodeName(item.node))}</${tag}>`;
+      let nextHead = -1;
+      if (item.depth === 1) {
+        for (let j = i + 1; j < items.length; j += 1) {
+          if (!flags[j]) continue;
+          if (items[j].kind === "head" && items[j].depth > item.depth) nextHead = j;
+          break;
+        }
+      }
+      if (nextHead >= 0) {
+        const sub = items[nextHead];
+        parts.push(`<div class="subline">${head}<h4 class="subhead" id="section-${esc(sub.node.id)}">${hi(nodeName(sub.node))}</h4></div>`);
+        i = nextHead;
+      } else {
+        parts.push(head);
+      }
+    }
+    return `<section class="shelf" id="section-${esc(plate.id)}"><div class="shelf-head"><h2>${hi(nodeTitle(plate))}</h2>${note}</div>${parts.join("")}</section>`;
+  }).join("");
+  $("detail").innerHTML = `${favToolsHtml()}<p class="lead">${esc(lead)}</p>${body || `<p class="empty">${esc(emptyCopy())}</p>`}`;
+  if (scrollResults) {
+    scrollResults = false;
+    $("detail").scrollTop = 0;
+    window.scrollTo(0, 0);
+  }
+  currentJump = "";
+  syncOrderToReading(true);
+  syncWindowLock();
+}
+function openNav() {
+  if (orderOpen) setOrder(false, false);
+  closeTheme(false);
+  closeFeedback(false);
+  closeAbout(false);
+  authorOpen = false;
+  navOpen = true;
+  render();
+  const scroller = $("nav-layer").querySelector(".veil-scroll");
+  if (scroller) scroller.scrollTop = 0;
+  $("nav-layer").focus();
+}
+function closeNav() {
+  navOpen = false;
+  if (pendingScroll) {
+    scrollResults = true;
+    pendingScroll = false;
+  }
+  render();
+  const btn = $("open-nav");
+  if (btn) btn.focus();
+}
+function aboutOpenNow() { return aboutOpen && !$("about-layer").hidden; }
+function openAuthor() {
+  if (orderOpen) setOrder(false, false);
+  closeTheme(false);
+  closeFeedback(false);
+  closeAbout(false);
+  navOpen = false;
+  authorOpen = true;
+  render();
+  const scroller = $("author-layer").querySelector(".veil-scroll");
+  if (scroller) scroller.scrollTop = 0;
+  $("author-layer").focus();
+}
+function closeAuthor(restoreFocus) {
+  authorOpen = false;
+  if (pendingScroll) {
+    scrollResults = true;
+    pendingScroll = false;
+  }
+  render();
+  if (restoreFocus) $("open-author").focus();
+}
+const ABOUT_KIND = ["aboutPlate", "aboutClass", "aboutSchool"];
+const ABOUT_PREFACE = {
+  explain: "本目录按一条路径编排，用来形成世界观、人生观和价值观，并由此训练做人、处世、经商中的判断。路径分五块，次序固定：宇宙与自然，三观修养，社会，政治，商业。先读世界与生命如何运作、一种说法凭什么靠得住；再读人如何看、如何活、什么值得要；再读人群如何把日子过成秩序；再读权力与政府如何建立、运行和失败；最后读交换、组织、金钱和风险。后一块使用前一块已经建立的事实、尺度和规则。每一块内部从 1 连续编号，编号越过小类，不在小类边界归零。编号是这一块里的阅读先后。星级另标在书上：五星是进入该类的少数入口，四星是主线，三星补一处缺口。星级不改动编号。一本书只归一个主板块。认知、文化所属、时代、文本类型、题材、需求、学派、宗教写在书上，用来筛选。筛过之后，书仍保留它在所属板块里的原序号。",
+  state: "收录以对判断的训练价值为准，包括应当认真阅读的失败、暴力和反面案例。原典、大学与思想史课纲中的基本著作，以及能够补上一条认知空缺的书，优先留下。医学疗效、法律意见和投资收益率，本目录不提供，也不计算。视频课程不收。目录按阅读路径写定之后，维持这个次序，不按畅销或名气重排。"
+};
+const ABOUT = {
+  "plate-cosmos": {
+    explain: "这一块处理世界和生命怎样运作，以及一种说法凭什么算靠得住。阅读分四类，次序是：演化、宇宙、科学方法、中国科学。先把生命的由来读清楚，再进入物质、天地和地球的图景，然后训练核对知识的方法，最后单列中国自己的数理与医理传统。",
+    state: "这一块训练事实感和核对习惯。后面的修养、人群、权力和买卖，都要能退回到这里来问：这个说法站不站得住。中国科学与科学方法分列，是为了保住中国传统内部的书目顺序，同时把它们作为自身的传统来读。"
+  },
+  evolution: {
+    explain: "从达尔文《物种起源》进入自然选择，接着读拉马克的动物哲学、赫拉利的人类史、赫胥黎与道金斯把演化推进到人和基因，再读《人类的由来》、进化心理学、孟德尔、薛定谔、摩尔根、杜布赞斯基和威廉斯。这一类把变异、遗传和适应放在同一条阅读里。",
+    state: "这一类说明生命为何是现在这个样子。人的道德、社会和制度在后面的板块继续读。此处把演化本身读完，再带着这个图景往下走。"
+  },
+  universe: {
+    explain: "从亚里士多德《物理学》和哥白尼进入，先用罗韦利《七堂极简物理课》和霍金《时间简史》立住当代能握住的宇宙图景，再读牛顿、莱伊尔的地质、拉瓦锡的化学，然后是爱因斯坦、魏格纳的大陆移动和海森伯。读的是天地、物质和尺度怎样被重写。",
+    state: "这一类的次序是本目录的阅读次序：先有一个可以把握的整体图景，再读近代如何把这个图景算出来。方法上的争论放在科学方法，不在这一类展开。"
+  },
+  method: {
+    explain: "欧几里得给出证明的形体，培根、伽利略、哈维给出观察、对话和实验。萨根《魔鬼出没的世界》放在中间，用来辨认披着科学外衣的说法。其后贝尔纳、库恩、庞加莱、波普尔讨论实验、范式、假设和猜想如何被推翻。",
+    state: "这一类训练核对。读完应当能问清三件事：证据从哪来，何种观察会把这个说法打掉，权威和共识各自能担保到哪一步。它不承担百科全书的任务。"
+  },
+  "cn-science": {
+    explain: "《梦溪笔谈》《周髀算经》《九章算术》《黄帝内经》四部选读。这是中国传统里笔记、天算和医学的原典入口，篇幅短，按原书自己的问题意识读。",
+    state: "这一类与演化、宇宙、科学方法并列。读的是中国传统自己的范畴、算法和医理。若要把它放进现代科学的核对程序，回到科学方法那一类。"
+  },
+  "plate-conduct": {
+    explain: "这一块处理人如何看、如何活、什么值得要。次序是：诸子百家，汉地常读的佛教短经，宋明理学，日用修养，各传统的经书入口，把人生说成论证的哲学，最后是当代的判断训练。世界观、人生观、价值观在这里成形。",
+    state: "这一块承接宇宙与自然已经给出的事实感，并把尺度交给后面的社会、政治和商业。经书与修养留在这一块，因为两者都在回答如何生活。诸子中直接讨论法令、战争和游说的原书，放在政治的古代政府。"
+  },
+  zhuzi: {
+    explain: "只为原书仍在的各家立架。次序是儒家、道家、墨家、名家、杂家。每一家按自己的书目往下读，各家保持各自的问题，不揉成一篇中国思想简介。",
+    state: "法家、兵家、纵横家的原书放在政治的古代政府，因为那些书直接处理法令、战争和游说。阴阳家、农家的原书多已不存，这一层不为它们虚设空架。儒、道若与后来的传统同名，导航上标出（儒）（道），架子仍然分开。"
+  },
+  ru: {
+    explain: "《论语》《孟子》《大学》《中庸》在前，接着《礼运》《荀子》《孝经》《乐记》。先读人如何学、如何取仁，再读礼乐、制度，以及荀子对人性与礼的另一种说法。",
+    state: "此家限于先秦儒家的基本原典。宋明把这些原典重讲一遍的心性之学，在理学。家训和格言在修养。导航上的（儒）只标明传统，不把后来的架子并进来。"
+  },
+  dao: {
+    explain: "《道德经》和《庄子》内篇是入口，《列子》《黄帝四经》补上后世归在道家名下的文本。读的是道、自然、无为，以及人在其中的位置。",
+    state: "这一家是诸子中的道家。道教经藏不在此展开。汉地佛教短经另有佛教一类。导航上的（道）标明传统，架子仍只收这四部。"
+  },
+  mo: {
+    explain: "《墨子》选篇。兼爱、非攻、节用、尚贤，以及墨家自己的名辩，都在这一部里。它是诸子中把伦理直接写成社会主张的一家。",
+    state: "墨家只立这一部原书。名与实的专门之辨在名家，两条线分开读。"
+  },
+  ming: {
+    explain: "《公孙龙子》与《尹文子》。这一家专读名与实、白马与指物这类把语言本身当作问题的文本。篇幅短，作用是把概念看紧。",
+    state: "名家训练的是一个说法在字上是否已经滑了。后面的判断一类会用到这种习惯。判断用的是现代工具，不并入这一家。"
+  },
+  za: {
+    explain: "《吕氏春秋》与《淮南子》选篇。两书都在一个政治和宇宙的框架里汇集儒、道、法、阴阳的说法，是战国末到西汉的综合著述。",
+    state: "杂家是有编排意图的汇集。读的时候保持它自己的结构。各家原书仍在各自的架子上，这一家不代替它们。"
+  },
+  fo: {
+    explain: "《心经》《金刚经》《六祖坛经》《法华经》选读。这是汉地读者最常遇见的短经：从般若和空性，到禅宗的本心，再到法华的教相。",
+    state: "印度原典的长编不在这一类铺开。各传统并置的经书入口在「经」，《法句经》因此在那里。此架只守汉地这一条阅读线。"
+  },
+  lixue: {
+    explain: "《近思录》收宋代理学的入门规模，《传习录》收阳明把知行说回心上的规模。两书按宋、明的顺序读。",
+    state: "先秦儒家仍在诸子百家。这一类只处理宋明对儒家的重述，不把两千年的注疏都搬上来。"
+  },
+  nurture: {
+    explain: "《颜氏家训》《菜根谭》《增广贤文》《曾国藩家书》处理中国日用里的修身，《叹异抄》是日本净土门里把信仰说成生活态度的一篇。读的是规范如何进入家庭、语言和日常抉择。",
+    state: "修养是原典之后的日用。格言能提醒，根据仍要回到前面的原典和后面的哲学。这一类不替代《论语》，也不替代经书。"
+  },
+  scripture: {
+    explain: "《希伯来圣经》选读、《马可福音》《马太福音》选读、《古兰经》选读、《薄伽梵歌》选读、《法句经》。每一传统只留少数入口，让读者看见该传统如何讲述世界、人和应当。",
+    state: "经书在本目录里说明世界和人怎样被讲述。四书和《道德经》已在儒家、道家，不在此重复。基督教与伊斯兰教的概论放在哲学。"
+  },
+  philosophy: {
+    explain: "从柏拉图《申辩篇》、亚里士多德《尼各马可伦理学》和罗马斯多葛进入，经过休谟、康德、斯密、笛卡尔，到尼采、帕斯卡尔、密尔和詹姆斯。其后是安萨里、奥古斯丁、阿奎那的信仰论证，弗洛伊德与阿德勒的心理，以及冯友兰、武士道、福泽谕吉、戴震、王充、西田和两部宗教概论。这一类把“值得要什么”写成可以追问的理由。",
+    state: "哲学负责论证。当代如何减少误判，归判断一类。主要处理权力与政体的著作，归政治思想。一本书只留一个主架。"
+  },
+  judgment: {
+    explain: "《实践论》《矛盾论》在前，训练从实际出发和在矛盾里看问题。其后是卡尼曼、提问、统计、塔勒布、西尔弗，中间插入严复译《天演论》，再以《影响力》《事实》《系统之美》收束。读的是偏差、基数、风险、影响和系统。",
+    state: "这一类服务的是形成判断。书中的例子用来暴露误判，不用来承诺某一种处世或商业的结果。技巧手册不因畅销进入这一类。"
+  },
+  "plate-society": {
+    explain: "这一块看人群怎样把日子过成秩序。次序是社区与家庭、阶层、比较社会：先看身边的单位，再看地位如何分配，再看不同社会把同类秩序做成了什么形状。",
+    state: "政府怎样统治、法律怎样写、王朝怎样兴废，归政治。社会这一块停在人群自己的组织、信仰、荣誉和比较。读政治之前，先在这里把日常秩序看清。"
+  },
+  community: {
+    explain: "从费孝通《乡土中国》《江村经济》进入中国乡村的基层结构，再读戈夫曼的日常互动、本尼迪克特、涂尔干的自杀、滕尼斯、齐美尔和米德，然后是《生育制度》、礼物、祖荫、跨界社区、努尔人和弗雷雷的家宅。读的是家庭、社区和自我如何互相构成。",
+    state: "家庭和社区是社会的第一现场。地位高低在阶层一类集中读。国家政权不在这一类展开。"
+  },
+  stratum: {
+    explain: "《中国社会各阶级的分析》和瞿同祖《中国法律与中国社会》给出中国社会里阶级、身份与法律的入口。凡勃伦写有闲的荣誉，恩格斯写家庭、私有与国家的起源，布尔迪厄写区隔，杜蒙写阶序。读的是地位、资源和记号怎样互相转化。",
+    state: "阶层描述人群内部的高低与区隔。产业政策在商业的产业与政策，金钱上的误判在投资。这一类把地位看清为止。"
+  },
+  compare: {
+    explain: "涂尔干的分工与宗教、韦伯的伦理与基本概念、梁漱溟、米尔斯、杜波依斯、莫斯、安贝德卡尔、费孝通的民族论述、勒庞、中根千枝、犹太史、杨庆堃、伊本·赫勒敦、戴蒙德、杜兰特和斯塔夫里阿诺斯放在同一类。目的是看见同一种人间秩序在不同传统里靠不同机制维持。",
+    state: "这一类做比较，给出结构。政府过程的编年归政府史。读者从这里带走的是机制，是对某一社会如何组织起来的判断材料。"
+  },
+  "plate-politics": {
+    explain: "这一块看权力和政府怎样建立、运行、失败。次序是古代政府、政治思想、现代政府、政府史。先看前现代的治术如何操作，再读关于政体的思想，再看现代国家的宪制、革命和地缘，最后用政府史核对这些安排在时间里的命运。",
+    state: "政治是社会秩序之上的权力安排，也是商业所要服从的规则来源。写成政府如何兴起和崩坏的，归政府史。写成时代的，仍标在每本书自己的时代上。历史不单立为大板块。"
+  },
+  ancient: {
+    explain: "《韩非子》《商君书》《管子》《慎子》处理法令与权势，考底利耶《政事论》提供印度古典的治国术，《盐铁论》《贞观政要》是财政争论和治世记录。兵书从《孙子兵法》到《尉缭子》，纵横从《鬼谷子》到《战国策》。普鲁塔克和尼扎姆·莫尔克《治国策》补上另一种宫廷与政制的现场。",
+    state: "法家、兵家、纵横家放在这一类，因为它们的原书直接讨论政府、战争和游说如何运作。它们不再回诸子百家重复立架。读的时候把它们当作治术。"
+  },
+  thought: {
+    explain: "从柏拉图、亚里士多德、西塞罗和两位希腊史家，到马基雅维里、霍布斯、洛克、孟德斯鸠、卢梭、密尔、贡斯当、伯克。中间经过联邦争论、女权、宣言、道格拉斯和奥古斯丁，再到韦伯、哈耶克、波普尔、施米特、阿伦特、奥尔森，以及甘地《印度自治》和法农。读的是权力应当如何安排，人们又如何论证这种应当。",
+    state: "思想与政府史分开。这一类负责论证和概念。一种政体后来如何运转、如何失败，到现代政府和政府史里核对。"
+  },
+  modern: {
+    explain: "《联邦党人文集》、美国《独立宣言》和《美国宪法》、法国人权宣言、托克维尔，处理现代共和国如何设计。列宁《国家与革命》、《新民主主义论》、《论持久战》、密尔的代议制、亨廷顿和周黎安《转型中的地方政府》，处理革命、秩序和当代政府过程。米尔斯海默与布热津斯基把国家放回大国竞争。",
+    state: "这一类读现代国家的结构和对外行为。它提供的是文本和框架。成败的长过程在政府史。"
+  },
+  govhist: {
+    explain: "《史记》《资治通鉴》建立起中国史书的规模，钱穆、王亚南、黄仁宇、蒋廷黻、徐中约把这个规模接到制度史和近现代。其后是托克维尔的旧制度、福山的政治秩序、肯尼迪的大国兴衰、古拉格与阿伦特的极权研究、苏联兴亡和中华人民共和国史，以及朝鲜、韩国、非洲、拉丁美洲、甘地、李光耀、曼德拉和马凯硕。读的是权力如何维持，也如何溃败。",
+    state: "政府史收录对学习和判断有价值的过程，包括恐怖、失败和应当警惕的政权。时代仍然是每本书自己的属性，不在这一类里再分古代、近代、当代三个目录。"
+  },
+  "plate-business": {
+    explain: "这一块看交换、组织、金钱和风险。次序是市场、组织、产业与政策、投资、创新与创业。先读价格和周期从哪里来，再读企业为何存在，再读产业怎样被制度托住，然后专门训练看风险，最后进入创新和创业的具体论述。",
+    state: "商业放在最后，因为市场装在社会习惯和政治规则里面。读这一块时，宇宙与自然、三观、社会和政府已经提供了事实、尺度和规则。本目录不存放收益率，也不把案例写成可以照搬的利润。"
+  },
+  market: {
+    explain: "从斯密《国富论》、李嘉图、《资本论》第一卷、凯恩斯《通论》，到熊彼特的创新和波兰尼的大转型，再以曼昆的微观与宏观、张五常《佃农理论》收束。读的是价格、分配、萧条、创新，以及价格如何嵌在制度里。",
+    state: "这一类是市场的理论入口。产业怎样被国家扶起，在产业与政策。金融恐慌的机制在投资。创业的做法在创新与创业。"
+  },
+  org: {
+    explain: "科斯《企业的性质》说明企业为何不用价格完成一切。泰勒、法约尔、巴纳德、德鲁克《管理的实践》、西蒙、钱德勒《看得见的手》和大野耐一，依次处理动作、管理原则、协作、决策和大规模企业的形态。",
+    state: "组织研究的是协调如何发生。它不替代市场理论。晚近的公司文化、领导梯队和创业组织，主要在创新与创业。"
+  },
+  policy: {
+    explain: "诺思看制度变迁，李斯特、格申克龙、约翰逊看国民体系和后发工业政策，彭慕兰看分流。兰小欢、吴敬琏、周其仁、萧冬连写中国改革如何探路，森把发展收回到自由，阿姆斯登看后发学习。",
+    state: "这一类说明产业为何在某些制度和政策下长出来。它呈现路径和约束。投资上的风险另类处理，不在这里换算成收益。"
+  },
+  invest: {
+    explain: "格雷厄姆训练安全边际的看法，金德尔伯格写狂热与崩溃，奈特区分风险与不确定性，明斯基写稳定如何孕育不稳定，白芝浩写货币市场的最后贷款人，加尔布雷思写 1929 年。六本书围着同一个问题：人在金钱上如何误判。",
+    state: "这一类只训练看风险。书中的数字和案例是历史。本目录不计算、不存储、不暗示任何回报率。"
+  },
+  venture: {
+    explain: "这一类是商业路径的最后一段，本身仍是一条阅读线。先读克里斯坦森的窘境与运气、李善友的曲线和第一性原理；再读布兰克、莱斯、奥斯特瓦德、蒂尔、霍洛维茨的创业过程；然后是一堂《里程碑》、美团、参与感、智能商业、定位和产品方法；其后是冯仑、苏引华的商业叙述，以及德鲁克、陈春花、爱迪思、领导梯队、奈飞、达利欧、韦尔奇、OKR、芒格、护城河和财报。读的是创新如何发生，组织如何把一件新事做下去。",
+    state: "收录写成书的论述，以及李善友、一堂、苏引华、冯仑所写和他们课程点名、原先目录没有的书。视频课不收。语气接近成功手册的书，只在它补上商业逻辑的一处空缺时留下，星级保持克制，其中的花费建议也不当成方法。序号仍按阅读先后，不按作者名气重排。"
+  }
+};
+function aboutPair(explain, state) {
+  return `<div class="about-pair"><div class="about-explain"><p class="about-k">${esc(t("aboutExplain"))}</p><p>${esc(explain)}</p></div><div class="about-state"><p class="about-k">${esc(t("aboutState"))}</p><p>${esc(state)}</p></div></div>`;
+}
+function aboutToc(nodes, depth) {
+  const items = nodes.map(node => {
+    const kids = node.children || [];
+    const cls = depth === 0 ? "is-plate" : "";
+    const sub = kids.length ? aboutToc(kids, depth + 1) : "";
+    return `<li><button type="button" class="${cls}" data-about-jump="about-${esc(node.id)}">${esc(nodeName(node))}</button>${sub}</li>`;
+  }).join("");
+  return `<ul>${items}</ul>`;
+}
+function aboutSection(node, depth) {
+  const pack = ABOUT[node.id] || {};
+  const explain = pack.explain || nodeNote(node);
+  const state = pack.state || "";
+  const kids = node.children || [];
+  const tag = depth === 0 ? "h2" : depth === 1 ? "h3" : "h4";
+  const kind = t(ABOUT_KIND[depth] || "aboutClass");
+  const childHtml = kids.length ? `<div class="about-children">${kids.map(child => aboutSection(child, depth + 1)).join("")}</div>` : "";
+  return `<section class="about-node about-d${depth}" id="about-${esc(node.id)}"><header><p class="about-kind">${esc(kind)}</p><${tag}>${esc(nodeName(node))}</${tag}></header>${aboutPair(explain, state)}${childHtml}</section>`;
+}
+function renderAbout() {
+  const root = $("about-body");
+  if (!root) return;
+  const layer = $("about-layer");
+  const scroller = layer ? layer.querySelector(".veil-scroll") : null;
+  const top = scroller ? scroller.scrollTop : 0;
+  const preface = `<section class="about-node about-preface" id="about-preface"><header><p class="about-kind">${esc(t("aboutCharter"))}</p><h2>${esc(t("aboutPath"))}</h2></header>${aboutPair(ABOUT_PREFACE.explain, ABOUT_PREFACE.state)}</section>`;
+  const toc = `<nav class="about-toc" aria-label="${esc(t("aboutLevels"))}"><p class="about-kind">${esc(t("aboutLevels"))}</p>${aboutToc(NAV, 0)}</nav>`;
+  root.innerHTML = NAV.length ? preface + toc + NAV.map(plate => aboutSection(plate, 0)).join("") : "";
+  if (scroller && aboutOpen) scroller.scrollTop = top;
+}
+function openAbout() {
+  if (orderOpen) setOrder(false, false);
+  renderAbout();
+  closeTheme(false);
+  closeFeedback(false);
+  const reopen = navOpen || authorOpen;
+  navOpen = false;
+  authorOpen = false;
+  if (reopen) render();
+  aboutOpen = true;
+  $("about-layer").hidden = false;
+  $("open-about").setAttribute("aria-expanded", "true");
+  const scroller = $("about-layer").querySelector(".veil-scroll");
+  if (scroller) scroller.scrollTop = 0;
+  $("about-layer").focus();
+  syncWindowLock();
+}
+function closeAbout(restoreFocus) {
+  aboutOpen = false;
+  $("about-layer").hidden = true;
+  $("open-about").setAttribute("aria-expanded", "false");
+  syncWindowLock();
+  if (restoreFocus) $("open-about").focus();
+}
+function commitSearch() {
+  const next = ($("q").value || "").trim();
+  $("match-count").textContent = langMeta().count(previewCount());
+  if (next === q) return;
+  q = next;
+  writeHash();
+  scrollResults = true;
+  render();
+}
+
+const THEMES = ["paper", "white", "marker", "sepia", "blush", "green", "lake", "mist", "lilac", "snow", "night", "candle", "pine", "navy", "ios", "mac", "wechat", "qq", "bili", "douyin", "xhs", "zhihu", "weibo"];
+const DARK_THEMES = ["night", "candle", "pine", "navy", "douyin"];
+const THEME_KEY = "zhishi-theme";
+let feedbackNotes = Array.isArray(window.ZHISHI_FEEDBACK) ? window.ZHISHI_FEEDBACK.slice() : [];
+let feedbackTimer = 0;
+let feedbackSending = false;
+let feedbackIp = "";
+let feedbackTab = "public";
+
+function applyTone(theme) {
+  if (DARK_THEMES.includes(theme)) document.documentElement.setAttribute("data-tone", "dark");
+  else document.documentElement.removeAttribute("data-tone");
+}
+function applyTheme(id, persist) {
+  const theme = THEMES.includes(id) ? id : "paper";
+  applyTone(theme);
+  if (theme === "paper") document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.setAttribute("data-theme", theme);
+  document.querySelectorAll("[data-theme-pick]").forEach(btn => {
+    btn.setAttribute("aria-checked", btn.dataset.themePick === theme ? "true" : "false");
+  });
+  const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim();
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+  if (themeMeta && bg) themeMeta.setAttribute("content", bg);
+  if (!persist) return;
+  try {
+    if (theme === "paper") localStorage.removeItem(THEME_KEY);
+    else localStorage.setItem(THEME_KEY, theme);
+  } catch (e) {}
+}
+function themeOpen() { return !$("theme-menu").hidden; }
+function placeThemeMenu() {
+  const menu = $("theme-menu");
+  if (menu.hidden) return;
+  const btn = $("theme-btn").getBoundingClientRect();
+  const room = Math.max(0, window.innerHeight - btn.bottom - 16);
+  menu.style.maxHeight = Math.min(520, room) + "px";
+  menu.style.transform = "";
+  const box = menu.getBoundingClientRect();
+  if (box.left < 8) menu.style.transform = "translateX(" + (8 - box.left) + "px)";
+  else if (box.right > window.innerWidth - 8) menu.style.transform = "translateX(" + (window.innerWidth - 8 - box.right) + "px)";
+}
+function openTheme() {
+  const menu = $("theme-menu");
+  menu.hidden = false;
+  menu.scrollTop = 0;
+  $("theme-btn").setAttribute("aria-expanded", "true");
+  placeThemeMenu();
+  const current = menu.querySelector('[data-theme-pick][aria-checked="true"]');
+  if (!current) return;
+  const bottom = current.offsetTop + current.offsetHeight;
+  if (bottom > menu.clientHeight) menu.scrollTop = bottom - menu.clientHeight + 4;
+}
+function closeTheme(restoreFocus) {
+  const menu = $("theme-menu");
+  menu.hidden = true;
+  menu.style.maxHeight = "";
+  $("theme-btn").setAttribute("aria-expanded", "false");
+  if (restoreFocus) $("theme-btn").focus();
+}
+function feedbackUrl() {
+  if (location.protocol === "http:" || location.protocol === "https:") {
+    return new URL("/api/feedback", location.origin).href;
+  }
+  return "http://127.0.0.1:8791/api/feedback";
+}
+function formatWhen(iso) {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return String(iso || "");
+  const p = n => String(n).padStart(2, "0");
+  return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate()) + " " + p(d.getHours()) + ":" + p(d.getMinutes());
+}
+function setFeedbackStatus(text) { $("feedback-status").textContent = text; }
+function feedbackError(data) {
+  const known = {
+    "白板读不出来。": "feedbackReadFail",
+    "没有这个地址。": "feedbackFail",
+    "内容没送成。": "feedbackBad",
+    "称呼太长。": "feedbackNameLong",
+    "内容太长。": "feedbackTextLong",
+    "写点内容再送。": "feedbackNeedText",
+    "白板没有写成。": "feedbackWriteFail",
+  };
+  const key = known[data && data.error];
+  return t(key || "feedbackFail");
+}
+function noteIp(note) {
+  const ip = note && note.ip;
+  return typeof ip === "string" ? ip.trim() : "";
+}
+function feedbackIsMine(note) {
+  const ip = noteIp(note);
+  return Boolean(feedbackIp) && ip === feedbackIp;
+}
+function feedbackBucket(tab) {
+  return feedbackNotes.filter(note => note && note.text).filter(note => {
+    const mine = feedbackIsMine(note);
+    return tab === "mine" ? mine : !mine;
+  });
+}
+function paintFeedbackChrome() {
+  const publicCount = feedbackBucket("public").length;
+  const mineCount = feedbackBucket("mine").length;
+  const pub = $("feedback-tab-public");
+  const mine = $("feedback-tab-mine");
+  if (pub) {
+    pub.textContent = t("feedbackPublic") + " " + publicCount;
+    pub.setAttribute("aria-selected", feedbackTab === "public" ? "true" : "false");
+  }
+  if (mine) {
+    mine.textContent = t("feedbackMine") + " " + mineCount;
+    mine.setAttribute("aria-selected", feedbackTab === "mine" ? "true" : "false");
+  }
+  const ipEl = $("feedback-ip");
+  if (ipEl) ipEl.textContent = feedbackIp ? t("feedbackIp", { ip: feedbackIp }) : t("feedbackIpUnknown");
+  const tabs = document.querySelector(".feedback-tabs");
+  if (tabs) tabs.setAttribute("aria-label", t("feedbackTabs"));
+}
+function renderFeedback() {
+  paintFeedbackChrome();
+  const notes = feedbackBucket(feedbackTab).slice().sort((a, b) => String(b.at || "").localeCompare(String(a.at || "")));
+  const list = $("feedback-list");
+  if (!notes.length) {
+    const emptyKey = feedbackTab === "mine"
+      ? (feedbackIp ? "feedbackEmptyMine" : "feedbackEmptyMineOffline")
+      : "feedbackEmptyPublic";
+    list.innerHTML = `<p class="feedback-empty">${esc(t(emptyKey))}</p>`;
+    return;
+  }
+  list.innerHTML = notes.map(note => {
+    const name = String(note.name || "").trim() || t("feedbackAnon");
+    const ip = noteIp(note);
+    const ipLine = ip ? t("feedbackIpLabel", { ip }) : t("feedbackIpMissing");
+    return `<article class="note"><div class="note-top"><span class="note-name">${esc(name)}</span><time datetime="${esc(note.at || "")}">${esc(formatWhen(note.at))}</time></div><p class="note-ip">${esc(ipLine)}</p><p>${esc(note.text)}</p></article>`;
+  }).join("");
+}
+function feedbackCountStatus() {
+  const n = feedbackBucket(feedbackTab).length;
+  return feedbackTab === "mine" ? t("feedbackCountMine", { n }) : t("feedbackCountPublic", { n });
+}
+function setFeedbackTab(tab) {
+  feedbackTab = tab === "mine" ? "mine" : "public";
+  renderFeedback();
+  setFeedbackStatus(feedbackCountStatus());
+}
+async function pullFeedback() {
+  try {
+    const res = await fetch(feedbackUrl(), { cache: "no-store" });
+    if (!res.ok) throw new Error("status");
+    const data = await res.json();
+    if (!data || !Array.isArray(data.notes)) throw new Error("shape");
+    feedbackNotes = data.notes;
+    if (typeof data.ip === "string") feedbackIp = data.ip.trim();
+    renderFeedback();
+    setFeedbackStatus(feedbackCountStatus());
+  } catch (e) {
+    renderFeedback();
+    setFeedbackStatus(t("feedbackOffline"));
+  }
+}
+function feedbackOpen() { return !$("feedback-panel").hidden; }
+function openFeedback() {
+  $("feedback-panel").hidden = false;
+  $("open-feedback").setAttribute("aria-expanded", "true");
+  pullFeedback();
+  clearInterval(feedbackTimer);
+  feedbackTimer = setInterval(pullFeedback, 8000);
+  $("feedback-text").focus();
+}
+function closeFeedback(restoreFocus) {
+  $("feedback-panel").hidden = true;
+  $("open-feedback").setAttribute("aria-expanded", "false");
+  clearInterval(feedbackTimer);
+  feedbackTimer = 0;
+  if (restoreFocus) $("open-feedback").focus();
+}
+async function submitFeedback() {
+  const name = $("feedback-name").value.trim();
+  const text = $("feedback-text").value.trim();
+  if (!text) {
+    setFeedbackStatus(t("feedbackNeedText"));
+    $("feedback-text").focus();
+    return;
+  }
+  if (feedbackSending) return;
+  feedbackSending = true;
+  const btn = $("feedback-form").querySelector("button[type=submit]");
+  btn.disabled = true;
+  setFeedbackStatus(t("feedbackSending"));
+  try {
+    const res = await fetch(feedbackUrl(), {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, text })
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || !data || !Array.isArray(data.notes)) {
+      setFeedbackStatus(feedbackError(data));
+      return;
+    }
+    feedbackNotes = data.notes;
+    if (typeof data.ip === "string" && data.ip.trim()) feedbackIp = data.ip.trim();
+    feedbackTab = "mine";
+    $("feedback-text").value = "";
+    renderFeedback();
+    setFeedbackStatus(t("feedbackDone"));
+    $("feedback-list").scrollTop = 0;
+  } catch (e) {
+    setFeedbackStatus(t("feedbackUnsent"));
+  } finally {
+    feedbackSending = false;
+    btn.disabled = false;
+  }
+}
+
+$("q").addEventListener("compositionstart", () => { $("q").dataset.composing = "1"; });
+$("q").addEventListener("compositionend", () => {
+  $("q").dataset.composing = "";
+  $("match-count").textContent = langMeta().count(previewCount());
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(commitSearch, 350);
+});
+$("q").addEventListener("input", () => {
+  $("match-count").textContent = langMeta().count(previewCount());
+  if ($("q").dataset.composing === "1") return;
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(commitSearch, 350);
+});
+$("q").addEventListener("keydown", ev => {
+  if (ev.key !== "Enter") return;
+  clearTimeout(searchTimer);
+  commitSearch();
+});
+$("q").addEventListener("change", () => {
+  clearTimeout(searchTimer);
+  commitSearch();
+});
+function rememberAuthorQuery() {
+  authorQuery = ($("author-q").value || "").trim();
+  if (!authorOpen) return;
+  paintAuthors();
+  const scroller = $("author-layer").querySelector(".veil-scroll");
+  if (scroller) scroller.scrollTop = 0;
+}
+$("author-q").addEventListener("compositionstart", () => { $("author-q").dataset.composing = "1"; });
+$("author-q").addEventListener("compositionend", () => {
+  $("author-q").dataset.composing = "";
+  rememberAuthorQuery();
+});
+$("author-q").addEventListener("input", () => {
+  if ($("author-q").dataset.composing === "1") return;
+  rememberAuthorQuery();
+});
+document.addEventListener("focusin", ev => {
+  const el = ev.target;
+  if (wideReading() || !el.closest || !el.closest(".feedback-form")) return;
+  setTimeout(() => { el.scrollIntoView({ block: "center" }); }, 280);
+});
+$("feedback-form").addEventListener("submit", ev => {
+  ev.preventDefault();
+  submitFeedback();
+});
+$("feedback-text").addEventListener("keydown", ev => {
+  if (ev.key === "Enter" && (ev.metaKey || ev.ctrlKey)) {
+    ev.preventDefault();
+    $("feedback-form").requestSubmit();
+  }
+});
+$("fav-clear-layer").addEventListener("keydown", ev => {
+  if (ev.key !== "Tab") return;
+  const items = [$("fav-clear-no"), $("fav-clear-yes")];
+  const i = items.indexOf(document.activeElement);
+  ev.preventDefault();
+  const next = ev.shiftKey ? (i <= 0 ? items.length - 1 : i - 1) : (i < 0 || i === items.length - 1 ? 0 : i + 1);
+  items[next].focus();
+});
+document.addEventListener("keydown", ev => {
+  if (ev.key !== "Escape") return;
+  if (favClearOpen()) { $("fav-clear-layer").hidden = true; const btn = document.querySelector("[data-fav-clear]"); if (btn) btn.focus(); return; }
+  if (feedbackOpen()) { closeFeedback(true); return; }
+  if (themeOpen()) { closeTheme(true); return; }
+  if (aboutOpenNow()) { closeAbout(true); return; }
+  if (authorOpen) { closeAuthor(true); return; }
+  if (orderOpen) { setOrder(false, true); return; }
+  if (navOpen) closeNav();
+});
+document.body.addEventListener("click", ev => {
+  if (favClearOpen()) {
+    if (ev.target.closest("#fav-clear-yes")) { commitClearFavs(); return; }
+    if (ev.target.closest("#fav-clear-no") || ev.target.id === "fav-clear-layer") {
+      $("fav-clear-layer").hidden = true;
+      const btn = document.querySelector("[data-fav-clear]");
+      if (btn) btn.focus();
+    }
+    return;
+  }
+  if (ev.target.closest("#theme-btn")) {
+    if (themeOpen()) closeTheme(false);
+    else { closeFeedback(false); openTheme(); }
+    return;
+  }
+  if (ev.target.closest("#close-theme")) { closeTheme(true); return; }
+  const pick = ev.target.closest("[data-theme-pick]");
+  if (pick) { applyTheme(pick.dataset.themePick, true); return; }
+  if (ev.target.closest("#feedback-tab-public")) { setFeedbackTab("public"); return; }
+  if (ev.target.closest("#feedback-tab-mine")) { setFeedbackTab("mine"); return; }
+  if (ev.target.closest("#open-feedback")) {
+    if (feedbackOpen()) closeFeedback(false);
+    else { closeTheme(false); openFeedback(); }
+    return;
+  }
+  if (ev.target.closest("#close-feedback")) { closeFeedback(true); return; }
+  const aboutJump = ev.target.closest("[data-about-jump]");
+  if (aboutJump) {
+    const el = document.getElementById(aboutJump.dataset.aboutJump);
+    if (el) el.scrollIntoView({ block: "start" });
+    return;
+  }
+  if (ev.target.closest("#open-about")) { openAbout(); return; }
+  if (ev.target.closest("#back-about")) { closeAbout(true); return; }
+  if (ev.target.closest("#open-order")) { openOrder(); return; }
+  if (ev.target.closest("#close-order")) { setOrder(false, true); return; }
+  if (ev.target.closest("#open-nav")) { openNav(); return; }
+  if (ev.target.closest("#back-nav") || ev.target.closest("#close-nav")) { closeNav(); return; }
+  if (ev.target.closest("#open-fav")) { toggleFavOnly(); return; }
+  if (ev.target.closest("[data-fav-back]")) { exitFavOnly(); return; }
+  if (ev.target.closest("[data-fav-clear]")) { askClearFavs(); return; }
+  const copyBtn = ev.target.closest("[data-copy]");
+  if (copyBtn) { copyBook(copyBtn.dataset.copy); return; }
+  const favCard = ev.target.closest("[data-fav]");
+  if (favCard) { toggleFav(favCard.dataset.fav); return; }
+  if (ev.target.closest("#open-author")) { openAuthor(); return; }
+  if (ev.target.closest("#back-author") || ev.target.closest("#close-author")) { closeAuthor(true); return; }
+  if (ev.target.closest("#clear-author")) { clearAuthors(); return; }
+  if (ev.target.closest("[data-clear]")) { clearFilters(); return; }
+  const jump = ev.target.closest("[data-jump]");
+  if (jump) {
+    const el = document.getElementById(jump.dataset.jump);
+    if (el) {
+      jumpLockUntil = performance.now() + 280;
+      if (orderOpen) setOrder(false, false);
+      el.scrollIntoView({ block: "start" });
+    }
+    return;
+  }
+  const group = ev.target.closest("[data-group]");
+  if (group) { toggleGroup(group.dataset.group.split(",").filter(Boolean)); return; }
+  const shelf = ev.target.closest("[data-shelf]");
+  if (shelf) { toggleShelf(shelf.dataset.shelf); return; }
+  const starBtn = ev.target.closest("[data-star]");
+  if (starBtn) { toggleStar(starBtn.dataset.star); return; }
+  const authorBtn = ev.target.closest("[data-author]");
+  if (authorBtn) { toggleAuthor(authorBtn.dataset.author); return; }
+  const btn = ev.target.closest("[data-dim][data-value]");
+  if (!btn) return;
+  toggle(btn.dataset.dim, btn.dataset.value);
+});
+function applyChrome() {
+  const meta = langMeta();
+  document.documentElement.lang = meta.htmlLang;
+  document.documentElement.dir = meta.dir;
+  document.title = t("pageTitle");
+  $("logo-name").textContent = t("logo");
+  $("open-order").textContent = t("contents");
+  $("order-title").textContent = t("contents");
+  $("close-order").textContent = t("done");
+  $("q").placeholder = t("searchPlaceholder");
+  $("q").setAttribute("aria-label", t("searchLabel"));
+  $("facets").setAttribute("aria-label", t("asideLabel"));
+  $("nav-title").textContent = t("navTitle");
+  $("close-nav").textContent = t("done");
+  $("back-nav").textContent = t("back");
+  $("back-about").textContent = t("back");
+  $("back-author").textContent = t("back");
+  $("clear-author").textContent = t("clear");
+  $("close-author").textContent = t("done");
+  $("author-title").textContent = t("authorTitle");
+  $("author-q").placeholder = t("authorFind");
+  $("author-q").setAttribute("aria-label", t("authorFind"));
+  paintFavButton();
+  paintFavClear();
+  $("open-about").textContent = t("about");
+  $("about-title").textContent = t("about");
+  document.querySelectorAll("[data-clear]").forEach(btn => { btn.textContent = t("clear"); });
+  const picker = $("lang");
+  picker.value = lang;
+  picker.setAttribute("aria-label", t("langLabel"));
+  $("theme-btn").textContent = t("theme");
+  $("theme-menu").setAttribute("aria-label", t("themeMenu"));
+  const themeNote = $("theme-menu").querySelector(".theme-note");
+  if (themeNote) themeNote.textContent = t("themeNote");
+  $("close-theme").textContent = t("themeClose");
+  document.querySelectorAll("[data-theme-label]").forEach(el => { el.textContent = t(el.dataset.themeLabel); });
+  const themeKeys = { paper: "themePaper", white: "themeWhite", marker: "themeMarker", sepia: "themeSepia", blush: "themeBlush", green: "themeGreen", lake: "themeLake", mist: "themeMist", lilac: "themeLilac", snow: "themeSnow", night: "themeNight", candle: "themeCandle", pine: "themePine", navy: "themeNavy", ios: "themeIos", mac: "themeMac", wechat: "themeWechat", qq: "themeQq", bili: "themeBili", douyin: "themeDouyin", xhs: "themeXhs", zhihu: "themeZhihu", weibo: "themeWeibo" };
+  document.querySelectorAll("[data-theme-pick]").forEach(btn => {
+    const span = btn.querySelector("span:last-child");
+    const key = themeKeys[btn.dataset.themePick];
+    if (span && key) span.textContent = t(key);
+  });
+  $("open-feedback").textContent = t("feedback");
+  $("feedback-title").textContent = t("feedback");
+  $("close-feedback").textContent = t("feedbackClose");
+  const feedbackNote = document.querySelector(".feedback-note");
+  if (feedbackNote) feedbackNote.textContent = t("feedbackNote");
+  $("feedback-name").placeholder = t("feedbackName");
+  $("feedback-name").setAttribute("aria-label", t("feedbackNameLabel"));
+  $("feedback-text").placeholder = t("feedbackText");
+  $("feedback-text").setAttribute("aria-label", t("feedbackLabel"));
+  const feedbackSubmit = $("feedback-form").querySelector("button[type=submit]");
+  if (feedbackSubmit) feedbackSubmit.textContent = t("feedbackSubmit");
+}
+function setLang(code) {
+  if (!LANG_BY_ID[code] || code === lang) return;
+  lang = code;
+  rememberLang();
+  applyChrome();
+  writeHash();
+  render();
+  renderAbout();
+  renderFeedback();
+  if (feedbackOpen()) pullFeedback();
+}
+$("lang").addEventListener("change", () => setLang($("lang").value));
+window.addEventListener("resize", () => {
+  if (orderOpen && wideReading()) setOrder(false, false);
+  syncWindowLock();
+  syncSidePins();
+  syncOrderToReading(true);
+  placeThemeMenu();
+});
+$("detail").addEventListener("scroll", queueOrderSync, { passive: true });
+window.addEventListener("scroll", queueOrderSync, { passive: true });
+window.addEventListener("storage", ev => {
+  if (ev.key !== FAV_KEY) return;
+  loadFavs();
+  if (favClearOpen() && favs.size <= 3) $("fav-clear-layer").hidden = true;
+  render();
+  paintFavClear();
+});
+window.addEventListener("hashchange", () => {
+  readHash();
+  applyChrome();
+  scrollResults = true;
+  render();
+  renderFeedback();
+});
+
+DIMS = (window.ZHISHI_DIMENSIONS && window.ZHISHI_DIMENSIONS.dimensions) || [];
+BOOKS = window.ZHISHI_BOOKS || [];
+COVER_IDS = new Set(window.ZHISHI_COVERS || []);
+NAV = (window.ZHISHI_NAV && window.ZHISHI_NAV.tree) || [];
+lang = storedLang();
+if (!DIMS.length || !BOOKS.length || !NAV.length) {
+  applyChrome();
+  $("detail").innerHTML = `<p class="empty">${esc(t("loadError"))}</p>`;
+} else {
+  indexNames();
+  loadFavs();
+  readHash();
+  applyChrome();
+  writeHash();
+  render();
+  renderAbout();
+}
+applyTheme(document.documentElement.getAttribute("data-theme") || "paper", false);
+renderFeedback();
+pullFeedback();
+</script>
+</body>
+</html>

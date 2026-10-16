@@ -1,0 +1,324 @@
+{
+  "plate": "politics",
+  "passes": [
+    {
+      "name": "政治思想原典短文本",
+      "sources": [
+        "https://www.college.columbia.edu/core-curriculum/classes/contemporary-civilization",
+        "https://www.hist.cam.ac.uk/sites/default/files/2020-03/paper_19_bibliography_october_2018.pdf",
+        "https://www.hist.cam.ac.uk/sites/default/files/2020-03/paper_4_history_of_political_thought_from_c1700-1890_2019-2020-bibliography.pdf",
+        "https://dean.pku.edu.cn/web/download_down.php?type=down&id=34",
+        "https://jw.ucass.edu.cn/kcdg/zyk/zfgl/T8zhengzhizhexue.pdf",
+        "https://course.thu.edu.tw/view/112/1/0373",
+        "https://epaper.gmw.cn/zhdsb/html/2017-03/15/nw.D110000zhdsb_20170315_1-08.htm",
+        "https://higher.smartedu.cn/course/69d8194895df98bb2787e307",
+        "https://open.163.com/newview/movie/free?pid=UHIHOJICP&mid=NHIN3IEPH"
+      ]
+    },
+    {
+      "name": "大学政治思想史课纲",
+      "sources": [
+        "https://dean.pku.edu.cn/web/download_down.php?type=down&id=34",
+        "https://news.pku.edu.cn/xwzh/129-291494.htm",
+        "https://www.college.columbia.edu/core-curriculum/classes/contemporary-civilization",
+        "https://www.hist.cam.ac.uk/sites/default/files/2020-03/paper_19_bibliography_october_2018.pdf",
+        "https://www.hist.cam.ac.uk/sites/default/files/2020-03/paper_4_history_of_political_thought_from_c1700-1890_2019-2020-bibliography.pdf",
+        "https://jw.ucass.edu.cn/kcdg/zyk/zfgl/T8zhengzhizhexue.pdf"
+      ]
+    },
+    {
+      "name": "分文化的政府传统",
+      "sources": [
+        "https://jw.ucass.edu.cn/kcdg/zyk/zfgl/H7zhongguozhengzhizhidushi.pdf",
+        "https://m.thepaper.cn/baijiahao_9752399",
+        "https://col.du.ac.in/v1/dirfolder/UG%20PROGRAMMES/B.A.%20Hons.%20English/Semester%201/GE/Political%20Science%20-%20Ideas%20in%20Indian%20Political%20Thought/English%20Medium/Unit%201-7.pdf",
+        "https://book.douban.com/subject/24671180/",
+        "https://www.hist.cam.ac.uk/sites/default/files/2020-03/paper_4_history_of_political_thought_from_c1700-1890_2019-2020-bibliography.pdf"
+      ]
+    },
+    {
+      "name": "认知：看清规则、看清事实",
+      "sources": [
+        "https://www.college.columbia.edu/core-curriculum/classes/contemporary-civilization",
+        "https://jw.ucass.edu.cn/kcdg/zyk/zfgl/H7zhongguozhengzhizhidushi.pdf",
+        "https://m.thepaper.cn/baijiahao_9752399",
+        "https://epaper.gmw.cn/zhdsb/html/2017-03/15/nw.D110000zhdsb_20170315_1-08.htm"
+      ]
+    },
+    {
+      "name": "君主论、理想国、联邦党人的延伸",
+      "sources": [
+        "https://www.hist.cam.ac.uk/sites/default/files/2020-03/paper_19_bibliography_october_2018.pdf",
+        "https://www.college.columbia.edu/core-curriculum/classes/contemporary-civilization",
+        "https://www.hist.cam.ac.uk/sites/default/files/2020-03/paper_4_history_of_political_thought_from_c1700-1890_2019-2020-bibliography.pdf",
+        "https://dean.pku.edu.cn/web/download_down.php?type=down&id=34"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "title": "修昔底德《伯罗奔尼撒战争史》选读",
+      "cognition": "看清事实",
+      "culture": "希腊与罗马",
+      "subclass": "政府史",
+      "era": "古代",
+      "text": "史书",
+      "star": 5,
+      "why": "雅典民主怎样打仗、争论，并在远征里失败。",
+      "source": "北大教务部《古代西方政治思想教学大纲》（李猛）指定修昔底德；剑桥政治思想史至1700，B9指定第2卷第35–46、60–64节与第3卷第37–48节"
+    },
+    {
+      "title": "希罗多德《历史》选读",
+      "cognition": "看清规则",
+      "culture": "希腊与罗马",
+      "subclass": "政治思想",
+      "era": "古代",
+      "text": "史书",
+      "star": 4,
+      "why": "波斯廷议把君主、寡头、民主的败法放在一起。",
+      "source": "李猛大纲以希罗多德比较希腊与波斯政治；剑桥B9指定《历史》第3卷第80–83节"
+    },
+    {
+      "title": "西塞罗《论共和国》选读",
+      "cognition": "看清规则",
+      "culture": "希腊与罗马",
+      "subclass": "政治思想",
+      "era": "古代",
+      "text": "论著",
+      "star": 4,
+      "why": "罗马人用混合政体回答柏拉图的理想城邦。",
+      "source": "剑桥政治思想史至1700，B10罗马政治思想建议原典：西塞罗《论共和国》与《论法律》"
+    },
+    {
+      "title": "普鲁塔克《希腊罗马名人传》选读",
+      "cognition": "看清事实",
+      "culture": "希腊与罗马",
+      "subclass": "古代政府",
+      "era": "古代",
+      "text": "史书",
+      "star": 4,
+      "why": "吕库古立斯巴达，伯里克利撑起雅典民主。",
+      "source": "李猛大纲指定《莱库古生平》《伯里克利生平》《阿尔西比亚德生平》"
+    },
+    {
+      "title": "桓宽《盐铁论》选读",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "古代政府",
+      "era": "古代",
+      "text": "论著",
+      "star": 4,
+      "why": "汉廷当众辩论国营、用兵，以及儒法孰先。",
+      "source": "杨勇《怎样读〈盐铁论〉》，《中华读书报》2017-03-15：始元六年盐铁会议记录，总论武帝政治得失"
+    },
+    {
+      "title": "吴兢《贞观政要》选读",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "古代政府",
+      "era": "古代",
+      "text": "史书",
+      "star": 4,
+      "why": "唐初君臣讨论守成、纳谏和皇权边界。",
+      "source": "国家高等教育智慧教育平台《中国政治思想史》第八讲单列《贞观政要》；网易公开课同名讲次"
+    },
+    {
+      "title": "考底利耶《政事论》选读",
+      "cognition": "看清规则",
+      "culture": "印度",
+      "subclass": "古代政府",
+      "era": "古代",
+      "text": "论著",
+      "star": 5,
+      "why": "印度古典治国术：国王、税收、刑赏与外交。",
+      "source": "德里大学 Ideas in Indian Political Thought（UGCF 2022）第一单元 Dharma and Danda: Kautilya，以《政事论》为治国术原典"
+    },
+    {
+      "title": "尼扎姆·莫尔克《治国策》",
+      "cognition": "看清规则",
+      "culture": "伊斯兰世界",
+      "subclass": "古代政府",
+      "era": "古代",
+      "text": "论著",
+      "star": 4,
+      "why": "塞尔柱宰相写给苏丹的治国细则与警戒。",
+      "source": "商务印书馆汉译世界学术名著丛书《治国策》（蓝琪译，2013）：宰相近三十年经验，论正义、统治与政府角色。未找到把马瓦尔迪《素丹律例》列为必读的课纲"
+    },
+    {
+      "title": "马基雅维里《论李维》",
+      "cognition": "看清规则",
+      "culture": "意大利",
+      "subclass": "政治思想",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "《君主论》的另一半：共和国如何维持自由。",
+      "source": "剑桥至1700，A5马基雅维里规定文本同时列《君主论》与《论李维》；哥伦比亚当代文明二者择一"
+    },
+    {
+      "title": "马克思、恩格斯《共产党宣言》",
+      "cognition": "看清规则",
+      "culture": "德国",
+      "subclass": "政治思想",
+      "era": "近代",
+      "text": "论著",
+      "star": 5,
+      "why": "短文说明现代国家与阶级、革命的关系。",
+      "source": "剑桥政治思想史1700–1890，A13马克思规定文本首列 The Communist Manifesto"
+    },
+    {
+      "title": "《独立宣言》",
+      "cognition": "看清规则",
+      "culture": "美国",
+      "subclass": "政治思想",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "写明同意从何而来，以及政府何时可推翻。",
+      "source": "哥伦比亚当代文明春季必读 Declaration of Independence；剑桥B16美国革命原典同列"
+    },
+    {
+      "title": "《美国宪法》",
+      "cognition": "看清规则",
+      "culture": "美国",
+      "subclass": "现代政府",
+      "era": "近代",
+      "text": "论著",
+      "star": 5,
+      "why": "现代共和国怎样分权、制衡，并可以修订。",
+      "source": "剑桥B16原典列1787年美国宪法；哥伦比亚当代文明现行课纲必读宪法修正案"
+    },
+    {
+      "title": "《反联邦党人文集》选读",
+      "cognition": "看清规则",
+      "culture": "美国",
+      "subclass": "政治思想",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "批准之争的另一面：怕中央吞掉地方与自由。",
+      "source": "剑桥B16原典：J.R. Pole编 The American Constitution—For and Against: The Federalist and Anti-Federalist Papers"
+    },
+    {
+      "title": "《人权与公民权宣言》",
+      "cognition": "看清规则",
+      "culture": "法国",
+      "subclass": "现代政府",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "法国把权利写成新政权的起点。",
+      "source": "哥伦比亚当代文明春季必读 The Declaration of the Rights of Man and of the Citizen, 1789"
+    },
+    {
+      "title": "贡斯当《古代人的自由与现代人的自由》",
+      "cognition": "看清规则",
+      "culture": "法国",
+      "subclass": "政治思想",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "现代人要私人自由，不是古代式直接参政。",
+      "source": "剑桥1700–1890，A9贡斯当规定文本为 Political Writings；中国社科院大学《政治哲学》阅读文献列此篇"
+    },
+    {
+      "title": "密尔《代议制政府》",
+      "cognition": "看清规则",
+      "culture": "英国",
+      "subclass": "现代政府",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "代表制怎样运转，又会在何处失灵。",
+      "source": "剑桥1700–1890，A12密尔规定文本含 Considerations on Representative Government；《论自由》已在目录"
+    },
+    {
+      "title": "卡尔·施米特《政治的概念》",
+      "cognition": "看清规则",
+      "culture": "德国",
+      "subclass": "政治思想",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "反向文本：政治的标准是区分敌友。",
+      "source": "中国社科院大学《政治哲学》第六讲阅读文献：施米特《政治的概念》（上海人民出版社）"
+    },
+    {
+      "title": "哈耶克《通往奴役之路》",
+      "cognition": "看清规则",
+      "culture": "英国",
+      "subclass": "政治思想",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "全面计划会一步步取消选择政治的余地。",
+      "source": "中国社科院大学《政治哲学》第二讲阅读文献；台湾政治大学111学年第2学期指定全书"
+    },
+    {
+      "title": "卡尔·波普尔《开放社会及其敌人》",
+      "cognition": "看清规则",
+      "culture": "英国",
+      "subclass": "政治思想",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "批历史预言和封闭政体，主张可改错的制度。",
+      "source": "东海大学哲学系《社会与政治：波普与开放社会》（112学年第1学期，林盈铨）以该书为主要选读"
+    },
+    {
+      "title": "弗雷德里克·道格拉斯《七月四日对奴隶意味着什么》",
+      "cognition": "看清事实",
+      "culture": "美国",
+      "subclass": "政治思想",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "宪法的自由承诺和奴隶制事实对不上。",
+      "source": "哥伦比亚当代文明春季必读 Douglass, What to the Slave Is the Fourth of July?"
+    },
+    {
+      "title": "钱穆《中国历代政治得失》",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "政府史",
+      "era": "当代",
+      "text": "论著",
+      "star": 5,
+      "why": "用汉唐宋明清对照政府、考试、财政和兵制。",
+      "source": "中国社科院大学《中国政治制度史》参考资料；任锋《读书》2020年10月记其在政治学中讲授此书"
+    },
+    {
+      "title": "王亚南《中国官僚政治研究》",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "政府史",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "从反面看官僚政治如何长期自我维持。",
+      "source": "中国社科院大学《中国政治制度史》参考资料与钱穆并列。同页未列瞿同祖，故取王亚南"
+    },
+    {
+      "title": "黄仁宇《万历十五年》",
+      "cognition": "看清事实",
+      "culture": "中国",
+      "subclass": "政府史",
+      "era": "当代",
+      "text": "史书",
+      "star": 4,
+      "why": "万历朝无人能打破已经僵住的文官体制。",
+      "source": "任锋文：南开读国史时，导师将此书与钱穆《中国历代政治得失》并荐。社科院大学该课纲未列此书"
+    },
+    {
+      "title": "汉娜·阿伦特《论革命》",
+      "cognition": "看清事实",
+      "culture": "德国",
+      "subclass": "政治思想",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "美法两场革命，一场立住自由，一场滑向恐怖。",
+      "source": "中国社科院大学《政治哲学》第八讲阅读文献列阿伦特《论革命》与《人的境况》。哥伦比亚现行课纲另指定《共和的危机》"
+    }
+  ]
+}

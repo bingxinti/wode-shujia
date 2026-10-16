@@ -1,0 +1,324 @@
+{
+  "plate": "society",
+  "passes": [
+    {
+      "name": "社会学原典",
+      "sources": [
+        "https://www.sohu.com/a/460881060_120051495",
+        "https://www.asanet.org/wp-content/uploads/soc_97_syllabus_spring_2020_final.pdf",
+        "https://ccrs.ccnu.edu.cn/list/h5details.aspx?tid=4522"
+      ]
+    },
+    {
+      "name": "大学课纲：北大、清华、芝加哥、哈佛",
+      "sources": [
+        "https://www.sohu.com/a/460881060_120051495",
+        "https://www.soc.tsinghua.edu.cn/info/1198/1674.htm",
+        "https://summer.uchicago.edu/courses/self-culture-and-society-1-97",
+        "https://summer.uchicago.edu/courses/self-culture-and-society-2-93",
+        "http://home.uchicago.edu/~jlmartin/Self,%20Culture%20and%20Society%20Syllabus%20Autumn%202009.pdf",
+        "https://www.asanet.org/wp-content/uploads/soc_97_syllabus_spring_2020_final.pdf",
+        "https://shymzxy.ucass.edu.cn/info/1167/4420.htm"
+      ]
+    },
+    {
+      "name": "中国社会，以及日本、印度、非洲、拉丁美洲",
+      "sources": [
+        "https://shymzxy.ucass.edu.cn/info/1167/4420.htm",
+        "https://www.aisixiang.com/data/124222.html",
+        "http://csa.cass.cn/qxkp/201210/t20121005_1966841.shtml",
+        "https://ccj.pku.edu.cn/article/info?id=271015172",
+        "https://book.douban.com/subject/26995647/",
+        "https://www.dushu.com/book/12740485/",
+        "https://www.thepaper.cn/newsDetail_forward_1250699",
+        "https://skxb.jsu.edu.cn/CN/abstract/abstract3569.shtml",
+        "http://dianda.cqvip.com/Qikan/Article/Detail?id=1002828376"
+      ]
+    },
+    {
+      "name": "认知：看清他人、看清规则",
+      "sources": [
+        "https://www.soc.tsinghua.edu.cn/info/1198/1674.htm",
+        "https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=325%20M7580&class=&dpt_code=3250&ser_no=12201&semester=98-2",
+        "http://www.shehui.pku.edu.cn/shxrl2/articles/1446874039736995840.html",
+        "https://www.asanet.org/wp-content/uploads/soc_97_syllabus_spring_2020_final.pdf",
+        "https://shymzxy.ucass.edu.cn/info/1167/4420.htm"
+      ]
+    },
+    {
+      "name": "从乡土中国、社会分工论延伸",
+      "sources": [
+        "https://www.aisixiang.com/data/124222.html",
+        "https://shymzxy.ucass.edu.cn/info/1167/4420.htm",
+        "https://www.sohu.com/a/460881060_120051495",
+        "https://jw.ucass.edu.cn/kcdg/zyk/shymz/shehuixueyuanzhuxuandu.pdf"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "title": "涂尔干《宗教生活的基本形式》",
+      "cognition": "看清规则",
+      "culture": "法国",
+      "subclass": "宗教与社会",
+      "era": "近代",
+      "text": "论著",
+      "star": 5,
+      "why": "集体仪式造出共同范畴和道德约束，社会才被感觉到。",
+      "source": "https://www.sohu.com/a/460881060_120051495"
+    },
+    {
+      "title": "涂尔干《自杀论》",
+      "cognition": "看清事实",
+      "culture": "法国",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "用自杀率说明群体整合或规范一旦失效，不全是私事。",
+      "source": "https://shymzxy.ucass.edu.cn/info/1167/4420.htm"
+    },
+    {
+      "title": "涂尔干《职业伦理与公民道德》",
+      "cognition": "看清规则",
+      "culture": "法国",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "分工拆开相似之后，职业团体负责把道德规范补回去。",
+      "source": "https://www.sohu.com/a/460881060_120051495"
+    },
+    {
+      "title": "韦伯《社会学的基本概念》",
+      "cognition": "看清规则",
+      "culture": "德国",
+      "subclass": "比较社会",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "《经济与社会》太长，课纲只读开篇对行动和秩序的定义。",
+      "source": "https://www.asanet.org/wp-content/uploads/soc_97_syllabus_spring_2020_final.pdf"
+    },
+    {
+      "title": "恩格斯《家庭、私有制和国家的起源》",
+      "cognition": "看清事实",
+      "culture": "德国",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "前半比较家庭和氏族如何成序，后半已转入国家起源。",
+      "source": "https://ccrs.ccnu.edu.cn/list/h5details.aspx?tid=4522"
+    },
+    {
+      "title": "滕尼斯《共同体与社会》",
+      "cognition": "看清规则",
+      "culture": "德国",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "礼俗共同体和契约社会，是两种把人结到一起的方式。",
+      "source": "https://www.sohu.com/a/460881060_120051495"
+    },
+    {
+      "title": "齐美尔《社会是如何可能的》",
+      "cognition": "看清他人",
+      "culture": "德国",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "不读大部头，用文选看陌生人如何在都市里互相成局。",
+      "source": "https://www.sohu.com/a/460881060_120051495"
+    },
+    {
+      "title": "戈夫曼《日常生活中的自我呈现》",
+      "cognition": "看清他人",
+      "culture": "美国",
+      "subclass": "社区与家庭",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "面对面靠前台和后台维持场面，日常秩序出在互动里。",
+      "source": "https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=325%20M7580&class=&dpt_code=3250&ser_no=12201&semester=98-2"
+    },
+    {
+      "title": "米德《心灵、自我与社会》",
+      "cognition": "看清自己",
+      "culture": "美国",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "自我不是先有的，要在扮演他人的过程里才长出来。",
+      "source": "http://www.shehui.pku.edu.cn/shxrl2/articles/1446874039736995840.html"
+    },
+    {
+      "title": "米尔斯《社会学的想象力》",
+      "cognition": "形成判断",
+      "culture": "美国",
+      "subclass": "比较社会",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "私人烦恼要放回历史和公共结构里，判断才站得住。",
+      "source": "https://shymzxy.ucass.edu.cn/info/1167/4420.htm"
+    },
+    {
+      "title": "布迪厄《区分：判断力的社会批判》",
+      "cognition": "看清规则",
+      "culture": "法国",
+      "subclass": "阶层",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "趣味和举止是阶层在执行的规矩，不是天生品位。",
+      "source": "https://shymzxy.ucass.edu.cn/info/1167/4420.htm"
+    },
+    {
+      "title": "莫斯《礼物》",
+      "cognition": "看清规则",
+      "culture": "无",
+      "subclass": "比较社会",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "送礼是必须偿还的义务，用来绑住人群，不是市场讲价。",
+      "source": "https://jw.ucass.edu.cn/kcdg/zyk/shymz/shehuixueyuanzhuxuandu.pdf"
+    },
+    {
+      "title": "费孝通《江村经济》",
+      "cognition": "看清事实",
+      "culture": "中国",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "一个村子的家、土地和仪式，给《乡土中国》提供了底稿。",
+      "source": "https://shymzxy.ucass.edu.cn/info/1167/4420.htm"
+    },
+    {
+      "title": "费孝通《生育制度》",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "先说明家庭如何完成抚育，《乡土中国》沿这个结构展开。",
+      "source": "https://www.aisixiang.com/data/124222.html"
+    },
+    {
+      "title": "瞿同祖《中国法律与中国社会》",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "阶层",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "家族亲疏和身份等级写进律例，日常秩序可以按此查。",
+      "source": "https://shymzxy.ucass.edu.cn/info/1167/4420.htm"
+    },
+    {
+      "title": "阎云翔《礼物的流动》",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "社区与家庭",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "下岬村的送礼把人情和地位做成必须遵守的规矩。",
+      "source": "https://shymzxy.ucass.edu.cn/info/1167/4420.htm"
+    },
+    {
+      "title": "杨庆堃《中国社会中的宗教》",
+      "cognition": "看清事实",
+      "culture": "中国",
+      "subclass": "宗教与社会",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "中国宗教散在家庭和社区里，并不另立一座教会。",
+      "source": "http://csa.cass.cn/qxkp/201210/t20121005_1966841.shtml"
+    },
+    {
+      "title": "费孝通《中华民族的多元一体格局》",
+      "cognition": "形成判断",
+      "culture": "中国",
+      "subclass": "比较社会",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "各民族长期接触，分开生活，又合成更高一层的认同。",
+      "source": "https://ccj.pku.edu.cn/article/info?id=271015172"
+    },
+    {
+      "title": "许烺光《祖荫下》",
+      "cognition": "看清事实",
+      "culture": "中国",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "与《金翼》同列的汉人社区研究，但是常规民族志而非小说。",
+      "source": "http://csa.cass.cn/qxkp/201210/t20121005_1966841.shtml"
+    },
+    {
+      "title": "项飙《跨越边界的社区》",
+      "cognition": "看清事实",
+      "culture": "中国",
+      "subclass": "社区与家庭",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "北京浙江村靠同乡关系自己长出跨省的社区秩序。",
+      "source": "https://shymzxy.ucass.edu.cn/info/1167/4420.htm"
+    },
+    {
+      "title": "中根千枝《纵式社会的人际关系》",
+      "cognition": "看清规则",
+      "culture": "日本",
+      "subclass": "比较社会",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "日本集团靠上下序列，不靠中国式血缘，也不靠印度种姓。",
+      "source": "http://dianda.cqvip.com/Qikan/Article/Detail?id=1002828376"
+    },
+    {
+      "title": "路易·杜蒙《阶序人》",
+      "cognition": "看清规则",
+      "culture": "印度",
+      "subclass": "阶层",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "种姓是一套阶序，按洁净区分人，并用来对照平等社会。",
+      "source": "https://book.douban.com/subject/26995647/"
+    },
+    {
+      "title": "埃文思-普里查德《努尔人》",
+      "cognition": "看清事实",
+      "culture": "非洲",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "没有政府，宗族裂变又合并，日常秩序照样维持。",
+      "source": "https://www.dushu.com/book/12740485/"
+    },
+    {
+      "title": "吉尔贝托·弗雷雷《华屋与棚户》",
+      "cognition": "看清事实",
+      "culture": "拉丁美洲",
+      "subclass": "社区与家庭",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "巴西大宅把主人、奴隶和混血收进家长制家庭。",
+      "source": "https://www.thepaper.cn/newsDetail_forward_1250699"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "plate": "business",
+  "passes": [
+    {
+      "name": "政治经济学原典",
+      "sources": [
+        "https://catdir.loc.gov/catdir/toc/ecip0710/2007001183.html 巴尔马、沃格尔《政治经济学读本》2008年版目录：经典为斯密、马克思与恩格斯《共产党宣言》、李斯特；自由主义范式为哈耶克《通往奴役之路》与弗里德曼《资本主义与自由》；经济社会学为波兰尼《大转型》；历史视角为格申克龙；政治经济一项为约翰逊《通产省与日本奇迹》。",
+        "https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm 《资本论》第一卷第一章多处点名李嘉图，并引贝利对李嘉图价值论的批评。",
+        "https://www.jku.at/fileadmin/gruppen/108/ICAE_Working_Papers/wp128.pdf 林茨大学工作论文（后刊于《欧洲经济思想史杂志》2022）：熊彼特书目作 Theorie der wirtschaftlichen Entwicklung [1912]；波兰尼书目作 The Great Transformation（1944）。创造性毁灭更多来自《资本主义、社会主义与民主》（1942），本表只收《经济发展理论》。",
+        "https://openlibrary.org/search.json?title=general+theory+of+employment&author=keynes 凯恩斯《就业、利息和货币通论》有独立书目记录，初版约1936。",
+        "https://open.bu.edu/bitstreams/780b21e5-7238-44cd-ae02-98cd25a644b6/download 梅尔林2023：金德尔伯格写明凯恩斯理论不完整，但那是危机史的限度，不取消通论本身。",
+        "不收斯密《道德情操论》：归三观。金德尔伯格后来版本卷首引过它，不因此改入商业。",
+        "哈耶克归政治，不收。《通往奴役之路》在上述读本里与《资本主义与自由》并列，讲计划、法治和政治自由，不是交换规则。《知识在社会中的利用》是1945年论文，不单收文集。价格与生产等货币理论专书过窄，不收。"
+      ]
+    },
+    {
+      "name": "组织",
+      "sources": [
+        "https://media.wiley.com/product_data/excerpt/18/13942023/1394202318-73.pdf 雷恩、贝迪恩《管理思想的演变》第9版目录：第7章泰勒与科学管理；第10章法约尔的管理过程，并有韦伯官僚制一节；第14章巴纳德，含权威的接受理论和经理人员的职能；第19章专节为德鲁克与《管理的实践》。钱德勒无专章。",
+        "https://www.researchgate.net/publication/312591981_AN_EXAMINATION_OF_DIFFERENCES_BETWEEN_THE_MOST_INFLUENTIAL_MANAGEMENT_BOOKS_OF_THE_20_TH_CENTURY_AND_AMAZON_BEST_SELLERS 贝尔等转引贝迪恩、雷恩2001年管理学会院士投票：1泰勒《科学管理原理》，2巴纳德《经理人员的职能》，3德鲁克《管理的实践》，4麦格雷戈《企业的人性面》，5西蒙《管理行为》。",
+        "https://www.tsu.edu/academics/colleges-and-schools/jhj-school-of-business/swbatc/past-conferences/pdf/swbtacproceedings2015.pdf 同题附录把书目改成大致编年，法约尔被排到第2，与上述投票顺序冲突。排序以贝尔等转引的投票为准，此PDF只用来核对书名在单子上。",
+        "https://www.pulitzer.org/winners/alfred-d-chandler 钱德勒《看得见的手》获1978年普利策历史奖。https://www.hup.harvard.edu/books/9780674417687 哈佛大学出版社摘要：经理的看得见的手取代斯密的看不见的手。https://eh.net/book_reviews/the-visible-hand-the-managerial-revolution-in-american-business/ 兰德斯书评确认同年还有班克罗夫特奖。管理书投票里的钱德勒是《战略与结构》，不另收。",
+        "不收韦伯《经济与社会》：官僚制在雷恩书中只是一节，全书归社会。不收麦格雷戈：投票第四，但X理论Y理论后来变成口号，看清他人已由巴纳德承担。不收波特《竞争战略》：同属管理书单后部，是行业检查表。不收斯隆《我在通用汽车的岁月》：经营者回忆，组织分析用钱德勒。"
+      ]
+    },
+    {
+      "name": "中国商业与产业",
+      "sources": [
+        "目录里已有兰小欢《置身事内》、周黎安《转型中的地方政府》、吴敬琏《当代中国经济改革教程》。周黎安未出现在本次排除句，但已在 books.json，不重复。阿姆斯登《亚洲的下一个巨人》已覆盖韩国后发工业化。",
+        "https://www.aisixiang.com/data/36921.html 周其仁《产权与制度变迁》序：除方法论文外，都是依据中国改革经验讨论公有产权如何变迁。https://zhouqiren.org/archives/category/cqbook 同书说明研究重心是计划公有制的产权改革。收这本调查和论文，不收《真实世界的经济学》（报刊文章）。",
+        "https://openlibrary.org/works/OL3934143W 科斯《企业、市场与法律》1988年成书，收《企业的性质》和《社会成本问题》。值得收：它说明企业为什么替代市场。不收《变革中国》：晚年对中国改革的叙述，事实书用周其仁，理论用这部文集。",
+        "https://www.degruyterbrill.com/document/doi/10.1515/me-2018-0005/html 2018年评述确认张五常《佃农理论》（芝加哥大学出版社，1969）讨论产权、交易成本和风险与激励的交换，并写明其影响在中国以外有限。收这一本，三星。不收《经济解释》和《卖橘者言》。",
+        "https://sup.org/books/cite/?id=2791 斯坦福大学出版社：约翰逊《通产省与日本奇迹》（1982）写通产省，并说明它不是唯一行为者。读本目录将其与格申克龙、李斯特放在同一政治经济书目。不收林毅夫的政策主张和吴晓波的企业故事。"
+      ]
+    },
+    {
+      "name": "认知",
+      "sources": [
+        "看清规则：凯恩斯、李嘉图、熊彼特、波兰尼、李斯特、泰勒、法约尔、德鲁克、科斯、奈特、明斯基、白芝浩、格申克龙、张五常。",
+        "形成判断：西蒙《管理行为》；格雷厄姆《聪明的投资者》第20章把安全边际写成投资的中心概念，另有市场先生只提供报价。https://archive.org/download/thirumala/TheIntelligentInvestor.pdf 第20章标题即为安全边际。理由不写任何收益数字。",
+        "看清事实：钱德勒、加尔布雷思、约翰逊、周其仁。",
+        "看清他人：巴纳德。权威取决于对方是否接受命令。",
+        "看清自己仍空。查过德鲁克《管理的实践》（问的是企业做什么，不是看自己）、《卓有成效的管理者》（个人技法，不收）、巴纳德的道德责任（仍是职务，不是看清自己）。成功学和理财鸡汤不收。卡尼曼《思考，快与慢》已在目录，不重复。"
+      ]
+    },
+    {
+      "name": "国富论、资本论、金德尔伯格的参考文献",
+      "sources": [
+        "https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm 《资本论》第一卷第一章引用李嘉图。斯密已收，黑格尔归哲学，不从这条线再收。",
+        "https://link.springer.com/chapter/10.1007/978-1-137-52574-1_4 《疯狂、惊恐和崩溃》第7版「投机狂热」章注7引用白芝浩《伦巴第街》第18页。同书卷首另引白芝浩谈吉本的文章，以及斯密《道德情操论》；后者仍不入商业。",
+        "https://open.bu.edu/bitstreams/780b21e5-7238-44cd-ae02-98cd25a644b6/download 梅尔林据1978年版致谢和第一章：金德尔伯格写的是明斯基模型，直接文献是明斯基1972年论文，不是1986年的书。明斯基把该问题写成书，是《稳定不稳定的经济》（耶鲁大学出版社，1986）。收这本，并注明脚注里的原文是论文。同文指出1978年版最后贷款人一章开头引的是霍特里《中央银行的艺术》（1932）。霍特里更专，不另收。",
+        "https://www.library.hbs.edu/hc/crises/bibliography.html 哈佛商学院贝克图书馆「泡沫、恐慌与崩溃」书目单列加尔布雷思《1929年大崩盘》，也单列加伯《著名的第一次泡沫》。不收麦基《非凡的大众幻想与群众性癫狂》：同一书目用加伯质疑早期狂热的流行故事，麦基不宜当作看清事实。加伯本身太专，不收。",
+        "梅尔林写《1929-1939年世界经济萧条》是对着弗里德曼、施瓦茨《美国货币史》的。那是金德尔伯格另一本书的对象，本次打开的《疯狂、惊恐和崩溃》脚注没有确认这部货币统计史，不收。",
+        "不收马歇尔《经济学原理》：新古典教科书的位置已由曼昆占据。古代商业不另找；《管子》已在法家。"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "title": "凯恩斯《就业、利息和货币通论》",
+      "cognition": "看清规则",
+      "culture": "英国",
+      "subclass": "市场",
+      "era": "近代",
+      "text": "论著",
+      "star": 5,
+      "why": "用有效需求和不确定的货币，说明就业会随市场一起失灵。",
+      "source": "Open Library书目记录；梅尔林2023讨论金德尔伯格为何说凯恩斯理论仍不完整。https://open.bu.edu/bitstreams/780b21e5-7238-44cd-ae02-98cd25a644b6/download"
+    },
+    {
+      "title": "李嘉图《政治经济学及赋税原理》",
+      "cognition": "看清规则",
+      "culture": "英国",
+      "subclass": "市场",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "地租、分配和比较成本，是《资本论》对着写的那套规则。",
+      "source": "https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm 《资本论》第一卷第一章引用李嘉图。"
+    },
+    {
+      "title": "熊彼特《经济发展理论》",
+      "cognition": "看清规则",
+      "culture": "奥地利",
+      "subclass": "市场",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "发展靠创新和信用打破循环，不是把原有产量加大。",
+      "source": "https://www.jku.at/fileadmin/gruppen/108/ICAE_Working_Papers/wp128.pdf 书目：Schumpeter, Theorie der wirtschaftlichen Entwicklung [1912]。不收1942年《资本主义、社会主义与民主》。"
+    },
+    {
+      "title": "波兰尼《大转型》",
+      "cognition": "看清规则",
+      "culture": "奥地利",
+      "subclass": "市场",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "自我调节市场是被造成的，土地、劳动和货币不是真商品。",
+      "source": "https://catdir.loc.gov/catdir/toc/ecip0710/2007001183.html 读本将《大转型》放在经济社会学，不放进自由主义范式。案例是英国，思想来自中欧，文化记奥地利。归商业的市场，不归政治。"
+    },
+    {
+      "title": "李斯特《政治经济学的国民体系》",
+      "cognition": "看清规则",
+      "culture": "德国",
+      "subclass": "产业与政策",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "对着斯密写生产力、幼稚工业和国家体系，不是交换本身。",
+      "source": "https://catdir.loc.gov/catdir/toc/ecip0710/2007001183.html 读本「经典」三项之一，与斯密、共产党宣言并列。"
+    },
+    {
+      "title": "泰勒《科学管理原理》",
+      "cognition": "看清规则",
+      "culture": "美国",
+      "subclass": "组织",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "工作被拆成可测量的任务，工人自己的判断被拿掉。",
+      "source": "雷恩第9版目录第7章；贝迪恩、雷恩2001年投票第1，见贝尔等转引。https://media.wiley.com/product_data/excerpt/18/13942023/1394202318-73.pdf"
+    },
+    {
+      "title": "法约尔《工业管理与一般管理》",
+      "cognition": "看清规则",
+      "culture": "法国",
+      "subclass": "组织",
+      "era": "近代",
+      "text": "论著",
+      "star": 3,
+      "why": "把管理写成可教的过程，而不是老板的个人习惯。",
+      "source": "雷恩第9版目录第10章有法约尔专节。投票名次不以2015年会议附录的编年重排为准。https://media.wiley.com/product_data/excerpt/18/13942023/1394202318-73.pdf"
+    },
+    {
+      "title": "巴纳德《经理人员的职能》",
+      "cognition": "看清他人",
+      "culture": "美国",
+      "subclass": "组织",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "命令要被对方接受才算权威，组织是合作不是机器。",
+      "source": "雷恩第9版目录第14章写明接受理论和经理人员的职能；投票第2。https://media.wiley.com/product_data/excerpt/18/13942023/1394202318-73.pdf"
+    },
+    {
+      "title": "德鲁克《管理的实践》",
+      "cognition": "看清规则",
+      "culture": "美国",
+      "subclass": "组织",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "先问企业究竟做什么，管理才是可以检讨的实践。",
+      "source": "雷恩第9版目录第19章专节；投票第3。不收后来的自我管理短篇。https://media.wiley.com/product_data/excerpt/18/13942023/1394202318-73.pdf"
+    },
+    {
+      "title": "西蒙《管理行为》",
+      "cognition": "形成判断",
+      "culture": "美国",
+      "subclass": "组织",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "信息和注意力有限，决策只能满意，做不到全知最优。",
+      "source": "贝尔等转引贝迪恩、雷恩2001年投票第5，书名为 Administrative Behavior（1947）。https://www.researchgate.net/publication/312591981_AN_EXAMINATION_OF_DIFFERENCES_BETWEEN_THE_MOST_INFLUENTIAL_MANAGEMENT_BOOKS_OF_THE_20_TH_CENTURY_AND_AMAZON_BEST_SELLERS"
+    },
+    {
+      "title": "科斯《企业、市场与法律》",
+      "cognition": "看清规则",
+      "culture": "英国",
+      "subclass": "组织",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "使用价格也有成本，企业是在这个成本上替代市场。",
+      "source": "https://openlibrary.org/works/OL3934143W 1988年文集。不收《变革中国》。"
+    },
+    {
+      "title": "钱德勒《看得见的手》",
+      "cognition": "看清事实",
+      "culture": "美国",
+      "subclass": "组织",
+      "era": "当代",
+      "text": "史书",
+      "star": 4,
+      "why": "美国大企业里，经理层级接手了原本由价格做的协调。",
+      "source": "https://www.pulitzer.org/winners/alfred-d-chandler ；https://www.hup.harvard.edu/books/9780674417687 。管理书投票中的是《战略与结构》，不另收。"
+    },
+    {
+      "title": "奈特《风险、不确定性与利润》",
+      "cognition": "看清规则",
+      "culture": "美国",
+      "subclass": "投资",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "可保险的风险和无法估算概率的不确定，不是一回事。",
+      "source": "哈佛肯尼迪学院对奈特1921年原书的转述：能赋值的是风险，不能赋值的是不确定。https://www.hks.harvard.edu/centers/mrcbg/publications/knightian-uncertainty-regulatory-context"
+    },
+    {
+      "title": "格雷厄姆《聪明的投资者》",
+      "cognition": "形成判断",
+      "culture": "美国",
+      "subclass": "投资",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "用安全边际区分价格和价值，市场先生只负责报价。",
+      "source": "https://archive.org/download/thirumala/TheIntelligentInvestor.pdf 第20章以安全边际为全书中心；第8章用市场先生说明报价不是价值。不写收益。"
+    },
+    {
+      "title": "明斯基《稳定不稳定的经济》",
+      "cognition": "看清规则",
+      "culture": "美国",
+      "subclass": "投资",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "景气本身会把融资从对冲推向投机，结构会变脆。",
+      "source": "https://open.bu.edu/bitstreams/780b21e5-7238-44cd-ae02-98cd25a644b6/download 金德尔伯格1978年引用的是明斯基1972年论文；1986年这本书是同一作者后来的成书。"
+    },
+    {
+      "title": "白芝浩《伦巴第街》",
+      "cognition": "看清规则",
+      "culture": "英国",
+      "subclass": "投资",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "恐慌时要有最后贷款人，储备不会自己管好自己。",
+      "source": "https://link.springer.com/chapter/10.1007/978-1-137-52574-1_4 《疯狂、惊恐和崩溃》注引 Lombard Street 第18页。1873年。"
+    },
+    {
+      "title": "加尔布雷思《1929年大崩盘》",
+      "cognition": "看清事实",
+      "culture": "美国",
+      "subclass": "投资",
+      "era": "当代",
+      "text": "史书",
+      "star": 3,
+      "why": "把1929年写成可核对的信用和从众史，不是规律汇编。",
+      "source": "https://www.library.hbs.edu/hc/crises/bibliography.html 哈佛商学院贝克图书馆泡沫与崩溃书目。只是一次崩溃的叙事，故三星。"
+    },
+    {
+      "title": "格申克龙《经济落后的历史透视》",
+      "cognition": "看清规则",
+      "culture": "美国",
+      "subclass": "产业与政策",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "后发国家用银行或国家补前提，并不重走英国的路径。",
+      "source": "https://catdir.loc.gov/catdir/toc/ecip0710/2007001183.html 读本历史视角收录 Economic Backwardness in Historical Perspective（1962）第5–30页。Open Library初版年1962。"
+    },
+    {
+      "title": "约翰逊《通产省与日本奇迹》",
+      "cognition": "看清事实",
+      "culture": "日本",
+      "subclass": "产业与政策",
+      "era": "当代",
+      "text": "史书",
+      "star": 4,
+      "why": "用通产省的档案看日本产业政策如何挑选和扶植产业。",
+      "source": "https://sup.org/books/cite/?id=2791 斯坦福大学出版社1982年版，并写明通产省不是唯一行为者。https://catdir.loc.gov/catdir/toc/ecip0710/2007001183.html 读本收录第3–34页。文化记所写的日本，作者是美国人。"
+    },
+    {
+      "title": "周其仁《产权与制度变迁》",
+      "cognition": "看清事实",
+      "culture": "中国",
+      "subclass": "产业与政策",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "用农村和企业实例看公有产权在改革里怎样被重新划开。",
+      "source": "https://www.aisixiang.com/data/36921.html 作者序。补兰小欢、周黎安、吴敬琏未写的产权划定，不重复这三本。"
+    },
+    {
+      "title": "张五常《佃农理论》",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "市场",
+      "era": "当代",
+      "text": "论著",
+      "star": 3,
+      "why": "分成租约是风险和交易成本下的选择，不是落后残余。",
+      "source": "芝加哥大学出版社1969年。https://www.degruyterbrill.com/document/doi/10.1515/me-2018-0005/html 评述称其连接产权、交易成本与风险激励，中国以外影响有限，故三星。不收《经济解释》。"
+    }
+  ]
+}

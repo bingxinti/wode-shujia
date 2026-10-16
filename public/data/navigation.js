@@ -1,0 +1,592 @@
+window.ZHISHI_NAV = {
+  "tree": [
+    {
+      "id": "plate-cosmos",
+      "title": "宇宙与自然",
+      "children": [
+        {
+          "id": "evolution",
+          "title": "演化",
+          "books": [
+            "origin-species",
+            "lamarck",
+            "sapiens",
+            "huxley-man",
+            "dawkins",
+            "descent",
+            "evolutionary-psych",
+            "mendel",
+            "schrodinger",
+            "morgan",
+            "dobzhansky",
+            "williams",
+            "kelly-control",
+            "harari-deus",
+            "yanye-code"
+          ]
+        },
+        {
+          "id": "universe",
+          "title": "宇宙",
+          "books": [
+            "aristotle-physics",
+            "copernicus",
+            "seven-lessons",
+            "hawking",
+            "newton",
+            "lyell",
+            "lavoisier",
+            "maxwell",
+            "einstein",
+            "wegener",
+            "heisenberg"
+          ]
+        },
+        {
+          "id": "method",
+          "title": "科学方法",
+          "books": [
+            "elements",
+            "new-organon",
+            "galileo",
+            "harvey",
+            "demon-haunted",
+            "bernard",
+            "kuhn",
+            "poincare",
+            "popper-science",
+            "dewitt-worldview",
+            "barabasi-linked"
+          ]
+        },
+        {
+          "id": "cn-science",
+          "title": "中国科学",
+          "books": [
+            "mengxi",
+            "tiangong",
+            "zhoubi",
+            "jiuzhang",
+            "neijing"
+          ]
+        }
+      ],
+      "note": "世界和生命怎样运作，哪些说法靠得住。"
+    },
+    {
+      "id": "plate-conduct",
+      "title": "三观修养",
+      "children": [
+        {
+          "id": "zhuzi",
+          "title": "诸子百家",
+          "children": [
+            {
+              "id": "ru",
+              "title": "儒家",
+              "mark": "儒",
+              "books": [
+                "lunyu",
+                "mengzi",
+                "daxue",
+                "zhongyong",
+                "liyun",
+                "xunzi",
+                "chunqiu-fanlu",
+                "xiaojing",
+                "yueji"
+              ]
+            },
+            {
+              "id": "dao",
+              "title": "道家",
+              "mark": "道",
+              "books": [
+                "daodejing",
+                "zhuangzi",
+                "liezi",
+                "huangdi-sijing"
+              ]
+            },
+            {
+              "id": "mo",
+              "title": "墨家",
+              "books": [
+                "mozi"
+              ]
+            },
+            {
+              "id": "ming",
+              "title": "名家",
+              "books": [
+                "gongsunlong",
+                "yinwenzi"
+              ]
+            },
+            {
+              "id": "za",
+              "title": "杂家",
+              "books": [
+                "lushi",
+                "huainanzi"
+              ]
+            }
+          ],
+          "note": "只列已有原书的各家。和儒、道同一传统的，名称后标出。"
+        },
+        {
+          "id": "fo",
+          "title": "佛教",
+          "note": "汉地常读的短经。印度原典的长编不在这里铺开。",
+          "books": [
+            "heart",
+            "diamond",
+            "tanjing",
+            "lotus",
+            "mulamadhyamakakarika"
+          ]
+        },
+        {
+          "id": "lixue",
+          "title": "理学",
+          "note": "宋明两段。先秦儒家仍在诸子百家。",
+          "books": [
+            "jinsi",
+            "chuanxilu"
+          ]
+        },
+        {
+          "id": "nurture",
+          "title": "修养",
+          "books": [
+            "yanshi",
+            "caigentan",
+            "zengguang",
+            "zengguofan",
+            "tannisho"
+          ]
+        },
+        {
+          "id": "scripture",
+          "title": "经",
+          "books": [
+            "hebrew-bible",
+            "pirkei-avot",
+            "mark",
+            "matthew",
+            "quran",
+            "upanishads",
+            "gita",
+            "dhammapada"
+          ]
+        },
+        {
+          "id": "philosophy",
+          "title": "哲学",
+          "books": [
+            "apology",
+            "ethics",
+            "meditations",
+            "enchiridion",
+            "seneca",
+            "cicero",
+            "epicurus",
+            "hume-treatise",
+            "critique-pure",
+            "groundwork",
+            "sentiments",
+            "discourse-method",
+            "spinoza",
+            "beyond-good-evil",
+            "genealogy",
+            "pascal",
+            "utilitarianism",
+            "pragmatism",
+            "philosophical-investigations",
+            "ghazali",
+            "confessions",
+            "civil-discontents",
+            "freud-intro",
+            "adler",
+            "feng",
+            "bushido",
+            "encouragement-learning",
+            "dai-zhen",
+            "lunheng",
+            "aquinas",
+            "nishida",
+            "christianity-intro",
+            "islam-intro",
+            "wright-insight",
+            "wang-yuyan",
+            "liuqing-west"
+          ]
+        },
+        {
+          "id": "judgment",
+          "title": "判断",
+          "books": [
+            "renwuzhi",
+            "practice",
+            "contradiction",
+            "thinking-fast",
+            "asking-the-right",
+            "naked-statistics",
+            "antifragile",
+            "signal-noise",
+            "tianyan",
+            "cialdini",
+            "rosling-factfulness",
+            "meadows-systems",
+            "taleb-swan",
+            "dweck-mindset",
+            "stanovich-iq"
+          ]
+        }
+      ],
+      "note": "人如何看、如何活、什么值得要。"
+    },
+    {
+      "id": "plate-society",
+      "title": "社会",
+      "children": [
+        {
+          "id": "community",
+          "title": "社区与家庭",
+          "books": [
+            "xiangtu",
+            "jiangcun",
+            "goffman",
+            "chrysanthemum",
+            "durkheim-suicide",
+            "tonnies",
+            "simmel",
+            "mead",
+            "shengyu",
+            "yan-gift",
+            "under-ancestors",
+            "xiang-boundary",
+            "argonauts",
+            "nuer",
+            "freyre",
+            "weapons-weak"
+          ]
+        },
+        {
+          "id": "stratum",
+          "title": "阶层",
+          "books": [
+            "class-analysis",
+            "qu",
+            "veblen",
+            "origin-family",
+            "bourdieu",
+            "dumont"
+          ]
+        },
+        {
+          "id": "compare",
+          "title": "比较社会",
+          "books": [
+            "division-of-labor",
+            "protestant-ethic",
+            "civilizing",
+            "discipline-punish",
+            "weber-basic",
+            "durkheim-forms",
+            "liang",
+            "mills",
+            "exit-voice",
+            "dubois",
+            "mauss",
+            "annihilation-caste",
+            "plural-unity",
+            "crowd",
+            "nakane",
+            "jewish-history",
+            "yang-religion",
+            "muqaddimah",
+            "guns",
+            "durant-lessons",
+            "global-history",
+            "pentland-social"
+          ]
+        }
+      ],
+      "note": "人群怎样形成日常秩序。政府怎样统治归政治。"
+    },
+    {
+      "id": "plate-politics",
+      "title": "政治",
+      "children": [
+        {
+          "id": "ancient",
+          "title": "古代政府",
+          "books": [
+            "shangshu",
+            "hanfeizi",
+            "shangjunshu",
+            "guanzi",
+            "shenzi",
+            "arthashastra",
+            "manu",
+            "yantie",
+            "zhenguan",
+            "mingyi",
+            "mokmin",
+            "sunzi",
+            "wuzi",
+            "sunbin",
+            "weiliaozi",
+            "on-war",
+            "guiguzi",
+            "zhanguoce",
+            "plutarch",
+            "siyasat"
+          ]
+        },
+        {
+          "id": "thought",
+          "title": "政治思想",
+          "books": [
+            "republic",
+            "politics-aristotle",
+            "cicero-republic",
+            "thucydides",
+            "herodotus",
+            "prince",
+            "discorsi",
+            "leviathan",
+            "second-treatise",
+            "spirit-of-laws",
+            "beccaria",
+            "inequality",
+            "social-contract",
+            "on-liberty",
+            "constant",
+            "berlin",
+            "burke",
+            "anti-federalist",
+            "wollstonecraft",
+            "hegel-right",
+            "manifesto",
+            "douglass",
+            "letter-birmingham",
+            "city-of-god",
+            "science-as-vocation",
+            "hayek",
+            "popper",
+            "rawls",
+            "nozick",
+            "schmitt",
+            "arendt-revolution",
+            "olson",
+            "hind-swaraj",
+            "fanon",
+            "nakae",
+            "maruyama",
+            "mariategui",
+            "gramsci"
+          ]
+        },
+        {
+          "id": "modern",
+          "title": "现代政府",
+          "books": [
+            "federalist",
+            "declaration",
+            "us-constitution",
+            "rights-man",
+            "democracy-in-america",
+            "state-and-revolution",
+            "new-democracy",
+            "protracted",
+            "representative",
+            "huntington",
+            "zhou-gov",
+            "mearsheimer",
+            "grand-chessboard",
+            "luoxiang-law"
+          ]
+        },
+        {
+          "id": "govhist",
+          "title": "政府史",
+          "books": [
+            "zuozhuan",
+            "shiji",
+            "zizhi",
+            "du-tongjian",
+            "rizhilu",
+            "qianmu",
+            "wang-official",
+            "wanli",
+            "jiang-history",
+            "hsu-history",
+            "old-regime",
+            "seeing-state",
+            "political-order",
+            "kennedy",
+            "gulag",
+            "arendt",
+            "soviet-history",
+            "cambridge-prc",
+            "deng-era",
+            "korean-war",
+            "korea-history",
+            "africa-history",
+            "open-veins",
+            "gandhi",
+            "lee-memoir",
+            "long-walk",
+            "new-asian",
+            "hsu-river"
+          ]
+        }
+      ],
+      "note": "权力和政府怎样建立、运行、失败。"
+    },
+    {
+      "id": "plate-business",
+      "title": "商业",
+      "children": [
+        {
+          "id": "market",
+          "title": "市场",
+          "note": "市场怎样形成价格、萧条和创新。",
+          "books": [
+            "wealth",
+            "ricardo",
+            "capital",
+            "keynes",
+            "schumpeter",
+            "polanyi",
+            "friedman-capitalism",
+            "mankiw-micro",
+            "mankiw-macro",
+            "cheung"
+          ]
+        },
+        {
+          "id": "org",
+          "title": "组织",
+          "books": [
+            "coase",
+            "williamson",
+            "taylor",
+            "fayol",
+            "barnard",
+            "drucker",
+            "simon",
+            "chandler",
+            "penrose",
+            "toyota",
+            "porter",
+            "wheatley-science",
+            "fandel-lead"
+          ]
+        },
+        {
+          "id": "policy",
+          "title": "产业与政策",
+          "books": [
+            "north",
+            "list",
+            "pomeranz",
+            "gerschenkron",
+            "zhishen",
+            "wu-reform",
+            "zhou-qiren",
+            "tanlu",
+            "development-as-freedom",
+            "next-giant",
+            "johnson-miti",
+            "wu-thirty",
+            "huang-analysis"
+          ]
+        },
+        {
+          "id": "invest",
+          "title": "投资",
+          "note": "只训练怎样看风险。不把例子当成收益承诺。",
+          "books": [
+            "graham",
+            "random-walk",
+            "manias",
+            "knight",
+            "minsky",
+            "bagehot",
+            "galbraith"
+          ]
+        },
+        {
+          "id": "venture",
+          "title": "创新与创业",
+          "note": "李善友、一堂、苏引华、冯仑写的书，混沌大课点名的书，以及混沌嘉宾写成书的那一版。视频课不收。",
+          "books": [
+            "christensen-dilemma",
+            "christensen-luck",
+            "lishanyou-curve",
+            "lishanyou-first",
+            "lishanyou-web",
+            "lishanyou-disrupt",
+            "lishanyou-community",
+            "blank-steps",
+            "blank-manual",
+            "ries-lean",
+            "maurya-running",
+            "osterwalder-bm",
+            "thiel-zero",
+            "horowitz-hard",
+            "xuchu-milestone",
+            "lizhigang-meituan",
+            "liwanqiang",
+            "zengming",
+            "trout-position",
+            "yujun-product",
+            "cagan-inspired",
+            "fanbing-growth",
+            "gladwell-tipping",
+            "sun-rules",
+            "shiyuzhu",
+            "feng-wild",
+            "feng-ideal",
+            "feng-years",
+            "su-logic",
+            "su-operate",
+            "su-manage",
+            "su-pay",
+            "drucker-effective",
+            "chen-common",
+            "adizes-lifecycle",
+            "charan-pipeline",
+            "netflix-culture",
+            "dalio-principles",
+            "welch-winning",
+            "wodtke-okr",
+            "munger-almanack",
+            "dorsey-moat",
+            "xiaoxing-statements",
+            "handy-second",
+            "nunes-scurve",
+            "foster-attacker",
+            "foster-destruction",
+            "grove-paranoid",
+            "slywotzky-profit",
+            "isaacson-jobs",
+            "schlender-jobs",
+            "stone-amazon",
+            "nadella-refresh",
+            "kelly-inevitable",
+            "liang-demand",
+            "jiang-mind",
+            "zhou-story",
+            "yu-edge",
+            "wangshi-road"
+          ]
+        }
+      ],
+      "note": "交换、组织、金钱和风险。"
+    }
+  ]
+};

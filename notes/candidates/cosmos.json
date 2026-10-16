@@ -1,0 +1,354 @@
+{
+  "plate": "cosmos",
+  "passes": [
+    {
+      "name": "原典",
+      "sources": [
+        "https://ocw.mit.edu/courses/sts-003-the-rise-of-modern-science-fall-2010/pages/readings/",
+        "https://www.dhs.tsinghua.edu.cn/?p=7847",
+        "http://www.rhart.org/courses-chicago/scirev/syllabus.html",
+        "北京大学科学元典丛书（天体运行论、心血运动论、化学基础论、地质学原理、狭义与广义相对论浅说、生命是什么、基因论、人类的由来及性选择、人类在自然界的位置）"
+      ]
+    },
+    {
+      "name": "课纲",
+      "sources": [
+        "https://elective.pku.edu.cn/elective2008/edu/pku/stu/elective/controller/courseDetail/getCourseDetail.do?kclx=BK&course_seq_no=BZ2021130300959_17205",
+        "https://www.dhs.tsinghua.edu.cn/?p=819",
+        "https://www.dhs.tsinghua.edu.cn/?p=13675",
+        "https://bpb-us-e1.wpmucdn.com/websites.harvard.edu/dist/4/182/files/2025/02/GALISON-53E-F24-Syllabus.pdf",
+        "https://bulletin.columbia.edu/columbia-college/core-curriculum/frontiers-science/",
+        "http://web.stanford.edu/~melissas/worldhistoryofscience/course_syllabus.html"
+      ]
+    },
+    {
+      "name": "中国科学",
+      "sources": [
+        "https://ctext.org/nine-chapters/zhs",
+        "https://ctext.org/wiki.pl?if=gb&chapter=437992&remap=gb",
+        "https://ctext.org/zhou-bi-suan-jing/zh",
+        "https://ctext.org/zhou-bi-suan-jing/juan-shang/zh",
+        "https://ctext.org/wiki.pl?if=gb&chapter=778315&remap=gb",
+        "https://mooc1.chaoxing.com/mooc-ans/nodedetailcontroller/visitnodedetail?courseId=217634127&knowledgeId=422695039"
+      ]
+    },
+    {
+      "name": "认知缺口",
+      "sources": [
+        "https://m.thepaper.cn/newsDetail_forward_31905851",
+        "https://yabook.org/mip/post/10536.html",
+        "https://book.douban.com/subject/1313903",
+        "https://www.dushu.com/book/10567944/"
+      ]
+    },
+    {
+      "name": "参考文献",
+      "sources": [
+        "https://darwin-online.org.uk/EditorialIntroductions/Chancellor_LyellsPrinciplesOfGeology.html",
+        "https://darwin-online.org.uk/Variorum/1861/1861-xiii-s.html",
+        "https://baike.baidu.com/item/%E9%81%97%E4%BC%A0%E5%AD%A6%E4%B8%8E%E7%89%A9%E7%A7%8D%E8%B5%B7%E6%BA%90/52945899",
+        "https://book.douban.com/subject/10594616/",
+        "https://baike.baidu.com/item/%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%81%87%E8%AE%BE/63761891"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "title": "亚里士多德《物理学》选读",
+      "cognition": "形成判断",
+      "culture": "希腊与罗马",
+      "subclass": "宇宙",
+      "era": "古代",
+      "text": "论著",
+      "star": 3,
+      "why": "看清以自身为因的运动框架，以及它何处被后来的定律替换。",
+      "source": "MIT STS.003 阅读书目"
+    },
+    {
+      "title": "欧几里得《几何原本》选读",
+      "cognition": "看清规则",
+      "culture": "希腊与罗马",
+      "subclass": "科学方法",
+      "era": "古代",
+      "text": "论著",
+      "star": 4,
+      "why": "看清什么叫从公理推出，而不是拿几个例子代替证明。",
+      "source": "北大《科学通史》课纲第3讲"
+    },
+    {
+      "title": "《周髀算经》选读",
+      "cognition": "形成判断",
+      "culture": "中国",
+      "subclass": "宇宙",
+      "era": "古代",
+      "text": "论著",
+      "star": 3,
+      "why": "盖天说用勾股把日高日径算出来，对不上后来的观测。",
+      "source": "中国哲学书电子化计划《周髀算经》"
+    },
+    {
+      "title": "《九章算术》选读",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "中国科学",
+      "era": "古代",
+      "text": "论著",
+      "star": 3,
+      "why": "刘徽注让算法可复算，但这是测量规程，不是自然定律。",
+      "source": "中国哲学书电子化计划《九章算术》刘徽序"
+    },
+    {
+      "title": "《黄帝内经》选读",
+      "cognition": "形成判断",
+      "culture": "中国",
+      "subclass": "中国科学",
+      "era": "古代",
+      "text": "经书",
+      "star": 3,
+      "why": "气血经络是一套身体总图，不能直接当成已检验的生理。",
+      "source": "斯坦福 IHUM 6a 课纲"
+    },
+    {
+      "title": "沈括《梦溪笔谈》选读",
+      "cognition": "形成判断",
+      "culture": "中国",
+      "subclass": "中国科学",
+      "era": "古代",
+      "text": "论著",
+      "star": 4,
+      "why": "磁偏角和化石可复核，志怪与占卜不能拿来当事实。",
+      "source": "中国哲学书电子化计划《梦溪笔谈》"
+    },
+    {
+      "title": "哥白尼《天体运行论》选读",
+      "cognition": "形成判断",
+      "culture": "无",
+      "subclass": "宇宙",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "日心说先是更整齐的几何安排，不是立刻被观测钉死。",
+      "source": "北大科学元典《天体运行论》"
+    },
+    {
+      "title": "伽利略《关于托勒密和哥白尼两大世界体系的对话》选读",
+      "cognition": "形成判断",
+      "culture": "无",
+      "subclass": "宇宙",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "望远镜证据逼地心说让步，但书中的潮汐证明并不成立。",
+      "source": "清华科学思想史参考书"
+    },
+    {
+      "title": "哈维《心血运动论》",
+      "cognition": "看清事实",
+      "culture": "英国",
+      "subclass": "科学方法",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "血液循环靠结扎、计量和排除旧说证明，不是靠权威。",
+      "source": "北大《科学通史》实验传统；科学元典"
+    },
+    {
+      "title": "牛顿《自然哲学的数学原理》选读",
+      "cognition": "看清规则",
+      "culture": "英国",
+      "subclass": "宇宙",
+      "era": "近代",
+      "text": "论著",
+      "star": 5,
+      "why": "地面落体和行星公转是同一条可计算的引力定律。",
+      "source": "MIT STS.003；清华科学思想史参考书"
+    },
+    {
+      "title": "拉瓦锡《化学基础论》选读",
+      "cognition": "看清事实",
+      "culture": "法国",
+      "subclass": "宇宙",
+      "era": "近代",
+      "text": "教材",
+      "star": 4,
+      "why": "燃烧是与氧化合，反应前后要能把质量守恒算平。",
+      "source": "MIT STS.003 阅读书目"
+    },
+    {
+      "title": "拉马克《动物哲学》选读",
+      "cognition": "形成判断",
+      "culture": "法国",
+      "subclass": "演化",
+      "era": "近代",
+      "text": "论著",
+      "star": 3,
+      "why": "物种会变这一步成立，用进废退并不因此成立。",
+      "source": "《物种起源》历史素描；达尔文在线"
+    },
+    {
+      "title": "莱伊尔《地质学原理》选读",
+      "cognition": "看清事实",
+      "culture": "英国",
+      "subclass": "宇宙",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "地貌来自今天仍能看见的缓慢过程，不必一次次灾变重造。",
+      "source": "达尔文在线：莱伊尔与《物种起源》"
+    },
+    {
+      "title": "克洛德·贝尔纳《实验医学研究导论》",
+      "cognition": "形成判断",
+      "culture": "法国",
+      "subclass": "科学方法",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "生命现象的说法要变成可对照的假说，不能停在活力上。",
+      "source": "商务印书馆汉译名著本"
+    },
+    {
+      "title": "孟德尔《植物杂交的试验》",
+      "cognition": "看清规则",
+      "culture": "无",
+      "subclass": "演化",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "性状按稳定比例分离，遗传不是两亲血液一混了之。",
+      "source": "北大《科学通史》第14讲；科学元典"
+    },
+    {
+      "title": "达尔文《人类的由来及性选择》选读",
+      "cognition": "看清他人",
+      "culture": "英国",
+      "subclass": "演化",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "两性差异被收进性选择，人种优劣的推论要另拆。",
+      "source": "北大科学元典生命科学系列"
+    },
+    {
+      "title": "赫胥黎《人类在自然界的位置》",
+      "cognition": "看清自己",
+      "culture": "英国",
+      "subclass": "演化",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "人与猿的骨骼和脑是同一序列，不是单独被造的一等。",
+      "source": "北大科学元典生命科学系列"
+    },
+    {
+      "title": "庞加莱《科学与假设》",
+      "cognition": "形成判断",
+      "culture": "法国",
+      "subclass": "科学方法",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "几何和原理里有约定，不能把数学形式直接当成观测。",
+      "source": "哈佛 Galison FYSEMR 53E 课纲"
+    },
+    {
+      "title": "爱因斯坦《狭义与广义相对论浅说》",
+      "cognition": "看清事实",
+      "culture": "德国",
+      "subclass": "宇宙",
+      "era": "近代",
+      "text": "论著",
+      "star": 5,
+      "why": "时间空间会随运动和引力改变，不是装事物的绝对背景。",
+      "source": "北大科学元典；哈佛爱因斯坦研讨课"
+    },
+    {
+      "title": "魏格纳《海陆的起源》",
+      "cognition": "形成判断",
+      "culture": "德国",
+      "subclass": "宇宙",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "大陆拼合的证据早已摆出，机制不对会把对的图案搁置。",
+      "source": "北大科学元典《海陆的起源》"
+    },
+    {
+      "title": "摩尔根《基因论》",
+      "cognition": "看清规则",
+      "culture": "美国",
+      "subclass": "演化",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "基因在染色体上连锁成群，重组频率可以给它定位。",
+      "source": "北大科学元典《基因论》"
+    },
+    {
+      "title": "杜布赞斯基《遗传学与物种起源》",
+      "cognition": "看清规则",
+      "culture": "美国",
+      "subclass": "演化",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "突变、选择和生殖隔离合在一起，才说明新物种从哪来。",
+      "source": "谈家桢等译，科学出版社1964"
+    },
+    {
+      "title": "薛定谔《生命是什么》",
+      "cognition": "看清事实",
+      "culture": "无",
+      "subclass": "演化",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "遗传要像稳定的编码那样复制，不能只靠连续的流体。",
+      "source": "北大科学元典《生命是什么》"
+    },
+    {
+      "title": "海森伯《物理学和哲学》",
+      "cognition": "形成判断",
+      "culture": "德国",
+      "subclass": "宇宙",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "微观过程套不回经典轨道，测不准是关系限制不是仪器马虎。",
+      "source": "范岱年译，商务印书馆"
+    },
+    {
+      "title": "波普尔《猜想与反驳》选读",
+      "cognition": "形成判断",
+      "culture": "英国",
+      "subclass": "科学方法",
+      "era": "当代",
+      "text": "论著",
+      "star": 5,
+      "why": "一种说法若怎样都不肯被打脸，就不该算科学知识。",
+      "source": "清华科学史系硕士考试大纲；傅季重译本"
+    },
+    {
+      "title": "库恩《科学革命的结构》",
+      "cognition": "形成判断",
+      "culture": "美国",
+      "subclass": "科学方法",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "科学换代时连问题和标准一起换，不能只拿单句对质。",
+      "source": "清华科学史系硕士考试大纲"
+    },
+    {
+      "title": "乔治·威廉斯《适应与自然选择》",
+      "cognition": "形成判断",
+      "culture": "美国",
+      "subclass": "演化",
+      "era": "当代",
+      "text": "论著",
+      "star": 4,
+      "why": "适应要落到个体繁殖，物种利益不能随手当作原因。",
+      "source": "进化心理学参考文献；陈蓉霞译本"
+    }
+  ]
+}

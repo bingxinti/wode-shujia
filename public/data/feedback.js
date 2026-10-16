@@ -1,0 +1,1 @@
+window.ZHISHI_FEEDBACK = [];

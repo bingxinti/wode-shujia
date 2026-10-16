@@ -1,0 +1,280 @@
+{
+  "plate": "conduct",
+  "passes": [
+    {
+      "name": "原典：佛经、道家修养、儒家家训",
+      "sources": [
+        "https://cbetaonline.dila.edu.tw/zh/Y0035_010",
+        "https://cbetaonline.dila.edu.tw/zh/B0116",
+        "https://zh.wikisource.org/zh-hans/%E9%A2%9C%E6%B0%8F%E5%AE%B6%E8%AE%AD_(%E5%9B%9B%E5%BA%93%E5%85%A8%E4%B9%A6%E6%9C%AC)",
+        "https://www.kongziyjy.org/nd.jsp?id=2951",
+        "https://zh.daoinfo.org/index.php?title=%E5%A4%AA%E4%B8%8A%E6%84%9F%E5%BA%94%E7%AF%87",
+        "https://zh.wikisource.org/zh-hans/%E4%BA%86%E5%87%A1%E5%9B%9B%E8%AE%AD",
+        "https://zh.wikisource.org/zh-hans/%E6%9C%B1%E5%AD%90%E5%AE%B6%E8%AE%AD"
+      ],
+      "note": "金刚经收，5星：印顺写明它是般若部流传最盛的一种，汉译以鸠摩罗什本通行；集注记五祖劝僧俗持诵，慧能闻「应无所住而生其心」得悟。与已有《坛经》分工：坛经是禅门行事，金刚经是它所依的般若论证。心经收，4星：印顺写明它是般若里民间传诵最盛的短篇，玄奘本最通行；只把五蕴皆空说完，不另开一门。颜氏家训收，4星：四库提要引陈振孙「古今家训以此为祖」，述立身治家，不是格言摘抄。了凡四训不收：正文是算命应验、功过格和持咒改命，属劝善书，近后来的鸡汤，立命之说《孟子》已有。朱子家训不收：作者是朱用纯不是朱熹，几百字日用格言，与已有《增广贤文》《菜根谭》重复。太上感应篇不收：正统道藏太清部劝善书，以司过之神计善恶、减寿算，不增加看事实或形成判断的能力；道家如何活已有《道德经》《庄子》。"
+    },
+    {
+      "name": "北大通识、钱穆、梁启超书目、哥伦比亚核心课",
+      "sources": [
+        "http://www.dean.pku.edu.cn/web/rules_info.php?id=160",
+        "https://elective.pku.edu.cn/elective2008/edu/pku/stu/elective/controller/courseDetail/getCourseDetail.do?kclx=BK&course_seq_no=BZ1920102332976_15266",
+        "https://elective.pku.edu.cn/elective2008/edu/pku/stu/elective/controller/courseDetail/getCourseDetail.do?kclx=BK&course_seq_no=BZ2021102332323_15201",
+        "https://www.xueruxue.com/wen-hua-qi-shu.html",
+        "https://www.sohu.com/a/201633963_160261",
+        "https://www.xuoda.com/xdmj/hushi/wc2/024.htm",
+        "https://www.xuoda.com/xdmj/hushi/wc2/025.htm",
+        "https://www.college.columbia.edu/core-curriculum/classes/contemporary-civilization",
+        "https://www.college.columbia.edu/core/ccreader",
+        "http://sonic.net/~rteeter/grtcolcc.html",
+        "http://www.columbia.edu/itc/lithum/kitcher/course_syllabus.html",
+        "https://www.college.columbia.edu/cct/issue/winter19/article/school-thought"
+      ],
+      "note": "钱穆在《从中国历史来看中国民族性及中国文化》等演讲里点名的是论语、孟子、大学、中庸、老子、庄子、六祖坛经、近思录、传习录，有的说法是前四加后三共七部，有的把大学、中庸算进去成九部。全部已在目录，跳过。梁启超《国学入门书要目》甲类（学达书库所收胡适文存附录）新收：乐记（与大学、中庸、礼运同列熟读）、孝经（说可当礼记一篇）、孟子字义疏证（明说是戴氏一家哲学，终须一读）、论衡（汉代怀疑派，宜浏览）。易经系辞他要读，但这书归宇宙还是三观不确定，不写。春秋繁露、盐铁论偏政治。抱朴子以内丹方术为主，不写。二程遗书、朱子语类，他自己说非专门可置，因为已有近思录。宋元学案、明儒学案是汇编，不收。思问录他明说不足以代表王夫之，不收。北大通识核心课里，四书、孔子与老子、孟子、庄子、坛经、理想国都是已有书；尼采《查拉图斯特拉如是说》是文学性哲理诗，且已有《善恶的彼岸》，不收。哥伦比亚2026年总表上已有而目录没有、且属于这一块的：伊壁鸠鲁《致美诺寇的信》、马太福音、安萨里《迷途指津》。尼采《道德的谱系》与已有《善恶的彼岸》重复，不收。笛卡尔是《谈谈方法》或《第一哲学沉思集》二选一，已有前者，不收。伊本·图斐利《哈义·本·叶格赞的故事》是哲理小说，不收。1991年课表和2010年读本有阿奎那《神学大全》，2026年总表已撤，仍收选读，因为那是基督教哲学的伦理入口，奥古斯丁和概论盖不住。密尔《功利主义》：Kitcher 的核心课课纲指定全书；2019年 College Today 写当时课纲读的是 On Liberty, Utilitarianism and Other Essays。2026年总表只列《论自由》，目录里已有《论自由》，伦理这篇仍缺。1991年有西塞罗 On the Good Life，现课没有，斯多葛已有《沉思录》和《手册》，不收。2010年迈蒙尼德《迷途指津》列为可选，不收。"
+    },
+    {
+      "name": "希腊、印度、伊斯兰、日本各补一个入口",
+      "sources": [
+        "https://www.college.columbia.edu/core-curriculum/classes/contemporary-civilization",
+        "https://ptext.nju.edu.cn/info/1170/4149.htm",
+        "https://www.buddhistelibrary.org/zh/albums/central/Dhamma/DPD27.pdf",
+        "https://www.zinbun.kyoto-u.ac.jp/~dokisha/archives/text/fujiao/jis-encoded/dongpo/sutra3/fg3005.txt",
+        "https://syllabus.s.isct.ac.jp/courses/2025/7/0-907-0-110100-0/202500940",
+        "https://ceschi.bun.kyoto-u.ac.jp/archive/bun_archive/japanese_philosophy/jp-fujitazennokenkyuhyakunen/index.htm",
+        "http://www.zjwhcbs.com/zj/openPDF?id=3806464693962752"
+      ],
+      "note": "希腊：理想国、尼各马可伦理学、沉思录、手册已盖住柏拉图、亚里士多德和斯多葛。现课伊壁鸠鲁单元多出来的是《致美诺寇的信》（Letter to Menoeceus；南京大学实践与文本用此中文名）。印度：《薄伽梵歌》已盖住印度教这一路。法句经另是早期佛教伦理；支谦序说天竺始学不读法句谓之越叙，直到后世仍作初学入门。不另收《入菩萨行论》，以免印度佛教叠两本。伊斯兰：古兰经和概论已有，现课多出来的修行自述是安萨里《迷途指津》（The Rescuer from Error；宗教文化出版社康有玺译本用此名）。日本：《武士道》已有。东京科学大学2025年日本思想史课第5回指定《叹异抄》讲恶人与拯救。西田《善的研究》是另一本，京都大学文学部把它当作讨论了一百年的哲学书，回答何为善，不与净土入口重复。"
+    },
+    {
+      "name": "认知：看清自己、形成判断、看清事实",
+      "sources": [
+        "https://www.college.columbia.edu/core-curriculum/classes/contemporary-civilization",
+        "https://www.xuoda.com/xdmj/hushi/wc2/024.htm",
+        "http://www.columbia.edu/itc/lithum/kitcher/course_syllabus.html",
+        "https://cbetaonline.dila.edu.tw/zh/Y0035_010"
+      ],
+      "note": "看清自己至少有：心经（照见五蕴皆空）、乐记（乐以治情）、安萨里《迷途指津》、法句经、叹异抄。形成判断至少有：伊壁鸠鲁信、密尔《功利主义》、戴震《孟子字义疏证》、马太福音登山宝训、西田《善的研究》。看清事实至少有：论衡选篇（破祥瑞鬼神）、金刚经（凡所有相皆是虚妄）。说不清训练哪一种认知的不收，故了凡四训、朱子家训、太上感应篇不进这一遍。"
+    },
+    {
+      "name": "理想国、论语、坛经的课纲延伸",
+      "sources": [
+        "https://elective.pku.edu.cn/elective2008/edu/pku/stu/elective/controller/courseDetail/getCourseDetail.do?kclx=BK&course_seq_no=BZ1920102332976_15266",
+        "https://elective.pku.edu.cn/elective2008/edu/pku/stu/elective/controller/courseDetail/getCourseDetail.do?kclx=BK&course_seq_no=BZ2021102332323_15201",
+        "https://www.xuoda.com/xdmj/hushi/wc2/024.htm",
+        "https://cbetaonline.dila.edu.tw/zh/B0116",
+        "https://www.college.columbia.edu/core-curriculum/classes/contemporary-civilization"
+      ],
+      "note": "北大《理想国》通识核心课只细读该书第一至九卷，参考书栏没有另开书目，不据此添《申辩篇》。同一传统的延伸用哥伦比亚现课：理想国之后是尼各马可伦理学（已有）和伊壁鸠鲁、爱比克泰德、奥勒留；后两种已有，只补伊壁鸠鲁信。论语延伸用梁启超甲类，不另找转载书单：孝经、乐记，以及他说读孟子时要并读的《孟子字义疏证》。四书章句集注是注释，不收。坛经延伸用北大哲学系坛经课：第9周讲摩诃般若，第15周排《法华经》及禅宗对经典的态度；金刚经另由该经与坛经的授受关系补上（集注：慧能闻诵得悟）。法华经只作选读，星低于般若，因为佛性之说坛经已经讲了。"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "《金刚经》",
+      "cognition": "看清事实",
+      "culture": "中国",
+      "subclass": "经",
+      "school": "佛教",
+      "religion": "佛教",
+      "era": "古代",
+      "text": "经书",
+      "star": 5,
+      "why": "汉传般若的入口，坛经顿悟所依，专破执相。",
+      "source": "印顺《初期大乘佛教之起源与开展》（CBETA Y0035）称金刚般若是般若部流通最盛的一部，汉译六种、世以鸠摩罗什本通行；《金刚经集注》（CBETA B0116）记五祖劝持此经，慧能闻「应无所住而生其心」得悟"
+    },
+    {
+      "title": "《心经》",
+      "cognition": "看清自己",
+      "culture": "中国",
+      "subclass": "经",
+      "school": "佛教",
+      "religion": "佛教",
+      "era": "古代",
+      "text": "经书",
+      "star": 4,
+      "why": "般若最短总纲，照见五蕴非我，不另开一门。",
+      "source": "印顺《初期大乘佛教之起源与开展》（CBETA Y0035）称般若心经是民间传诵最盛的短篇，现存汉译七种，通行的是玄奘译《般若波罗蜜多心经》"
+    },
+    {
+      "title": "《法华经》选读",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "经",
+      "school": "佛教",
+      "religion": "佛教",
+      "era": "古代",
+      "text": "经书",
+      "star": 3,
+      "why": "坛经课上的另一经，讲方便与一乘，不替代般若。",
+      "source": "北京大学哲学系通识核心课「坛经」教学大纲第15周：《法华经》及禅宗对于经典的态度（elective.pku.edu.cn，课程号02332323）"
+    },
+    {
+      "title": "《颜氏家训》",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "修养",
+      "school": "儒家",
+      "religion": "无",
+      "era": "古代",
+      "text": "论著",
+      "star": 4,
+      "why": "家训之祖，乱世里立身、治家、为学的尺度。",
+      "source": "四库全书总目提要引陈振孙：古今家训以此为祖；晁公武：述立身治家之法，以训子孙（维基文库四库全书本）。颜炳罡《光明日报》2025-04-26文同此判断"
+    },
+    {
+      "title": "《孝经》",
+      "cognition": "看清规则",
+      "culture": "中国",
+      "subclass": "经",
+      "school": "儒家",
+      "religion": "无",
+      "era": "古代",
+      "text": "经书",
+      "star": 4,
+      "why": "十三经里专讲孝，梁启超当礼记一篇来读。",
+      "source": "梁启超《国学入门书要目及其读法》甲类论《礼记》：希望中庸、大学、礼运、乐记熟读；「孝经之性质与礼记同，可当礼记之一篇读」（学达书库所收文本）"
+    },
+    {
+      "title": "《乐记》",
+      "cognition": "看清自己",
+      "culture": "中国",
+      "subclass": "经",
+      "school": "儒家",
+      "religion": "无",
+      "era": "古代",
+      "text": "经书",
+      "star": 4,
+      "why": "梁启超列为与礼运同诵，讲乐如何治情。",
+      "source": "梁启超《国学入门书要目及其读法》甲类：礼记中希望学者将中庸、大学、礼运、乐记四篇熟读成诵。礼运已有，乐记未有"
+    },
+    {
+      "title": "戴震《孟子字义疏证》",
+      "cognition": "形成判断",
+      "culture": "中国",
+      "subclass": "哲学",
+      "school": "儒家",
+      "religion": "无",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "梁启超说须读的一家哲学，辩理不在欲外。",
+      "source": "梁启超《国学入门书要目及其读法》甲类：戴震《孟子字义疏证》乃戴氏一家哲学，并非专为注释孟子而作，极精辟，学者终须一读"
+    },
+    {
+      "title": "《论衡》选篇",
+      "cognition": "看清事实",
+      "culture": "中国",
+      "subclass": "哲学",
+      "school": "无",
+      "religion": "无",
+      "era": "古代",
+      "text": "论著",
+      "star": 4,
+      "why": "东汉怀疑论，专破祥瑞、鬼神和虚妄传闻。",
+      "source": "梁启超《国学入门书要目及其读法》甲类：论衡为汉代怀疑派哲学，宜浏览"
+    },
+    {
+      "title": "伊壁鸠鲁《致美诺寇的信》",
+      "cognition": "形成判断",
+      "culture": "希腊与罗马",
+      "subclass": "哲学",
+      "school": "无",
+      "religion": "无",
+      "era": "古代",
+      "text": "书信",
+      "star": 5,
+      "why": "快乐主义的入口，快乐是去痛，不是纵欲。",
+      "source": "哥伦比亚学院 Contemporary Civilization 2026年秋季总表：Epicurus, Letter to Menoeceus，单元 Epicureanism and Stoicism。中文名用南京大学「实践与文本」所刊《致美诺寇的信》"
+    },
+    {
+      "title": "密尔《功利主义》",
+      "cognition": "形成判断",
+      "culture": "英国",
+      "subclass": "哲学",
+      "school": "无",
+      "religion": "无",
+      "era": "近代",
+      "text": "论著",
+      "star": 5,
+      "why": "用后果看什么值得要，和康德的义务论相对。",
+      "source": "哥伦比亚核心课教师课纲（Philip Kitcher，columbia.edu/itc/lithum/kitcher）指定 Mill, Utilitarianism 全书。2019年 Columbia College Today 写当时课纲读 On Liberty, Utilitarianism and Other Essays。2026年总表只列 On Liberty，目录已有《论自由》"
+    },
+    {
+      "title": "《马太福音》选读",
+      "cognition": "形成判断",
+      "culture": "基督教欧洲",
+      "subclass": "经",
+      "school": "无",
+      "religion": "基督宗教",
+      "era": "古代",
+      "text": "经书",
+      "star": 4,
+      "why": "哥伦比亚现课指定，登山宝训是福音书里的伦理。",
+      "source": "哥伦比亚学院 Contemporary Civilization 2026年秋季总表：Bible, Matthew。目录已有《马可福音》，没有登山宝训"
+    },
+    {
+      "title": "托马斯·阿奎那《神学大全》选读",
+      "cognition": "看清规则",
+      "culture": "基督教欧洲",
+      "subclass": "哲学",
+      "school": "无",
+      "religion": "基督宗教",
+      "era": "古代",
+      "text": "论著",
+      "star": 4,
+      "why": "旧版核心课的基督教伦理，讲幸福、德性与法。",
+      "source": "1991–1992年哥伦比亚 CC 课表：Aquinas, Aquinas on Politics and Ethics。2010–2011年 CC Reader 中世纪哲学单元列 Thomas Aquinas, The Summa of Theology（可选书另列，阿奎那不在可选栏）。2026年总表已不列"
+    },
+    {
+      "title": "安萨里《迷途指津》",
+      "cognition": "看清自己",
+      "culture": "伊斯兰世界",
+      "subclass": "哲学",
+      "school": "无",
+      "religion": "伊斯兰教",
+      "era": "古代",
+      "text": "论著",
+      "star": 4,
+      "why": "现课指定，逐一检验诸学之后如何安顿自己。",
+      "source": "哥伦比亚学院 Contemporary Civilization 2026年秋季总表：Al Ghazali, The Rescuer from Error，单元 Medieval Rationalism and Mysticism。中文名用宗教文化出版社康有玺译《迷途指津》"
+    },
+    {
+      "title": "《法句经》",
+      "cognition": "看清自己",
+      "culture": "印度",
+      "subclass": "经",
+      "school": "佛教",
+      "religion": "佛教",
+      "era": "古代",
+      "text": "经书",
+      "star": 4,
+      "why": "印度早期佛教伦理的入口，始学不读算越级。",
+      "source": "支谦《法句经序》：其在天竺，始进业者不学法句谓之越叙，此乃始进者之鸿渐（buddhistelibrary 所刊序；京都大学人文科学研究所藏印顺相关文本同引此语）"
+    },
+    {
+      "title": "《叹异抄》",
+      "cognition": "看清自己",
+      "culture": "日本",
+      "subclass": "修养",
+      "school": "佛教",
+      "religion": "佛教",
+      "era": "古代",
+      "text": "论著",
+      "star": 4,
+      "why": "日本净土的入口，恶人正是誓愿所对的人。",
+      "source": "东京科学大学2025年文系教养科目日本思想史课纲第5回：古代·中世与恶（2）「恶人」与拯救，指定『歎異抄』（13世纪）。https://syllabus.s.isct.ac.jp/courses/2025/7/0-907-0-110100-0/202500940"
+    },
+    {
+      "title": "西田几多郎《善的研究》",
+      "cognition": "形成判断",
+      "culture": "日本",
+      "subclass": "哲学",
+      "school": "无",
+      "religion": "无",
+      "era": "近代",
+      "text": "论著",
+      "star": 4,
+      "why": "日本近代哲学的入口，用纯粹经验说明何为善。",
+      "source": "京都大学大学院文学研究科所记藤田正胜编『「善の研究」の百年』（京都大学学术出版会，2011），讨论此书一百年来如何被读；书本身分纯粹经验、实在、善、宗教四编"
+    }
+  ]
+}

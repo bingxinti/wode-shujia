@@ -1,0 +1,2877 @@
+window.ZHISHI_I18N_BOOKS = window.ZHISHI_I18N_BOOKS || {};
+window.ZHISHI_I18N_BOOKS["es"] = {
+  "lunyu": {
+    "title": "Discípulos de Confucio, Las Analectas",
+    "summary": "Registra a Confucio hablando del estudio, la humanidad y el rito. Solo la humanidad se ablanda; solo el rito se vuelve rígido; hay que verlos juntos.",
+    "blurb": "Primera puerta del confucianismo. Breve: familiarizarse primero con las palabras humanidad, rito y hombre noble.",
+    "aka": [
+      "Los Cuatro Libros"
+    ],
+    "published": "ca. finales del siglo V a. C. a siglo IV a. C.",
+    "author": "discípulos de Confucio"
+  },
+  "mengzi": {
+    "title": "Mencio, Mencio",
+    "summary": "Sostiene que la persona tiene cuatro brotes y que el soberano debe practicar un gobierno humanitario. Lo que pone al pueblo como base es una exigencia al gobernante, no un sistema electoral moderno.",
+    "blurb": "Lleva humanidad y rectitud del cultivo personal a la política, y suple el debate, más tenue en Las Analectas, entre rectitud y provecho.",
+    "aka": [
+      "Los Cuatro Libros"
+    ],
+    "published": "ca. finales del siglo IV a. C. a siglo III a. C.",
+    "author": "Mencio y sus discípulos"
+  },
+  "daxue": {
+    "title": "Zengzi, La Gran Enseñanza",
+    "summary": "Va de investigar las cosas, extender el conocimiento, hacer sincera la intención y rectificar el corazón, hasta cultivarse, ordenar la familia, gobernar el Estado y pacificar el mundo.",
+    "blurb": "En muy poco espacio une el cultivo personal con la familia y el Estado, para recordar la escala del confucianismo.",
+    "aka": [
+      "Los Cuatro Libros",
+      "El Libro de los Ritos"
+    ],
+    "published": "ca. los Estados Combatientes a los Han occidentales",
+    "author": "Zengzi (atribuido tradicionalmente)"
+  },
+  "zhongyong": {
+    "title": "Zisi, La Doctrina de la Medianía",
+    "summary": "El centro es no desviarse; lo constante es lo que puede durar. Presenta la moral como algo que se puede practicar una y otra vez dentro de las relaciones.",
+    "blurb": "Ver cómo el confucianismo habla de la medida: no ir a los extremos y sostenerlo en lo cotidiano.",
+    "aka": [
+      "Los Cuatro Libros",
+      "El Libro de los Ritos"
+    ],
+    "published": "ca. los Estados Combatientes a los Han occidentales",
+    "author": "Zisi (atribuido tradicionalmente)"
+  },
+  "xunzi": {
+    "title": "Xunzi, Xunzi",
+    "summary": "La persona nace inclinada al provecho, así que solo con la educación y con el rito y la ley puede vivir en grupo. Leído esto, el legismo ya no resulta abrupto.",
+    "blurb": "Sirve para romper la idea de que «todo el confucianismo cree en la bondad de la naturaleza». Xunzi sostiene la naturaleza mala y subraya el rito y la norma del maestro.",
+    "published": "ca. siglo III a. C.",
+    "author": "Xunzi y sus seguidores posteriores"
+  },
+  "daodejing": {
+    "title": "Laozi, Daodejing",
+    "summary": "Lo débil puede vencer a lo fuerte; desdicha y fortuna se acompañan. Gobernar en lo alto es molestar poco al pueblo; en lo personal, saber dónde hay que parar.",
+    "blurb": "Con el texto más breve instala el «límite» y la «transformación».",
+    "aka": [
+      "Laozi"
+    ],
+    "published": "ca. siglo IV a. C.",
+    "author": "Laozi (atribuido)"
+  },
+  "zhuangzi": {
+    "title": "Zhuangzi, capítulos interiores",
+    "summary": "Cuando los roles sociales ocupan a la persona por entero, pierde el juicio sobre lo grande y lo pequeño, la vida y la muerte, el sí y el no. La distancia es soltar la obsesión, no abandonar toda responsabilidad.",
+    "blurb": "Pone en duda el nombre, la utilidad y el propio sí y no, para no leer el Daodejing como un recetario de maniobras.",
+    "published": "ca. siglo IV a. C. a siglo III a. C.",
+    "author": "Zhuangzi"
+  },
+  "hanfeizi": {
+    "title": "Han Fei, Han Feizi (selección)",
+    "summary": "La persona busca el provecho y evita el daño. Si el soberano se apoya en el afecto y en palabras vacías, la organización la arrastran los allegados y la palabrería. Reglas, evaluación y posición de poder hay que verlos por separado.",
+    "blurb": "Es el texto original más claro del legismo: dice de frente cómo premios y castigos dan forma a la conducta.",
+    "published": "ca. siglo III a. C.",
+    "author": "Han Fei"
+  },
+  "shangjunshu": {
+    "title": "Shang Yang, El libro del señor de Shang (selección)",
+    "summary": "Shang Yang sostiene que, para que el Estado sea fuerte, la fuerza del pueblo debe concentrarse en el cultivo y la guerra, y que una ley severa debe cancelar los privilegios de la vieja aristocracia.",
+    "blurb": "Ver cómo la reforma convierte al Estado en una máquina de agricultura y guerra, y entender el fin estatal del legismo.",
+    "published": "ca. siglo IV a. C. a siglo III a. C.",
+    "author": "Shang Yang y sus seguidores posteriores"
+  },
+  "zizhi": {
+    "title": "Sima Guang, El espejo general para el gobierno (selección)",
+    "summary": "Cómo un asunto se decide entre la corte, el ejército y la hacienda. Los comentarios suelen exhortar al gobernante a evitar la ruina del Estado.",
+    "blurb": "Con ganancias y pérdidas de poder en un tiempo largo, contrasta la regla con la operación real.",
+    "published": "1084",
+    "author": "Sima Guang"
+  },
+  "mozi": {
+    "title": "Mozi, Mozi (selección)",
+    "summary": "Sostiene que el amor no debe seguir solo la cercanía, que la guerra daña a todos y que los cargos deben ir según la capacidad. También valora la lógica y la técnica, pero eso es el paso siguiente.",
+    "blurb": "Repone una corriente de los maestros que el confucianismo dejó debajo, para no creer que en la Antigüedad solo hubo humanidad y ley.",
+    "published": "ca. siglo V a. C. a siglo III a. C.",
+    "author": "Mozi y sus seguidores posteriores"
+  },
+  "sunzi": {
+    "title": "Sun Wu, El arte de la guerra",
+    "summary": "Primero se comparan las dos partes; si se puede ganar sin combatir, no se combate. Con velocidad, engaño y terreno se hace que el otro marche al ritmo propio.",
+    "blurb": "Con trece capítulos basta para meter en la cabeza «calcular primero, vacío y lleno, no combatir».",
+    "published": "ca. siglo V a. C.",
+    "author": "Sun Wu"
+  },
+  "liezi": {
+    "title": "Lie Yukou, Liezi",
+    "summary": "Con fábulas como el viejo que movió las montañas o el hombre de Qi que temía que el cielo cayera, habla del cambio, de lo que la fuerza no alcanza y de no disputarlo todo. El texto transmitido incluye capítulos incorporados más tarde.",
+    "blurb": "El libro de fábulas que el taoísmo suele leer junto al Zhuangzi.",
+    "published": "ca. siglo IV",
+    "author": "Lie Yukou (atribuido; el texto recibido data aproximadamente de los Jin orientales)"
+  },
+  "huangdi-sijing": {
+    "title": "Anónimo, Los cuatro clásicos del Emperador Amarillo",
+    "summary": "Cuatro escritos huang-lao salidos de una tumba Han en Mawangdui: reúnen nombres y castigos, normas legales y los tiempos del cielo. La copia quedó enterrada a comienzos de los Han; el contenido se escribió antes.",
+    "blurb": "Texto desenterrado de la corriente taoísta huang-lao, no un nombre vacío reconstruido por generaciones posteriores.",
+    "published": "ca. siglo IV a. C. a siglo II a. C.",
+    "author": "Anónimo"
+  },
+  "guanzi": {
+    "title": "Guan Zhong, Guanzi (selección)",
+    "summary": "Atribuido a Guan Zhong. El pastoreo del pueblo, los decretos y el arte de lo ligero y lo pesado están mezclados; no lo escribió una sola persona en un solo momento. La posteridad suele leer los capítulos de gobierno desde el legismo.",
+    "blurb": "Otro libro grande de esta rama del legismo: se ve cómo decreto y hacienda se escriben en el mismo conjunto de métodos.",
+    "published": "ca. los Estados Combatientes a los Han occidentales",
+    "author": "Guan Zhong (atribuido) y sus seguidores posteriores"
+  },
+  "shenzi": {
+    "title": "Shen Dao, Shenzi",
+    "summary": "Shen Dao subraya que la posición de poder basta por sí misma para que los decretos se sostengan; no se puede depender solo de la astucia ocasional del soberano. Lo que se conserva son sobre todo fragmentos.",
+    "blurb": "Repone la rama del legismo que pone el peso en la posición. Es breve.",
+    "published": "ca. siglo IV a. C.",
+    "author": "Shen Dao"
+  },
+  "gongsunlong": {
+    "title": "Gongsun Long, Gongsun Longzi",
+    "summary": "Con temas como el caballo blanco o lo duro y lo blanco, separa el nombre de lo designado. Pregunta si nombre y realidad pueden corresponderse uno a uno.",
+    "blurb": "El principal texto original de la Escuela de los Nombres que aún se puede leer. Es breve.",
+    "published": "ca. siglo III a. C.",
+    "author": "Gongsun Long"
+  },
+  "yinwenzi": {
+    "title": "Yin Wen, Yinwenzi",
+    "summary": "El texto transmitido se atribuye a la Escuela de los Nombres. Habla de cómo los nombres fijan la identidad, el premio y el castigo, y de cómo el soberano se apoya en esos nombres para constreñir a las personas.",
+    "blurb": "Otro libro transmitido de la Escuela de los Nombres: une nombre y realidad con el gobierno del Estado.",
+    "published": "ca. siglo III a. C.",
+    "author": "Yin Wen"
+  },
+  "guiguzi": {
+    "title": "Anónimo, Guiguzi",
+    "summary": "La tradición lo atribuye a la escuela de las alianzas. Habla de observar cómo el otro se abre y se cierra, y entonces decidir si se aconseja, se calla o se marcha. El peso está en el arte de persuadir, no en el registro de una diplomacia concreta.",
+    "blurb": "El tratado que dejaron los estrategas itinerantes; los libros de la línea de Su Qin y Zhang Yi parten de aquí.",
+    "published": "ca. los Estados Combatientes a los Han",
+    "author": "Anónimo (atribuido a Guiguzi)"
+  },
+  "zhanguoce": {
+    "title": "Liu Xiang, Estrategias de los Reinos Combatientes (selección)",
+    "summary": "Discursos de persuasión de los Reinos Combatientes compilados por Liu Xiang. De un mismo asunto suelen quedar dos consejos opuestos, la alianza vertical y la horizontal. Las actividades de Su Qin y Zhang Yi se registran sobre todo aquí.",
+    "blurb": "Los hechos de los estrategas itinerantes quedan en estos discursos; conviene leerlo frente a Guiguzi.",
+    "published": "finales del siglo I a. C.",
+    "author": "compilado por Liu Xiang"
+  },
+  "lushi": {
+    "title": "Lü Buwei, Los anales de Lü Buwei",
+    "summary": "Compilado por los clientes de Lü Buwei. Las doce crónicas se ordenan por las cuatro estaciones; las ocho observaciones y los seis discursos recogen dichos confucianos, taoístas, legistas, yin-yang y otros en un solo libro.",
+    "blurb": "El representante de la escuela ecléctica. Ver cómo se compila a las escuelas en un conjunto, y no leer solo una.",
+    "published": "239 a. C.",
+    "author": "Lü Buwei y sus allegados"
+  },
+  "huainanzi": {
+    "title": "Liu An, Huainanzi (selección)",
+    "summary": "Compilado por los clientes de Liu An, príncipe de Huainan. Toma como base el no interferir taoísta y recoge lo que las escuelas dicen sobre cielo y ser humano, rito, ley y gobierno.",
+    "blurb": "Gran libro ecléctico de los Han: se ve cómo los dichos de las cien escuelas se reordenaron después.",
+    "published": "139 a. C.",
+    "author": "Liu An y sus allegados"
+  },
+  "wuzi": {
+    "title": "Wu Qi, Wuzi",
+    "summary": "Wu Qi dice que mandar un ejército empieza por lograr adhesión interna, y solo después se habla de terreno, enemigo, premio y castigo. Frente a El arte de la guerra, insiste más en afirmar primero el propio lado.",
+    "blurb": "Un libro breve de la escuela militar, pegado a El arte de la guerra.",
+    "published": "ca. siglo IV a. C.",
+    "author": "Wu Qi"
+  },
+  "sunbin": {
+    "title": "Sun Bin, El arte de la guerra de Sun Bin",
+    "summary": "Discute cómo vencer aun cuando la tropa, el terreno y la formación están en desventaja. El libro se perdió y en 1972 salió de una tumba Han en Yinqueshan, Shandong.",
+    "blurb": "Texto original de la escuela militar, perdido y luego excavado; se puede leer frente a El arte de la guerra.",
+    "published": "ca. siglo IV a. C.",
+    "author": "Sun Bin"
+  },
+  "weiliaozi": {
+    "title": "Wei Liao, Weiliaozi",
+    "summary": "Escribe en las filas la organización, las órdenes y la responsabilidad colectiva. Trata de cómo el ejército se sostiene en la institución y no solo en el valor del momento.",
+    "blurb": "El de la escuela militar que más se acerca a los métodos del legismo.",
+    "published": "ca. los Estados Combatientes",
+    "author": "Wei Liao"
+  },
+  "shiji": {
+    "title": "Sima Qian, Registros históricos (selección)",
+    "summary": "Sima Qian escribe cómo Liu Bang se alzó, por qué Xiang Yu fracasó, cómo los mercaderes se enriquecieron y cómo los caballeros errantes se ganaron la confianza. Hay que ver a la vez a quién elogia y a quién pasa por alto.",
+    "blurb": "Ver poder, riqueza y fama en personas concretas es más eficaz que empezar por leer enteras las Veinticuatro Historias.",
+    "published": "ca. 91 a. C.",
+    "author": "Sima Qian"
+  },
+  "class-analysis": {
+    "title": "Mao Zedong, Análisis de las clases de la sociedad china",
+    "summary": "Divide las clases según la actitud ante la revolución y la posición económica, y decide en quién apoyarse y a quién oponerse.",
+    "blurb": "Ver primero cómo clasifica a la gente: es una muestra de trabajo del método.",
+    "aka": [
+      "Obras escogidas de Mao",
+      "Obras escogidas de Mao",
+      "Mao Zedong"
+    ],
+    "published": "1926",
+    "author": "Mao Zedong"
+  },
+  "practice": {
+    "title": "Mao Zedong, Sobre la práctica",
+    "summary": "El conocimiento viene de la práctica y tiene que volver a la práctica para comprobarse. Una conclusión que se queda en los libros no está terminada.",
+    "blurb": "Entender de dónde sale la frase política «sin investigación no hay derecho a hablar».",
+    "aka": [
+      "Obras escogidas de Mao",
+      "Obras escogidas de Mao",
+      "Mao Zedong"
+    ],
+    "published": "1937",
+    "author": "Mao Zedong"
+  },
+  "contradiction": {
+    "title": "Mao Zedong, Sobre la contradicción",
+    "summary": "Las cosas avanzan por contradicciones internas. Al tratar un problema hay que tomar el par dominante y admitir que cambia.",
+    "blurb": "Aprender a encontrar la contradicción principal, y no alinear todas las causas en una lista.",
+    "aka": [
+      "Obras escogidas de Mao",
+      "Obras escogidas de Mao",
+      "Mao Zedong"
+    ],
+    "published": "1937",
+    "author": "Mao Zedong"
+  },
+  "protracted": {
+    "title": "Mao Zedong, Sobre la guerra prolongada",
+    "summary": "La guerra chino-japonesa no se podía ganar rápido, ni el país iba a perecer de inmediato. Había que volverse fuerte con la duración y desgastar al otro.",
+    "blurb": "Ver cómo el mismo método se usa en el juicio de una guerra concreta.",
+    "aka": [
+      "Obras escogidas de Mao",
+      "Obras escogidas de Mao",
+      "Mao Zedong"
+    ],
+    "published": "1938",
+    "author": "Mao Zedong"
+  },
+  "new-democracy": {
+    "title": "Mao Zedong, Sobre la nueva democracia",
+    "summary": "La China de entonces se define como sociedad semicolonial y semifeudal; la revolución debe ir por etapas, y la cuestión de la dirección se pone en el centro.",
+    "blurb": "Ver cómo esta teoría define las etapas, la dirección y la alianza de la revolución china.",
+    "aka": [
+      "Obras escogidas de Mao",
+      "Obras escogidas de Mao",
+      "Mao Zedong"
+    ],
+    "published": "1940",
+    "author": "Mao Zedong"
+  },
+  "jiang-history": {
+    "title": "Jiang Tingfu, Historia de la China moderna",
+    "summary": "El autor sostiene que el tema de la China moderna es cómo adaptarse a la producción y la fuerza armada del mundo moderno, y que las reformas internas se retrasaron una y otra vez.",
+    "blurb": "El esqueleto más corto, para armar primero la línea principal desde el siglo XIX hasta antes de la guerra de resistencia.",
+    "published": "1938",
+    "author": "Tsiang Tingfu"
+  },
+  "hsu-history": {
+    "title": "Xu Zhongyue, Historia de la China moderna",
+    "summary": "Desde el encuentro de la época Ming-Qing hasta la República, escribe por etapas el impacto exterior y la respuesta interior; el material es más denso que el de Jiang.",
+    "blurb": "Después del esqueleto corto, añade hilos más completos de política, diplomacia y sociedad.",
+    "published": "1970",
+    "author": "Immanuel C. Y. Hsu"
+  },
+  "cambridge-prc": {
+    "title": "MacFarquhar y Fairbank, Historia de Cambridge de la República Popular China (selección)",
+    "summary": "Escribe la historia posterior a 1949 según campañas políticas, política económica y conflictos de la élite.",
+    "blurb": "Fuera del relato oficial, ofrece otra narración académica, para contrastar y no para sustituir.",
+    "published": "1987",
+    "author": "editado por Roderick MacFarquhar y John King Fairbank"
+  },
+  "tanlu": {
+    "title": "Xiao Donglian, La campaña de explorar el camino",
+    "summary": "La reforma no fue un plano dibujado de antemano, sino un tanteo continuo entre plan y mercado, con retrocesos y nuevos avances.",
+    "blurb": "Escribe los primeros diez y tantos años de la reforma y la apertura como proceso de decisión, no como propaganda de resultados.",
+    "published": "2019",
+    "author": "Xiao Donglian"
+  },
+  "deng-era": {
+    "title": "Vogel, Deng Xiaoping y la transformación de China",
+    "summary": "Cuenta cómo Deng Xiaoping recuperó el poder después de la Revolución Cultural e impulsó la reforma económica, la relación con Estados Unidos y las conversaciones del sur.",
+    "blurb": "Con las decisiones de una persona enlaza reforma, apertura y el problema del orden.",
+    "published": "2011",
+    "author": "Ezra Vogel"
+  },
+  "zhishen": {
+    "title": "Lan Xiaohuan, Dentro de los asuntos",
+    "summary": "Los gobiernos locales cumplen la tarea de crecer con financiación por el suelo, captación de inversión y obra pública, y por eso acumulan deuda y distorsión.",
+    "blurb": "La entrada más clara: por qué los gobiernos locales empujan la inversión con todas sus fuerzas.",
+    "published": "2021",
+    "author": "Lan Xiaohuan"
+  },
+  "zhou-gov": {
+    "title": "Zhou Li'an, El gobierno local en transformación",
+    "summary": "Una evaluación que toma el crecimiento como competición hace que los funcionarios locales participen como en un torneo. Eso explica la velocidad, y también la construcción repetida y el riesgo.",
+    "blurb": "Dice la «competencia entre localidades» como incentivo de promoción de los funcionarios, y suple el mecanismo político de Dentro de los asuntos.",
+    "published": "2008",
+    "author": "Zhou Li'an"
+  },
+  "wu-reform": {
+    "title": "Wu Jinglian, Curso de la reforma económica de la China contemporánea",
+    "summary": "La reforma es un reemplazo entero de instituciones: de precios planificados y fábricas estatales a precios de mercado y diversas formas de propiedad.",
+    "blurb": "Ver por campos cómo cambiaron precios, empresas, hacienda y finanzas.",
+    "published": "2010",
+    "author": "Wu Jinglian"
+  },
+  "caigentan": {
+    "title": "Hong Yingming, Discursos de las raíces vegetales",
+    "summary": "Exhorta a dejar margen entre el honor y la deshonra, entre el ajetreo y el ocio. Muchas frases dicen: no tomes una ganancia del momento como si fueras tú.",
+    "blurb": "Frases cortas, para ejercitar la medida del avanzar y el retirarse.",
+    "published": "ca. finales del siglo XVI",
+    "author": "Hong Yingming"
+  },
+  "zengguang": {
+    "title": "Anónimo, Palabras ampliadas de los sabios",
+    "summary": "Reúne dichos sobre el calor y el frío de las relaciones y sobre protegerse. Unos son observación social; otros solo enseñan a ser dúctil.",
+    "blurb": "La recopilación más cercana a las reglas orales de otro tiempo: se ve el valor por defecto mundano.",
+    "published": "ca. finales de los Ming y comienzos de los Qing",
+    "author": "Anónimo"
+  },
+  "zengguofan": {
+    "title": "Zeng Guofan, Cartas familiares de Zeng Guofan",
+    "summary": "Insiste en aguantar el fastidio, en la sinceridad torpe y en elegir personas. Es la autogestión de un letrado funcionario, no un proverbio popular.",
+    "blurb": "Ver cómo alguien metido en la burocracia y en la guerra cuenta el cultivo personal a su familia.",
+    "published": "1879",
+    "author": "Zeng Guofan"
+  },
+  "sapiens": {
+    "title": "Harari, Sapiens",
+    "summary": "La revolución cognitiva permitió creer historias compartidas; la agricultura ató a la gente a la tierra; imperio, dinero y religión ampliaron la escala de la cooperación.",
+    "blurb": "La gran pregunta que se puede armar en una noche: cómo coopera el ser humano a gran escala.",
+    "published": "2011",
+    "author": "Yuval Noah Harari"
+  },
+  "guns": {
+    "title": "Diamond, Armas, gérmenes y acero",
+    "summary": "Los cultivos, los animales y el eje este-oeste de Eurasia hicieron más fácil la difusión de la técnica, los gérmenes y la organización política, y así se formó la ventaja posterior de la conquista.",
+    "blurb": "Explica la distancia entre continentes y se opone con claridad a explicarla por la raza.",
+    "published": "1997",
+    "author": "Jared Diamond"
+  },
+  "durant-lessons": {
+    "title": "Durant, Las lecciones de la historia",
+    "summary": "Saca lecciones de la geografía, la religión, la economía y la guerra. Conviene, después de las dos anteriores, para practicar el desacuerdo con el autor.",
+    "blurb": "Muy breve: sirve para recoger la historia larga en unas pocas lecciones discutibles.",
+    "published": "1968",
+    "author": "Will Durant y Ariel Durant"
+  },
+  "global-history": {
+    "title": "Stavrianos, Historia global",
+    "summary": "Toma el mundo como unidad de relato y escribe cómo la expansión europea unió en un sistema regiones que estaban separadas.",
+    "blurb": "Armar el esqueleto de qué ocurría al mismo tiempo en cada región.",
+    "published": "1970",
+    "author": "L. S. Stavrianos"
+  },
+  "kennedy": {
+    "title": "Kennedy, Auge y caída de las grandes potencias",
+    "summary": "La base productiva decide la capacidad militar de largo plazo. La extensión estratégica excesiva es un patrón repetido de declive de las grandes potencias.",
+    "blurb": "Ver cómo economía y técnica sostienen la hegemonía, y cómo el gasto militar aplasta a las potencias.",
+    "published": "1987",
+    "author": "Paul Kennedy"
+  },
+  "mearsheimer": {
+    "title": "Mearsheimer, La tragedia de la política de las grandes potencias",
+    "summary": "Las grandes potencias buscan maximizar el poder porque no pueden estar seguras de las intenciones ajenas. El propio ascenso provoca prevención.",
+    "blurb": "Entender «por qué, sin un gobierno mundial, las grandes potencias se previenen unas a otras».",
+    "published": "2001",
+    "author": "John Mearsheimer"
+  },
+  "grand-chessboard": {
+    "title": "Brzezinski, El gran tablero mundial",
+    "summary": "Para mantener la ventaja, Estados Unidos tiene que evitar que en Eurasia aparezca una fuerza capaz de dominar todo el continente.",
+    "blurb": "Baja la geopolítica a la posición, los corredores y los Estados pivote de Eurasia.",
+    "published": "1997",
+    "author": "Zbigniew Brzezinski"
+  },
+  "republic": {
+    "title": "Platón, La república (selección)",
+    "summary": "Platón sostiene que el mundo visible es solo imagen y que el orden verdadero está en las ideas. La justicia de la ciudad es que cada uno ocupe su lugar.",
+    "blurb": "Encontrar primero «qué es la justicia» y la metáfora de la caverna.",
+    "aka": [
+      "La república"
+    ],
+    "published": "ca. 375 a. C.",
+    "author": "Platón"
+  },
+  "ethics": {
+    "title": "Aristóteles, Ética a Nicómaco",
+    "summary": "La virtud es un hábito estable entre el exceso y el defecto. La persona se vuelve cierto tipo de persona en la práctica.",
+    "blurb": "Dice la vida buena como virtud hecha hábito, no como una regla abstracta.",
+    "published": "ca. 330 a. C.",
+    "author": "Aristóteles"
+  },
+  "politics-aristotle": {
+    "title": "Aristóteles, Política (selección)",
+    "summary": "Para él, el ser humano es un animal de la ciudad. Hay regímenes buenos y malos; la ciudad con más clase media es más estable.",
+    "blurb": "Ver por qué la ciudad se toma como unidad completa de vida.",
+    "published": "ca. 330 a. C.",
+    "author": "Aristóteles"
+  },
+  "meditations": {
+    "title": "Marco Aurelio, Meditaciones",
+    "summary": "La muerte, el cargo y la opinión ajena en su mayor parte no dependen de uno. Lo que se puede decidir es el propio juicio y la propia acción.",
+    "blurb": "Notas de autoformación de un emperador romano; representan el estoicismo: distinguir qué se puede controlar.",
+    "published": "ca. 170–180",
+    "author": "Marco Aurelio"
+  },
+  "hebrew-bible": {
+    "title": "Anónimo, La Biblia hebrea (selección)",
+    "summary": "La creación, la alianza y el éxodo de Egipto arman el relato de «un pueblo responsable ante Dios por la ley».",
+    "blurb": "Leer el tramo común de aguas arriba, no unirse a una religión.",
+    "published": "ca. siglo X a. C. a siglo I d. C.",
+    "author": "anónimo, a lo largo de las generaciones"
+  },
+  "jewish-history": {
+    "title": "Paul Johnson, Historia de los judíos",
+    "summary": "Escribe cómo los judíos, sin un territorio continuo, mantuvieron la identidad con textos y comunidad, hasta el sionismo moderno.",
+    "blurb": "Con una historia general une diáspora, ley y Estado moderno.",
+    "published": "1987",
+    "author": "Paul Johnson"
+  },
+  "mark": {
+    "title": "Anónimo, El Evangelio según Marcos",
+    "summary": "Jesús predica, padece y resucita. El mensaje central es que el reino de Dios está cerca y que hay que convertirse.",
+    "blurb": "El más breve de los cuatro Evangelios: ver primero el relato de Jesús en sí.",
+    "aka": [
+      "Nuevo Testamento",
+      "la Biblia",
+      "Evangelios"
+    ],
+    "published": "ca. 70",
+    "author": "Anónimo (atribuido tradicionalmente a Marcos)"
+  },
+  "confessions": {
+    "title": "Agustín, Confesiones",
+    "summary": "El autor recorre su deseo y su conversión, y piensa juntos el tiempo, la memoria y Dios.",
+    "blurb": "Ver cómo un padre latino hace de la vida interior un itinerario de fe.",
+    "published": "ca. 400",
+    "author": "Agustín"
+  },
+  "christianity-intro": {
+    "title": "McGrath, Introducción al cristianismo",
+    "summary": "Explica de dónde vienen doctrinas como la Trinidad, la salvación y la Iglesia, y la división entre las Iglesias de Oriente y Occidente y el protestantismo.",
+    "blurb": "Con un manual moderno separa doctrina, historia y confesiones, para que no quede solo el relato.",
+    "published": "1997",
+    "author": "Alister McGrath"
+  },
+  "islam-intro": {
+    "title": "Jin Yijiu, Introducción al islam",
+    "summary": "Muestra cómo se atan la escritura, los cinco pilares, la ley religiosa y la comunidad, y presenta las principales ramas y etapas históricas.",
+    "blurb": "La entrada de panorama más firme en chino: armar primero el vocabulario.",
+    "published": "1987",
+    "author": "editado por Jin Yijiu"
+  },
+  "quran": {
+    "title": "Mahoma, El Corán (selección)",
+    "summary": "El texto habla a la vez del Dios único, la revelación, los preceptos y el fin de los tiempos. Se exige que la vida del creyente se alinee con esos preceptos.",
+    "blurb": "Después del panorama hay que tocar una vez el tono del original; si no, la introducción queda vacía.",
+    "aka": [
+      "El Corán"
+    ],
+    "published": "ca. 632–650",
+    "author": "Mahoma (transmitido y compilado posteriormente)"
+  },
+  "muqaddimah": {
+    "title": "Ibn Jaldún, Introducción a la historia (selección)",
+    "summary": "Las dinastías surgen por la cohesión del grupo; el lujo y la lucha interna las agotan. Exige que la escritura de la historia se ajuste a lo que la sociedad puede de hecho.",
+    "blurb": "Un erudito norteafricano del siglo XIV que ya habla del auge y la caída de las dinastías, de la cohesión y de los hábitos sociales.",
+    "published": "1377",
+    "author": "Ibn Jaldún"
+  },
+  "gita": {
+    "title": "Vyasa, El Bhagavad-gita (selección)",
+    "summary": "Arjuna no quiere combatir; Krishna habla del deber, de la acción y de no aferrarse al resultado. Junta la acción y el apartarse del mundo.",
+    "blurb": "El poema filosófico del hinduismo que más se cita; el volumen es manejable.",
+    "published": "ca. siglo II a. C. a siglo II d. C.",
+    "author": "Vyasa (atribuido)"
+  },
+  "gandhi": {
+    "title": "Gandhi, Historia de mis experimentos con la verdad",
+    "summary": "Gandhi escribe sus experimentos: dieta, votos, no violencia y no cooperación, y cómo se volvieron un método contra el colonialismo.",
+    "blurb": "Ver cómo la India del siglo XX entró en la política de masas con la no violencia.",
+    "published": "1927",
+    "author": "Mohandas Gandhi"
+  },
+  "annihilation-caste": {
+    "title": "Ambedkar, La aniquilación de la casta",
+    "summary": "Argumenta que la casta no es división del trabajo sino segregación, y que, si los textos religiosos sostienen la casta, no se les puede dejar pasar con una interpretación suave.",
+    "blurb": "Gandhi no es toda la India. El sistema de castas necesita el texto de quien se le opone.",
+    "published": "1936",
+    "author": "B. R. Ambedkar"
+  },
+  "development-as-freedom": {
+    "title": "Sen, Desarrollo y libertad",
+    "summary": "El desarrollo es ampliar la libertad real. Las hambrunas rara vez ocurren donde hay palabra pública y rendición de cuentas, porque la información obliga al gobierno a actuar.",
+    "blurb": "Reescribe el desarrollo: del PIB a lo que las personas pueden de hecho hacer.",
+    "published": "1999",
+    "author": "Amartya Sen"
+  },
+  "new-organon": {
+    "title": "Bacon, Novum organum (selección)",
+    "summary": "El conocimiento humano queda bloqueado por cuatro prejuicios: la tribu, la caverna, el mercado y el teatro. El saber se acumula con observación y experimento ordenados.",
+    "blurb": "Ver cómo se dice la ciencia como método, y no solo como erudición.",
+    "aka": [
+      "Novum organum"
+    ],
+    "published": "1620",
+    "author": "Francis Bacon"
+  },
+  "leviathan": {
+    "title": "Hobbes, Leviatán (selección)",
+    "summary": "Sin un poder común, las personas quedan en un estado en que cada una está en peligro frente a las demás. Pactan un contrato y entregan el poder al soberano a cambio de seguridad.",
+    "blurb": "Entender «por qué hace falta un soberano fuerte».",
+    "published": "1651",
+    "author": "Thomas Hobbes"
+  },
+  "second-treatise": {
+    "title": "Locke, Segundo tratado sobre el gobierno civil",
+    "summary": "Vida, libertad y propiedad son lo que el gobierno debe proteger. Si el gobierno incumple el pacto, el pueblo tiene derecho a reconstituirlo.",
+    "blurb": "Leerlo frente a Hobbes: el poder del gobierno viene del consentimiento y se puede retirar.",
+    "published": "1689",
+    "author": "John Locke"
+  },
+  "on-liberty": {
+    "title": "Mill, Sobre la libertad",
+    "summary": "La sociedad solo puede interferir en la persona para impedir que dañe a otros. Puede con la coacción; no puede con que alguien malgaste su propia vida.",
+    "blurb": "Reduce la libertad a un principio discutible: el principio del daño.",
+    "published": "1859",
+    "author": "John Stuart Mill"
+  },
+  "discourse-method": {
+    "title": "Descartes, Discurso del método",
+    "summary": "Dudar de todo lo dudable hasta que queda «pienso». Luego exige ideas claras, problemas partidos en partes pequeñas y un orden completo.",
+    "blurb": "La declaración de método más breve de la filosofía moderna.",
+    "aka": [
+      "Discurso del método"
+    ],
+    "published": "1637",
+    "author": "René Descartes"
+  },
+  "spirit-of-laws": {
+    "title": "Montesquieu, Del espíritu de las leyes (selección)",
+    "summary": "Las leyes deben ajustarse al espíritu y al entorno de un país. El poder tiene que separarse para que las partes se contengan unas a otras.",
+    "blurb": "El lugar clásico de la idea de separación de poderes.",
+    "published": "1748",
+    "author": "Montesquieu"
+  },
+  "social-contract": {
+    "title": "Rousseau, El contrato social",
+    "summary": "El orden legítimo viene del contrato que las personas pactan en común. Cada uno es libre solo al obedecer la voluntad general en cuya formación participó.",
+    "blurb": "Ver cómo la «voluntad general» se vuelve lenguaje de revolución.",
+    "aka": [
+      "El contrato social"
+    ],
+    "published": "1762",
+    "author": "Jean-Jacques Rousseau"
+  },
+  "old-regime": {
+    "title": "Tocqueville, El Antiguo Régimen y la Revolución",
+    "summary": "El Antiguo Régimen ya centralizaba. La reforma elevó las expectativas y también dejó al descubierto el privilegio. La revolución heredó la centralización, no se limitó a destruirla.",
+    "blurb": "Explica por qué la revolución ocurrió en una Francia que se estaba reformando, y no en la más miserable.",
+    "published": "1856",
+    "author": "Alexis de Tocqueville"
+  },
+  "groundwork": {
+    "title": "Kant, Fundamentación de la metafísica de las costumbres (selección)",
+    "summary": "La ley moral vale para todo ser racional. La persona es un fin y no puede ser tratada solo como medio.",
+    "blurb": "Entrada breve a la ética del deber: hay cosas que son correctas o no sin calcular los efectos.",
+    "published": "1785",
+    "author": "Immanuel Kant"
+  },
+  "protestant-ethic": {
+    "title": "Weber, La ética protestante y el espíritu del capitalismo",
+    "summary": "La vocación y la ascesis calvinistas convierten el ganar dinero en un deber, y no en un goce. Eso se escribe como una fuente del espíritu del capitalismo.",
+    "blurb": "Ver cómo una actitud religiosa se dice como fuente espiritual del capitalismo moderno.",
+    "published": "1905",
+    "author": "Max Weber"
+  },
+  "beyond-good-evil": {
+    "title": "Nietzsche, Más allá del bien y del mal",
+    "summary": "Distingue una moral de señores y una moral de esclavos, y sospecha que el «bien» es solo el nombre vengativo que los débiles dan a los fuertes.",
+    "blurb": "Ver el ataque de finales del siglo XIX a la moral cristiana, y entender de dónde sale después mucho tono de rebeldía.",
+    "published": "1886",
+    "author": "Friedrich Nietzsche"
+  },
+  "federalist": {
+    "title": "Hamilton, Madison y Jay, El Federalista (selección)",
+    "summary": "Madison sostiene que las facciones son inevitables, así que hay que controlarlas con la escala y las instituciones de la república. La ambición debe contrarrestar a la ambición.",
+    "blurb": "Ver por qué la Constitución separa poderes, los equilibra y hace una federación.",
+    "aka": [
+      "El Federalista"
+    ],
+    "published": "1788",
+    "author": "Alexander Hamilton, James Madison y John Jay"
+  },
+  "democracy-in-america": {
+    "title": "Tocqueville, La democracia en América",
+    "summary": "La igualdad de condiciones cambió Estados Unidos. La asociación y la libertad local pueden equilibrar la centralización; la mayoría también puede oprimir a la minoría.",
+    "blurb": "Un francés observa cómo la democracia de masas cambia costumbres y poder.",
+    "aka": [
+      "La democracia en América"
+    ],
+    "published": "1835",
+    "author": "Alexis de Tocqueville"
+  },
+  "pragmatism": {
+    "title": "William James, Pragmatismo",
+    "summary": "Si una idea no produce ninguna diferencia en la experiencia, no tiene sentido. La verdad es el proceso de las creencias que llegan a confirmarse como útiles.",
+    "blurb": "El libro breve más representativo de la filosofía estadounidense: las ideas se juzgan por la diferencia que producen.",
+    "published": "1907",
+    "author": "William James"
+  },
+  "soviet-history": {
+    "title": "Zhou Shangwen y otros, Historia del auge y la caída de la Unión Soviética",
+    "summary": "Escribe la Revolución de Octubre, la industrialización, las purgas, la Gran Guerra Patria, la reforma y la disolución, y pone juntos el auge y la caída del sistema.",
+    "blurb": "Tener primero una línea de tiempo de la revolución a la disolución, y luego leer el manifiesto y la literatura.",
+    "published": "1993",
+    "author": "Zhou Shangwen, Ye Shuzong y Wang Side"
+  },
+  "state-and-revolution": {
+    "title": "Lenin, El Estado y la revolución",
+    "summary": "El Estado se dice como una máquina con la que una clase reprime a otra. La dictadura del proletariado se escribe como transición hacia la extinción del Estado.",
+    "blurb": "Ver cómo los bolcheviques argumentan que el Estado es un instrumento de clase, y por qué hay que romper el Estado viejo.",
+    "published": "1917",
+    "author": "Lenin"
+  },
+  "gulag": {
+    "title": "Solzhenitsyn, Archipiélago Gulag (selección)",
+    "summary": "Escribe cómo la detención, el interrogatorio, el campo y el destierro se vuelven una institución cotidiana, y pregunta cómo la persona se protege o traiciona ahí dentro.",
+    "blurb": "Ver la violencia de este Estado en el campo de trabajo, sin quedarse en los nombres de la teoría.",
+    "published": "1973",
+    "author": "Aleksandr Solzhenitsyn"
+  },
+  "bushido": {
+    "title": "Nitobe, Bushido",
+    "summary": "Dice el valor, el honor, la lealtad y el dominio de sí como moral del estamento samurái, y lo escribe como tradición espiritual de Japón.",
+    "blurb": "El libro breve con el que un japonés explicó a Occidente la ética samurái.",
+    "published": "1900",
+    "author": "Nitobe Inazō"
+  },
+  "chrysanthemum": {
+    "title": "Benedict, El crisantemo y la espada",
+    "summary": "Contrasta Japón y Occidente con la vergüenza y la culpa, y escribe cómo el deber, el sentimiento humano, el favor y el ocupar cada cual su sitio organizan la conducta.",
+    "blurb": "Ver desde fuera la vergüenza, el sentimiento humano y la jerarquía: es un libro del que no se sale al hablar después de Japón.",
+    "published": "1946",
+    "author": "Ruth Benedict"
+  },
+  "encouragement-learning": {
+    "title": "Fukuzawa, Exhortación al aprendizaje",
+    "summary": "El cielo no pone a unas personas por encima de otras. La independencia del país depende del saber y la virtud de cada persona, y no solo del rango.",
+    "blurb": "Texto breve de la ilustración Meiji: ver cómo Japón dijo la «independencia» como tarea del país y de la persona.",
+    "published": "1872",
+    "author": "Fukuzawa Yukichi"
+  },
+  "toyota": {
+    "title": "Ohno, El sistema de producción Toyota",
+    "summary": "Justo a tiempo, autonomación y mejora continua. El inventario y el error se toman como problemas que hay que dejar al descubierto, no como un colchón que hay que esconder.",
+    "blurb": "Baja la tradición de grupo japonesa a la fábrica: cómo eliminar el desperdicio.",
+    "published": "1978",
+    "author": "Taiichi Ohno"
+  },
+  "korea-history": {
+    "title": "Lee Ki-baik, Nueva historia de Corea",
+    "summary": "Escribe por épocas el Estado, el rango y la presión exterior en la península coreana, para no ver Corea solo desde 1950.",
+    "blurb": "Tener primero el esqueleto de una historia general del propio país, de la Antigüedad a la época moderna.",
+    "published": "1976",
+    "author": "Lee Ki-baik"
+  },
+  "korean-war": {
+    "title": "Cumings, La guerra de Corea",
+    "summary": "Escribe la guerra como superposición de guerra civil y guerra internacional, y pregunta cómo la división quedó fijada después de 1945.",
+    "blurb": "Entender cómo la división de la península se volvió la premisa de toda la política de hoy.",
+    "published": "2010",
+    "author": "Bruce Cumings"
+  },
+  "next-giant": {
+    "title": "Amsden, El próximo gigante de Asia",
+    "summary": "El país que llega tarde no se apoya en inventar, sino en aprender, en subsidiar y en exigir resultados. La disciplina del Estado y el aprendizaje de la empresa no pueden faltar el uno sin el otro.",
+    "blurb": "Explica cómo Corea completó una industrialización tardía con aprendizaje y disciplina.",
+    "published": "1989",
+    "author": "Alice Amsden"
+  },
+  "lee-memoir": {
+    "title": "Lee Kuan Yew, Memorias de Lee Kuan Yew",
+    "summary": "Cuenta cómo Singapur se separó de Malasia, trató la raza, la vivienda y el capital extranjero, y tomó la disciplina social como condición de supervivencia.",
+    "blurb": "Ver independencia, raza y ansiedad de supervivencia en el relato del propio fundador.",
+    "published": "1998",
+    "author": "Lee Kuan Yew"
+  },
+  "new-asian": {
+    "title": "Mahbubani, El nuevo hemisferio asiático",
+    "summary": "Sostiene que el poder se desplaza de Occidente hacia Asia, y que Occidente se equivocará si sigue usando su propia historia como única plantilla.",
+    "blurb": "Un diplomático de Singapur explica qué significa el ascenso de Asia para el orden mundial.",
+    "published": "2008",
+    "author": "Kishore Mahbubani"
+  },
+  "open-veins": {
+    "title": "Galeano, Las venas abiertas de América Latina",
+    "summary": "Con quinientos años de oro y plata, plantaciones y préstamos, argumenta que la pobreza de América Latina es el resultado de una riqueza extraída.",
+    "blurb": "El relato de dependencia más influyente: saber primero cómo cuenta el saqueo.",
+    "published": "1971",
+    "author": "Eduardo Galeano"
+  },
+  "africa-history": {
+    "title": "Iliffe, Los africanos: historia de un continente",
+    "summary": "De los primeros seres humanos, la expansión bantú y las redes de comercio hasta la colonia y la independencia, subraya que los africanos son actores dentro de la historia.",
+    "blurb": "Una historia general fiable del continente, para sustituir primero la impresión de que «África no tiene historia».",
+    "published": "1995",
+    "author": "John Iliffe"
+  },
+  "long-walk": {
+    "title": "Mandela, El largo camino hacia la libertad",
+    "summary": "Del campo y Johannesburgo, la lucha armada y veintisiete años de cárcel, hasta la negociación que puso fin al apartheid.",
+    "blurb": "Ver cómo el apartheid fue enfrentado por una carrera política larga.",
+    "published": "1994",
+    "author": "Nelson Mandela"
+  },
+  "wealth": {
+    "title": "Adam Smith, La riqueza de las naciones (selección)",
+    "summary": "La división del trabajo eleva la productividad. El mercado coordina con precios a gente que no se conoce. El Estado sigue teniendo que ocuparse de la defensa, la justicia y ciertas obras públicas.",
+    "blurb": "Saber primero el sentido original de estas dos palabras: división del trabajo y mercado.",
+    "published": "1776",
+    "author": "Adam Smith"
+  },
+  "capital": {
+    "title": "Marx, El capital, volumen I (selección)",
+    "summary": "La mercancía tiene valor de uso y valor de cambio. El plusvalor viene del trabajo. La acumulación de capital se escribe como un proceso que se expande sin cesar y produce crisis.",
+    "blurb": "Ver este modo de explicar capital, trabajo y crisis, y no tomarlo solo como consigna.",
+    "published": "1867",
+    "author": "Karl Marx"
+  },
+  "mankiw-micro": {
+    "title": "Mankiw, Principios de economía: microeconomía",
+    "summary": "Las personas eligen ante la escasez. El precio transmite información. El mercado falla con las externalidades y los bienes públicos.",
+    "blurb": "Volver utilizables las palabras incentivo, precio y externalidad.",
+    "published": "1998",
+    "author": "N. Gregory Mankiw"
+  },
+  "mankiw-macro": {
+    "title": "Mankiw, Principios de economía: macroeconomía",
+    "summary": "El crecimiento de largo plazo depende del capital, el trabajo y la técnica. En el corto plazo hay desempleo y ciclos. La moneda y las expectativas afectan al producto.",
+    "blurb": "Ver crecimiento, moneda, desempleo y fluctuación, y no empezar solo con palabras grandes.",
+    "published": "1998",
+    "author": "N. Gregory Mankiw"
+  },
+  "manias": {
+    "title": "Kindleberger, Manías, pánicos y cracs",
+    "summary": "La prosperidad trae expansión del crédito y especulación; después del punto de giro vienen el pánico y el crac. A menudo se llama a un prestamista de última instancia para frenar la estampida.",
+    "blurb": "Las finanzas no son una aritmética estable: la burbuja y la estampida reaparecen.",
+    "published": "1978",
+    "author": "Charles P. Kindleberger"
+  },
+  "political-order": {
+    "title": "Fukuyama, Los orígenes del orden político",
+    "summary": "Una política moderna estable necesita un Estado capaz, el imperio de la ley y la responsabilidad. Los tres rara vez crecen a la vez.",
+    "blurb": "Separar Estado, ley y rendición de cuentas en tres cosas que cada una puede lograrse o fallar.",
+    "published": "2011",
+    "author": "Francis Fukuyama"
+  },
+  "science-as-vocation": {
+    "title": "Weber, El político y el científico",
+    "summary": "La ciencia no puede elegir por nadie los valores últimos. La política es usar la fuerza y cargar con las consecuencias; no basta la pureza de la convicción.",
+    "blurb": "Dos conferencias: distinguen la honradez del estudioso y la responsabilidad del político.",
+    "published": "1919",
+    "author": "Max Weber"
+  },
+  "division-of-labor": {
+    "title": "Durkheim, La división del trabajo social",
+    "summary": "La sociedad tradicional mantiene la cohesión por la semejanza. La moderna, por la dependencia mutua. La división del trabajo también trae anomia, esto es, que las reglas dejan de valer.",
+    "blurb": "Ver cómo la sociedad moderna se integra por la división del trabajo y no por la semejanza.",
+    "published": "1893",
+    "author": "Émile Durkheim"
+  },
+  "crowd": {
+    "title": "Le Bon, Psicología de las masas",
+    "summary": "Cuando la persona entra en la masa, baja la responsabilidad, y la emoción y las consignas simples dominan con más facilidad la conducta.",
+    "blurb": "Retener una sola advertencia: la emoción de la masa aplasta el juicio personal.",
+    "published": "1895",
+    "author": "Gustave Le Bon"
+  },
+  "thinking-fast": {
+    "title": "Kahneman, Pensar rápido, pensar despacio",
+    "summary": "El sistema uno es rápido y automático; el sistema dos es lento y costoso. La persona confía de más en la historia que cree ver.",
+    "blurb": "Separar la intuición y el razonamiento lento, y ver los errores habituales de la intuición.",
+    "published": "2011",
+    "author": "Daniel Kahneman"
+  },
+  "evolutionary-psych": {
+    "title": "Buss, Psicología evolutiva",
+    "summary": "Tendencias como el miedo, la elección de pareja y la cooperación se explican como adaptaciones a un entorno antiguo. El entorno moderno ya cambió; adaptación no es lo mismo que justificación.",
+    "blurb": "Enterarse de qué sostiene la disciplina que «explica las tendencias psíquicas por la supervivencia y la reproducción».",
+    "published": "1999",
+    "author": "David Buss"
+  },
+  "freud-intro": {
+    "title": "Freud, Introducción al psicoanálisis",
+    "summary": "Sostiene que el deseo reprimido vuelve en el sueño, el lapsus y el síntoma. La terapia convierte lo inconsciente en algo de lo que se puede hablar.",
+    "blurb": "Saber de dónde sale el lenguaje del siglo XX sobre el inconsciente, el sueño y la represión.",
+    "published": "1917",
+    "author": "Sigmund Freud"
+  },
+  "adler": {
+    "title": "Adler, El sentido de la vida",
+    "summary": "La persona compensa una sensación de defecto. Si el sentido de la vida se reduce a superar a los demás, se tuerce.",
+    "blurb": "Añade una línea distinta de la de Freud: hay que lidiar con la inferioridad y buscar un sentido.",
+    "published": "1931",
+    "author": "Alfred Adler"
+  },
+  "origin-species": {
+    "title": "Darwin, El origen de las especies (selección)",
+    "summary": "La variación, la herencia y la reproducción en exceso hacen que los rasgos favorables se conserven más a menudo. Las especies no quedaron hechas de una vez para no cambiar nunca.",
+    "blurb": "El texto original de la evolución: saber cómo se argumentaba al principio la selección natural.",
+    "published": "1859",
+    "author": "Charles Darwin"
+  },
+  "seven-lessons": {
+    "title": "Rovelli, Siete breves lecciones de física",
+    "summary": "En siete charlas breves recorre la relatividad, la mecánica cuántica y el calor. El ser humano está en medio de esas escalas.",
+    "blurb": "En una noche, armar el sentido de escala de lo cuántico, el espacio-tiempo y el cosmos.",
+    "published": "2014",
+    "author": "Carlo Rovelli"
+  },
+  "demon-haunted": {
+    "title": "Sagan, El mundo y sus demonios",
+    "summary": "La ciencia se apoya en la comprobación pública y en admitir el error. Brujería, anuncios de milagros y conspiraciones no deberían ocupar la misma confianza si no se les puede demostrar el error.",
+    "blurb": "Practicar la separación entre «suena profundo» y «se puede comprobar».",
+    "published": "1995",
+    "author": "Carl Sagan"
+  },
+  "asking-the-right": {
+    "title": "Browne, Hacer las preguntas adecuadas",
+    "summary": "Enseña a preguntar cuál es la conclusión, cuáles son las razones y si hay una premisa de valor que no se ha dicho.",
+    "blurb": "La entrada más utilizable: partir un texto en conclusión, razones y premisas.",
+    "published": "1981",
+    "author": "M. Neil Browne y Stuart M. Keeley"
+  },
+  "naked-statistics": {
+    "title": "Wheelan, La estadística desnuda",
+    "summary": "La media engaña, la muestra se sesga y la correlación puede producirla una tercera cosa. Preguntar primero de dónde salen los datos.",
+    "blurb": "Sin la tasa base y sin «la correlación no es causalidad», el pensamiento crítico se queda en la boca.",
+    "published": "2013",
+    "author": "Charles Wheelan"
+  },
+  "antifragile": {
+    "title": "Taleb, Antifrágil",
+    "summary": "Lo frágil necesita estabilidad. Lo antifrágil se fortalece con golpes dentro de cierto margen. Predecir vale menos que disponer la exposición.",
+    "blurb": "Distinguir tres cosas: lo que teme la fluctuación, lo que no la teme y lo que se beneficia de ella.",
+    "published": "2012",
+    "author": "Nassim Nicholas Taleb"
+  },
+  "signal-noise": {
+    "title": "Silver, La señal y el ruido",
+    "summary": "El pronóstico falla a menudo porque se toma el ruido por señal, o porque no se quiere actualizar la creencia anterior.",
+    "blurb": "Meter el pensamiento bayesiano en el pronóstico: cuando llega una prueba nueva, se cambia la confianza.",
+    "published": "2012",
+    "author": "Nate Silver"
+  },
+  "tanjing": {
+    "title": "Huineng, El Sutra de la Plataforma",
+    "summary": "La línea de Huineng dice que la naturaleza de buda la tiene toda persona desde el origen, y no entiende el llegar a ser buda como acumular ritos hacia fuera. El despertar súbito es reconocer eso; los preceptos y la concentración no quedan cancelados.",
+    "blurb": "Para un lector chino del budismo, este libro entra de modo más directo que los textos indios en el ánimo y el trato con el mundo que vinieron después.",
+    "published": "ca. siglo VIII",
+    "author": "Huineng (registrado por Fahai)"
+  },
+  "jinsi": {
+    "title": "Zhu Xi y Lü Zuqian, Reflexiones sobre lo cercano",
+    "summary": "Zhu Xi y Lü Zuqian eligen dichos de Zhou Dunyi, los dos Cheng y Zhang Zai, y ordenan el cultivo personal en un camino que va de lo cotidiano al principio celestial. Es la entrada al neoconfucianismo de los Song, no el texto original del confucianismo anterior a los Qin.",
+    "blurb": "Ver cómo el confucianismo posterior a los Song dice el cultivo personal como principio celestial.",
+    "published": "1175",
+    "author": "compilado por Zhu Xi y Lü Zuqian"
+  },
+  "chuanxilu": {
+    "title": "Wang Shouren, Instrucciones para la vida práctica",
+    "summary": "Wang Yangming dice que la mente es el principio y que conocimiento y acción son uno. Si se sabe y no se hace, para él todavía no se ha sabido de verdad.",
+    "blurb": "Leerlo frente a Cheng y Zhu: el principio no está aparte, guardado en los libros, sino en el asunto de ahora.",
+    "published": "1518",
+    "author": "Wang Shouren (compilado por sus discípulos)"
+  },
+  "liyun": {
+    "title": "Anónimo, La marcha de los ritos (selección)",
+    "summary": "Contrasta la Gran Unidad y la Pequeña Tranquilidad. La Gran Unidad habla de un mundo en común; la Pequeña Tranquilidad, de un mundo en manos de las familias, más el rito. Cuando después se habla de una sociedad ideal, a menudo se empieza aquí.",
+    "blurb": "Muy breve: se ve el ideal político confuciano y la distancia entre ese ideal y el sistema ritual real.",
+    "aka": [
+      "El Libro de los Ritos"
+    ],
+    "published": "ca. los Estados Combatientes a los Han occidentales",
+    "author": "Anónimo (Libro de los Ritos)"
+  },
+  "xiangtu": {
+    "title": "Fei Xiaotong, La China rural",
+    "summary": "Con el modo diferencial de asociación explica la sociedad de conocidos: la moral se empuja en círculos desde uno mismo, y el límite entre lo público y lo privado cambia con la relación.",
+    "blurb": "Explica la estructura por defecto del trato entre chinos; no es un conjunto de máximas.",
+    "published": "1948",
+    "author": "Fei Xiaotong"
+  },
+  "tianyan": {
+    "title": "Yan Fu, trad., La evolución",
+    "summary": "El texto de base es Evolución y ética, de Huxley. Huxley separa la selección natural de lo que el ser humano debería hacer. La traducción de Yan Fu recoge la competencia y la selección en un discurso de riqueza y poder; las dos capas suelen leerse como una sola.",
+    "blurb": "Una entrada a la visión del mundo de la China moderna: cómo la competencia por sobrevivir se tomó por un valor.",
+    "published": "1898",
+    "author": "Thomas Henry Huxley, vertido al chino por Yan Fu"
+  },
+  "prince": {
+    "title": "Maquiavelo, El príncipe",
+    "summary": "Discute cómo el príncipe obtiene el poder y lo conserva. Separa el efecto de la virtud y no supone que la persona buena y el buen resultado sean la misma cosa.",
+    "blurb": "Entrada breve al realismo político, para contrastar con el deber ser de Platón y de Mencio.",
+    "aka": [
+      "El príncipe"
+    ],
+    "published": "1532",
+    "author": "Nicolás Maquiavelo"
+  },
+  "city-of-god": {
+    "title": "Agustín, La ciudad de Dios (selección)",
+    "summary": "Separa el reino de la tierra y la ciudad de Dios. El Estado puede mantener la paz, pero no puede equivaler al bien último.",
+    "blurb": "Cómo mira el cristianismo a la política: el poder sirve, pero no merece llevarse la lealtad más alta de la persona.",
+    "published": "426",
+    "author": "Agustín"
+  },
+  "inequality": {
+    "title": "Rousseau, Discurso sobre el origen y los fundamentos de la desigualdad entre los hombres",
+    "summary": "Distingue la diferencia natural de la desigualdad producida por la propiedad y el afán de compararse. Pregunta primero cómo las personas llegaron a medirse unas con otras, y luego cómo se pactan las reglas.",
+    "blurb": "Con El contrato social son dos preguntas: uno dice de dónde sale la distancia; el otro, cómo se rehacen las reglas.",
+    "aka": [
+      "Discurso sobre la desigualdad"
+    ],
+    "published": "1755",
+    "author": "Jean-Jacques Rousseau"
+  },
+  "hume-treatise": {
+    "title": "Hume, Tratado de la naturaleza humana (selección)",
+    "summary": "Sostiene que la causalidad viene del hábito y que el sentimiento moral precede al razonamiento. Del «es» no se sigue el «debe».",
+    "blurb": "En el empirismo deja trabado un punto: por clara que esté la realidad, no se vuelve valor por sí sola.",
+    "published": "1739",
+    "author": "David Hume"
+  },
+  "enchiridion": {
+    "title": "Epicteto, Manual",
+    "summary": "Solo cuenta como propio el poder de juzgar; el rango, la propiedad y la fama cuentan como ajenos. La perturbación viene de tomar lo ajeno por propio.",
+    "blurb": "Manual breve del estoicismo: más que Meditaciones, parece un conjunto de distinciones que se pueden comprobar.",
+    "published": "ca. siglo II",
+    "author": "Epicteto (compilado por Arriano)"
+  },
+  "burke": {
+    "title": "Burke, Reflexiones sobre la Revolución en Francia",
+    "summary": "Se opone a derribar de una vez, según derechos abstractos, las instituciones heredadas. La libertad tiene que recaer en personas concretas y en límites; si no, se cambia por una arbitrariedad nueva.",
+    "blurb": "El texto principal del conservadurismo, para contrastar con el modo en que Rousseau rehace las reglas.",
+    "published": "1790",
+    "author": "Edmund Burke"
+  },
+  "heart": {
+    "title": "Xuanzang, trad., El Sutra del corazón",
+    "summary": "En muy poco espacio dice que los cinco agregados están vacíos. Vacío quiere decir que las cosas no tienen una naturaleza propia fija e invariable, no que no haya nada.",
+    "blurb": "El texto más breve de los sutras de la prajña: tomarlo primero para ver la palabra «vacío».",
+    "published": "ca. siglos II–IV (traducción de Xuanzang, 649)",
+    "author": "Anónimo (traducción de Xuanzang)"
+  },
+  "diamond": {
+    "title": "Kumārajīva, trad., El Sutra del diamante",
+    "summary": "Desmonta una y otra vez el apego a las marcas, al mérito y al yo. «No morar en nada» es, al hacer algo, no tomar el resultado como uno mismo.",
+    "blurb": "Leerlo con El Sutra del corazón. Uno es brevísimo; el otro se dedica a romper el apego.",
+    "published": "ca. siglos II–V (traducción de Kumārajīva, 402)",
+    "author": "Anónimo (traducción de Kumārajīva)"
+  },
+  "yanshi": {
+    "title": "Yan Zhitui, Instrucciones familiares",
+    "summary": "En un tiempo de desorden habla de cómo educar a los hijos, cómo conducirse y cómo mirar el estudio. Las instrucciones familiares no son maniobras de corte.",
+    "blurb": "De las instrucciones familiares chinas, uno de los libros completos más tempranos: se ve la exigencia que uno se pone en una sociedad de linajes.",
+    "published": "ca. 590",
+    "author": "Yan Zhitui"
+  },
+  "apology": {
+    "title": "Platón, Apología de Sócrates",
+    "summary": "Sócrates explica ante el tribunal por qué interroga a los demás. Toma la vida no examinada como una vida que no merece ser vivida.",
+    "blurb": "Muy breve. Ver cómo una persona defiende el «saber que no se sabe».",
+    "published": "ca. 399 a. C.",
+    "author": "Platón"
+  },
+  "seneca": {
+    "title": "Séneca, Epístolas morales (selección)",
+    "summary": "Con cartas discute la muerte, el tiempo y la ira. Aquí el estoicismo es un ejercicio cotidiano, no el monólogo de un emperador.",
+    "blurb": "Habla más hacia fuera que Meditaciones; conviene leerlo como un conjunto de avisos que se pueden contrastar.",
+    "published": "ca. 65",
+    "author": "Séneca"
+  },
+  "cicero": {
+    "title": "Cicerón, Sobre los deberes (selección)",
+    "summary": "Discute qué es lo honorable, qué es lo útil y cómo elegir cuando chocan. Lo útil no puede servir de razón por sí solo.",
+    "blurb": "Los romanos escriben la ética como un deber de quien se dedica a la política.",
+    "published": "44 a. C.",
+    "author": "Cicerón"
+  },
+  "epicurus": {
+    "title": "Epicuro, Carta a Meneceo",
+    "summary": "Define el placer como ausencia de dolor en el cuerpo y de turbación en el alma, no como desenfreno. El miedo a los dioses y a la muerte se toma como un juicio que se puede desmontar.",
+    "blurb": "Muy breve. El polo de la ética griega que se contrapone al estoicismo.",
+    "published": "ca. siglo III a. C.",
+    "author": "Epicuro"
+  },
+  "sentiments": {
+    "title": "Adam Smith, La teoría de los sentimientos morales",
+    "summary": "La persona forma el bien y el mal imaginando lo que el otro siente. La simpatía no es blandura: es la medida para juzgar si una conducta es adecuada.",
+    "blurb": "Con La riqueza de las naciones son dos libros. Este habla de cómo se aprueba o se reprueba.",
+    "published": "1759",
+    "author": "Adam Smith"
+  },
+  "utilitarianism": {
+    "title": "Mill, El utilitarismo",
+    "summary": "Pone lo correcto y lo incorrecto en el aumento o la disminución de la felicidad, y distingue placeres más altos y más bajos. La felicidad de la mayoría no es el único cálculo.",
+    "blurb": "Sobre la libertad habla del límite; este libro habla del criterio con el que mide la conducta.",
+    "published": "1863",
+    "author": "John Stuart Mill"
+  },
+  "genealogy": {
+    "title": "Nietzsche, La genealogía de la moral",
+    "summary": "Pregunta cómo surgieron palabras como culpa, ascesis y bondad. Las palabras morales también tienen historia; no bajan del cielo.",
+    "blurb": "Desarma con más concentración que Más allá del bien y del mal el origen de «bueno» y «malo».",
+    "published": "1887",
+    "author": "Friedrich Nietzsche"
+  },
+  "pascal": {
+    "title": "Pascal, Pensamientos (selección)",
+    "summary": "Habla de la grandeza y la miseria del ser humano, del límite de la razón y de por qué la fe no puede ser sustituida por una prueba.",
+    "blurb": "Fragmentos. Para ver qué le queda a la persona cuando la razón llega al final.",
+    "published": "1670",
+    "author": "Blaise Pascal"
+  },
+  "civil-discontents": {
+    "title": "Freud, El malestar en la cultura",
+    "summary": "La civilización exige inhibir la agresión y el deseo, así que el malestar es el precio, no un estado de ánimo accidental.",
+    "blurb": "Habla de modo más directo que Introducción al psicoanálisis del conflicto entre la sociedad y el yo.",
+    "published": "1930",
+    "author": "Sigmund Freud"
+  },
+  "ghazali": {
+    "title": "Al-Ghazali, El salvador del error",
+    "summary": "Un estudioso de la doctrina explica por qué no le bastaron el derecho religioso y la filosofía, y por qué buscó la comprobación personal. Aquí la fe tiene que pasar por la duda.",
+    "blurb": "Una explicación de sí mismo, breve, dentro de la tradición islámica.",
+    "published": "ca. 1100",
+    "author": "Al-Ghazali"
+  },
+  "feng": {
+    "title": "Feng Youlan, Breve historia de la filosofía china",
+    "summary": "En muy poco espacio enhebra los problemas filosóficos desde antes de los Qin hasta la Qing. Es un mapa, no un texto original.",
+    "blurb": "Cuando los textos originales se han leído en desorden, usarlo para ver qué disputa cada escuela.",
+    "published": "1948",
+    "author": "Feng Youlan"
+  },
+  "jiangcun": {
+    "title": "Fei Xiaotong, La economía de Jiangcun",
+    "summary": "Con una aldea de Jiangnan muestra cómo se unen la tierra, la artesanía y la familia. El campo no es un relato moral: es un modo de ganarse la vida.",
+    "blurb": "La China rural habla de estructura; este libro habla de cómo vive una aldea.",
+    "published": "1939",
+    "author": "Fei Xiaotong"
+  },
+  "goffman": {
+    "title": "Goffman, La presentación de la persona en la vida cotidiana",
+    "summary": "Escribe el encuentro cotidiano como una actuación de fachada. La persona administra la impresión que da a los demás; la escena misma es orden.",
+    "blurb": "Ver claros a los otros: cómo se hacen la cortesía y la identidad.",
+    "published": "1956",
+    "author": "Erving Goffman"
+  },
+  "qu": {
+    "title": "Qu Tongzu, El derecho chino y la sociedad china",
+    "summary": "Muestra cómo el derecho tradicional escribe penas distintas según la familia, la clase y el género. El artículo de la ley sigue a la identidad.",
+    "blurb": "Ver cómo las reglas de la sociedad china crecen sobre la identidad.",
+    "published": "1947",
+    "author": "Qu Tongzu"
+  },
+  "veblen": {
+    "title": "Veblen, Teoría de la clase ociosa",
+    "summary": "El ocio y el consumo ostensible se usan para mostrar rango. Aquí el desperdicio es una señal social, no solo una falta de prudencia.",
+    "blurb": "Ver cómo el estrato convierte el dinero en una identidad visible.",
+    "published": "1899",
+    "author": "Thorstein Veblen"
+  },
+  "origin-family": {
+    "title": "Engels, El origen de la familia, la propiedad privada y el Estado",
+    "summary": "Trata la familia, la propiedad privada y el Estado como algo formado en la historia, no como algo que hubiera desde siempre. Los materiales que usa tienen el límite de aquella época.",
+    "blurb": "Ver cómo se dice que el estrato y el Estado son naturales.",
+    "published": "1884",
+    "author": "Friedrich Engels"
+  },
+  "durkheim-forms": {
+    "title": "Durkheim, Las formas elementales de la vida religiosa",
+    "summary": "Con la división entre lo sagrado y lo profano muestra cómo la sociedad se siente a sí misma. La religión no es solo un estado de ánimo privado.",
+    "blurb": "Leerlo frente a La división del trabajo social. Uno habla de estructura; el otro, de cómo la sociedad produce lo sagrado.",
+    "published": "1912",
+    "author": "Émile Durkheim"
+  },
+  "liang": {
+    "title": "Liang Shuming, Lo esencial de la cultura china",
+    "summary": "Con el primado de la ética explica por qué la sociedad china difiere del patrón de grupo. Es un juicio grande, no una encuesta de aldea.",
+    "blurb": "Leerlo frente a La China rural. Uno es concepto; el otro es estructura de campo.",
+    "published": "1949",
+    "author": "Liang Shuming"
+  },
+  "dubois": {
+    "title": "Du Bois, Las almas del pueblo negro",
+    "summary": "Escribe la doble conciencia: una persona se mira a la vez con sus propios ojos y con los de quien la discrimina. El orden racial entra en la sensación de sí.",
+    "blurb": "Ver cómo la exclusión se vuelve una escisión interior.",
+    "published": "1903",
+    "author": "W. E. B. Du Bois"
+  },
+  "dawkins": {
+    "title": "Dawkins, El gen egoísta",
+    "summary": "Explica la conducta altruista y la egoísta por la replicación de los genes. El centro en el gen es un ángulo de explicación, no una licencia moral para el egoísmo.",
+    "blurb": "El libro de esta rama de la evolución que más se malinterpreta. Separar primero la metáfora y la conclusión.",
+    "published": "1976",
+    "author": "Richard Dawkins"
+  },
+  "schrodinger": {
+    "title": "Schrödinger, ¿Qué es la vida?",
+    "summary": "Pregunta cómo la información hereditaria se mantiene estable bajo las leyes físicas. Devuelve el problema de la vida a la física; el pronóstico no equivale a toda la biología posterior.",
+    "blurb": "La juntura entre evolución y física. Breve: para ver cómo se plantea el problema.",
+    "published": "1944",
+    "author": "Erwin Schrödinger"
+  },
+  "copernicus": {
+    "title": "Copérnico, Sobre las revoluciones de los orbes celestes (selección)",
+    "summary": "Saca a la Tierra del centro del cosmos y la vuelve uno de los planetas. El arreglo matemático sirve para explicar los fenómenos del cielo; no es una declaración de sentimiento.",
+    "blurb": "El giro de esta rama del cosmos. Ver primero qué hipótesis cambió.",
+    "published": "1543",
+    "author": "Nicolás Copérnico"
+  },
+  "newton": {
+    "title": "Newton, Principia (selección)",
+    "summary": "Con pocas leyes mete en la misma matemática la caída en la tierra y los planetas en el cielo. Lo que instala es un mundo que se puede calcular.",
+    "blurb": "El texto principal de la visión moderna del cosmos. En la selección hay que ver hasta dónde llega a explicar la ley.",
+    "published": "1687",
+    "author": "Isaac Newton"
+  },
+  "galileo": {
+    "title": "Galileo, Diálogo sobre los dos máximos sistemas del mundo (selección)",
+    "summary": "Con un diálogo compara el geocentrismo y el heliocentrismo. La observación y la matemática se ponen frente a lo que se apoya solo en la autoridad.",
+    "blurb": "Una disputa pública sobre el método científico, no solo un saber astronómico.",
+    "published": "1632",
+    "author": "Galileo Galilei"
+  },
+  "kuhn": {
+    "title": "Kuhn, La estructura de las revoluciones científicas",
+    "summary": "La ciencia normal resuelve enigmas dentro de un paradigma; después de la crisis, el paradigma se sustituye. La sustitución no es una simple suma de hechos.",
+    "blurb": "Formar un juicio: cómo la ciencia cambia sus propias preguntas, y no solo añade respuestas.",
+    "published": "1962",
+    "author": "Thomas Kuhn"
+  },
+  "popper-science": {
+    "title": "Popper, Conjeturas y refutaciones (selección)",
+    "summary": "La diferencia entre ciencia y no ciencia está en si algo puede ser refutado. Confirmarlo una vez no basta; hay que ver qué evidencia lo derribaría.",
+    "blurb": "Leerlo frente a Kuhn. Uno habla de lo refutable; el otro, del cambio de paradigma.",
+    "published": "1963",
+    "author": "Karl Popper"
+  },
+  "hawking": {
+    "title": "Hawking, Historia del tiempo",
+    "summary": "Con muy poca matemática habla del comienzo del universo, de los agujeros negros y de la dirección del tiempo. Es una entrada, no un informe de observación.",
+    "blurb": "Después de Siete breves lecciones de física, usarlo para extender un poco más las preguntas de la cosmología.",
+    "published": "1988",
+    "author": "Stephen Hawking"
+  },
+  "mengxi": {
+    "title": "Shen Kuo, Apuntes del arroyo de los sueños (selección)",
+    "summary": "Registra astronomía, estudios de la tierra, técnicas y cosas vistas y oídas. Son notas de observación, no un conjunto de leyes naturales.",
+    "blurb": "Un cuaderno concreto de la tradición científica china: ver cómo la gente de entonces registraba los fenómenos.",
+    "published": "ca. 1090",
+    "author": "Shen Kuo"
+  },
+  "yantie": {
+    "title": "Huan Kuan, Discursos sobre la sal y el hierro (selección)",
+    "summary": "Funcionarios de los Han debaten el monopolio de la sal y el hierro: si el Estado debe tener en la mano las fuentes de ganancia. Un lado habla de la frontera y de la hacienda; el otro, de competir con el pueblo por el beneficio.",
+    "blurb": "Un debate del gobierno antiguo que deja clara la disputa entre lo estatal y lo dejado al pueblo.",
+    "published": "ca. siglo I a. C.",
+    "author": "Huan Kuan"
+  },
+  "zhenguan": {
+    "title": "Wu Jing, Lo esencial del gobierno de Zhenguan",
+    "summary": "Registra cómo Taizong de los Tang y sus ministros discuten el aceptar advertencias, el empleo de personas y la carga de la gente llana. Es la exigencia que se ponen soberano y ministros, no el mapa completo de las instituciones.",
+    "blurb": "Ver cómo el gobierno antiguo toma el saber escuchar como un problema de dominio.",
+    "published": "ca. 720",
+    "author": "Wu Jing"
+  },
+  "thucydides": {
+    "title": "Tucídides, Historia de la guerra del Peloponeso (selección)",
+    "summary": "Escribe por qué Atenas y Esparta llegaron a guerrear, y cómo la guerra cambió lo que se decía de la justicia. La lógica del fuerte se despliega; no se elogia.",
+    "blurb": "Entrada a la historia política. Ver primero cómo la guerra reescribe las palabras.",
+    "published": "ca. 400 a. C.",
+    "author": "Tucídides"
+  },
+  "manifesto": {
+    "title": "Marx y Engels, El manifiesto comunista",
+    "summary": "En muy poco espacio dice que la sociedad moderna se escinde en burguesía y proletariado, y propone cambiar el régimen de propiedad. Es un programa, no una descripción completa del siglo XIX.",
+    "blurb": "Uno de los textos breves más influyentes del pensamiento político. Ver primero qué sostiene.",
+    "published": "1848",
+    "author": "Karl Marx y Friedrich Engels"
+  },
+  "qianmu": {
+    "title": "Qian Mu, Ganancias y pérdidas del gobierno en las dinastías chinas",
+    "summary": "Contrasta Han, Tang, Song, Ming y Qing en la organización del gobierno, los exámenes, los impuestos y el servicio militar. El juicio sigue si la institución de entonces podía funcionar, no las consignas posteriores.",
+    "blurb": "Entrada breve a la historia del gobierno chino. Armar primero una escala de comparación entre dinastías.",
+    "published": "1952",
+    "author": "Qian Mu"
+  },
+  "wanli": {
+    "title": "Ray Huang, 1587, un año sin importancia",
+    "summary": "Desde varios protagonistas del reinado de Wanli, ve cómo la hacienda, la ley y la moral de los Ming se traban entre sí. El fracaso de una persona se escribe como fracaso del sistema.",
+    "blurb": "Leerlo frente a Qian Mu. Uno compara instituciones; el otro cuenta cómo la institución encierra a la persona.",
+    "published": "1981",
+    "author": "Ray Huang"
+  },
+  "declaration": {
+    "title": "Declaración de Independencia de los Estados Unidos",
+    "summary": "Pone la legitimidad del gobierno en el consentimiento y en los derechos, y enumera las razones para separarse de Gran Bretaña. Es una declaración política, no la Constitución misma.",
+    "blurb": "Muy breve. El argumento moderno de por qué se puede cambiar al gobernante.",
+    "published": "4 de julio de 1776",
+    "author": "Thomas Jefferson y otros"
+  },
+  "rights-man": {
+    "title": "Declaración de los Derechos del Hombre y del Ciudadano",
+    "summary": "En 1789 escribe la libertad, la propiedad, la seguridad y la resistencia a la opresión como principios políticos. Anuncia principios y todavía no resuelve quién los ejecuta.",
+    "blurb": "Leerlo frente a la Declaración de Independencia de los Estados Unidos: dos maneras de decirlo en la misma época.",
+    "aka": [
+      "Declaración de los Derechos del Hombre"
+    ],
+    "published": "26 de agosto de 1789",
+    "author": "Asamblea Nacional Constituyente francesa"
+  },
+  "wollstonecraft": {
+    "title": "Wollstonecraft, Vindicación de los derechos de la mujer",
+    "summary": "Sostiene que, si las mujeres no tienen educación, la llamada virtud es solo debilidad. Si el derecho pertenece solo a los hombres, ese concepto de derecho queda incompleto.",
+    "blurb": "En el pensamiento político, volver a preguntar por la palabra «persona».",
+    "published": "1792",
+    "author": "Mary Wollstonecraft"
+  },
+  "arendt": {
+    "title": "Arendt, Los orígenes del totalitarismo (selección)",
+    "summary": "Analiza cómo los regímenes nazi y de Stalin cancelan la acción espontánea de las personas con ideología y terror. Persigue un tipo nuevo de dominio, no un sinónimo de la dictadura ordinaria.",
+    "blurb": "En la historia del gobierno, ver en concreto cómo funciona un dominio extremo.",
+    "published": "1951",
+    "author": "Hannah Arendt"
+  },
+  "hayek": {
+    "title": "Hayek, Camino de servidumbre",
+    "summary": "Argumenta que ir recogiendo las decisiones económicas en un plan central va apretando, paso a paso, la elección personal y la libertad política. Es un juicio sobre una trayectoria, no la negación de cualquier regulación.",
+    "blurb": "Leerlo frente a la tradición planificadora del pensamiento político, y ver el costo político de la coordinación centralizada.",
+    "published": "1944",
+    "author": "Friedrich Hayek"
+  },
+  "popper": {
+    "title": "Popper, La sociedad abierta y sus enemigos (selección)",
+    "summary": "Critica el uso de leyes de la historia para defender una sociedad cerrada. La sociedad abierta permite que las instituciones sean criticadas y sustituidas.",
+    "blurb": "Si una doctrina no permite ser refutada, hay que mirar aparte sus consecuencias políticas.",
+    "published": "1945",
+    "author": "Karl Popper"
+  },
+  "schmitt": {
+    "title": "Schmitt, El concepto de lo político",
+    "summary": "Dice que la marca de lo político es distinguir al amigo y al enemigo. Es un ataque al liberalismo, y también deja ver cómo se define el conflicto.",
+    "blurb": "Ensayo breve en sentido contrario. Se lee para ver cómo trabaja la palabra «enemigo».",
+    "published": "1932",
+    "author": "Carl Schmitt"
+  },
+  "huntington": {
+    "title": "Huntington, El orden político en las sociedades en cambio",
+    "summary": "Argumenta que la modernización trae primero participación y que, si las instituciones no pueden recibirla, el orden se dispersa. Aquí la estabilidad es capacidad institucional, no un punto final moral.",
+    "blurb": "Ver por qué el gobierno moderno pierde el orden en medio del cambio.",
+    "published": "1968",
+    "author": "Samuel Huntington"
+  },
+  "olson": {
+    "title": "Olson, La lógica de la acción colectiva",
+    "summary": "Un grupo grande no actúa solo porque tenga un interés común. La persona puede beneficiarse sin moverse, así que el objetivo colectivo a menudo fracasa.",
+    "blurb": "Ver clara la regla: interés común no es lo mismo que acción común.",
+    "published": "1965",
+    "author": "Mancur Olson"
+  },
+  "polanyi": {
+    "title": "Polanyi, La gran transformación",
+    "summary": "Argumenta que el mercado que se regula solo no existió desde siempre, sino que lo construyó el Estado. Cuando la tierra, el trabajo y el dinero se tratan como mercancías, la sociedad reacciona.",
+    "blurb": "Una de las entradas generales de la sección de comercio. Ver primero que el mercado es una institución, no un estado de naturaleza.",
+    "published": "1944",
+    "author": "Karl Polanyi"
+  },
+  "keynes": {
+    "title": "Keynes, La teoría general (selección)",
+    "summary": "Argumenta que, cuando falta la demanda, la economía puede quedarse con un desempleo masivo y no vuelve sola al pleno empleo. Lo que desafía es que el mercado siempre se vacíe por sí mismo.",
+    "blurb": "Dentro de esta rama del mercado, ver en concreto por qué la depresión se queda.",
+    "published": "1936",
+    "author": "John Maynard Keynes"
+  },
+  "schumpeter": {
+    "title": "Schumpeter, Teoría del desenvolvimiento económico",
+    "summary": "Escribe el desarrollo como la destrucción del equilibrio viejo por combinaciones nuevas. El beneficio viene de la ventaja temporal que crea la innovación, no de un residuo eterno.",
+    "blurb": "Ver por qué la empresa tiene que desordenar una y otra vez el modo anterior de hacer las cosas.",
+    "published": "1911",
+    "author": "Joseph Schumpeter"
+  },
+  "taylor": {
+    "title": "Taylor, Principios de la administración científica",
+    "summary": "Parte el trabajo en movimientos que se pueden medir y eleva la producción con un método estándar. Aquí la persona se mira primero como un paso del proceso.",
+    "blurb": "Texto temprano de la administración de organizaciones. Ver de dónde sale la pretensión de eficiencia.",
+    "published": "1911",
+    "author": "Frederick Winslow Taylor"
+  },
+  "drucker": {
+    "title": "Drucker, La práctica de la administración",
+    "summary": "Define la administración como el trabajo de hacer que la organización dé resultados, no como el talento personal del jefe. La empresa tiene que preguntarse qué cliente ha creado.",
+    "blurb": "Entrada moderna de esta rama de la organización. No es un relato de éxito.",
+    "published": "1954",
+    "author": "Peter Drucker"
+  },
+  "chandler": {
+    "title": "Chandler, La mano visible",
+    "summary": "Muestra cómo, en la gran empresa, la coordinación de los gerentes sustituye una parte de la coordinación del mercado. La compañía moderna es un invento de organización.",
+    "blurb": "Ver cómo creció esta forma llamada «empresa».",
+    "published": "1977",
+    "author": "Alfred D. Chandler Jr."
+  },
+  "coase": {
+    "title": "Coase, La naturaleza de la empresa",
+    "summary": "Pregunta por qué hay empresas en vez de hacerlo todo con contratos de mercado. La empresa existe porque algunos costos de transacción son más bajos dentro.",
+    "blurb": "Muy breve. Ver por qué el límite de la organización se detiene en un sitio.",
+    "published": "1937",
+    "author": "Ronald Coase"
+  },
+  "north": {
+    "title": "North, Instituciones, cambio institucional y desempeño económico",
+    "summary": "Explica las diferencias de desempeño económico con instituciones e incentivos. El crecimiento no es solo técnica; también es si las reglas hacen que la gente quiera comprometer recursos.",
+    "blurb": "En industria y política, ver cómo las instituciones cambian el modo de calcular de las personas.",
+    "published": "1990",
+    "author": "Douglass North"
+  },
+  "graham": {
+    "title": "Graham, El inversor inteligente (selección)",
+    "summary": "Distingue inversión y especulación, e insiste en que solo queda margen cuando el precio está claramente por debajo del valor. Entrena cómo pensar el riesgo; no promete un resultado.",
+    "blurb": "Entrada de juicio de esta rama de la inversión. No tomar los ejemplos del libro como rendimientos.",
+    "published": "1949",
+    "author": "Benjamin Graham"
+  },
+  "pomeranz": {
+    "title": "Pomeranz, La gran divergencia",
+    "summary": "Compara la Europa y la China de antes del siglo XVIII, y pregunta por qué la industrialización ocurrió primero en un lugar. El carbón y las colonias entran en la explicación; no es una conclusión de superioridad cultural.",
+    "blurb": "Ver las condiciones históricas de la divergencia industrial, y no explicarlo todo solo con ideas.",
+    "published": "2000",
+    "author": "Kenneth Pomeranz"
+  },
+  "lotus": {
+    "title": "Kumārajīva, trad., El Sutra del loto (selección)",
+    "summary": "Con el recurso del medio hábil habla del vehículo único. Capacidades distintas pueden llevar al mismo camino; el chan lo usó después para explicar su actitud ante los sutras.",
+    "blurb": "El otro sutra que se lee junto con El Sutra de la Plataforma. Ver cómo la enseñanza habla a personas distintas.",
+    "aka": [
+      "El Sutra del loto"
+    ],
+    "published": "ca. siglos I–II (traducción de Kumārajīva, 406)",
+    "author": "Anónimo (traducción de Kumārajīva)"
+  },
+  "xiaojing": {
+    "title": "Anónimo, El Clásico de la piedad filial",
+    "summary": "Lleva la piedad filial del servicio a los padres al servicio al soberano y a la constitución de la propia persona. Aquí la obligación de parentesco tiene un orden de lo cercano a lo lejano.",
+    "blurb": "El texto breve de los Trece Clásicos dedicado a la piedad filial; leerlo frente a la piedad filial de Las Analectas.",
+    "published": "ca. los Estados Combatientes a los Han occidentales",
+    "author": "Anónimo (atribuido tradicionalmente a Confucio)"
+  },
+  "yueji": {
+    "title": "Gongsun Nizi, El registro de la música",
+    "summary": "Habla de cómo la música encauza el sentimiento y de cómo el rito distingue la medida. Aquí la música es a la vez cultivo y parte del orden.",
+    "blurb": "Un capítulo de El Libro de los Ritos que Liang Qichao pedía leer junto con La marcha de los ritos.",
+    "aka": [
+      "El Libro de los Ritos"
+    ],
+    "published": "ca. los Estados Combatientes",
+    "author": "Gongsun Nizi (atribuido tradicionalmente)"
+  },
+  "dai-zhen": {
+    "title": "Dai Zhen, Comentario sobre el sentido de los términos de Mencio",
+    "summary": "Siguiendo los términos de Mencio, argumenta que el principio está dentro de los sentimientos y deseos de la persona. Es la filosofía del propio Dai Zhen: mediante el comentario dice otro juicio.",
+    "blurb": "Un libro de la Qing que baja el «principio» del principio celestial al sentimiento humano.",
+    "published": "1777",
+    "author": "Dai Zhen"
+  },
+  "lunheng": {
+    "title": "Wang Chong, Ensayos sopesados (selección)",
+    "summary": "Con preguntas desarma los presagios, los fantasmas y los rumores exagerados. La duda de los Han ataca los dichos concretos uno por uno.",
+    "blurb": "Ver claros los hechos: preguntar primero si esa frase tiene algo que se pueda comprobar.",
+    "published": "ca. 80",
+    "author": "Wang Chong"
+  },
+  "matthew": {
+    "title": "Anónimo, El Evangelio según Mateo (selección)",
+    "summary": "El Sermón de la Montaña recoge la ley en exigencias sobre la ira, el juramento, la venganza y la limosna. La ética de los Evangelios se concentra en este pasaje.",
+    "blurb": "Leerlo aparte de El Evangelio según Marcos. Este se lee por el Sermón de la Montaña.",
+    "aka": [
+      "Nuevo Testamento",
+      "la Biblia",
+      "Evangelios"
+    ],
+    "published": "ca. 85",
+    "author": "Anónimo (atribuido tradicionalmente a Mateo)"
+  },
+  "aquinas": {
+    "title": "Tomás de Aquino, Suma teológica (selección)",
+    "summary": "Mete la felicidad, la virtud, la ley y los actos humanos en un mismo conjunto de preguntas y respuestas. La ley tiene que poder volver a hablar del orden y también caer en el acto concreto.",
+    "blurb": "El texto principal de la ética cristiana medieval. En la selección, ver cómo se unen felicidad y ley.",
+    "published": "1265–1274",
+    "author": "Tomás de Aquino"
+  },
+  "dhammapada": {
+    "title": "Anónimo, Dhammapada",
+    "summary": "Con estrofas habla de la mente, el precepto y el karma. El budismo indio temprano lo toma como entrada y, verso a verso, hace frente al apego cotidiano.",
+    "blurb": "La entrada ética más breve entre los textos budistas indios.",
+    "published": "ca. siglo III a. C.",
+    "author": "Anónimo"
+  },
+  "tannisho": {
+    "title": "Yuien, Tannisho",
+    "summary": "Registra palabras de Shinran: la persona malvada es precisamente a quien el voto quiere salvar. La condición para la práctica se aparta de «si yo soy bastante bueno».",
+    "blurb": "Entrada breve al pensamiento de la Tierra Pura en Japón.",
+    "published": "ca. finales del siglo XIII",
+    "author": "Yuien"
+  },
+  "nishida": {
+    "title": "Nishida, Investigación del bien",
+    "summary": "Con la experiencia pura explica lo real, y desde ahí saca el bien y la religión. La filosofía moderna japonesa empieza a tener un problema propio con este libro.",
+    "blurb": "Ver cómo el «bien» se devuelve a la experiencia para discutirlo.",
+    "published": "1911",
+    "author": "Nishida Kitarō"
+  },
+  "herodotus": {
+    "title": "Heródoto, Historias (selección)",
+    "summary": "El debate persa pone juntas las fallas del gobierno de uno, del de unos pocos y del de muchos. La historiografía griega usa ese debate para comparar regímenes.",
+    "blurb": "Un tramo muy breve. Ver en qué se estropea cada uno de los tres regímenes.",
+    "published": "ca. 430 a. C.",
+    "author": "Heródoto"
+  },
+  "cicero-republic": {
+    "title": "Cicerón, Sobre la república (selección)",
+    "summary": "Responde a la ciudad ideal de Platón con el régimen mixto de Roma. Magistrados, senado y pueblo tienen cada uno su parte, para que una fuerza no aplaste a las demás.",
+    "blurb": "La respuesta romana a La república.",
+    "published": "51 a. C.",
+    "author": "Cicerón"
+  },
+  "plutarch": {
+    "title": "Plutarco, Vidas paralelas (selección)",
+    "summary": "Con las vidas de Licurgo, Pericles y otros, ve cómo la institución cae en lo que hace una persona. Aquí la biografía es un modo de leer la historia política.",
+    "blurb": "Leer en selección al legislador de Esparta y al gobernante principal de la democracia ateniense.",
+    "published": "ca. 110",
+    "author": "Plutarco"
+  },
+  "arthashastra": {
+    "title": "Kautilya, Arthashastra (selección)",
+    "summary": "Discute al rey, los impuestos, las penas y los medios hacia fuera. El arte clásico indio de gobernar escribe el Estado como una técnica que se puede administrar.",
+    "blurb": "Entrada al gobierno de la India antigua. Leerlo frente a El libro del señor de Shang: otra técnica de Estado.",
+    "published": "ca. siglo IV a. C. a siglo III d. C.",
+    "author": "Kautilya (atribuido)"
+  },
+  "siyasat": {
+    "title": "Nizam al-Mulk, El libro del gobierno",
+    "summary": "El visir selyúcida escribe al sultán dónde se estropean la justicia, el empleo de personas y la corte. La experiencia se escribe como un memorando de gobierno que se puede contrastar.",
+    "blurb": "Un manual de dominio escrito por un visir del mundo islámico.",
+    "published": "ca. 1091",
+    "author": "Nizam al-Mulk"
+  },
+  "discorsi": {
+    "title": "Maquiavelo, Discursos sobre la primera década de Tito Livio",
+    "summary": "Con la historia de Roma discute cómo una república mantiene la libertad. Tomar el poder es un problema; que el poder permanezca sin destruir la libertad es otro.",
+    "blurb": "La otra mitad de El príncipe. Ver de qué se sostiene una república.",
+    "aka": [
+      "Discursos sobre la primera década de Tito Livio"
+    ],
+    "published": "1531",
+    "author": "Nicolás Maquiavelo"
+  },
+  "us-constitution": {
+    "title": "Convención Constitucional de los Estados Unidos, La Constitución de los Estados Unidos",
+    "summary": "Fija cómo se separan la legislación, el ejecutivo y la judicatura, y deja un modo de enmendar. El funcionamiento de la república moderna está escrito en este texto.",
+    "blurb": "Leer primero el texto y, con El Federalista, ver por qué entonces se separó el poder de ese modo.",
+    "published": "17 de septiembre de 1787",
+    "author": "Convención Constitucional de los Estados Unidos"
+  },
+  "anti-federalist": {
+    "title": "Antifederalistas, Escritos antifederalistas (selección)",
+    "summary": "Objeciones de cuando se ratificaba la Constitución: el centro aplastaría a los Estados, y con un territorio tan grande la república sería difícil. La otra cara de la disputa queda en estos escritos.",
+    "blurb": "Leerlo frente a El Federalista. Ver qué temían quienes se oponían.",
+    "published": "1787–1788",
+    "author": "los antifederalistas"
+  },
+  "constant": {
+    "title": "Constant, De la libertad de los antiguos comparada con la de los modernos",
+    "summary": "La libertad antigua es participar en las decisiones públicas; la libertad moderna es que la vida privada no quede bajo un poder arbitrario. Cada libertad tiene su propio ámbito.",
+    "blurb": "Texto breve. Distinguir primero las dos libertades y luego leer la teoría democrática posterior.",
+    "published": "1819",
+    "author": "Benjamin Constant"
+  },
+  "representative": {
+    "title": "Mill, Consideraciones sobre el gobierno representativo",
+    "summary": "Discute cómo se forma el sistema representativo, cómo falla, y los límites del voto y de la administración. El límite de la libertad se mete aquí en la forma de gobierno.",
+    "blurb": "Sobre la libertad habla del límite de la persona; este libro habla de cómo representa el gobierno.",
+    "published": "1861",
+    "author": "John Stuart Mill"
+  },
+  "douglass": {
+    "title": "Douglass, Qué significa el Cuatro de Julio para el esclavo",
+    "summary": "En un discurso del día nacional señala que el lenguaje de la libertad y la esclavitud existen a la vez. La celebración de ese mismo día es, para el esclavo, otro conjunto de hechos.",
+    "blurb": "Muy breve. Ver cómo una promesa política no coincide con los hechos que tiene debajo.",
+    "published": "5 de julio de 1852",
+    "author": "Frederick Douglass"
+  },
+  "wang-official": {
+    "title": "Wang Yanan, Estudio de la política burocrática en China",
+    "summary": "Muestra cómo la política burocrática vuelve a producirse a sí misma. Mira, desde la estructura y el interés, por qué esta política puede mantenerse tanto tiempo.",
+    "blurb": "Leerlo frente a Qian Mu. Uno habla de ganancias y pérdidas institucionales; el otro, de cómo la política burocrática se sostiene sola.",
+    "published": "1948",
+    "author": "Wang Yanan"
+  },
+  "arendt-revolution": {
+    "title": "Arendt, Sobre la revolución",
+    "summary": "Compara la revolución americana y la francesa. Una hizo de la libertad una institución política que podía durar; la otra fue hacia el terror.",
+    "blurb": "Leerlo aparte de Los orígenes del totalitarismo. Este ve cómo una revolución se afirma, o cómo se desliza.",
+    "published": "1963",
+    "author": "Hannah Arendt"
+  },
+  "hind-swaraj": {
+    "title": "Gandhi, Hind Swaraj",
+    "summary": "Con un diálogo sostiene que la autonomía es primero dominio de uno mismo. Aquí la no violencia es un principio político; la civilización de la máquina y el colonialismo se miran dentro de la misma lógica.",
+    "blurb": "Separarlo de Historia de mis experimentos con la verdad. Este es un opúsculo político.",
+    "published": "1909",
+    "author": "Mohandas Gandhi"
+  },
+  "fanon": {
+    "title": "Fanon, Los condenados de la tierra",
+    "summary": "Escribe cómo el dominio colonial divide a las personas en rangos y cómo, si la independencia solo cambia la bandera, la estructura vieja sigue. Lo que el libro analiza es la violencia dentro de la situación colonial.",
+    "blurb": "Ver cómo el orden colonial entra en el lugar y en el lenguaje de las personas.",
+    "aka": [
+      "Los condenados de la tierra"
+    ],
+    "published": "1961",
+    "author": "Frantz Fanon"
+  },
+  "durkheim-suicide": {
+    "title": "Durkheim, El suicidio",
+    "summary": "Con las tasas de suicidio muestra que una integración demasiado débil o una norma demasiado apretada empujan a la persona hacia la muerte. La muerte privada se devuelve al estado del grupo.",
+    "blurb": "Ver claros los hechos: algunas cifras que parecen un asunto privado siguen a la integración social.",
+    "published": "1897",
+    "author": "Émile Durkheim"
+  },
+  "weber-basic": {
+    "title": "Weber, Conceptos sociológicos fundamentales",
+    "summary": "El arranque de Economía y sociedad: define la acción social, el orden y la legitimidad. Hay que dejar firmes estas palabras antes de tocar aquel libro grande.",
+    "blurb": "El conjunto de definiciones con que la sociología mira la acción y el orden.",
+    "published": "1922",
+    "author": "Max Weber"
+  },
+  "tonnies": {
+    "title": "Tönnies, Comunidad y sociedad",
+    "summary": "Distingue la comunidad, unida por sentimiento y hábito, y la sociedad, unida por contrato e interés. Las dos formas de vínculo pueden existir a la vez.",
+    "blurb": "Ver si la gente está junta por parentesco o por contrato.",
+    "published": "1887",
+    "author": "Ferdinand Tönnies"
+  },
+  "simmel": {
+    "title": "Simmel, Cómo es posible la sociedad",
+    "summary": "Con el extraño, la metrópoli y la relación entre dos explica que la sociedad aparece en las formas de la interacción. La gran estructura tiene que poder caer en el modo en que las personas se encuentran.",
+    "blurb": "Selección. Ver cómo los extraños se constituyen unos a otros en la ciudad.",
+    "published": "1908",
+    "author": "Georg Simmel"
+  },
+  "mead": {
+    "title": "G. H. Mead, Espíritu, persona y sociedad",
+    "summary": "El yo se forma al tomar el papel del otro y al responder a los gestos. La persona entra primero en una actividad común, y solo entonces hay un lugar llamado «yo».",
+    "blurb": "Verse con claridad: el yo crece en el trato con los demás.",
+    "published": "1934",
+    "author": "George Herbert Mead (editado por Charles W. Morris)"
+  },
+  "mills": {
+    "title": "C. Wright Mills, La imaginación sociológica",
+    "summary": "Devuelve la inquietud privada a la historia y a la estructura pública. La situación de una persona tiene que dejar ver el lugar de su época.",
+    "blurb": "Formar un juicio: cuándo un asunto privado es en realidad un problema de estructura pública.",
+    "published": "1959",
+    "author": "C. Wright Mills"
+  },
+  "bourdieu": {
+    "title": "Bourdieu, La distinción",
+    "summary": "El gusto, los modales y los títulos de estudio se usan para mostrar el estrato. El gusto es la huella que la posición social deja en el cuerpo.",
+    "blurb": "Ver cómo las reglas se esconden dentro de «qué es lo que gusta».",
+    "published": "1979",
+    "author": "Pierre Bourdieu"
+  },
+  "mauss": {
+    "title": "Mauss, Ensayo sobre el don",
+    "summary": "Regalar lleva consigo la obligación de aceptar y de devolver. El regalo ata a la gente; el ir y venir ocurre en la fama y en el momento.",
+    "blurb": "Ver clara la regla: hay intercambios que no se saldan en el acto.",
+    "published": "1925",
+    "author": "Marcel Mauss"
+  },
+  "shengyu": {
+    "title": "Fei Xiaotong, El sistema de la procreación",
+    "summary": "Muestra cómo la familia cumple la crianza y cómo el sistema de parentesco estabiliza ese asunto de largo plazo. El matrimonio se mira dentro de esta función.",
+    "blurb": "La explicación de estructura anterior a La China rural. Ver primero qué está cumpliendo la familia.",
+    "published": "1947",
+    "author": "Fei Xiaotong"
+  },
+  "yan-gift": {
+    "title": "Yan Yunxiang, El flujo de los regalos",
+    "summary": "Escribe cómo los regalos en la aldea de Xiajia marcan la relación y el rango. La obligación personal es un trato que hay que mantener; rechazar y aceptar tienen consecuencias.",
+    "blurb": "Meter la obligación del regalo dentro de una aldea china.",
+    "published": "1996",
+    "author": "Yan Yunxiang"
+  },
+  "yang-religion": {
+    "title": "C. K. Yang, La religión en la sociedad china",
+    "summary": "Muestra que la religión china está dispersa sobre todo en la familia, el oficio y la comunidad. La práctica de lo sagrado queda encajada en la organización cotidiana.",
+    "blurb": "Ver cómo la religión china crece dentro de la comunidad.",
+    "published": "1961",
+    "author": "C. K. Yang"
+  },
+  "plural-unity": {
+    "title": "Fei Xiaotong, El patrón de unidad plural de la nación china",
+    "summary": "Muestra que los pueblos estuvieron largo tiempo en contacto, vivieron cada uno su vida y, en un nivel más alto, formaron una identidad común. Es un juicio histórico de poca extensión.",
+    "blurb": "Formar un juicio: cómo pueden sostenerse a la vez lo diverso y lo uno.",
+    "published": "1989",
+    "author": "Fei Xiaotong"
+  },
+  "under-ancestors": {
+    "title": "Hsu, Bajo la sombra de los antepasados",
+    "summary": "Escribe cómo el clan de Xizhen dispone el lugar de una persona con los antepasados y el parentesco. Es una etnografía de comunidad de tipo habitual.",
+    "blurb": "Ver cómo, en una comunidad han, la persona vive a la sombra de los antepasados.",
+    "published": "1948",
+    "author": "Francis L. K. Hsu"
+  },
+  "xiang-boundary": {
+    "title": "Xiang Biao, Una comunidad que cruza fronteras",
+    "summary": "Escribe cómo la aldea de los zhejiangenses en Pekín hizo crecer por sí misma, con los lazos de paisanaje, la vivienda, el negocio y un orden interno. Un asentamiento que cruza provincias puede tener su propio modo de hacer.",
+    "blurb": "Ver claros los hechos: cómo crece por sí mismo un asentamiento dentro de una ciudad.",
+    "published": "2000",
+    "author": "Biao Xiang"
+  },
+  "nakane": {
+    "title": "Nakane, Las relaciones humanas de la sociedad vertical",
+    "summary": "Con la secuencia de arriba y abajo dentro de un marco explica cómo el grupo japonés coloca a las personas. El principio del vínculo es el marco en el que se está.",
+    "blurb": "Leerlo frente al modo diferencial de asociación y a la casta. Ver según qué ordena el grupo japonés.",
+    "published": "1967",
+    "author": "Chie Nakane"
+  },
+  "dumont": {
+    "title": "Dumont, Homo hierarchicus",
+    "summary": "Escribe la casta india como una jerarquía repartida según la pureza. La igualdad es el principio de otro tipo de sociedad, y sirve para contrastar esta jerarquía.",
+    "blurb": "Leerlo frente a Ambedkar. Uno escribe cómo se sostiene la jerarquía; el otro, cómo destruirla.",
+    "published": "1966",
+    "author": "Louis Dumont"
+  },
+  "nuer": {
+    "title": "Evans-Pritchard, Los nuer",
+    "summary": "Escribe cómo una sociedad sin gobierno central trata el conflicto con la escisión y la fusión de los linajes. El orden puede crecer sobre la estructura de parentesco.",
+    "blurb": "Ver claros los hechos: donde no hay gobierno, de qué se sostiene el orden cotidiano.",
+    "published": "1940",
+    "author": "E. E. Evans-Pritchard"
+  },
+  "freyre": {
+    "title": "Freyre, Casa-grande y senzala",
+    "summary": "Escribe cómo la casa colonial brasileña metía al amo, al esclavo y al mestizo dentro del poder del patriarca. Aquí la familia es un orden social.",
+    "blurb": "Una entrada a la sociedad de América Latina. Ver cómo la casa grande organiza a la gente.",
+    "published": "1933",
+    "author": "Gilberto Freyre"
+  },
+  "aristotle-physics": {
+    "title": "Aristóteles, Física (selección)",
+    "summary": "Explica el movimiento con el fin y el lugar natural. La mecánica posterior sustituyó este marco; se lee para ver la capa que fue sustituida.",
+    "blurb": "Tres estrellas. El marco antiguo del movimiento, para contrastarlo con las leyes posteriores.",
+    "published": "ca. siglo IV a. C.",
+    "author": "Aristóteles"
+  },
+  "elements": {
+    "title": "Euclides, Elementos (selección)",
+    "summary": "De los axiomas se deducen los teoremas. La fuerza de la prueba está en que los pasos son públicos; por muchos ejemplos que se amontonen, hay que recorrer la deducción.",
+    "blurb": "La prehistoria del método científico. Ver primero qué quiere decir deducir desde axiomas.",
+    "published": "ca. 300 a. C.",
+    "author": "Euclides"
+  },
+  "zhoubi": {
+    "title": "Anónimo, El clásico matemático del gnomon de los Zhou (selección)",
+    "summary": "La teoría del cielo como cubierta calcula, con el triángulo rectángulo, la altura y el diámetro del sol. El algoritmo se puede volver a calcular; este modelo de cosmos no coincide con la observación posterior.",
+    "blurb": "Tres estrellas. Ver qué forma de cielo calcula un modelo cosmológico chino temprano.",
+    "published": "ca. siglo I a. C.",
+    "author": "Anónimo"
+  },
+  "jiuzhang": {
+    "title": "Anónimo, Los nueve capítulos del arte matemático (selección)",
+    "summary": "El comentario de Liu Hui escribe los campos rectangulares, el mijo y el arroz, y el triángulo rectángulo como procedimientos que se pueden volver a calcular paso a paso. Entrena algoritmos de medición y de reparto.",
+    "blurb": "Tres estrellas. Leer la matemática china como pasos que se pueden calcular de nuevo.",
+    "published": "ca. siglo I",
+    "author": "Anónimo"
+  },
+  "neijing": {
+    "title": "Anónimo, El clásico interno del Emperador Amarillo (selección)",
+    "summary": "Con el qi y la sangre, los meridianos y el yin y el yang dibuja el cuerpo como un mapa general. Es una doctrina antigua del cuerpo; tomarla directamente por fisiología ya comprobada es leer el mapa general como si fuera la conclusión.",
+    "blurb": "Tres estrellas. Formar un juicio: separar el mapa general del cuerpo y la fisiología que después se puede revisar.",
+    "published": "ca. los Estados Combatientes a los Han occidentales",
+    "author": "Anónimo (atribuido al Emperador Amarillo)"
+  },
+  "harvey": {
+    "title": "Harvey, Del movimiento del corazón y de la sangre",
+    "summary": "Con ligaduras, medida del tiempo y cómputo explica la circulación de la sangre. El dicho viejo tiene que quedar descartado por la observación.",
+    "blurb": "Ver cómo un experimento reescribe un hecho de dentro del cuerpo.",
+    "published": "1628",
+    "author": "William Harvey"
+  },
+  "lavoisier": {
+    "title": "Lavoisier, Tratado elemental de química (selección)",
+    "summary": "Escribe la combustión como combinación con el oxígeno y exige que la masa pueda cuadrar antes y después de la reacción. El cambio de la materia tiene que poder pasar por la balanza.",
+    "blurb": "Ver cómo el cambio de la materia se escribe como un proceso que se puede contabilizar.",
+    "published": "1789",
+    "author": "Antoine Lavoisier"
+  },
+  "lamarck": {
+    "title": "Lamarck, Filosofía zoológica (selección)",
+    "summary": "Sostiene que las especies cambian y atribuye el cambio al uso y al desuso. Quedó el paso de que las especies pueden cambiar; ese mecanismo después no se sostuvo.",
+    "blurb": "Tres estrellas. Leerlo frente a El origen de las especies: separar «cambia» de «cómo cambia».",
+    "published": "1809",
+    "author": "Jean-Baptiste Lamarck"
+  },
+  "lyell": {
+    "title": "Lyell, Principios de geología (selección)",
+    "summary": "Explica los estratos y el relieve con procesos lentos que todavía se pueden ver hoy. El tiempo de la Tierra se alarga.",
+    "blurb": "La geología que leyó Darwin. Ver de dónde sale la premisa de «mucho tiempo».",
+    "published": "1830",
+    "author": "Charles Lyell"
+  },
+  "bernard": {
+    "title": "Bernard, Introducción al estudio de la medicina experimental",
+    "summary": "Exige que lo que se dice de los fenómenos de la vida se haga una hipótesis que se pueda contrastar. La observación propone la idea; el experimento decide si se queda.",
+    "blurb": "Dentro del método científico, hablar en concreto de cómo el experimento zanja una afirmación.",
+    "published": "1865",
+    "author": "Claude Bernard"
+  },
+  "mendel": {
+    "title": "Mendel, Experimentos sobre la hibridación de plantas",
+    "summary": "Los ensayos de hibridación muestran que los caracteres se separan en proporciones estables. La herencia se escribe como unidades que se pueden contar.",
+    "blurb": "Muy breve. En esta rama de la evolución, el texto original de las reglas de la herencia.",
+    "published": "1866",
+    "author": "Gregor Mendel"
+  },
+  "descent": {
+    "title": "Darwin, El origen del hombre y la selección sexual (selección)",
+    "summary": "Mete al ser humano en la misma evolución y discute las diferencias entre los sexos con la selección sexual. Las inferencias del libro sobre el rango de las razas hay que separarlas aparte.",
+    "blurb": "Después de El origen de las especies. Ver cómo se coloca al ser humano en la misma serie, y qué inferencias hay que detener.",
+    "published": "1871",
+    "author": "Charles Darwin"
+  },
+  "huxley-man": {
+    "title": "Huxley, El lugar del hombre en la naturaleza",
+    "summary": "Con la comparación del esqueleto y del cerebro muestra que el ser humano y el simio pertenecen a la misma serie. Ese límite queda allanado en la anatomía.",
+    "blurb": "Comparar el esqueleto y el cerebro. La evolución, de Yan Fu, es otro libro.",
+    "published": "1863",
+    "author": "Thomas Henry Huxley"
+  },
+  "poincare": {
+    "title": "Poincaré, La ciencia y la hipótesis",
+    "summary": "Muestra que en la geometría y en algunos principios hay un componente de convención. La forma matemática es ordenada, y aun así hay que mirarla aparte del mundo observado.",
+    "blurb": "Formar un juicio: separar la convención, la hipótesis y el resultado medido.",
+    "published": "1902",
+    "author": "Henri Poincaré"
+  },
+  "einstein": {
+    "title": "Einstein, Sobre la teoría de la relatividad especial y general",
+    "summary": "Con poca matemática muestra que el tiempo y el espacio cambian con el movimiento y la gravitación. El fondo absoluto se cambia por relaciones que se pueden medir.",
+    "blurb": "Entrada moderna de esta rama del cosmos. Ver primero cómo el tiempo y el espacio se vuelven relación.",
+    "published": "1917",
+    "author": "Albert Einstein"
+  },
+  "wegener": {
+    "title": "Wegener, El origen de los continentes y los océanos",
+    "summary": "Con el contorno de los continentes, los fósiles y los estratos propone que los continentes estuvieron unidos. El dibujo se expone primero; la explicación del mecanismo, entonces, todavía no bastaba.",
+    "blurb": "Formar un juicio: la evidencia y el mecanismo se pueden mirar por separado.",
+    "published": "1915",
+    "author": "Alfred Wegener"
+  },
+  "morgan": {
+    "title": "Morgan, La teoría del gen",
+    "summary": "Con la mosca de la fruta muestra que los genes están ligados en los cromosomas y que la frecuencia de recombinación sirve para localizarlos. La unidad de la herencia se coloca en un sitio donde se puede experimentar.",
+    "blurb": "Después de Mendel. Ver cómo el gen se coloca sobre el cromosoma.",
+    "published": "1926",
+    "author": "Thomas Hunt Morgan"
+  },
+  "dobzhansky": {
+    "title": "Dobzhansky, Genética y el origen de las especies",
+    "summary": "Mete la mutación, la selección, la migración y el aislamiento reproductivo en una misma explicación. Una especie nueva tiene que poder separarse en lo genético.",
+    "blurb": "Ver cómo la síntesis moderna junta a Mendel y a Darwin.",
+    "published": "1937",
+    "author": "Theodosius Dobzhansky"
+  },
+  "heisenberg": {
+    "title": "Heisenberg, Física y filosofía",
+    "summary": "Muestra que los procesos microscópicos no se pueden devolver a la trayectoria de la partícula clásica. La incertidumbre escribe un límite en la relación entre magnitudes.",
+    "blurb": "Después de la relatividad, ver qué imagen de lo real cambia la mecánica cuántica.",
+    "published": "1958",
+    "author": "Werner Heisenberg"
+  },
+  "williams": {
+    "title": "Williams, Adaptación y selección natural",
+    "summary": "Exige que la explicación de la adaptación caiga en el individuo capaz de reproducirse. Tomar directamente «beneficia a la especie» como causa es equivocar el nivel.",
+    "blurb": "Leerlo frente a El gen egoísta. Ver primero en qué nivel debe caer la adaptación.",
+    "published": "1966",
+    "author": "George C. Williams"
+  },
+  "ricardo": {
+    "title": "Ricardo, Principios de economía política y tributación",
+    "summary": "Con el reparto de la renta, el salario y el beneficio, y con el costo comparado, muestra cómo el comercio y los impuestos cambian lo que obtiene cada parte.",
+    "blurb": "La regla del reparto, entre Smith y Marx.",
+    "published": "1817",
+    "author": "David Ricardo"
+  },
+  "list": {
+    "title": "List, Sistema nacional de economía política",
+    "summary": "Sostiene que la fuerza productiva de la nación importa más que el intercambio del momento, y que la industria que llega tarde necesita un tramo de protección. Aquí la nación es la unidad del desarrollo económico.",
+    "blurb": "Entrada del siglo XIX a la política industrial. Ver de dónde sale el argumento de proteger la industria tardía.",
+    "published": "1841",
+    "author": "Friedrich List"
+  },
+  "fayol": {
+    "title": "Fayol, Administración industrial y general",
+    "summary": "Escribe la administración como planear, organizar, mandar, coordinar y controlar. La administración se dice como una actividad que se puede enseñar.",
+    "blurb": "Tres estrellas. En esta rama de la organización, un texto temprano que escribe el proceso de administrar.",
+    "published": "1916",
+    "author": "Henri Fayol"
+  },
+  "barnard": {
+    "title": "Barnard, Las funciones del directivo",
+    "summary": "La autoridad queda constituida cuando el otro acepta la orden. La organización es un sistema de cooperación entre personas; el incentivo y la comunicación deciden si la orden llega a valer.",
+    "blurb": "Ver claros a los otros: la orden cuenta cuando es aceptada.",
+    "published": "1938",
+    "author": "Chester Barnard"
+  },
+  "simon": {
+    "title": "Simon, El comportamiento administrativo",
+    "summary": "La información y la atención son limitadas; la decisión busca un plan que baste. El óptimo bajo la premisa de saberlo todo no se puede alcanzar dentro de la organización.",
+    "blurb": "Formar un juicio: saber en qué tipo de límite se detiene la propia decisión.",
+    "published": "1947",
+    "author": "Herbert Simon"
+  },
+  "knight": {
+    "title": "Knight, Riesgo, incertidumbre y beneficio",
+    "summary": "Lo que se puede valorar y asegurar es riesgo. Lo que no permite estimar una probabilidad es incertidumbre. El beneficio se entiende en este segundo caso.",
+    "blurb": "Esta rama de la inversión separa primero las dos palabras. Aquí no hay promesa de rendimiento.",
+    "published": "1921",
+    "author": "Frank Knight"
+  },
+  "minsky": {
+    "title": "Minsky, Estabilizar una economía inestable",
+    "summary": "La bonanza empuja el financiamiento desde lo que se puede pagar hacia una dependencia cada vez mayor de que los precios suban y de refinanciar. El período de estabilidad vuelve frágil la estructura por sí mismo.",
+    "blurb": "Ver clara la regla: cómo los años buenos acumulan fragilidad. Aquí no hay órdenes de compra ni de venta.",
+    "published": "1986",
+    "author": "Hyman Minsky"
+  },
+  "bagehot": {
+    "title": "Bagehot, Lombard Street",
+    "summary": "Describe cómo, en el mercado monetario de Londres, la reserva y la confianza se tambalean juntas. En el pánico hace falta un prestamista de última instancia.",
+    "blurb": "Leerlo frente a Manías, pánicos y cracs. Ver de qué se sostiene el sistema bancario en el pánico.",
+    "published": "1873",
+    "author": "Walter Bagehot"
+  },
+  "galbraith": {
+    "title": "Galbraith, El crac del 29",
+    "summary": "Escribe la expansión del crédito, el seguir a los demás y el crac de 1929 como una historia que se puede comprobar. Un crac no fija la fecha del siguiente.",
+    "blurb": "Tres estrellas. Hechos de esta rama de la inversión, para ver cómo se amontona el crédito.",
+    "published": "1955",
+    "author": "John Kenneth Galbraith"
+  },
+  "gerschenkron": {
+    "title": "Gerschenkron, El atraso económico en perspectiva histórica",
+    "summary": "Los países que llegan tarde usan bancos o el Estado para suplir las condiciones que antes crecían despacio por el mercado. El atraso cambia la ruta con la que se alcanza a los demás.",
+    "blurb": "Ver por qué cada alcance industrial tiene su propia ruta.",
+    "published": "1962",
+    "author": "Alexander Gerschenkron"
+  },
+  "johnson-miti": {
+    "title": "Chalmers Johnson, El MITI y el milagro japonés",
+    "summary": "Con los archivos del Ministerio de Industria y Comercio Internacional muestra cómo Japón elegía industrias y las impulsaba. Aquí la política industrial es una administración que se puede revisar.",
+    "blurb": "Ver qué elecciones hizo de hecho la política industrial japonesa.",
+    "published": "1982",
+    "author": "Chalmers Johnson"
+  },
+  "zhou-qiren": {
+    "title": "Zhou Qiren, Derechos de propiedad y cambio institucional",
+    "summary": "Con casos del campo y de las empresas ve cómo, en la reforma, la propiedad pública volvió a trazarse. El límite del derecho de propiedad está escrito en una serie de arreglos concretos.",
+    "blurb": "Tres estrellas. En esta rama de la reforma china, añade cómo se delimitó el derecho de propiedad.",
+    "published": "2002",
+    "author": "Zhou Qiren"
+  },
+  "cheung": {
+    "title": "Cheung, La teoría de la aparcería",
+    "summary": "El contrato a partes se explica como una elección bajo riesgo y costos de transacción. Un contrato hay que mirarlo primero por lo que constriñe.",
+    "blurb": "Tres estrellas. En esta rama del mercado, ver en concreto por qué existe un tipo de contrato.",
+    "published": "1969",
+    "author": "Steven Cheung"
+  },
+  "christensen-dilemma": {
+    "title": "El dilema de los innovadores",
+    "summary": "La empresa instalada que escucha a sus mejores clientes y afina el negocio que ya tiene también puede perderse una tecnología más barata, peor al principio y mejor después.",
+    "blurb": "Entrada de la rama de innovación. Cuando Li Shanyou explica la innovación disruptiva, usa este marco.",
+    "aka": [
+      "Innovación disruptiva"
+    ],
+    "published": "1997",
+    "author": "Clayton Christensen"
+  },
+  "christensen-luck": {
+    "title": "Competir contra la suerte",
+    "summary": "La gente no compra por categoría de producto: contrata un producto para acabar algo que ya está pasando. La innovación se deduce hacia atrás desde ese trabajo.",
+    "blurb": "Sirve cuando Yitang habla de la demanda. Primero se pregunta qué tiene que acabar el usuario, y luego se habla de funciones.",
+    "published": "2016",
+    "author": "Clayton Christensen"
+  },
+  "lishanyou-curve": {
+    "title": "Li Shanyou, Innovación de la segunda curva",
+    "summary": "Recoge la destrucción de Schumpeter y la disrupción de Christensen en un modelo de clase. La primera curva de crecimiento llega a su fin; la siguiente tiene que crecer al lado.",
+    "blurb": "La versión en libro del curso básico de innovación de la Universidad del Caos.",
+    "aka": [
+      "Universidad del Caos"
+    ],
+    "published": "2019",
+    "author": "Li Shanyou"
+  },
+  "lishanyou-first": {
+    "title": "Li Shanyou, Los primeros principios",
+    "summary": "Exige encontrar primero las hipótesis que ya no se pueden descomponer, y deducir desde ahí. El modo de exponer es el de Aristóteles y el de Euclides; el escenario, la empresa y la innovación.",
+    "blurb": "El segundo manual de la Universidad del Caos. Los originales de filosofía siguen en la formación de la visión del mundo; aquí se ve cómo entran en un curso de negocios.",
+    "aka": [
+      "Universidad del Caos"
+    ],
+    "published": "2021",
+    "author": "Li Shanyou"
+  },
+  "lishanyou-web": {
+    "title": "Li Shanyou, La visión del mundo de internet",
+    "summary": "En 2015 escribió internet como conexión y descentralización. El mismo autor reescribió después esa cuestión como cambio de curva y discontinuidad.",
+    "blurb": "Un curso de los primeros tiempos de la Universidad del Caos. Se deja como entrada en el tiempo; no sustituye a los dos libros de después.",
+    "aka": [
+      "Universidad del Caos"
+    ],
+    "published": "2015",
+    "author": "Li Shanyou"
+  },
+  "blank-steps": {
+    "title": "Los cuatro pasos hacia la epifanía",
+    "summary": "Primero se encuentra al cliente y se valida; después se amplía el producto. Los cuatro pasos son el descubrimiento de clientes, la validación de clientes, la expansión de clientes y la creación de la empresa.",
+    "blurb": "Una de las fuentes del «validar primero y ampliar después» en el método de cinco pasos de Yitang.",
+    "published": "2005",
+    "author": "Steve Blank"
+  },
+  "blank-manual": {
+    "title": "El manual del emprendedor",
+    "summary": "Convierte Los cuatro pasos hacia la epifanía en una lista de comprobación: clientes, canales, ingresos y costes tienen que tener pruebas, una por una.",
+    "blurb": "Es el texto de trabajo del mismo método que Los cuatro pasos hacia la epifanía.",
+    "published": "2012",
+    "author": "Steve Blank y Bob Dorf"
+  },
+  "ries-lean": {
+    "title": "El método Lean Startup",
+    "summary": "Con el producto mínimo se obtiene la conducta real del usuario, y se recorre el círculo de construir, medir y aprender, en vez de redactar de una vez el plan de negocio.",
+    "blurb": "La entrada de métodos para emprender en la lista de socios de Yitang.",
+    "published": "2011",
+    "author": "Eric Ries"
+  },
+  "maurya-running": {
+    "title": "El método Running Lean",
+    "summary": "Condensa El método Lean Startup en un lienzo que se puede corregir una y otra vez, y fija el ritmo de los experimentos.",
+    "blurb": "Versión breve de trabajo de El método Lean Startup. Yitang la usa en la prueba y el error de bajo coste.",
+    "published": "2012",
+    "author": "Ash Maurya"
+  },
+  "osterwalder-bm": {
+    "title": "Generación de modelos de negocio",
+    "summary": "Despliega en nueve casillas al cliente, el valor, los canales, los ingresos y los costes, para que una forma de hacerlo se pueda discutir y cambiar.",
+    "blurb": "El lienzo que Yitang fija cuando habla del modelo de negocio.",
+    "published": "2010",
+    "author": "Alexander Osterwalder y Yves Pigneur"
+  },
+  "thiel-zero": {
+    "title": "De cero a uno",
+    "summary": "De 1 a n es copiar; de 0 a 1 es hacer algo que aún no existe. La empresa nueva tiene que ocupar primero un mercado pequeño en el que ella decide.",
+    "blurb": "La entrada del juicio para emprender en la lista de socios de Yitang.",
+    "aka": [
+      "De 0 a 1"
+    ],
+    "published": "2014",
+    "author": "Peter Thiel y Blake Masters"
+  },
+  "horowitz-hard": {
+    "title": "La dura realidad de emprender",
+    "summary": "Describe las decisiones que el director general no puede encargar a otro: el despido, una financiación que no se cumple, vender la empresa y la ruptura con un socio.",
+    "blurb": "La dura realidad de emprender, en la lista de Yitang. Mira aquello de la gestión que no tiene una respuesta bonita.",
+    "published": "2014",
+    "author": "Ben Horowitz"
+  },
+  "xuchu-milestone": {
+    "title": "Xu Chu, Hitos",
+    "summary": "Divide un negocio en demanda, solución, modelo de negocio, crecimiento y barrera. Si el paso anterior no tiene pruebas, no se pasa al siguiente.",
+    "blurb": "El método de cinco pasos de Yitang, escrito como libro. No se recogen las más de doscientas clases; se recoge este.",
+    "aka": [
+      "Yitang",
+      "Método de cinco pasos"
+    ],
+    "published": "2025",
+    "author": "Xu Chu"
+  },
+  "lizhigang-meituan": {
+    "title": "Li Zhigang, Nueve derrotas, una victoria",
+    "summary": "Anota los juicios que quedaron en Meituan después de equivocarse muchas veces al principio. El peso está en cómo se probaron las compras en grupo y la vida local.",
+    "blurb": "El registro de Meituan que usa Yitang al hablar de casos de emprender en China.",
+    "aka": [
+      "Meituan",
+      "Wang Xing"
+    ],
+    "published": "2014",
+    "author": "Li Zhigang"
+  },
+  "liwanqiang": {
+    "title": "Li Wanqiang, Sentido de participación",
+    "summary": "En los primeros tiempos de Xiaomi se hacía participar al usuario en el producto y en la difusión. La participación se tomaba como parte del diseño y del boca a boca, no como publicidad hecha después.",
+    "blurb": "El caso de Xiaomi en la lista de Yitang.",
+    "aka": [
+      "Xiaomi"
+    ],
+    "published": "2014",
+    "author": "Li Wanqiang"
+  },
+  "zengming": {
+    "title": "Zeng Ming, Negocio inteligente",
+    "summary": "Explica, con la coordinación en red y la inteligencia de datos, cómo una plataforma organiza la oferta. El emparejamiento que el plan no termina se deja a la retroalimentación.",
+    "blurb": "La rama de Alibaba que usa Yitang al hablar de negocios de internet.",
+    "aka": [
+      "Alibaba"
+    ],
+    "published": "2018",
+    "author": "Zeng Ming"
+  },
+  "trout-position": {
+    "title": "Posicionamiento",
+    "summary": "La competencia ocurre en la idea que el cliente ya tiene. Ocupar un lugar importa más que amontonar todas las características.",
+    "blurb": "El libro habitual de Yitang al hablar de posicionamiento y de barreras.",
+    "published": "1981",
+    "author": "Jack Trout y Al Ries"
+  },
+  "yujun-product": {
+    "title": "Yu Jun, Metodología de producto",
+    "summary": "Trata el producto como la combinación del valor para el usuario, el valor para la empresa y la transacción. Primero se elige al usuario y qué no hacer; después se amontonan funciones.",
+    "blurb": "El método en chino que cita el curso de producto de Yitang.",
+    "published": "2020",
+    "author": "Yu Jun"
+  },
+  "cagan-inspired": {
+    "title": "Inspirado",
+    "summary": "El responsable de producto tiene que juzgar a la vez si alguien lo quiere, si se puede usar y si la empresa llega a hacerlo. Una lista de requisitos que solo transmite encargos no cuenta como trabajo de producto.",
+    "blurb": "Inspirado, en la lista de producto de Yitang.",
+    "published": "2008",
+    "author": "Marty Cagan"
+  },
+  "fanbing-growth": {
+    "title": "Fan Bing, El growth hacker",
+    "summary": "Busca con ensayos pequeños las palancas de captación y de retención. Trata de canales y de medición; no sustituye a la demanda ni al modelo.",
+    "blurb": "La introducción en chino que el curso de crecimiento de Yitang menciona de pasada.",
+    "published": "2015",
+    "author": "Fan Bing"
+  },
+  "gladwell-tipping": {
+    "title": "El punto clave",
+    "summary": "Una idea o un producto solo se extiende después de pasar un umbral. Unas pocas personas, lo fácil que el contenido se pega y la situación de entonces cuentan antes que el presupuesto.",
+    "blurb": "Un libro que usa Yitang al hablar de difusión.",
+    "published": "2000",
+    "author": "Malcolm Gladwell"
+  },
+  "sun-rules": {
+    "title": "Sun Taoran, 36 reglas militares para emprender",
+    "summary": "Recoge la experiencia de Lakala en cláusulas, sobre socios, dirección y ritmo.",
+    "blurb": "Notas chinas sobre emprender, en la lista de socios de Yitang. Se toman como registro de un campo de batalla, no como reglas que toda empresa tenga que seguir.",
+    "aka": [
+      "Lakala"
+    ],
+    "published": "2011",
+    "author": "Sun Taoran"
+  },
+  "shiyuzhu": {
+    "title": "Shi Yuzhu, En sus propias palabras",
+    "summary": "Giant se levantó con la publicidad y los productos para la salud, y se cayó en una expansión fuera de control. Una temeridad concreta, y la vuelta.",
+    "blurb": "Un caso chino en el árbol de habilidades para emprender de Yitang.",
+    "aka": [
+      "Giant"
+    ],
+    "published": "2013",
+    "author": "Shi Yuzhu"
+  },
+  "feng-wild": {
+    "title": "Feng Lun, Crecimiento salvaje",
+    "summary": "Cuenta cómo Vantone y las empresas privadas de su época pasaron de no ser una empresa a serlo. El pecado original, los socios, la gestión y la vida o la muerte quedan en el entorno de la reforma y la apertura.",
+    "blurb": "El primer libro de la trilogía empresarial de Feng Lun, y el más adecuado para leer primero.",
+    "aka": [
+      "Vantone"
+    ],
+    "published": "2007",
+    "author": "Feng Lun"
+  },
+  "feng-ideal": {
+    "title": "Feng Lun, Ideales abundantes",
+    "summary": "Sigue con los ideales, la equidad, el consejo de administración y el roce entre la empresa privada y el sistema.",
+    "blurb": "El segundo de la trilogía. Mira cómo las condiciones de fuera limitan a una empresa que quiere durar.",
+    "aka": [
+      "Vantone"
+    ],
+    "published": "2011",
+    "author": "Feng Lun"
+  },
+  "feng-years": {
+    "title": "Feng Lun, Años feroces",
+    "summary": "Vuelve sobre estos treinta años y escribe el emprender, la gestión y la inversión como elecciones dentro de las circunstancias.",
+    "blurb": "El cierre de la trilogía. Los libros de citas que vienen después repiten estos tres y ya no se listan aparte.",
+    "aka": [
+      "Vantone"
+    ],
+    "published": "2017",
+    "author": "Feng Lun"
+  },
+  "su-logic": {
+    "title": "Su Yinhua y Li Chao, La lógica de fondo del negocio",
+    "summary": "Con ocho piezas —estrategia, beneficio, operación, talento, incentivos, reparto, desempeño y presupuesto— pone en una sola línea la marcha de la pequeña y mediana empresa.",
+    "blurb": "El esquema general que Su Yinhua puso en un libro y que se puede cotejar hasta la editorial. Los cursos presenciales no entran.",
+    "aka": [
+      "Banco del Cerebro"
+    ],
+    "published": "2023",
+    "author": "Su Yinhua y Li Chao"
+  },
+  "su-operate": {
+    "title": "Su Yinhua, Negocio y operación",
+    "summary": "Parte la operación en modelo, ganancia, captación y cobro. El tono es de curso de formación; sirve para ver cómo la pequeña y mediana empresa habla del beneficio y del flujo de caja.",
+    "blurb": "Su volumen de la operación. Los consejos del libro sobre gastar dinero no hay que tomarlos por un método.",
+    "aka": [
+      "Banco del Cerebro"
+    ],
+    "published": "2021",
+    "author": "Su Yinhua"
+  },
+  "su-manage": {
+    "title": "Su Yinhua, Mando y orden",
+    "summary": "Trata de la división del trabajo, los puestos y la delegación. Si la responsabilidad, el poder y el beneficio se quedan todos en el dueño, la organización no llega a crecer.",
+    "blurb": "Su volumen de la gestión.",
+    "aka": [
+      "Banco del Cerebro"
+    ],
+    "published": "2022",
+    "author": "Su Yinhua"
+  },
+  "su-pay": {
+    "title": "Su Yinhua, Sueldo y recompensa",
+    "summary": "Trata de cómo se reparten el salario, la prima y las acciones. La regla para dividir el dinero va antes que arengar la moral.",
+    "blurb": "Su volumen del reparto.",
+    "aka": [
+      "Banco del Cerebro"
+    ],
+    "published": "2020",
+    "author": "Su Yinhua"
+  },
+  "drucker-effective": {
+    "title": "El ejecutivo eficaz",
+    "summary": "La eficacia viene de ordenar el tiempo, aclarar la contribución, usar el punto fuerte de cada persona y hacer primero lo importante, no del título del cargo.",
+    "blurb": "El Drucker de la lista de Yitang. En el catálogo ya está La práctica del management; este mira al gestor mismo.",
+    "published": "1967",
+    "author": "Peter Drucker"
+  },
+  "chen-common": {
+    "title": "Chen Chunhua, El sentido común de la gestión",
+    "summary": "Aclara lo que, una y otra vez, se explica mal en la organización, los objetivos, las personas y las decisiones.",
+    "blurb": "El sentido común chino de la gestión, en la lista de Yitang.",
+    "published": "2010",
+    "author": "Chen Chunhua"
+  },
+  "adizes-lifecycle": {
+    "title": "Ciclos de vida de la organización",
+    "summary": "La empresa pasa de la fundación a la burocracia, y en cada tramo los problemas y la manera adecuada de dirigir son distintos. Dirigir el tramo siguiente con el método del anterior hace que se atasque.",
+    "blurb": "El modelo que usa Yitang cuando habla de las etapas de la empresa.",
+    "published": "1988",
+    "author": "Ichak Adizes"
+  },
+  "charan-pipeline": {
+    "title": "La línea del liderazgo",
+    "summary": "De dirigirse a uno mismo a dirigir a personas, a quienes dirigen y al negocio: en cada nivel hay que dejar lo que se hacía bien en el nivel de arriba.",
+    "blurb": "El volumen que señala Yitang cuando habla de liderazgo.",
+    "published": "2001",
+    "author": "Ram Charan, Stephen Drotter y James Noel"
+  },
+  "netflix-culture": {
+    "title": "Poderoso",
+    "summary": "Sustituye el hábito de gestionar la mediocridad con procesos por una alta densidad de talento y por la retroalimentación directa.",
+    "blurb": "La práctica de Netflix que cita el curso de cultura de Yitang. Es la elección de una empresa.",
+    "aka": [
+      "Netflix"
+    ],
+    "published": "2018",
+    "author": "Patty McCord"
+  },
+  "dalio-principles": {
+    "title": "Principios",
+    "summary": "Pone las decisiones por escrito como principios que se pueden volver a examinar. El desacuerdo se pondera por credibilidad, en vez de aplastarlo con el puesto.",
+    "blurb": "El método de decidir en la lista de socios de Yitang.",
+    "published": "2017",
+    "author": "Ray Dalio"
+  },
+  "welch-winning": {
+    "title": "Ganar",
+    "summary": "Recoge, de la época de General Electric, el ser el número uno o el dos, la evaluación que separa y el modo de usar a las personas. Es la experiencia de una empresa.",
+    "blurb": "Ganar, en la lista de Yitang. No se toma como ley de todas las empresas.",
+    "aka": [
+      "General Electric"
+    ],
+    "published": "2005",
+    "author": "Jack Welch y Suzy Welch"
+  },
+  "wodtke-okr": {
+    "title": "Radical Focus",
+    "summary": "Separa el objetivo de los resultados clave que se pueden comprobar, para alinear hasta dónde va una cosa. No sustituye a la estrategia.",
+    "blurb": "La introducción a la gestión por objetivos en la lista de Yitang.",
+    "published": "2016",
+    "author": "Christina Wodtke"
+  },
+  "munger-almanack": {
+    "title": "El almanaque del pobre Charlie",
+    "summary": "Con una lista de varias disciplinas se evitan los errores habituales del juicio psicológico. El juicio va antes de dar la orden.",
+    "blurb": "El Munger de la lista de socios de Yitang. No se toman los ejemplos de dentro como un rendimiento.",
+    "aka": [
+      "Munger"
+    ],
+    "published": "2005",
+    "author": "Charlie Munger (editado por Peter Kaufman)"
+  },
+  "dorsey-moat": {
+    "title": "El pequeño libro que genera riqueza",
+    "summary": "Que una empresa conserve el beneficio durante mucho tiempo depende de una estructura en la que los demás no pueden entrar: coste de cambio, red, ventaja de coste y umbral intangible.",
+    "blurb": "Un libro que usa Yitang cuando habla de barreras. Solo mira la estructura, no la tasa de rendimiento.",
+    "aka": [
+      "Foso económico"
+    ],
+    "published": "2008",
+    "author": "Pat Dorsey"
+  },
+  "xiaoxing-statements": {
+    "title": "Xiao Xing, Entender los estados financieros",
+    "summary": "Une el balance, la cuenta de resultados y el estado de flujos de efectivo, para preguntar si el beneficio y el efectivo son la misma cosa.",
+    "blurb": "El manual chino de introducción a los estados financieros que señala Yitang.",
+    "published": "2014",
+    "author": "Xiao Xing"
+  },
+  "cialdini": {
+    "title": "Influencia",
+    "summary": "La reciprocidad, el compromiso y la coherencia, la prueba social, la simpatía, la autoridad y la escasez hacen que una persona acepte sin haberlo pensado bien.",
+    "blurb": "La puerta de la psicología cuando Yitang habla de persuasión. Está en el juicio, porque lo que entrena es ver claro a los demás.",
+    "published": "1984",
+    "author": "Robert Cialdini"
+  },
+  "rosling-factfulness": {
+    "title": "Factfulness",
+    "summary": "Muchas cifras del mundo mejoran, y la gente sigue mirando por costumbre con el miedo y la dicotomía. Antes de juzgar, hay que devolverlas a la proporción, el ritmo de cambio y la comparación.",
+    "blurb": "Factfulness, en la lista de Yitang. Va junto a la estadística y a La señal y el ruido.",
+    "published": "2018",
+    "author": "Hans Rosling, Ola Rosling y Anna Rosling Rönnlund"
+  },
+  "meadows-systems": {
+    "title": "Pensar en sistemas",
+    "summary": "Las existencias, los flujos y los bucles de retroalimentación deciden cómo se mueve el sistema. El sistema se retrasa y también se resiste; optimizar una parte no equivale a que el conjunto mejore.",
+    "blurb": "Un libro que usa Yitang para ver el sistema de un negocio. Está en el juicio: lo que entrena es ver clara la estructura.",
+    "published": "2008",
+    "author": "Donella Meadows"
+  },
+  "chunqiu-fanlu": {
+    "title": "Dong Zhongshu, Rocío exuberante de los Anales (selección)",
+    "summary": "El yin y el yang y los juicios de los Anales sirven para presentar el poder imperial como intención del Cielo. El confucianismo deja de ser solo una enseñanza sobre cómo vivir y pasa a ser base del reclutamiento y de la reforma en la corte.",
+    "blurb": "El tramo que falta entre Xunzi y el aprendizaje Song-Ming: cómo el confucianismo Han se ató al Estado.",
+    "published": "hacia el siglo II a. C.",
+    "author": "Dong Zhongshu (atribuido) y discípulos posteriores"
+  },
+  "upanishads": {
+    "title": "Anónimo, Las Upanishad (selección)",
+    "summary": "Preguntan si el yo y la realidad última son la misma cosa. El sacrificio sigue ahí, pero la pregunta ya es si una persona puede conocerse.",
+    "blurb": "La puerta primaria del pensamiento indio. El Bhagavad Gita continúa esta pregunta.",
+    "published": "hacia el siglo VIII a. C. hasta el siglo III a. C.",
+    "author": "anónimos, a lo largo de generaciones"
+  },
+  "pirkei-avot": {
+    "title": "Rabinos, Pirkei Avot (selección)",
+    "summary": "Frases breves sobre el estudio, la reputación y el trato con los demás. Está dentro de la tradición oral y habla de la conducta, no del detalle de la ley.",
+    "blurb": "La puerta más corta a la formación judía. Después de la Biblia hebrea, cómo se trata la gente.",
+    "aka": [
+      "Avot"
+    ],
+    "published": "hacia el siglo III",
+    "author": "rabinos, a lo largo de generaciones"
+  },
+  "spinoza": {
+    "title": "Spinoza, Ética (selección)",
+    "summary": "En un razonamiento geométrico, las emociones vienen de un conocimiento insuficiente, y la libertad es poder actuar una vez entendida la necesidad. Dios es la naturaleza misma, no un mando fuera del mundo.",
+    "blurb": "El libro que falta entre Descartes y Hume. Ver cómo emoción y libertad entran en una misma necesidad.",
+    "published": "1677",
+    "author": "Baruch Spinoza"
+  },
+  "critique-pure": {
+    "title": "Kant, Crítica de la razón pura (selección)",
+    "summary": "El conocimiento une lo que dan los sentidos con las formas del entendimiento, y ese conocimiento no puede tomarse como el mundo mismo. Dios, la libertad y el mundo entero no son objetos que el saber pueda confirmar.",
+    "blurb": "La pregunta después de Hume: cuando la experiencia no alcanza, dónde está el borde del juicio.",
+    "published": "1781",
+    "author": "Immanuel Kant"
+  },
+  "mulamadhyamakakarika": {
+    "title": "Nagarjuna, Versos sobre el camino del medio (selección)",
+    "summary": "Por reducción al absurdo, nada tiene una naturaleza propia independiente que se pueda agarrar. El vacío no es que no haya nada. Es que no hay una esencia fija.",
+    "blurb": "La puerta principal a la filosofía budista. Los sutras cortos dicen cómo mirar la mente; este libro dice por qué la naturaleza propia no se sostiene.",
+    "published": "hacia el siglo II al siglo III",
+    "author": "Nagarjuna"
+  },
+  "renwuzhi": {
+    "title": "Liu Shao, Tratado de las personas",
+    "summary": "Se clasifica a las personas por talento, capacidad y modo de actuar, para decidir quién encaja en qué cargo. Reconocer a alguien se escribe como observación, no como artimaña.",
+    "blurb": "El texto chino dedicado a reconocer personas. Léase y luego Influencia, y sepárense el reconocimiento y el dejarse empujar.",
+    "published": "hacia el siglo III",
+    "author": "Liu Shao"
+  },
+  "philosophical-investigations": {
+    "title": "Wittgenstein, Investigaciones filosóficas (selección)",
+    "summary": "El significado de una palabra es su uso en una actividad concreta, no un objeto escondido detrás. Muchos problemas duros vienen de usar el lenguaje en el sitio equivocado.",
+    "blurb": "Un libro del siglo XX para revisar conceptos. Primero ver en qué actividad una palabra tiene sentido.",
+    "published": "1953",
+    "author": "Ludwig Wittgenstein"
+  },
+  "tiangong": {
+    "title": "Song Yingxing, La explotación de las obras de la naturaleza (selección)",
+    "summary": "Registra cómo se hacen el grano, los tejidos, la cerámica, la fundición y los barcos y carros, y en qué cantidades. Le importa cómo se produce una cosa, no los presagios.",
+    "blurb": "La puerta de los oficios en la ciencia china. Ensayos del arroyo de los sueños es un cuaderno de observaciones; este libro son los cien oficios.",
+    "published": "1637",
+    "author": "Song Yingxing"
+  },
+  "maxwell": {
+    "title": "Maxwell, Tratado de electricidad y magnetismo (selección)",
+    "summary": "Reúne electricidad, magnetismo y luz en un mismo conjunto de ecuaciones. La relatividad posterior necesita este campo antes de tener un objeto que reescribir.",
+    "blurb": "El paso que falta entre Newton y Einstein: el mundo puede unirse como un campo, no solo como un montón de partículas.",
+    "published": "1873",
+    "author": "James Clerk Maxwell"
+  },
+  "argonauts": {
+    "title": "Malinowski, Los argonautas del Pacífico occidental",
+    "summary": "La gente de las islas Trobriand navega lejos para cambiar brazaletes y collares, no porque falte mercancía. El don ata reputación, obligación y ruta.",
+    "blurb": "Léase frente a Mauss, El don. Aquel es el concepto; este es cómo ocurren un viaje entero y su retorno.",
+    "published": "1922",
+    "author": "Bronislaw Malinowski"
+  },
+  "weapons-weak": {
+    "title": "James C. Scott, Las armas de los débiles",
+    "summary": "Los campesinos malayos enfrentan al fuerte con lentitud, ignorancia fingida, rumores y pequeñas negativas. La revuelta abierta es rara. Arrastrar y esconder en lo diario es lo habitual.",
+    "blurb": "Un texto primario de la sociedad del Sudeste Asiático. Ver cómo quien no tiene ejército cambia el resultado ante los ojos del fuerte.",
+    "published": "1985",
+    "author": "James C. Scott"
+  },
+  "exit-voice": {
+    "title": "Hirschman, Salida, voz y lealtad",
+    "summary": "Ante una organización que empeora hay tres caminos: irse, hablar o quedarse por lealtad. Los tres se estorban. Más disgusto no significa por sí solo más palabra.",
+    "blurb": "Es corto. Ver si una persona, en una empresa, una escuela o un Estado, se va, habla o aguanta.",
+    "published": "1970",
+    "author": "Albert O. Hirschman"
+  },
+  "civilizing": {
+    "title": "Elias, El proceso de la civilización (selección)",
+    "summary": "Las reglas de la mesa, del cuerpo y de las emociones se afinan a la vez que el Estado recoge la violencia en sus manos. La cortesía no es una naturaleza que se haya vuelto buena.",
+    "blurb": "Devolver la formación a la historia. La contención personal y la formación de la corte y del Estado son dos caras de una cosa.",
+    "published": "1939",
+    "author": "Norbert Elias"
+  },
+  "discipline-punish": {
+    "title": "Foucault, Vigilar y castigar (selección)",
+    "summary": "El castigo pasa de la ejecución pública a los horarios de la prisión, la escuela y el hospital. El poder moderno dispone los cuerpos más de lo que solo prohíbe.",
+    "blurb": "Ver cómo las reglas entran en lo diario. Habla de vigilancia y examen, no de otra historia del derecho.",
+    "published": "1975",
+    "author": "Michel Foucault"
+  },
+  "shangshu": {
+    "title": "Anónimo, Libro de los documentos (selección)",
+    "summary": "Edictos, juramentos y encargos registran cómo los primeros gobernantes daban órdenes y explicaban la intención del Cielo. Algunos capítulos del texto recibido se fijaron solo en los Han, así que no es un archivo de una sola época.",
+    "blurb": "Una puerta temprana a la narración política china. Ver cómo una orden se dice como mandato del Cielo y luego leer las historias posteriores.",
+    "published": "hacia el siglo XI a. C. hasta el siglo III a. C.",
+    "author": "anónimo"
+  },
+  "manu": {
+    "title": "Anónimo, Las leyes de Manu (selección)",
+    "summary": "Según casta y etapa de la vida fija quién debe hacer qué y cómo cae el castigo. El orden social se escribe como deber, no solo como técnica del rey.",
+    "blurb": "La otra cara del Arthashastra. Uno dice cómo gobierna un rey; este dice en qué casilla se coloca a una persona.",
+    "aka": [
+      "Manusmriti"
+    ],
+    "published": "hacia el siglo II a. C. hasta el siglo II",
+    "author": "anónimo (atribuido por tradición a Manu)"
+  },
+  "mingyi": {
+    "title": "Huang Zongxi, A la espera del alba",
+    "summary": "Cuando el gobernante trata el mundo como propiedad privada, la ley se vuelve ley de una sola casa. Si la escuela y el reclutamiento no cambian, los oficiales solo guardan la puerta de esa casa.",
+    "blurb": "Es corto. Esenciales del gobierno de Zhenguan enseña cómo ser un gobernante ilustrado; este libro pregunta por el cargo mismo de gobernante.",
+    "published": "1663",
+    "author": "Huang Zongxi"
+  },
+  "mokmin": {
+    "title": "Jeong Yagyong, Amonestaciones para gobernar al pueblo",
+    "summary": "Dice al oficial local cómo juzgar, cobrar impuestos, socorrer el hambre y frenar a los subalternos. El cuidado confuciano del pueblo se escribe aquí como lo que un condado hace cada día.",
+    "blurb": "Un texto primario de la política coreana. No es un panorama dinástico: cómo un nivel de gobierno encuentra a personas concretas.",
+    "published": "1818",
+    "author": "Jeong Yagyong"
+  },
+  "on-war": {
+    "title": "Clausewitz, De la guerra (selección)",
+    "summary": "La guerra es la continuación de la política por otros medios. Un plan se deforma al encontrar resistencia y azar, así que la victoria no puede escribirse como una tabla terminada de antemano.",
+    "blurb": "La puerta moderna después de los clásicos militares. Devuelve la guerra a un fin político y no añade un recetario de batalla.",
+    "published": "1832",
+    "author": "Carl von Clausewitz"
+  },
+  "zuozhuan": {
+    "title": "Zuo Qiuming, Tradición de Zuo (selección)",
+    "summary": "Los señores de Primavera y Otoño deciden en alianzas, guerras y rebeliones de ministros de casa. El rito sigue en la boca; el asunto ya sigue el provecho y el daño.",
+    "blurb": "La narración anterior a los Registros del historiador. Ver cómo un conjunto de nombres y deberes falla en hechos concretos.",
+    "aka": [
+      "Zuo Zhuan"
+    ],
+    "published": "hacia el siglo IV a. C.",
+    "author": "Zuo Qiuming (atribuido por tradición)"
+  },
+  "du-tongjian": {
+    "title": "Wang Fuzhi, Comentarios al leer el Espejo integral (selección)",
+    "summary": "Se juzga a personas y hechos del Espejo integral. Un éxito del momento no debe escribirse directo como principio, y qué persona cría una institución hay que mirarlo aparte.",
+    "blurb": "El Espejo escribe lo que ocurrió. Este libro entrena a no tomar victoria y derrota como acierto y error.",
+    "published": "hacia 1691",
+    "author": "Wang Fuzhi"
+  },
+  "rizhilu": {
+    "title": "Gu Yanwu, Registro del conocimiento diario (selección)",
+    "summary": "Notas de evidencia sobre costumbre, reclutamiento, tierra y sentido de la vergüenza. El auge y la caída de un Estado se ven primero en la costumbre, no solo en una o dos órdenes de la corte.",
+    "blurb": "Léase con Huang Zongxi y Wang Fuzhi. Este deja el juicio en instituciones concretas y en la costumbre diaria.",
+    "published": "hacia 1670",
+    "author": "Gu Yanwu"
+  },
+  "hegel-right": {
+    "title": "Hegel, Principios de la filosofía del derecho (selección)",
+    "summary": "La libertad se vuelve concreta solo en la familia, la sociedad civil y el Estado. El Estado no es un contrato en papel, y el derecho de una persona no está ya terminado fuera del Estado.",
+    "blurb": "El ataque de Popper a Hegel ya está en el estante. Léase primero cómo Hegel mismo coloca la libertad dentro del Estado.",
+    "aka": [
+      "Filosofía del derecho"
+    ],
+    "published": "1821",
+    "author": "Georg Wilhelm Friedrich Hegel"
+  },
+  "berlin": {
+    "title": "Isaiah Berlin, Libertad (selección)",
+    "summary": "La libertad negativa es no ser bloqueado por otros; la positiva es ser dueño de uno mismo. Las dos se empujan y no se funden en un fin sin costo.",
+    "blurb": "Constant separó la libertad de los antiguos y la de los modernos. Este libro recoge la discusión del siglo XX en dos clases.",
+    "aka": [
+      "Dos conceptos de libertad"
+    ],
+    "published": "1969",
+    "author": "Isaiah Berlin"
+  },
+  "rawls": {
+    "title": "Rawls, Teoría de la justicia (selección)",
+    "summary": "Si las personas no saben en qué lugar caerán, eligen reglas que protegen libertades básicas y atienden a los menos favorecidos. La equidad es una constricción al fijar las reglas.",
+    "blurb": "El texto constructivo que falta después de Mill. Responde de frente qué haría que un conjunto de instituciones contara como justo.",
+    "published": "1971",
+    "author": "John Rawls"
+  },
+  "nozick": {
+    "title": "Nozick, Anarquía, Estado y utopía",
+    "summary": "Si los derechos de una persona son un límite, el Estado a lo sumo trata la fuerza, el robo y el fraude. Volver a trazar lo que cada uno tiene para un resultado distributivo es cruzar ese límite.",
+    "blurb": "Léase frente a Teoría de la justicia. Uno parte del menos favorecido; el otro, de derechos que no pueden tomarse para el fin de otro.",
+    "published": "1974",
+    "author": "Robert Nozick"
+  },
+  "letter-birmingham": {
+    "title": "Martin Luther King Jr., Carta desde la cárcel de Birmingham",
+    "summary": "Una ley injusta puede quebrarse, pero en público, sin violencia, y aceptando la pena. Mandar a la gente a seguir esperando puede ser ya la negativa.",
+    "blurb": "Douglass dice por qué la persona esclavizada no es libre. Esta carta dice por qué un derecho ya escrito aún necesita a alguien que rompa una regla local.",
+    "published": "1963",
+    "author": "Martin Luther King Jr."
+  },
+  "nakae": {
+    "title": "Nakae Chomin, Discurso de tres ebrios sobre el gobierno",
+    "summary": "Tres ebrios defienden, por turno, la democracia al modo occidental, el hinchar el poder nacional y un camino intermedio. Cómo ha de entrar Japón en el mundo moderno se escribe como una disputa sin juez.",
+    "blurb": "El Aliento al estudio de Fukuzawa dice que hay que aprender. Este libro pone los caminos de entonces uno junto al otro y obliga a ver el costo de cada uno.",
+    "published": "1887",
+    "author": "Nakae Chomin"
+  },
+  "maruyama": {
+    "title": "Maruyama Masao, Estudios de historia del pensamiento político japonés",
+    "summary": "De Ogyu Sorai a la víspera de Meiji, un orden tomado como naturaleza se vuelve una institución que se puede criticar. El pensamiento moderno japonés no llegó de golpe desde Occidente.",
+    "blurb": "La puerta principal al pensamiento político japonés. Primero ver cómo el pensamiento Tokugawa se aflojó por dentro.",
+    "published": "1952",
+    "author": "Maruyama Masao"
+  },
+  "mariategui": {
+    "title": "Mariátegui, Siete ensayos de interpretación de la realidad peruana",
+    "summary": "La tierra, los indígenas y la religión del Perú no son una nota a una teoría europea. Sin esas estructuras, la independencia solo cambia de amo.",
+    "blurb": "Una puerta corta al pensamiento político latinoamericano. Pregunta directo cómo ha de entenderse un país a sí mismo.",
+    "published": "1928",
+    "author": "José Carlos Mariátegui"
+  },
+  "gramsci": {
+    "title": "Gramsci, Cuadernos de la cárcel (selección)",
+    "summary": "El dominio no descansa solo en el ejército y los tribunales, sino en escuelas, iglesias y el sentido común diario que hacen parecer razonable lo que hay. Cuando ese consentimiento se afloja, la fuerza no lo tapa.",
+    "blurb": "La puerta al pensamiento político italiano moderno. Ver cómo un orden se sostiene mientras la gente consiente.",
+    "published": "1929 a 1935",
+    "author": "Antonio Gramsci"
+  },
+  "beccaria": {
+    "title": "Beccaria, De los delitos y las penas",
+    "summary": "La pena necesita un límite público, para que lo que se tema sea la ley y no el tormento. Si delito y pena no coinciden, la crueldad secreta no vuelve más estable al Estado.",
+    "blurb": "Es corto. Ver cómo el castigo contiene a las personas, y no solo haciendo más pesada la pena.",
+    "published": "1764",
+    "author": "Cesare Beccaria"
+  },
+  "seeing-state": {
+    "title": "James C. Scott, Ver como un Estado",
+    "summary": "Para cobrar impuestos y rehacer la sociedad, un Estado primero simplifica tierra, gente y bosques en una cuadrícula. Muchos grandes fracasos vienen de un plan que ve demasiado en orden.",
+    "blurb": "Léase con El Antiguo Régimen y la Revolución. Uno muestra cómo cae un orden viejo; este, cómo un plan nuevo daña por ver demasiado simple.",
+    "aka": [
+      "Cómo han fracasado ciertos planes para mejorar la condición humana"
+    ],
+    "published": "1998",
+    "author": "James C. Scott"
+  },
+  "friedman-capitalism": {
+    "title": "Friedman, Capitalismo y libertad",
+    "summary": "Un mercado en competencia limita el poder y puede cargar con muchas tareas tratadas como cosa solo de un gobierno. El gobierno aún tiene que fijar reglas, manejar el dinero y atender a quien no puede entrar al mercado.",
+    "blurb": "El polo del estante del mercado frente a Polanyi y Keynes. Primero ver dónde ata la libertad al intercambio.",
+    "published": "1962",
+    "author": "Milton Friedman"
+  },
+  "williamson": {
+    "title": "Williamson, Las instituciones económicas del capitalismo",
+    "summary": "Si una transacción se queda en el mercado o entra en la empresa depende de cuán específicos sean los activos, de lo imprevisible del asunto y de si la gente se aprovechará. La empresa es un modo de gobernar, no solo una máquina de producir.",
+    "blurb": "Coase pregunta por qué hay empresas. Este libro lleva ese juicio a transacciones concretas.",
+    "published": "1985",
+    "author": "Oliver E. Williamson"
+  },
+  "penrose": {
+    "title": "Penrose, La teoría del crecimiento de la empresa",
+    "summary": "El límite del crecimiento de una empresa está en cuánta experiencia y recursos nuevos pueden absorber sus directivos, no en si hay demanda fuera. Los mismos recursos, usados de otro modo, son una línea nueva.",
+    "blurb": "La puerta teórica de por qué una empresa puede crecer. Mucho de lo que luego se dice de la innovación sale de aquí.",
+    "published": "1959",
+    "author": "Edith Penrose"
+  },
+  "porter": {
+    "title": "Porter, Estrategia competitiva",
+    "summary": "El beneficio de un sector lo presionan proveedores, compradores, sustitutos, nuevos entrantes y rivales ya presentes. Una posición distinta no debe usar la misma manera de pelear.",
+    "blurb": "Póngase antes de El dilema del innovador. Primero ver cómo la estructura del sector aprieta el beneficio, y luego dónde esa vista falla cuando cambia la técnica.",
+    "published": "1980",
+    "author": "Michael E. Porter"
+  },
+  "random-walk": {
+    "title": "Malkiel, Un paseo aleatorio por Wall Street (selección)",
+    "summary": "Una gran parte de la información pública ya está en el precio, y es difícil sostener una ventaja estable con avisos y gráficos. Lo que se puede gobernar son las comisiones, la dispersión y la propia conducta.",
+    "blurb": "Léase frente a Graham. Uno busca un precio por debajo del valor; este dice que la mayoría no tiene esa ventaja. Aquí no se escriben rendimientos.",
+    "published": "1973",
+    "author": "Burton G. Malkiel"
+  },
+  "lishanyou-disrupt": {
+    "title": "Li Shanyou, Innovación disruptiva",
+    "summary": "Con casos como Nokia y Motorola, convierte la red de valor de Christensen en una lección de los años de internet móvil. Una gran empresa puede hacer bien su negocio actual y aun así perder otra red de valor.",
+    "blurb": "Un libro que Li Shanyou escribió antes de abrir los cursos de Caos. Se lee con Visión de internet como entrada en el tiempo.",
+    "aka": [
+      "Universidad del Caos"
+    ],
+    "published": "2014",
+    "author": "Li Shanyou"
+  },
+  "lishanyou-community": {
+    "title": "Li Shanyou, Comunidades de producto",
+    "summary": "Trata el producto y un grupo de usuarios que vuelve como una sola cosa. La conexión se presenta como la forma de organización de aquel momento. Los casos se detienen en las empresas de internet de hacia 2015.",
+    "blurb": "El mismo año que Visión de internet. Muestra cómo el Caos temprano hablaba de productos y de gente.",
+    "aka": [
+      "Universidad del Caos",
+      "pensamiento de internet"
+    ],
+    "published": "2015",
+    "author": "Li Shanyou"
+  },
+  "handy-second": {
+    "title": "Handy, La segunda curva",
+    "summary": "Una curva de crecimiento llega a su fin. La siguiente tiene que empezar mientras la primera aún no ha caído. Empresas, oficios y mercados quedan en el mismo dibujo.",
+    "blurb": "El título y el dibujo del curso de Li Shanyou sobre la segunda curva vienen de este libro.",
+    "published": "2015",
+    "author": "Charles Handy"
+  },
+  "nunes-scurve": {
+    "title": "Nunes y Breene, Saltar la curva S",
+    "summary": "Quien ya está en el mercado suele perder la curva siguiente mientras la vieja todavía se ve bien. El libro convierte el salto en prácticas que se pueden comparar, y señala que la cultura retiene a la gente en la curva vieja.",
+    "blurb": "Un título de la lista del curso de 2018 en Caos. Trata de cuándo dejar la primera curva.",
+    "published": "2011",
+    "author": "Paul Nunes y Tim Breene"
+  },
+  "foster-attacker": {
+    "title": "Foster, Innovación: la ventaja del atacante",
+    "summary": "La mejora técnica recorre una curva S. Cerca del límite, más gasto compra menos avance. Quien tiene menos recursos puede pasar al incumbente que perfeccionó la curva vieja, si cambia de curva.",
+    "blurb": "La ventaja del atacante, en la lista de 2018. Las palabras límite y atacarse a uno mismo entran al curso de Li Shanyou desde aquí.",
+    "aka": [
+      "La ventaja del atacante"
+    ],
+    "published": "1986",
+    "author": "Richard Foster"
+  },
+  "foster-destruction": {
+    "title": "Foster y Kaplan, Destrucción creativa",
+    "summary": "Los registros de empresas que entran y salen del mercado muestran que las que siguen en pie durante mucho tiempo cambian de negocio una y otra vez. Conservar el negocio viejo no es lo habitual en esos registros.",
+    "blurb": "Foster, nombrado en las notas del curso de junio de 2018. La misma curva S que el libro anterior; este mira cómo una empresa cambia de negocio.",
+    "published": "2001",
+    "author": "Richard Foster y Sarah Kaplan"
+  },
+  "grove-paranoid": {
+    "title": "Grove, Solo los paranoicos sobreviven",
+    "summary": "Un punto de inflexión estratégico es cuando las fuerzas de la estructura vieja crecen un orden de magnitud y el modo anterior empieza a fallar. El paso de Intel de la memoria al microprocesador se escribe como uno de esos giros.",
+    "blurb": "Un título de la lista de 2018 en Caos. Sirve para ver cuándo una curva ya no es una oscilación pequeña.",
+    "aka": [
+      "Intel",
+      "punto de inflexión estratégico"
+    ],
+    "published": "1996",
+    "author": "Andy Grove"
+  },
+  "slywotzky-profit": {
+    "title": "Slywotzky, La zona de beneficio",
+    "summary": "El beneficio se muda a lo largo de la cadena de valor. El producto puede seguir ahí mientras el lugar que gana dinero ya pasó al diseño, la marca o el servicio.",
+    "blurb": "Un libro de estrategia de la lista de 2018 en Caos. Primero hay que preguntar en qué tramo se queda el beneficio.",
+    "published": "1998",
+    "author": "Adrian J. Slywotzky"
+  },
+  "isaacson-jobs": {
+    "title": "Isaacson, Steve Jobs",
+    "summary": "A partir de entrevistas, registra los productos, las personas y la empresa de Jobs. Una biografía anota las elecciones de una persona. Llevarlas a otra empresa exige volver a comprobar.",
+    "blurb": "La biografía de Jobs en la lista de 2018 en Caos. Li Shanyou usa a menudo a esta persona cuando habla de producto y de discontinuidad.",
+    "aka": [
+      "Jobs"
+    ],
+    "published": "2011",
+    "author": "Walter Isaacson"
+  },
+  "schlender-jobs": {
+    "title": "Schlender y Tetzeli, Becoming Steve Jobs",
+    "summary": "Schlender siguió a Jobs más de veinte años. El peso está en los años después de dejar Apple y en cómo volvió a la empresa.",
+    "blurb": "Aparece junto al libro de Isaacson en la lista de 2018. Se leen uno contra el otro.",
+    "aka": [
+      "Jobs"
+    ],
+    "published": "2015",
+    "author": "Brent Schlender y Rick Tetzeli"
+  },
+  "stone-amazon": {
+    "title": "Stone, La tienda de todo",
+    "summary": "Cuenta cómo Bezos usó precios bajos, inventario y reinversión para hacer de Amazon una plataforma. El material viene de entrevistas. Sigue siendo la historia de una sola empresa.",
+    "blurb": "La tienda de todo, en la lista de 2018. Muestra cómo una empresa sigue apostando a lo largo de una curva.",
+    "aka": [
+      "Amazon",
+      "Bezos"
+    ],
+    "published": "2013",
+    "author": "Brad Stone"
+  },
+  "nadella-refresh": {
+    "title": "Nadella, Pulsa actualizar",
+    "summary": "Cuenta los años en que Microsoft pasó de los dispositivos a la nube, y cómo él mira la empatía y la cultura. Es el relato de un director ejecutivo en el cargo.",
+    "blurb": "Un título de la lista de 2018. Muestra cómo una gran empresa se da otra curva.",
+    "aka": [
+      "Microsoft"
+    ],
+    "published": "2017",
+    "author": "Satya Nadella"
+  },
+  "kelly-inevitable": {
+    "title": "Kelly, Lo inevitable",
+    "summary": "Enumera doce fuerzas tecnológicas que, según él, se fortalecerán en las décadas siguientes, entre ellas cognificar, fluir y compartir. La lista hay que leerla contra lo que después ocurrió de verdad.",
+    "blurb": "Cuando Caos invitó a Kevin Kelly a hablar del futuro, el libro que correspondía era este.",
+    "published": "2016",
+    "author": "Kevin Kelly"
+  },
+  "liang-demand": {
+    "title": "Liang Ning, La demanda real",
+    "summary": "Usa tres palabras, valor, consenso y patrón, para ver si un negocio puede durar. Un pedido verbal de una función exige preguntar primero si el usuario seguirá pagando.",
+    "blurb": "Liang Ning enseña producto en los cursos de frontera de Caos. Este es el libro que escribió después.",
+    "published": "2024",
+    "author": "Liang Ning"
+  },
+  "jiang-mind": {
+    "title": "Jiang Nanchun, Ocupar la mente",
+    "summary": "Con los medios de Focus Media en los ascensores, dice que la publicidad tiene que tomar el instante de atención anterior al juicio. Los casos están dentro de su propia empresa.",
+    "blurb": "Jiang Nanchun fue un invitado de Caos. Este es su ejercicio de posicionamiento. Posicionamiento ya está en el catálogo y los dos se pueden leer juntos.",
+    "aka": [
+      "Focus Media"
+    ],
+    "published": "2018",
+    "author": "Jiang Nanchun"
+  },
+  "zhou-story": {
+    "title": "Zhou Hongyi, Zhou Hongyi por sí mismo",
+    "summary": "Cuenta su paso del software de seguridad a un modelo gratuito, y cómo mira a las grandes empresas y a los usuarios. Relato de un fundador. El alcance se detiene en su empresa.",
+    "blurb": "Zhou Hongyi fue un invitado que Caos llamó una y otra vez al principio. Este es su método puesto por escrito.",
+    "aka": [
+      "360",
+      "método de internet"
+    ],
+    "published": "2014",
+    "author": "Zhou Hongyi"
+  },
+  "yu-edge": {
+    "title": "Yu Minhong, Caminé al borde del colapso",
+    "summary": "Cuenta New Oriental desde una clase de formación hasta una empresa, y sus elecciones en una crisis de la compañía. La experiencia de un fundador.",
+    "blurb": "Yu Minhong ha hablado de liderazgo en Caos. Este libro es su experiencia.",
+    "aka": [
+      "New Oriental"
+    ],
+    "published": "2019",
+    "author": "Yu Minhong"
+  },
+  "wangshi-road": {
+    "title": "Wang Shi, El camino y el sueño",
+    "summary": "Cuenta cómo Vanke pasó del comercio a construir viviendas, y las elecciones sobre gobierno corporativo y gerentes profesionales. El tiempo es sobre todo los primeros veinte años tras la reforma y la apertura.",
+    "blurb": "Wang Shi está en la lista de profesores de Caos. Este libro mira cómo una empresa fija su límite.",
+    "aka": [
+      "Vanke"
+    ],
+    "published": "2006",
+    "author": "Wang Shi"
+  },
+  "wheatley-science": {
+    "title": "Wheatley, Liderazgo y la nueva ciencia",
+    "summary": "Reescribe la organización con metáforas de la autoorganización y del caos: menos órdenes desde fuera, más interacción entre las partes. Una metáfora hay que comprobarla dentro de una empresa concreta.",
+    "blurb": "El libro de organización de la lista de 2018 en Caos.",
+    "published": "1992",
+    "author": "Margaret Wheatley"
+  },
+  "fandel-lead": {
+    "title": "Fan Deng, Liderazgo que se puede copiar",
+    "summary": "Reduce el dirigir personas a un conjunto de conversaciones y devoluciones que se pueden repetir. Los ejemplos vienen de una sala de formación. Otra empresa tiene que volver a mirar sus propias restricciones.",
+    "blurb": "El curso externo más reproducido en Caos, en la versión que se hizo libro.",
+    "published": "2017",
+    "author": "Fan Deng"
+  },
+  "wu-thirty": {
+    "title": "Wu Xiaobo, Treinta años turbulentos",
+    "summary": "Va de 1978 a 2008 y pone en una sola línea de tiempo la política, las empresas y varios recalentamientos. Es una historia empresarial escrita por un periodista.",
+    "blurb": "El curso de Wu Xiaobo en Caos en 2015 fue el más reproducido de ese año. Este libro es la base de su historia de las empresas en los años de la reforma.",
+    "published": "2007",
+    "author": "Wu Xiaobo"
+  },
+  "huang-analysis": {
+    "title": "Huang Qifan, Análisis y reflexión",
+    "summary": "Con sus años en Chongqing y las conferencias públicas posteriores, parte el gobierno local, los mercados de capital y la política industrial en cuentas que se pueden comprobar. Las cifras pertenecen a las definiciones de aquel momento.",
+    "blurb": "Huang Qifan está en la lista de profesores de Caos. Este libro es su curso de economía ya impreso.",
+    "published": "2020",
+    "author": "Huang Qifan"
+  },
+  "dewitt-worldview": {
+    "title": "DeWitt, Cosmovisiones",
+    "summary": "Aristóteles, Newton y la ciencia posterior se escriben como cosmovisiones que se reemplazan. La observación ya lleva un conjunto de creencias, y el ajuste a los hechos hay que leerlo dentro de ese conjunto.",
+    "blurb": "De los cuatro libros que Caos listó para el curso de primeros principios, este es el que no estaba en el catálogo. Li Shanyou lo usa para hablar de cuándo una creencia cuenta como acertada.",
+    "published": "2004",
+    "author": "Richard DeWitt"
+  },
+  "barabasi-linked": {
+    "title": "Barabási, Conectados",
+    "summary": "Muchas redes no son aleatorias. Unos pocos nodos tienen muchísimos enlaces, y el crecimiento más el enlace preferente refuerza esa estructura.",
+    "blurb": "Barabási ha hablado de redes en Caos. Este es el libro detrás de ese curso, para ver cómo las conexiones se vuelven desiguales.",
+    "aka": [
+      "ciencia de redes"
+    ],
+    "published": "2002",
+    "author": "Albert-László Barabási"
+  },
+  "kelly-control": {
+    "title": "Kelly, Fuera de control",
+    "summary": "Enjambres, mercados y redes no tienen un solo mando y aun así producen orden. El orden viene de reglas y de retroalimentación, de la interacción entre las partes.",
+    "blurb": "Cuando el Caos temprano enseñaba una visión de internet, Kevin Kelly era alguien a quien invitaban a menudo. Este es el libro de origen de esa mirada.",
+    "published": "1994",
+    "author": "Kevin Kelly"
+  },
+  "harari-deus": {
+    "title": "Harari, Homo Deus",
+    "summary": "Va del Homo sapiens a los modos en que los algoritmos y la biotecnología podrían reescribir el deseo y la decisión. La segunda parte es una proyección. Hay que leerla aparte de lo que ya ocurrió.",
+    "blurb": "Harari ha hablado en Caos del ascenso de los humanos y del futuro. Sapiens ya está en el catálogo. Este libro es la mitad posterior.",
+    "published": "2015",
+    "author": "Yuval Noah Harari"
+  },
+  "yanye-code": {
+    "title": "Yin Ye, El código de la vida",
+    "summary": "Usa el genoma para explicar cómo se lee la información de la vida, y pone como ejemplo fenómenos hereditarios comunes. Es divulgación, para asentar los conceptos.",
+    "blurb": "Yin Ye vino a Caos como invitado de BGI. Este libro es su introducción a las ciencias de la vida.",
+    "aka": [
+      "BGI"
+    ],
+    "published": "2018",
+    "author": "Yin Ye"
+  },
+  "wright-insight": {
+    "title": "Wright, Por qué el budismo es verdad",
+    "summary": "Vuelve a contar el no-yo, el apego y la meditación budistas con psicología evolutiva y ciencia del cerebro. La experiencia religiosa queda reunida en un proceso psicológico que se puede discutir.",
+    "blurb": "Un libro que Tang Jin, socio de la Academia Caos, recomendó en la lista oficial. Sirve para ver cómo un pensamiento se toma por el yo.",
+    "published": "2017",
+    "author": "Robert Wright"
+  },
+  "wang-yuyan": {
+    "title": "Wang Dongyue, Teoría general de la evolución de las cosas",
+    "summary": "Propone debilitamiento y compensación: a medida que las cosas evolucionan, su grado de supervivencia baja, y lo compensan con una estructura más compleja. Es el sistema de una persona. Hay que leerlo aparte de un manual de biología.",
+    "blurb": "La lista del curso de 2018 en Caos incluyó este libro. Cuando Li Shanyou habla después de existencia y evolución, suele usar este marco.",
+    "aka": [
+      "debilitamiento y compensación"
+    ],
+    "published": "2003",
+    "author": "Wang Dongyue"
+  },
+  "liuqing-west": {
+    "title": "Liu Qing, Lecciones de pensamiento occidental moderno",
+    "summary": "Va de la Ilustración al liberalismo, el conservadurismo y la teoría crítica. A cada escuela le da primero el problema que quería resolver y después su límite.",
+    "blurb": "Liu Qing ha hablado de historia de las ideas en Caos. Este libro es ese tipo de curso ya impreso, para poner un orden a las ideas modernas.",
+    "published": "2021",
+    "author": "Liu Qing"
+  },
+  "taleb-swan": {
+    "title": "Taleb, El cisne negro",
+    "summary": "Los sucesos extremos son raros y, cuando llegan, cambian el promedio. Después la gente les inventa un relato y subestima un golpe que no ha visto.",
+    "blurb": "Aparece con Antifrágil en la lista de 2018 en Caos. Primero hay que mirar el suceso raro.",
+    "published": "2007",
+    "author": "Nassim Nicholas Taleb"
+  },
+  "dweck-mindset": {
+    "title": "Dweck, Mentalidad",
+    "summary": "Quien trata la capacidad como fija se detiene al tropezar. Quien la trata como algo que puede crecer toma el tropiezo como información. Los experimentos están sobre todo en la escuela y en el entrenamiento.",
+    "blurb": "Un título de la lista de 2018 en Caos. Cuando Li Shanyou habla de mejorar la cognición, usa esta idea de que una persona puede cambiar.",
+    "published": "2006",
+    "author": "Carol S. Dweck"
+  },
+  "stanovich-iq": {
+    "title": "Stanovich, Lo que los test de inteligencia no miden",
+    "summary": "Un test de CI mide resolver problemas. La racionalidad es si crees la evidencia y si cambias de idea. Quien resuelve bien los problemas igual comete errores sistemáticos sobre sus propias creencias.",
+    "blurb": "Un título de la lista de 2018 en Caos. Separa ser listo de ser razonable.",
+    "published": "2009",
+    "author": "Keith E. Stanovich"
+  },
+  "pentland-social": {
+    "title": "Pentland, Física social",
+    "summary": "Usa datos de teléfonos y sensores para ver cómo las ideas se mueven entre la gente. El ritmo de cooperación y de exploración se escribe como un proceso social que se puede medir.",
+    "blurb": "Un libro que Li Shanyou recomendó en el curso de Caos de 2024 en el mar. Lo usa para ver cómo se propagan las ideas dentro de una organización.",
+    "aka": [
+      "física social"
+    ],
+    "published": "2014",
+    "author": "Alex Pentland"
+  },
+  "luoxiang-law": {
+    "title": "Luo Xiang, Los detalles del estado de derecho",
+    "summary": "Con casos de derecho penal, dice que una regla tiene que caer sobre un acto y sobre una prueba. La conclusión de un caso hay que comprobarla sola antes de usarla en el siguiente.",
+    "blurb": "Luo Xiang ha hablado de derecho en Caos. Este libro es su curso sobre las reglas, puesto por escrito.",
+    "published": "2021",
+    "author": "Luo Xiang"
+  },
+  "hsu-river": {
+    "title": "Hsu, China: una nueva historia cultural",
+    "summary": "Escribe la cultura china como un río que sigue incorporando pueblos nuevos y técnicas nuevas. Las comparaciones incluyen Mesopotamia, Roma y la Europa moderna.",
+    "blurb": "Cho-yun Hsu ha hablado en Caos de la historia general de la civilización. Este libro es su relato largo de la cultura china.",
+    "published": "2006",
+    "author": "Cho-yun Hsu"
+  }
+};
