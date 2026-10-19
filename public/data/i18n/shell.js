@@ -263,6 +263,13 @@ window.ZHISHI_I18N_SHELL = {
           "modern": "近代",
           "contemporary": "當代"
         }
+      },
+      "source": {
+        "name": "來源",
+        "hint": "課綱或機構書單點名、可以單獨篩出來的一批。",
+        "values": {
+          "emba": "EMBA"
+        }
       }
     },
     "nav": {
@@ -397,6 +404,21 @@ window.ZHISHI_I18N_SHELL = {
       "navTitle": "Browse",
       "back": "Back",
       "about": "About",
+      "insight": "Analysis",
+      "insightTitle": "Analysis",
+      "insightOpen": "Analysis",
+      "insightNote": "Relationships and structure are organized from the book's own words. The original summary on the card is unchanged.",
+      "insightSummary": "Summary",
+      "insightMap": "Mind map",
+      "insightPics": "Images",
+      "insightConclusion": "The one-sentence conclusion",
+      "insightStructure": "Structure and chapters",
+      "insightKeywords": "Keywords",
+      "insightEmpty": "No analysis for this book yet.",
+      "insightEmptyNote": "The analysis uses the book's own words to break down the summary, structure, keywords and relationship map. Finished ones will be added over time.",
+      "insightPicNote": "Shown at a moderate size. Click to enlarge.",
+      "insightZoom": "Zoom in",
+      "insightClose": "Close",
       "aboutExplain": "Explanation",
       "aboutState": "Statement",
       "aboutCharter": "Charter",
@@ -644,6 +666,13 @@ window.ZHISHI_I18N_SHELL = {
           "modern": "Modern",
           "contemporary": "Contemporary"
         }
+      },
+      "source": {
+        "name": "Source",
+        "hint": "A named syllabus or institution list, kept so it can be filtered on its own.",
+        "values": {
+          "emba": "EMBA"
+        }
       }
     },
     "nav": {
@@ -778,6 +807,21 @@ window.ZHISHI_I18N_SHELL = {
       "navTitle": "案内",
       "back": "戻る",
       "about": "説明",
+      "insight": "解析",
+      "insightTitle": "解析",
+      "insightOpen": "解析",
+      "insightNote": "本の原文に沿って関係と構造を整理しています。カードにある元のまとめは変えていません。",
+      "insightSummary": "まとめ",
+      "insightMap": "マインドマップ",
+      "insightPics": "画像",
+      "insightConclusion": "一言でいう結論",
+      "insightStructure": "構造と章立て",
+      "insightKeywords": "キーワード",
+      "insightEmpty": "この本の解析はまだありません。",
+      "insightEmptyNote": "解析は本の原文に沿って、まとめ・構造・キーワード・関係図に分けています。できたものから順に追加します。",
+      "insightPicNote": "まずは見やすい大きさで表示します。クリックで拡大できます。",
+      "insightZoom": "拡大",
+      "insightClose": "閉じる",
       "aboutExplain": "説明",
       "aboutState": "声明",
       "aboutCharter": "総則",
@@ -1025,6 +1069,13 @@ window.ZHISHI_I18N_SHELL = {
           "modern": "近代",
           "contemporary": "現代"
         }
+      },
+      "source": {
+        "name": "出典",
+        "hint": "課程や機関の書目で名指しされ、単独で絞り込める一群。",
+        "values": {
+          "emba": "EMBA"
+        }
       }
     },
     "nav": {
@@ -1159,6 +1210,21 @@ window.ZHISHI_I18N_SHELL = {
       "navTitle": "안내",
       "back": "뒤로",
       "about": "설명",
+      "insight": "해설",
+      "insightTitle": "해설",
+      "insightOpen": "해설",
+      "insightNote": "책 본문의 표현에 따라 관계와 구조를 정리했습니다. 카드에 있던 기존 요약은 그대로 두었습니다.",
+      "insightSummary": "요약",
+      "insightMap": "마인드맵",
+      "insightPics": "이미지",
+      "insightConclusion": "한 줄 결론",
+      "insightStructure": "구조와 장",
+      "insightKeywords": "핵심어",
+      "insightEmpty": "이 책의 해설이 아직 없습니다.",
+      "insightEmptyNote": "해설은 책 본문의 표현에 따라 요약, 구조, 핵심어, 관계도로 나눕니다. 준비되는 대로 올라갑니다.",
+      "insightPicNote": "먼저 적당한 크기로 보입니다. 클릭하면 확대됩니다.",
+      "insightZoom": "확대",
+      "insightClose": "닫기",
       "aboutExplain": "설명",
       "aboutState": "선언",
       "aboutCharter": "총칙",
@@ -1406,6 +1472,13 @@ window.ZHISHI_I18N_SHELL = {
           "modern": "근대",
           "contemporary": "현대"
         }
+      },
+      "source": {
+        "name": "출처",
+        "hint": "교육과정이나 기관 서목에 올라 있어 따로 거를 수 있는 묶음.",
+        "values": {
+          "emba": "EMBA"
+        }
       }
     },
     "nav": {
@@ -1540,6 +1613,21 @@ window.ZHISHI_I18N_SHELL = {
       "navTitle": "Guía",
       "back": "Volver",
       "about": "Guía",
+      "insight": "Análisis",
+      "insightTitle": "Análisis",
+      "insightOpen": "Análisis",
+      "insightNote": "Las relaciones y la estructura se organizan con las propias palabras del libro. El resumen original de la ficha no se ha modificado.",
+      "insightSummary": "Resumen",
+      "insightMap": "Mapa mental",
+      "insightPics": "Imágenes",
+      "insightConclusion": "La conclusión en una frase",
+      "insightStructure": "Estructura y capítulos",
+      "insightKeywords": "Palabras clave",
+      "insightEmpty": "Este libro aún no tiene análisis.",
+      "insightEmptyNote": "El análisis usa las propias palabras del libro para desglosar el resumen, la estructura, las palabras clave y el mapa de relaciones. Se irán añadiendo los que estén listos.",
+      "insightPicNote": "Se muestra en un tamaño moderado. Haz clic para ampliar.",
+      "insightZoom": "Ampliar",
+      "insightClose": "Cerrar",
       "aboutExplain": "Explicación",
       "aboutState": "Declaración",
       "aboutCharter": "Principios",
@@ -1787,6 +1875,13 @@ window.ZHISHI_I18N_SHELL = {
           "modern": "Moderna",
           "contemporary": "Contemporánea"
         }
+      },
+      "source": {
+        "name": "Procedencia",
+        "hint": "Un lote nombrado en un programa o una lista institucional, para filtrarlo solo.",
+        "values": {
+          "emba": "EMBA"
+        }
       }
     },
     "nav": {
@@ -1921,6 +2016,21 @@ window.ZHISHI_I18N_SHELL = {
       "navTitle": "Parcourir",
       "back": "Retour",
       "about": "Repères",
+      "insight": "Analyse",
+      "insightTitle": "Analyse",
+      "insightOpen": "Analyse",
+      "insightNote": "Les relations et la structure sont organisées à partir des propres mots du livre. Le résumé initial de la fiche n'est pas modifié.",
+      "insightSummary": "Résumé",
+      "insightMap": "Carte mentale",
+      "insightPics": "Images",
+      "insightConclusion": "La conclusion en une phrase",
+      "insightStructure": "Structure et chapitres",
+      "insightKeywords": "Mots-clés",
+      "insightEmpty": "Aucune analyse pour ce livre pour l'instant.",
+      "insightEmptyNote": "L'analyse reprend les propres mots du livre pour décomposer résumé, structure, mots-clés et schéma de relations. Les analyses terminées seront ajoutées progressivement.",
+      "insightPicNote": "Affichage en taille modérée. Cliquez pour agrandir.",
+      "insightZoom": "Agrandir",
+      "insightClose": "Fermer",
       "aboutExplain": "Exposé",
       "aboutState": "Déclaration",
       "aboutCharter": "Principes",
@@ -2168,6 +2278,13 @@ window.ZHISHI_I18N_SHELL = {
           "modern": "Époque moderne",
           "contemporary": "Contemporain"
         }
+      },
+      "source": {
+        "name": "Source",
+        "hint": "Un lot cité par un programme ou une liste d'institution, pour le filtrer à part.",
+        "values": {
+          "emba": "EMBA"
+        }
       }
     },
     "nav": {
@@ -2302,6 +2419,21 @@ window.ZHISHI_I18N_SHELL = {
       "navTitle": "Übersicht",
       "back": "Zurück",
       "about": "Überblick",
+      "insight": "Analyse",
+      "insightTitle": "Analyse",
+      "insightOpen": "Analyse",
+      "insightNote": "Zusammenhänge und Struktur sind nach den eigenen Worten des Buchs geordnet. Die ursprüngliche Zusammenfassung auf der Karte bleibt unverändert.",
+      "insightSummary": "Zusammenfassung",
+      "insightMap": "Mindmap",
+      "insightPics": "Bilder",
+      "insightConclusion": "Die Kernaussage in einem Satz",
+      "insightStructure": "Aufbau und Kapitel",
+      "insightKeywords": "Schlüsselwörter",
+      "insightEmpty": "Für dieses Buch gibt es noch keine Analyse.",
+      "insightEmptyNote": "Die Analyse arbeitet mit den eigenen Worten des Buchs Zusammenfassung, Aufbau, Schlüsselwörter und Beziehungsgeflecht heraus. Fertige Analysen werden nach und nach ergänzt.",
+      "insightPicNote": "Zuerst in mittlerer Größe. Zum Vergrößern klicken.",
+      "insightZoom": "Vergrößern",
+      "insightClose": "Schließen",
       "aboutExplain": "Erläuterung",
       "aboutState": "Erklärung",
       "aboutCharter": "Grundsatz",
@@ -2549,6 +2681,13 @@ window.ZHISHI_I18N_SHELL = {
           "modern": "Neuzeit",
           "contemporary": "Gegenwart"
         }
+      },
+      "source": {
+        "name": "Herkunft",
+        "hint": "Eine von einem Programm oder einer Institutionsliste genannte Gruppe, einzeln filterbar.",
+        "values": {
+          "emba": "EMBA"
+        }
       }
     },
     "nav": {
@@ -2683,6 +2822,21 @@ window.ZHISHI_I18N_SHELL = {
       "navTitle": "Guia",
       "back": "Voltar",
       "about": "Guia",
+      "insight": "Análise",
+      "insightTitle": "Análise",
+      "insightOpen": "Análise",
+      "insightNote": "As relações e a estrutura são organizadas com as próprias palavras do livro. O resumo original do cartão não foi alterado.",
+      "insightSummary": "Resumo",
+      "insightMap": "Mapa mental",
+      "insightPics": "Imagens",
+      "insightConclusion": "A conclusão em uma frase",
+      "insightStructure": "Estrutura e capítulos",
+      "insightKeywords": "Palavras-chave",
+      "insightEmpty": "Este livro ainda não tem análise.",
+      "insightEmptyNote": "A análise usa as próprias palavras do livro para dividir resumo, estrutura, palavras-chave e mapa de relações. Os que estiverem prontos serão adicionados aos poucos.",
+      "insightPicNote": "Exibida em tamanho moderado. Clique para ampliar.",
+      "insightZoom": "Ampliar",
+      "insightClose": "Fechar",
       "aboutExplain": "Explicação",
       "aboutState": "Declaração",
       "aboutCharter": "Princípios",
@@ -2930,6 +3084,13 @@ window.ZHISHI_I18N_SHELL = {
           "modern": "Época moderna",
           "contemporary": "Contemporâneo"
         }
+      },
+      "source": {
+        "name": "Origem",
+        "hint": "Um lote citado num programa ou numa lista institucional, para filtrar à parte.",
+        "values": {
+          "emba": "EMBA"
+        }
       }
     },
     "nav": {
@@ -3064,6 +3225,21 @@ window.ZHISHI_I18N_SHELL = {
       "navTitle": "Обзор",
       "back": "Назад",
       "about": "О карте",
+      "insight": "Разбор",
+      "insightTitle": "Разбор",
+      "insightOpen": "Разбор",
+      "insightNote": "Связи и структура изложены словами самой книги. Исходное краткое содержание на карточке не изменено.",
+      "insightSummary": "Краткое содержание",
+      "insightMap": "Интеллект-карта",
+      "insightPics": "Изображения",
+      "insightConclusion": "Вывод в одном предложении",
+      "insightStructure": "Структура и главы",
+      "insightKeywords": "Ключевые слова",
+      "insightEmpty": "У этой книги пока нет разбора.",
+      "insightEmptyNote": "Разбор словами самой книги раскладывает содержание, структуру, ключевые слова и схему связей. Готовые разборы будут добавляться.",
+      "insightPicNote": "Сначала в умеренном размере. Нажмите, чтобы увеличить.",
+      "insightZoom": "Увеличить",
+      "insightClose": "Закрыть",
       "aboutExplain": "Пояснение",
       "aboutState": "Заявление",
       "aboutCharter": "Правила",
@@ -3311,6 +3487,13 @@ window.ZHISHI_I18N_SHELL = {
           "modern": "Новое время",
           "contemporary": "Современность"
         }
+      },
+      "source": {
+        "name": "Источник",
+        "hint": "Группа из программы или институтского списка, чтобы её можно было отфильтровать отдельно.",
+        "values": {
+          "emba": "EMBA"
+        }
       }
     },
     "nav": {
@@ -3445,6 +3628,21 @@ window.ZHISHI_I18N_SHELL = {
       "navTitle": "التصفح",
       "back": "رجوع",
       "about": "بيان",
+      "insight": "تحليل",
+      "insightTitle": "تحليل",
+      "insightOpen": "تحليل",
+      "insightNote": "تُرتَّب العلاقات والبنية بكلمات الكتاب نفسه. لم يُغيَّر الملخص الأصلي على البطاقة.",
+      "insightSummary": "ملخص",
+      "insightMap": "خريطة ذهنية",
+      "insightPics": "صور",
+      "insightConclusion": "الخلاصة في جملة واحدة",
+      "insightStructure": "البنية والفصول",
+      "insightKeywords": "كلمات مفتاحية",
+      "insightEmpty": "لا يوجد تحليل لهذا الكتاب بعد.",
+      "insightEmptyNote": "يعتمد التحليل على كلمات الكتاب نفسه لتفكيك الملخص والبنية والكلمات المفتاحية وخريطة العلاقات. ستُضاف التحاليل الجاهزة تباعًا.",
+      "insightPicNote": "تُعرض بحجم مناسب أولاً. انقر للتكبير.",
+      "insightZoom": "تكبير",
+      "insightClose": "إغلاق",
       "aboutExplain": "شرح",
       "aboutState": "إقرار",
       "aboutCharter": "الأصول",
@@ -3692,6 +3890,13 @@ window.ZHISHI_I18N_SHELL = {
           "modern": "الحديث",
           "contemporary": "المعاصر"
         }
+      },
+      "source": {
+        "name": "المصدر",
+        "hint": "مجموعة وردت في مقرر أو قائمة مؤسسة، يمكن تصفيتها وحدها.",
+        "values": {
+          "emba": "EMBA"
+        }
       }
     },
     "nav": {
@@ -3826,6 +4031,21 @@ window.ZHISHI_I18N_SHELL = {
       "navTitle": "मार्ग",
       "back": "वापस",
       "about": "परिचय",
+      "insight": "विश्लेषण",
+      "insightTitle": "विश्लेषण",
+      "insightOpen": "विश्लेषण",
+      "insightNote": "संबंधों और संरचना को किताब के अपने शब्दों में व्यवस्थित किया गया है। कार्ड का मूल सारांश नहीं बदला गया है।",
+      "insightSummary": "सारांश",
+      "insightMap": "माइंड मैप",
+      "insightPics": "चित्र",
+      "insightConclusion": "एक वाक्य में निष्कर्ष",
+      "insightStructure": "संरचना और अध्याय",
+      "insightKeywords": "मुख्य शब्द",
+      "insightEmpty": "इस किताब का विश्लेषण अभी उपलब्ध नहीं है।",
+      "insightEmptyNote": "विश्लेषण किताब के अपने शब्दों में सारांश, संरचना, मुख्य शब्दों और संबंध-चित्र को अलग करता है। तैयार होने वाले विश्लेषण धीरे-धीरे जोड़े जाएँगे।",
+      "insightPicNote": "पहले मध्यम आकार में दिखती है। बड़ा करने के लिए क्लिक करें।",
+      "insightZoom": "बड़ा करें",
+      "insightClose": "बंद करें",
       "aboutExplain": "व्याख्या",
       "aboutState": "घोषणा",
       "aboutCharter": "नियम",
@@ -4072,6 +4292,13 @@ window.ZHISHI_I18N_SHELL = {
           "ancient": "प्राचीन",
           "modern": "आधुनिक",
           "contemporary": "समकालीन"
+        }
+      },
+      "source": {
+        "name": "स्रोत",
+        "hint": "किसी पाठ्यक्रम या संस्था की सूची में नामित पुस्तकों का समूह, जिसे अलग से छाना जा सके।",
+        "values": {
+          "emba": "EMBA"
         }
       }
     },

@@ -482,6 +482,13 @@
             "penrose",
             "toyota",
             "porter",
+            "mintzberg-safari",
+            "dixit-art",
+            "kim-blue",
+            "kotler-marketing",
+            "kaplan-bsc",
+            "inamori-amoeba",
+            "shibusawa-abacus",
             "wheatley-science",
             "fandel-lead"
           ]
@@ -502,7 +509,9 @@
             "next-giant",
             "johnson-miti",
             "wu-thirty",
-            "huang-analysis"
+            "huang-analysis",
+            "porter-nations",
+            "xu-internet"
           ]
         },
         {
@@ -516,14 +525,20 @@
             "knight",
             "minsky",
             "bagehot",
-            "galbraith"
+            "galbraith",
+            "ross-corporate",
+            "palepu-valuation",
+            "hull-options",
+            "shiller-good",
+            "wucker-rhino"
           ]
         },
         {
           "id": "venture",
           "title": "创新与创业",
-          "note": "李善友、一堂、苏引华、冯仑写的书，混沌大课点名的书，以及混沌嘉宾写成书的那一版。视频课不收。",
+          "note": "李善友、一堂、苏引华、冯仑写的书，混沌大课点名的书，以及混沌嘉宾写成书的那一版。视频课不收。行动教育收经营者读本，不收口袋成功学。",
           "books": [
+            "drucker-innovation",
             "christensen-dilemma",
             "christensen-luck",
             "lishanyou-curve",
@@ -556,6 +571,13 @@
             "su-operate",
             "su-manage",
             "su-pay",
+            "lijian-premium",
+            "lijian-profit",
+            "lijian-flywheel",
+            "lijian-one",
+            "lijian-offset",
+            "lijian-circle",
+            "lijian-victory",
             "drucker-effective",
             "chen-common",
             "adizes-lifecycle",

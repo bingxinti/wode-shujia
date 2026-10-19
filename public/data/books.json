@@ -1271,7 +1271,7 @@
         "fact"
       ]
     },
-    "order": 31
+    "order": 38
   },
   {
     "id": "deng-era",
@@ -1339,7 +1339,7 @@
         "rule"
       ]
     },
-    "order": 28
+    "order": 35
   },
   {
     "id": "zhou-gov",
@@ -1407,7 +1407,7 @@
         "fact"
       ]
     },
-    "order": 29
+    "order": 36
   },
   {
     "id": "caigentan",
@@ -2226,7 +2226,7 @@
         "judgment"
       ]
     },
-    "order": 32
+    "order": 39
   },
   {
     "id": "new-organon",
@@ -3004,7 +3004,7 @@
         "fact"
       ]
     },
-    "order": 33
+    "order": 40
   },
   {
     "id": "lee-memoir",
@@ -3308,7 +3308,7 @@
         "judgment"
       ]
     },
-    "order": 39
+    "order": 48
   },
   {
     "id": "political-order",
@@ -5896,7 +5896,7 @@
         "rule"
       ]
     },
-    "order": 24
+    "order": 31
   },
   {
     "id": "graham",
@@ -5930,7 +5930,7 @@
         "judgment"
       ]
     },
-    "order": 37
+    "order": 46
   },
   {
     "id": "pomeranz",
@@ -5961,7 +5961,7 @@
         "fact"
       ]
     },
-    "order": 26
+    "order": 33
   },
   {
     "id": "lotus",
@@ -7996,7 +7996,7 @@
         "rule"
       ]
     },
-    "order": 25
+    "order": 32
   },
   {
     "id": "fayol",
@@ -8130,7 +8130,7 @@
         "rule"
       ]
     },
-    "order": 40
+    "order": 49
   },
   {
     "id": "minsky",
@@ -8164,7 +8164,7 @@
         "rule"
       ]
     },
-    "order": 41
+    "order": 50
   },
   {
     "id": "bagehot",
@@ -8197,7 +8197,7 @@
         "rule"
       ]
     },
-    "order": 42
+    "order": 51
   },
   {
     "id": "galbraith",
@@ -8231,7 +8231,7 @@
         "fact"
       ]
     },
-    "order": 43
+    "order": 52
   },
   {
     "id": "gerschenkron",
@@ -8262,7 +8262,7 @@
         "rule"
       ]
     },
-    "order": 27
+    "order": 34
   },
   {
     "id": "johnson-miti",
@@ -8296,7 +8296,7 @@
         "fact"
       ]
     },
-    "order": 34
+    "order": 41
   },
   {
     "id": "zhou-qiren",
@@ -8329,7 +8329,7 @@
         "fact"
       ]
     },
-    "order": 30
+    "order": 37
   },
   {
     "id": "cheung",
@@ -8395,7 +8395,7 @@
         "rule"
       ]
     },
-    "order": 44
+    "order": 59
   },
   {
     "id": "christensen-luck",
@@ -8428,7 +8428,7 @@
         "judgment"
       ]
     },
-    "order": 45
+    "order": 60
   },
   {
     "id": "lishanyou-curve",
@@ -8465,7 +8465,7 @@
         "judgment"
       ]
     },
-    "order": 46
+    "order": 61
   },
   {
     "id": "lishanyou-first",
@@ -8502,7 +8502,7 @@
         "judgment"
       ]
     },
-    "order": 47
+    "order": 62
   },
   {
     "id": "lishanyou-web",
@@ -8538,7 +8538,7 @@
         "rule"
       ]
     },
-    "order": 48
+    "order": 63
   },
   {
     "id": "blank-steps",
@@ -8571,7 +8571,7 @@
         "fact"
       ]
     },
-    "order": 51
+    "order": 66
   },
   {
     "id": "blank-manual",
@@ -8604,7 +8604,7 @@
         "fact"
       ]
     },
-    "order": 52
+    "order": 67
   },
   {
     "id": "ries-lean",
@@ -8637,7 +8637,7 @@
         "fact"
       ]
     },
-    "order": 53
+    "order": 68
   },
   {
     "id": "maurya-running",
@@ -8670,7 +8670,7 @@
         "fact"
       ]
     },
-    "order": 54
+    "order": 69
   },
   {
     "id": "osterwalder-bm",
@@ -8700,7 +8700,7 @@
         "rule"
       ]
     },
-    "order": 55
+    "order": 70
   },
   {
     "id": "thiel-zero",
@@ -8736,7 +8736,7 @@
         "judgment"
       ]
     },
-    "order": 56
+    "order": 71
   },
   {
     "id": "horowitz-hard",
@@ -8769,7 +8769,7 @@
         "self"
       ]
     },
-    "order": 57
+    "order": 72
   },
   {
     "id": "xuchu-milestone",
@@ -8806,7 +8806,7 @@
         "judgment"
       ]
     },
-    "order": 58
+    "order": 73
   },
   {
     "id": "lizhigang-meituan",
@@ -8844,7 +8844,7 @@
         "fact"
       ]
     },
-    "order": 59
+    "order": 74
   },
   {
     "id": "liwanqiang",
@@ -8880,7 +8880,7 @@
         "rule"
       ]
     },
-    "order": 60
+    "order": 75
   },
   {
     "id": "zengming",
@@ -8916,7 +8916,7 @@
         "rule"
       ]
     },
-    "order": 61
+    "order": 76
   },
   {
     "id": "trout-position",
@@ -8949,7 +8949,7 @@
         "rule"
       ]
     },
-    "order": 62
+    "order": 77
   },
   {
     "id": "yujun-product",
@@ -8980,7 +8980,7 @@
         "judgment"
       ]
     },
-    "order": 63
+    "order": 78
   },
   {
     "id": "cagan-inspired",
@@ -9010,7 +9010,7 @@
         "judgment"
       ]
     },
-    "order": 64
+    "order": 79
   },
   {
     "id": "fanbing-growth",
@@ -9043,7 +9043,7 @@
         "fact"
       ]
     },
-    "order": 65
+    "order": 80
   },
   {
     "id": "gladwell-tipping",
@@ -9074,7 +9074,7 @@
         "rule"
       ]
     },
-    "order": 66
+    "order": 81
   },
   {
     "id": "sun-rules",
@@ -9110,7 +9110,7 @@
         "rule"
       ]
     },
-    "order": 67
+    "order": 82
   },
   {
     "id": "shiyuzhu",
@@ -9147,7 +9147,7 @@
         "self"
       ]
     },
-    "order": 68
+    "order": 83
   },
   {
     "id": "feng-wild",
@@ -9184,7 +9184,7 @@
         "fact"
       ]
     },
-    "order": 69
+    "order": 84
   },
   {
     "id": "feng-ideal",
@@ -9218,7 +9218,7 @@
         "rule"
       ]
     },
-    "order": 70
+    "order": 85
   },
   {
     "id": "feng-years",
@@ -9252,7 +9252,7 @@
         "judgment"
       ]
     },
-    "order": 71
+    "order": 86
   },
   {
     "id": "su-logic",
@@ -9288,7 +9288,7 @@
         "rule"
       ]
     },
-    "order": 72
+    "order": 87
   },
   {
     "id": "su-operate",
@@ -9324,7 +9324,7 @@
         "rule"
       ]
     },
-    "order": 73
+    "order": 88
   },
   {
     "id": "su-manage",
@@ -9360,7 +9360,7 @@
         "other"
       ]
     },
-    "order": 74
+    "order": 89
   },
   {
     "id": "su-pay",
@@ -9396,7 +9396,7 @@
         "rule"
       ]
     },
-    "order": 75
+    "order": 90
   },
   {
     "id": "drucker-effective",
@@ -9429,7 +9429,7 @@
         "self"
       ]
     },
-    "order": 76
+    "order": 98
   },
   {
     "id": "chen-common",
@@ -9462,7 +9462,7 @@
         "rule"
       ]
     },
-    "order": 77
+    "order": 99
   },
   {
     "id": "adizes-lifecycle",
@@ -9495,7 +9495,7 @@
         "rule"
       ]
     },
-    "order": 78
+    "order": 100
   },
   {
     "id": "charan-pipeline",
@@ -9528,7 +9528,7 @@
         "other"
       ]
     },
-    "order": 79
+    "order": 101
   },
   {
     "id": "netflix-culture",
@@ -9564,7 +9564,7 @@
         "rule"
       ]
     },
-    "order": 80
+    "order": 102
   },
   {
     "id": "dalio-principles",
@@ -9598,7 +9598,7 @@
         "judgment"
       ]
     },
-    "order": 81
+    "order": 103
   },
   {
     "id": "welch-winning",
@@ -9634,7 +9634,7 @@
         "rule"
       ]
     },
-    "order": 82
+    "order": 104
   },
   {
     "id": "wodtke-okr",
@@ -9667,7 +9667,7 @@
         "rule"
       ]
     },
-    "order": 83
+    "order": 105
   },
   {
     "id": "munger-almanack",
@@ -9704,7 +9704,7 @@
         "judgment"
       ]
     },
-    "order": 84
+    "order": 106
   },
   {
     "id": "dorsey-moat",
@@ -9740,7 +9740,7 @@
         "rule"
       ]
     },
-    "order": 85
+    "order": 107
   },
   {
     "id": "xiaoxing-statements",
@@ -9773,7 +9773,7 @@
         "fact"
       ]
     },
-    "order": 86
+    "order": 108
   },
   {
     "id": "cialdini",
@@ -11120,7 +11120,7 @@
         "judgment"
       ]
     },
-    "order": 38
+    "order": 47
   },
   {
     "id": "lishanyou-disrupt",
@@ -11156,7 +11156,7 @@
         "rule"
       ]
     },
-    "order": 49
+    "order": 64
   },
   {
     "id": "lishanyou-community",
@@ -11193,7 +11193,7 @@
         "other"
       ]
     },
-    "order": 50
+    "order": 65
   },
   {
     "id": "handy-second",
@@ -11226,7 +11226,7 @@
         "judgment"
       ]
     },
-    "order": 87
+    "order": 109
   },
   {
     "id": "nunes-scurve",
@@ -11259,7 +11259,7 @@
         "judgment"
       ]
     },
-    "order": 88
+    "order": 110
   },
   {
     "id": "foster-attacker",
@@ -11295,7 +11295,7 @@
         "rule"
       ]
     },
-    "order": 89
+    "order": 111
   },
   {
     "id": "foster-destruction",
@@ -11328,7 +11328,7 @@
         "rule"
       ]
     },
-    "order": 90
+    "order": 112
   },
   {
     "id": "grove-paranoid",
@@ -11365,7 +11365,7 @@
         "judgment"
       ]
     },
-    "order": 91
+    "order": 113
   },
   {
     "id": "slywotzky-profit",
@@ -11398,7 +11398,7 @@
         "judgment"
       ]
     },
-    "order": 92
+    "order": 114
   },
   {
     "id": "isaacson-jobs",
@@ -11434,7 +11434,7 @@
         "fact"
       ]
     },
-    "order": 93
+    "order": 115
   },
   {
     "id": "schlender-jobs",
@@ -11470,7 +11470,7 @@
         "fact"
       ]
     },
-    "order": 94
+    "order": 116
   },
   {
     "id": "stone-amazon",
@@ -11507,7 +11507,7 @@
         "fact"
       ]
     },
-    "order": 95
+    "order": 117
   },
   {
     "id": "nadella-refresh",
@@ -11543,7 +11543,7 @@
         "fact"
       ]
     },
-    "order": 96
+    "order": 118
   },
   {
     "id": "kelly-inevitable",
@@ -11577,7 +11577,7 @@
         "judgment"
       ]
     },
-    "order": 97
+    "order": 119
   },
   {
     "id": "liang-demand",
@@ -11610,7 +11610,7 @@
         "judgment"
       ]
     },
-    "order": 98
+    "order": 120
   },
   {
     "id": "jiang-mind",
@@ -11646,7 +11646,7 @@
         "other"
       ]
     },
-    "order": 99
+    "order": 121
   },
   {
     "id": "zhou-story",
@@ -11683,7 +11683,7 @@
         "fact"
       ]
     },
-    "order": 100
+    "order": 122
   },
   {
     "id": "yu-edge",
@@ -11719,7 +11719,7 @@
         "fact"
       ]
     },
-    "order": 101
+    "order": 123
   },
   {
     "id": "wangshi-road",
@@ -11756,7 +11756,7 @@
         "fact"
       ]
     },
-    "order": 102
+    "order": 124
   },
   {
     "id": "wheatley-science",
@@ -11790,7 +11790,7 @@
         "rule"
       ]
     },
-    "order": 22
+    "order": 29
   },
   {
     "id": "fandel-lead",
@@ -11823,7 +11823,7 @@
         "other"
       ]
     },
-    "order": 23
+    "order": 30
   },
   {
     "id": "wu-thirty",
@@ -11857,7 +11857,7 @@
         "fact"
       ]
     },
-    "order": 35
+    "order": 42
   },
   {
     "id": "huang-analysis",
@@ -11891,7 +11891,7 @@
         "fact"
       ]
     },
-    "order": 36
+    "order": 43
   },
   {
     "id": "dewitt-worldview",
@@ -12332,5 +12332,795 @@
       ]
     },
     "order": 100
+  },
+  {
+    "id": "mintzberg-safari",
+    "title": "明茨伯格等《战略历程》",
+    "author": "亨利·明茨伯格、布鲁斯·阿尔斯特兰德、约瑟夫·兰佩尔",
+    "published": "1998年",
+    "summary": "把战略分成十个学派。计划、定位和事后成形不是同一件事。先看一家公司把哪一派当成了全部。",
+    "blurb": "浙大EMBA吴晓波《战略管理》课单列这本，和波特《竞争战略》并列。中译本也写作蓝佩尔。用来看五力只是其中一派。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "strategy"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 22
+  },
+  {
+    "id": "dixit-art",
+    "title": "迪克西特、奈尔伯夫《妙趣横生博弈论》",
+    "author": "阿维纳什·迪克西特、巴里·奈尔伯夫",
+    "published": "2008年",
+    "summary": "对方也会想你的下一步。先动、承诺和写进合同的规则，会改掉后面的价格和份额。",
+    "blurb": "浙大EMBA李平《管理经济学》指定这本。先看对手会怎样回应，再谈自己的打法。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "strategy"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 23
+  },
+  {
+    "id": "kim-blue",
+    "title": "金、莫博涅《蓝海战略》",
+    "author": "W·钱·金、勒妮·莫博涅",
+    "published": "2005年",
+    "summary": "主张少在现有行业的成本线上互砍，改掉一部分买方在意的因素，做出一块还没有对手的需求。这是一种主张，要用行业结构去核对。",
+    "blurb": "哈佛商业评论出版社的战略必读把金伟灿、莫博涅这篇和波特放在一起。书是2005年。对着《竞争战略》看：「没有对手」是空位，还是暂时没人算账。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "strategy"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 24
+  },
+  {
+    "id": "kotler-marketing",
+    "title": "科特勒《营销管理》",
+    "author": "菲利普·科特勒",
+    "published": "1967年",
+    "summary": "把营销写成选择谁来买、理解买方要什么、再把提供物、价格、渠道和传播配在一起。它是一套管理程序，不是某次战役的结果。",
+    "blurb": "浙大EMBA丘宏昌《战略性市场营销》用的是后来与凯文·莱恩·凯勒合著的第14版。初版是1967年科特勒单独写的《营销管理》。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "strategy"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "textbook"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 25
+  },
+  {
+    "id": "kaplan-bsc",
+    "title": "卡普兰、诺顿《平衡计分卡》",
+    "author": "罗伯特·卡普兰、戴维·诺顿",
+    "published": "1996年",
+    "summary": "财务数字来得太晚。它要求同时看顾客、内部流程和学习，把战略拆成可跟踪的指标。指标一多，真正的约束会被平均掉。",
+    "blurb": "浙大EMBA吴晓波《战略管理》课列出这本。用来看战略怎样被写成考核，不把打分当成已经赢了。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "organize"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 26
+  },
+  {
+    "id": "inamori-amoeba",
+    "title": "稻盛和夫《阿米巴经营》",
+    "author": "稻盛和夫",
+    "published": "2006年",
+    "summary": "把公司拆成小单位，各自核算收入和费用，用内部定价把市场压力传进现场。小单位会为了自己的数字牺牲下一步，口号补不住这个洞。",
+    "blurb": "浙大EMBA谢小云《组织行为学》指定这本。看的是内部定价和单位核算。《活法》《干法》是修身，不收。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "organize"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "japan"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 27
+  },
+  {
+    "id": "shibusawa-abacus",
+    "title": "涩泽荣一《论语与算盘》",
+    "author": "涩泽荣一",
+    "published": "1916年",
+    "summary": "主张经商和仁义可以用同一把尺子。算盘负责算得清，论语负责什么钱不该赚。它是商人的道德框架，不是一套会计。",
+    "blurb": "浙大EMBA张应杭《企业社会责任与商业伦理》列出这本。日本近代企业史里，这是把儒家和盈利写在一起的那一本。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "conduct"
+      ],
+      "subject": [
+        "economy",
+        "philosophy"
+      ],
+      "civilization": [
+        "japan"
+      ],
+      "school": [
+        "ru"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "modern"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 28
+  },
+  {
+    "id": "porter-nations",
+    "title": "波特《国家竞争优势》",
+    "author": "迈克尔·波特",
+    "published": "1990年",
+    "summary": "一国产业的优势来自要素、需求、相关产业和公司之间怎样竞争，再加上政府和时机。国家不是一个大公司，公司战略不能直接套到国界上。",
+    "blurb": "浙大EMBA吴晓波《战略管理》课把这本和《竞争战略》分列。看的是产业集群，不是再讲一遍五力。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "policy"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 44
+  },
+  {
+    "id": "xu-internet",
+    "title": "许小年《商业的本质和互联网》",
+    "author": "许小年",
+    "published": "2020年",
+    "summary": "互联网没有取消规模、协同和交易成本。网络效应有条件，也会衰减。把上网本身当成模式，会把固定成本误认成护城河。",
+    "blurb": "中欧国际工商学院教授写给课堂上的分析。中欧图书馆2024至2025年纸质借阅榜有这本。不写收益。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "strategy"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 45
+  },
+  {
+    "id": "ross-corporate",
+    "title": "罗斯等《公司理财》",
+    "author": "斯蒂芬·罗斯、伦道夫·威斯特菲尔德、杰弗瑞·杰富",
+    "published": "1988年",
+    "summary": "公司金融收成几条：现金流要折现，风险要有补偿，资本结构改变的是谁承担损失。公式服务于这三句，不代替这三句。",
+    "blurb": "浙大EMBA吴世农《高级财务管理》指定这本。沃顿FNCE 611近年指定的是同一条线上的布雷利、迈尔斯、艾伦《公司金融原理》，不另收。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "invest"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "text": [
+        "textbook"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 53
+  },
+  {
+    "id": "palepu-valuation",
+    "title": "帕勒普、希利、伯纳德《运用财务报表进行企业分析与估价》",
+    "author": "克里什纳·帕勒普、保罗·希利、维克多·伯纳德",
+    "published": "1996年",
+    "summary": "先问数字背后的会计政策和竞争位置，再谈值多少。策略不同，同一份报表不该用同一个倍数。",
+    "blurb": "浙大EMBA韩洪灵《企业财务报表分析》指定这本，中译作者也写作佩普、希利、伯纳德。哈佛商学院用它做报表分析教材。这里不写收益率。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "invest"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "textbook"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 54
+  },
+  {
+    "id": "hull-options",
+    "title": "赫尔《期权、期货及其他衍生产品》",
+    "aka": [
+      "期权、期货及其他衍生证券"
+    ],
+    "author": "约翰·赫尔",
+    "published": "1989年",
+    "summary": "衍生品是把价格波动重新分配。定价默认波动和分布的形状。分布错了，对冲会在同一边失效。",
+    "blurb": "浙大EMBA郑振龙《金融衍生品创新》指定赫尔这本教材。初版1989年书名还是《期权、期货及其他衍生证券》。只看风险怎么被转移。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "invest"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "text": [
+        "textbook"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 55
+  },
+  {
+    "id": "shiller-good",
+    "title": "席勒《金融与好的社会》",
+    "author": "罗伯特·席勒",
+    "published": "2012年",
+    "summary": "金融工具本来是把风险分给更能承担的人。工具一旦只为了自己的费用存在，这个社会理由就空了。",
+    "blurb": "浙大EMBA郑振龙《金融衍生品创新》把这本和赫尔的教材放在一起。先问金融在替谁分担风险。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "invest"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 56
+  },
+  {
+    "id": "wucker-rhino",
+    "title": "米歇尔·沃克《灰犀牛》",
+    "author": "米歇尔·沃克",
+    "published": "2016年",
+    "summary": "有些危机很大、很近，而且已经被说出来了。人仍会因为它来得慢、因为承认它就要付钱，而把它留到最后。",
+    "blurb": "长江商学院2020年EMBA荐读把这本放在「取势」。和三观里的《黑天鹅》分开：那本看没见过的冲击，这本看已经看见却拖延的风险。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "judgment"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 57
+  },
+  {
+    "id": "drucker-innovation",
+    "title": "彼得·德鲁克《创新与企业家精神》",
+    "author": "彼得·德鲁克",
+    "published": "1985年",
+    "summary": "把创新写成可以管理的工作，留意外面的变化，而不是等灵感。意外、不协调、程序需要、产业和人口结构比「新知识」更常带来机会。新知识最不可靠。",
+    "blurb": "浙大EMBA张钢《管理哲学》指定这本。长江商学院EMBA荐读也单列过它。先看创新从哪几类变化里来，再读《创新者的窘境》。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 58
+  },
+  {
+    "id": "lijian-premium",
+    "title": "李践《锁定高端》",
+    "author": "李践",
+    "published": "2019年",
+    "summary": "把中小企业的出路收成少做、做高，时间和钱集中到少数产品和客户上。课上的增长例子不能当成可以复制的结果。",
+    "blurb": "行动教育官网整段摘过这本书。语气是训练手册。书里的企业寿命和投入产出说法不收录，也不当成收益方法。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 91
+  },
+  {
+    "id": "lijian-profit",
+    "title": "李践《赢利》",
+    "aka": [
+      "浓缩EMBA"
+    ],
+    "author": "李践",
+    "published": "2021年",
+    "summary": "把企业收成战略、产品、团队和财务，要求管理者对利润负责，而不是只对过程负责。案例来自培训课，不能当成可以复制的结果。",
+    "blurb": "行动教育《浓缩EMBA》的底本，机构把它当成经营者读本。语气是训练手册。利润说法要单独核对，不把书里的说法当成收益方法。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 92
+  },
+  {
+    "id": "lijian-flywheel",
+    "title": "李践《数字化飞轮》",
+    "author": "李践",
+    "published": "2022年",
+    "summary": "把数字化收成战略、组织、流程、平台四个轮子，先定用户愿景，再谈工具。课上的倍数不当成结果。",
+    "blurb": "行动教育官网摘过其中的「战略飞轮」。训练手册。不把「提升多少倍」写成方法。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 93
+  },
+  {
+    "id": "lijian-one",
+    "title": "李践《取一舍九》",
+    "aka": [
+      "舍一取九"
+    ],
+    "author": "李践",
+    "published": "2023年",
+    "summary": "每个经营环节先找出那一个动作，再舍掉其余。战略、价值、组织、产品、用户、营销、财务各写一章。案例来自培训课。",
+    "blurb": "行动教育官网按章摘过。常被说成「舍一取九」的就是这一本。训练手册。利润和降本的数字要单独核对。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 94
+  },
+  {
+    "id": "lijian-offset",
+    "title": "李践《错位竞争》",
+    "author": "李践",
+    "published": "2024年",
+    "summary": "把竞争收成躲开正面价格战，用一句话说清用户非买不可的理由，再让研产供销围着这一句转。",
+    "blurb": "行动教育官网连载过。训练手册。案例里的份额和增速不收录。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 95
+  },
+  {
+    "id": "lijian-circle",
+    "title": "李践《同心圆组织》",
+    "author": "李践",
+    "published": "2025年",
+    "summary": "把组织画成围着用户的圆，而不是对着上级的金字塔。讲顶层、架构、流程和岗位怎么改。课上的阵型不能照搬。",
+    "blurb": "行动教育讲组织时反复用这个模型，2025年写成书。训练手册。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 96
+  },
+  {
+    "id": "lijian-victory",
+    "title": "李践《胜论》",
+    "aka": [
+      "孙子兵法商战课"
+    ],
+    "author": "李践",
+    "published": "2025年",
+    "summary": "把《孙子兵法》十三篇改写成商战课，对照战略、产品和团队。孙武《孙子兵法》仍在政治，这本是培训读法。",
+    "blurb": "行动教育2018年起的《孙子兵法哲学班》收成这本书，官网做过新书说明。训练手册。不把班上的赢利案例当成战法。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ],
+      "source": [
+        "emba"
+      ]
+    },
+    "order": 97
   }
 ]

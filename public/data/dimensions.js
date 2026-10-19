@@ -346,6 +346,17 @@ window.ZHISHI_DIMENSIONS = {
           "name": "当代"
         }
       ]
+    },
+    {
+      "id": "source",
+      "name": "来源",
+      "hint": "课纲或机构书单点名、可以单独筛出来的一批。",
+      "values": [
+        {
+          "id": "emba",
+          "name": "EMBA"
+        }
+      ]
     }
   ]
 };
