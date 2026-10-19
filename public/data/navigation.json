@@ -240,7 +240,8 @@
             "meadows-systems",
             "taleb-swan",
             "dweck-mindset",
-            "stanovich-iq"
+            "stanovich-iq",
+            "ericsson-peak"
           ]
         }
       ],
@@ -490,7 +491,10 @@
             "inamori-amoeba",
             "shibusawa-abacus",
             "wheatley-science",
-            "fandel-lead"
+            "fandel-lead",
+            "sloan-gm",
+            "matsushita-philosophy",
+            "huawei-striver"
           ]
         },
         {
@@ -511,7 +515,8 @@
             "wu-thirty",
             "huang-analysis",
             "porter-nations",
-            "xu-internet"
+            "xu-internet",
+            "studwell-godfathers"
           ]
         },
         {
@@ -536,7 +541,7 @@
         {
           "id": "venture",
           "title": "创新与创业",
-          "note": "李善友、一堂、苏引华、冯仑写的书，混沌大课点名的书，以及混沌嘉宾写成书的那一版。视频课不收。行动教育收经营者读本，不收口袋成功学。",
+          "note": "李善友、一堂、苏引华、冯仑写的书，混沌大课点名的书，以及混沌嘉宾写成书的那一版。视频课不收。行动教育收经营者读本，不收口袋成功学。另收能核对到初版的创业者自述。语录重印不单列。",
           "books": [
             "drucker-innovation",
             "christensen-dilemma",
@@ -604,7 +609,18 @@
             "jiang-mind",
             "zhou-story",
             "yu-edge",
-            "wangshi-road"
+            "wangshi-road",
+            "wanda-philosophy",
+            "pan-values",
+            "leijun-xiaomi",
+            "liu-jd",
+            "cao-bodhi",
+            "haidilao-case",
+            "ford-life",
+            "kroc-grind",
+            "morita-japan",
+            "walton-america",
+            "knight-shoe"
           ]
         }
       ],

@@ -1271,7 +1271,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 38
+    "order": 41
   },
   {
     "id": "deng-era",
@@ -1339,7 +1339,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 35
+    "order": 38
   },
   {
     "id": "zhou-gov",
@@ -1407,7 +1407,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 36
+    "order": 39
   },
   {
     "id": "caigentan",
@@ -2226,7 +2226,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 39
+    "order": 42
   },
   {
     "id": "new-organon",
@@ -3004,7 +3004,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 40
+    "order": 43
   },
   {
     "id": "lee-memoir",
@@ -3308,7 +3308,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 48
+    "order": 52
   },
   {
     "id": "political-order",
@@ -5896,7 +5896,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 31
+    "order": 34
   },
   {
     "id": "graham",
@@ -5930,7 +5930,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 46
+    "order": 50
   },
   {
     "id": "pomeranz",
@@ -5961,7 +5961,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 33
+    "order": 36
   },
   {
     "id": "lotus",
@@ -7996,7 +7996,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 32
+    "order": 35
   },
   {
     "id": "fayol",
@@ -8130,7 +8130,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 49
+    "order": 53
   },
   {
     "id": "minsky",
@@ -8164,7 +8164,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 50
+    "order": 54
   },
   {
     "id": "bagehot",
@@ -8197,7 +8197,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 51
+    "order": 55
   },
   {
     "id": "galbraith",
@@ -8231,7 +8231,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 52
+    "order": 56
   },
   {
     "id": "gerschenkron",
@@ -8262,7 +8262,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 34
+    "order": 37
   },
   {
     "id": "johnson-miti",
@@ -8296,7 +8296,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 41
+    "order": 44
   },
   {
     "id": "zhou-qiren",
@@ -8329,7 +8329,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 37
+    "order": 40
   },
   {
     "id": "cheung",
@@ -8395,7 +8395,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 59
+    "order": 63
   },
   {
     "id": "christensen-luck",
@@ -8428,7 +8428,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 60
+    "order": 64
   },
   {
     "id": "lishanyou-curve",
@@ -8465,7 +8465,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 61
+    "order": 65
   },
   {
     "id": "lishanyou-first",
@@ -8502,7 +8502,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 62
+    "order": 66
   },
   {
     "id": "lishanyou-web",
@@ -8538,7 +8538,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 63
+    "order": 67
   },
   {
     "id": "blank-steps",
@@ -8571,7 +8571,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 66
+    "order": 70
   },
   {
     "id": "blank-manual",
@@ -8604,7 +8604,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 67
+    "order": 71
   },
   {
     "id": "ries-lean",
@@ -8637,7 +8637,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 68
+    "order": 72
   },
   {
     "id": "maurya-running",
@@ -8670,7 +8670,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 69
+    "order": 73
   },
   {
     "id": "osterwalder-bm",
@@ -8700,7 +8700,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 70
+    "order": 74
   },
   {
     "id": "thiel-zero",
@@ -8736,7 +8736,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 71
+    "order": 75
   },
   {
     "id": "horowitz-hard",
@@ -8769,7 +8769,7 @@ window.ZHISHI_BOOKS = [
         "self"
       ]
     },
-    "order": 72
+    "order": 76
   },
   {
     "id": "xuchu-milestone",
@@ -8806,7 +8806,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 73
+    "order": 77
   },
   {
     "id": "lizhigang-meituan",
@@ -8844,7 +8844,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 74
+    "order": 78
   },
   {
     "id": "liwanqiang",
@@ -8880,7 +8880,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 75
+    "order": 79
   },
   {
     "id": "zengming",
@@ -8916,7 +8916,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 76
+    "order": 80
   },
   {
     "id": "trout-position",
@@ -8949,7 +8949,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 77
+    "order": 81
   },
   {
     "id": "yujun-product",
@@ -8980,7 +8980,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 78
+    "order": 82
   },
   {
     "id": "cagan-inspired",
@@ -9010,7 +9010,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 79
+    "order": 83
   },
   {
     "id": "fanbing-growth",
@@ -9043,7 +9043,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 80
+    "order": 84
   },
   {
     "id": "gladwell-tipping",
@@ -9074,7 +9074,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 81
+    "order": 85
   },
   {
     "id": "sun-rules",
@@ -9110,7 +9110,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 82
+    "order": 86
   },
   {
     "id": "shiyuzhu",
@@ -9147,7 +9147,7 @@ window.ZHISHI_BOOKS = [
         "self"
       ]
     },
-    "order": 83
+    "order": 87
   },
   {
     "id": "feng-wild",
@@ -9184,7 +9184,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 84
+    "order": 88
   },
   {
     "id": "feng-ideal",
@@ -9218,7 +9218,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 85
+    "order": 89
   },
   {
     "id": "feng-years",
@@ -9252,7 +9252,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 86
+    "order": 90
   },
   {
     "id": "su-logic",
@@ -9288,7 +9288,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 87
+    "order": 91
   },
   {
     "id": "su-operate",
@@ -9324,7 +9324,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 88
+    "order": 92
   },
   {
     "id": "su-manage",
@@ -9360,7 +9360,7 @@ window.ZHISHI_BOOKS = [
         "other"
       ]
     },
-    "order": 89
+    "order": 93
   },
   {
     "id": "su-pay",
@@ -9396,7 +9396,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 90
+    "order": 94
   },
   {
     "id": "drucker-effective",
@@ -9429,7 +9429,7 @@ window.ZHISHI_BOOKS = [
         "self"
       ]
     },
-    "order": 98
+    "order": 102
   },
   {
     "id": "chen-common",
@@ -9462,7 +9462,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 99
+    "order": 103
   },
   {
     "id": "adizes-lifecycle",
@@ -9495,7 +9495,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 100
+    "order": 104
   },
   {
     "id": "charan-pipeline",
@@ -9528,7 +9528,7 @@ window.ZHISHI_BOOKS = [
         "other"
       ]
     },
-    "order": 101
+    "order": 105
   },
   {
     "id": "netflix-culture",
@@ -9564,7 +9564,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 102
+    "order": 106
   },
   {
     "id": "dalio-principles",
@@ -9598,7 +9598,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 103
+    "order": 107
   },
   {
     "id": "welch-winning",
@@ -9634,7 +9634,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 104
+    "order": 108
   },
   {
     "id": "wodtke-okr",
@@ -9667,7 +9667,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 105
+    "order": 109
   },
   {
     "id": "munger-almanack",
@@ -9704,7 +9704,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 106
+    "order": 110
   },
   {
     "id": "dorsey-moat",
@@ -9740,7 +9740,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 107
+    "order": 111
   },
   {
     "id": "xiaoxing-statements",
@@ -9773,7 +9773,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 108
+    "order": 112
   },
   {
     "id": "cialdini",
@@ -11120,7 +11120,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 47
+    "order": 51
   },
   {
     "id": "lishanyou-disrupt",
@@ -11156,7 +11156,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 64
+    "order": 68
   },
   {
     "id": "lishanyou-community",
@@ -11193,7 +11193,7 @@ window.ZHISHI_BOOKS = [
         "other"
       ]
     },
-    "order": 65
+    "order": 69
   },
   {
     "id": "handy-second",
@@ -11226,7 +11226,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 109
+    "order": 113
   },
   {
     "id": "nunes-scurve",
@@ -11259,7 +11259,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 110
+    "order": 114
   },
   {
     "id": "foster-attacker",
@@ -11295,7 +11295,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 111
+    "order": 115
   },
   {
     "id": "foster-destruction",
@@ -11328,7 +11328,7 @@ window.ZHISHI_BOOKS = [
         "rule"
       ]
     },
-    "order": 112
+    "order": 116
   },
   {
     "id": "grove-paranoid",
@@ -11365,7 +11365,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 113
+    "order": 117
   },
   {
     "id": "slywotzky-profit",
@@ -11398,7 +11398,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 114
+    "order": 118
   },
   {
     "id": "isaacson-jobs",
@@ -11434,7 +11434,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 115
+    "order": 119
   },
   {
     "id": "schlender-jobs",
@@ -11470,7 +11470,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 116
+    "order": 120
   },
   {
     "id": "stone-amazon",
@@ -11507,7 +11507,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 117
+    "order": 121
   },
   {
     "id": "nadella-refresh",
@@ -11543,7 +11543,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 118
+    "order": 122
   },
   {
     "id": "kelly-inevitable",
@@ -11577,7 +11577,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 119
+    "order": 123
   },
   {
     "id": "liang-demand",
@@ -11610,7 +11610,7 @@ window.ZHISHI_BOOKS = [
         "judgment"
       ]
     },
-    "order": 120
+    "order": 124
   },
   {
     "id": "jiang-mind",
@@ -11646,7 +11646,7 @@ window.ZHISHI_BOOKS = [
         "other"
       ]
     },
-    "order": 121
+    "order": 125
   },
   {
     "id": "zhou-story",
@@ -11683,7 +11683,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 122
+    "order": 126
   },
   {
     "id": "yu-edge",
@@ -11719,7 +11719,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 123
+    "order": 127
   },
   {
     "id": "wangshi-road",
@@ -11756,7 +11756,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 124
+    "order": 128
   },
   {
     "id": "wheatley-science",
@@ -11857,7 +11857,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 42
+    "order": 45
   },
   {
     "id": "huang-analysis",
@@ -11891,7 +11891,7 @@ window.ZHISHI_BOOKS = [
         "fact"
       ]
     },
-    "order": 43
+    "order": 46
   },
   {
     "id": "dewitt-worldview",
@@ -12235,6 +12235,40 @@ window.ZHISHI_BOOKS = [
       ]
     },
     "order": 89
+  },
+  {
+    "id": "ericsson-peak",
+    "title": "安德斯·艾利克森《刻意练习》",
+    "aka": [
+      "从新手到大师"
+    ],
+    "author": "安德斯·艾利克森、罗伯特·普尔",
+    "published": "2016年",
+    "summary": "专长来自有目标、有反馈的反复练习，不是把同一动作重复很多遍。天才叙事解释不了技能怎样长出来。",
+    "blurb": "2016年霍顿·米夫林·哈考特初版，与罗伯特·普尔合写。原名Peak。放在判断里，看专长怎样练出来。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "judgment"
+      ],
+      "subject": [
+        "psychology",
+        "method"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "conduct"
+      ],
+      "cognition": [
+        "judgment"
+      ]
+    },
+    "order": 90
   },
   {
     "id": "pentland-social",
@@ -12611,7 +12645,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 44
+    "order": 47
   },
   {
     "id": "xu-internet",
@@ -12647,7 +12681,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 45
+    "order": 48
   },
   {
     "id": "ross-corporate",
@@ -12680,7 +12714,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 53
+    "order": 57
   },
   {
     "id": "palepu-valuation",
@@ -12716,7 +12750,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 54
+    "order": 58
   },
   {
     "id": "hull-options",
@@ -12752,7 +12786,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 55
+    "order": 59
   },
   {
     "id": "shiller-good",
@@ -12788,7 +12822,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 56
+    "order": 60
   },
   {
     "id": "wucker-rhino",
@@ -12824,7 +12858,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 57
+    "order": 61
   },
   {
     "id": "drucker-innovation",
@@ -12860,7 +12894,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 58
+    "order": 62
   },
   {
     "id": "lijian-premium",
@@ -12896,7 +12930,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 91
+    "order": 95
   },
   {
     "id": "lijian-profit",
@@ -12935,7 +12969,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 92
+    "order": 96
   },
   {
     "id": "lijian-flywheel",
@@ -12971,7 +13005,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 93
+    "order": 97
   },
   {
     "id": "lijian-one",
@@ -13010,7 +13044,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 94
+    "order": 98
   },
   {
     "id": "lijian-offset",
@@ -13046,7 +13080,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 95
+    "order": 99
   },
   {
     "id": "lijian-circle",
@@ -13082,7 +13116,7 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 96
+    "order": 100
   },
   {
     "id": "lijian-victory",
@@ -13121,6 +13155,558 @@ window.ZHISHI_BOOKS = [
         "emba"
       ]
     },
-    "order": 97
+    "order": 101
+  },
+  {
+    "id": "sloan-gm",
+    "title": "艾尔弗雷德·斯隆《我在通用汽车的岁月》",
+    "aka": [
+      "通用汽车"
+    ],
+    "author": "艾尔弗雷德·斯隆",
+    "published": "1964年",
+    "summary": "写通用汽车怎样用事业部、委员会和报表，把多家工厂放进同一个公司。",
+    "blurb": "1964年道布尔戴初版，版权页记1963年。约翰·麦克唐纳与凯瑟琳·史蒂文斯编。写他掌管通用汽车期间的分权。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "organize"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ]
+    },
+    "order": 31
+  },
+  {
+    "id": "matsushita-philosophy",
+    "title": "松下幸之助《实践经营哲学》",
+    "aka": [
+      "松下"
+    ],
+    "author": "松下幸之助",
+    "published": "1978年",
+    "summary": "把他办松下六十年的经验收成使命、利润和量力。这些话要放回当时的制造业看。",
+    "blurb": "PHP研究所1978年6月初版。后来的文库是再版。《活法》《干法》仍不收，那两本是修身。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "organize"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "japan"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ]
+    },
+    "order": 32
+  },
+  {
+    "id": "huawei-striver",
+    "title": "黄卫伟编《以奋斗者为本》",
+    "aka": [
+      "华为",
+      "华为公司人力资源管理纲要"
+    ],
+    "author": "黄卫伟",
+    "published": "2014年",
+    "summary": "把任正非和高管谈考核、股权和奋斗者的讲话，整理成一套人事规矩。",
+    "blurb": "中信2014年11月，ISBN 9787508647791。黄卫伟主编，取材于任正非及高管讲话。任正非没有单独署名的经营专著。",
+    "stars": 4,
+    "dims": {
+      "need": [
+        "organize"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ]
+    },
+    "order": 33
+  },
+  {
+    "id": "studwell-godfathers",
+    "title": "乔·史塔威尔《亚洲教父》",
+    "aka": [
+      "香港",
+      "东南亚"
+    ],
+    "author": "乔·史塔威尔",
+    "published": "2007年",
+    "summary": "写香港和东南亚的家族怎样靠特许、银行和政商关系守住财富。记者的调查。",
+    "blurb": "2007年Profile初版，美国版同年由大西洋月刊出版社出版。冯仑在风马牛书房讲过这本，用来看华人企业的政商轨迹。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "policy"
+      ],
+      "subject": [
+        "economy",
+        "history"
+      ],
+      "civilization": [
+        "sea"
+      ],
+      "text": [
+        "history"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ]
+    },
+    "order": 49
+  },
+  {
+    "id": "wanda-philosophy",
+    "title": "王健林《万达哲学》",
+    "aka": [
+      "万达"
+    ],
+    "author": "王健林",
+    "published": "2015年",
+    "summary": "把他十多年的讲话收成做人、生意和转型。这是万达自己的说法，后来怎样要另外核对。",
+    "blurb": "万达官网写明这是他第一部署名著作，中信2015年出版，文本来自他本人手稿。柳传志作序。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy",
+        "history"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "biography"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "fact"
+      ]
+    },
+    "order": 129
+  },
+  {
+    "id": "pan-values",
+    "title": "潘石屹《我的价值观》",
+    "aka": [
+      "万通",
+      "SOHO"
+    ],
+    "author": "潘石屹",
+    "published": "2012年",
+    "summary": "从SOHO的做法回看万通六君子怎样合伙、分手，再各自办公司。",
+    "blurb": "江苏文艺出版社2012年10月，ISBN 9787539957760。王功权、易小迪、王启富、刘军没有核对到单独的经营著作。冯仑三本已在架上。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy",
+        "history"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "biography"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "fact"
+      ]
+    },
+    "order": 130
+  },
+  {
+    "id": "leijun-xiaomi",
+    "title": "雷军《小米创业思考》",
+    "aka": [
+      "小米"
+    ],
+    "author": "雷军、徐洁云",
+    "published": "2022年",
+    "summary": "口述小米怎样用互联网方式做硬件，把效率、爆品和生态链写成可核对的做法。",
+    "blurb": "中信2022年8月，ISBN 9787521745276。雷军口述，徐洁云整理。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "biography"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "judgment"
+      ]
+    },
+    "order": 131
+  },
+  {
+    "id": "liu-jd",
+    "title": "刘强东《刘强东自述》",
+    "aka": [
+      "我的经营模式",
+      "京东"
+    ],
+    "author": "刘强东",
+    "published": "2016年",
+    "summary": "用京东的自营、物流和低价说明他怎样选不挣快钱。范围停在口述的那一年。",
+    "blurb": "中信2016年5月，ISBN 9787508658018。这是他自己讲经营，不是别人写的《创京东》。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "biography"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "fact"
+      ]
+    },
+    "order": 132
+  },
+  {
+    "id": "cao-bodhi",
+    "title": "曹德旺《心若菩提》",
+    "aka": [
+      "福耀"
+    ],
+    "author": "曹德旺",
+    "published": "2015年",
+    "summary": "写福耀从承包小厂到做汽车玻璃，以及反倾销案里怎样看成本和对手。",
+    "blurb": "人民出版社2015年1月，ISBN 9787010142401。他写的自传，后有增订，目录用初版。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy",
+        "history"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "biography"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "fact"
+      ]
+    },
+    "order": 133
+  },
+  {
+    "id": "haidilao-case",
+    "title": "黄铁鹰《海底捞你学不会》",
+    "aka": [
+      "海底捞",
+      "张勇"
+    ],
+    "author": "黄铁鹰",
+    "published": "2011年",
+    "summary": "用访谈写张勇怎样管服务员和门店。作者写明，这套做法换一家公司学不会。",
+    "blurb": "中信2011年3月，ISBN 9787508626482。北大光华的案例成书，不是张勇的自述。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "organize"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "china"
+      ],
+      "text": [
+        "treatise"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "other"
+      ]
+    },
+    "order": 134
+  },
+  {
+    "id": "ford-life",
+    "title": "亨利·福特《我的生活与工作》",
+    "aka": [
+      "福特"
+    ],
+    "author": "亨利·福特、塞缪尔·克劳瑟",
+    "published": "1922年",
+    "summary": "写流水线和日工资怎样把汽车做成大众商品。这是他与克劳瑟合写的自我说明。",
+    "blurb": "1922年道布尔戴初版，美国国会图书馆藏本。与塞缪尔·克劳瑟合写。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy",
+        "history"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "biography"
+      ],
+      "era": [
+        "modern"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ]
+    },
+    "order": 135
+  },
+  {
+    "id": "kroc-grind",
+    "title": "雷·克洛克《苦心经营》",
+    "aka": [
+      "麦当劳"
+    ],
+    "author": "雷·克洛克、罗伯特·安德森",
+    "published": "1977年",
+    "summary": "写他把麦当劳兄弟的柜台做成可复制的加盟。系统是他的说法，不是行业通史。",
+    "blurb": "1977年雷金纳里初版，与罗伯特·安德森合写。原名Grinding It Out。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "biography"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "rule"
+      ]
+    },
+    "order": 136
+  },
+  {
+    "id": "morita-japan",
+    "title": "盛田昭夫《日本制造》",
+    "aka": [
+      "索尼",
+      "Made in Japan"
+    ],
+    "author": "盛田昭夫、埃德温·莱因戈尔德、下村满子",
+    "published": "1986年",
+    "summary": "写索尼怎样把产品卖进美国，以及他怎样比较日美两种管法。一家公司的自述。",
+    "blurb": "英文初版1986年由达顿出版，书名Made in Japan。与莱因戈尔德、下村满子合写。日文版次年由朝日新闻社出版。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy",
+        "history"
+      ],
+      "civilization": [
+        "japan"
+      ],
+      "text": [
+        "biography"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "fact"
+      ]
+    },
+    "order": 137
+  },
+  {
+    "id": "walton-america",
+    "title": "山姆·沃尔顿《富甲美国》",
+    "aka": [
+      "沃尔玛"
+    ],
+    "author": "山姆·沃尔顿、约翰·休伊",
+    "published": "1992年",
+    "summary": "写沃尔玛怎样从小镇折扣店铺开，以及他怎样看成本和店里的人。一家公司的自述。",
+    "blurb": "1992年道布尔戴初版，与约翰·休伊合写。原名Made in America。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "biography"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "fact"
+      ]
+    },
+    "order": 138
+  },
+  {
+    "id": "knight-shoe",
+    "title": "菲尔·奈特《鞋狗》",
+    "aka": [
+      "耐克"
+    ],
+    "author": "菲尔·奈特",
+    "published": "2016年",
+    "summary": "写耐克从代理跑鞋到自己的品牌，现金流和代工一直卡着他。一本创始人回忆。",
+    "blurb": "2016年斯克里布纳初版。原名Shoe Dog。",
+    "stars": 3,
+    "dims": {
+      "need": [
+        "startup"
+      ],
+      "subject": [
+        "economy"
+      ],
+      "civilization": [
+        "usa"
+      ],
+      "text": [
+        "biography"
+      ],
+      "era": [
+        "contemporary"
+      ],
+      "plate": [
+        "business"
+      ],
+      "cognition": [
+        "fact"
+      ]
+    },
+    "order": 139
   }
 ];
