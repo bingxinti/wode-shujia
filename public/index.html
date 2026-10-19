@@ -784,7 +784,7 @@
   .side-plate-title { font-weight: 700; font-size: 15px; font-family: var(--serif); }
   .side-head { position: relative; color: var(--muted); font-size: 13px; font-weight: 650; }
   .side-book { position: relative; font-size: 13px; }
-  .side-name { min-width: 0; overflow-wrap: break-word; }
+  .side-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .side-star {
     flex: none; margin-inline-start: auto;
     color: var(--star); font-size: 12px; font-weight: 650;
@@ -1514,7 +1514,7 @@
       padding-inline: var(--row-pad) 16px;
     }
     .side-book > .idx { width: auto; min-width: 0; justify-self: end; font-size: 13px; }
-    .side-book > .side-name { min-width: 0; overflow-wrap: break-word; }
+    .side-book > .side-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .side-book > .side-star { margin-inline-start: 0; justify-self: end; font-size: 13px; }
     .side-book::after {
       inset-inline-start: calc(var(--row-pad) + var(--idx-w) + var(--row-gap));
@@ -2401,6 +2401,77 @@ function blob(book) {
   if (ord) names.push(String(ord));
   return [fields.title, fields.origTitle, fields.author, book.author, fields.published, book.published, fields.summary, book.summary, fields.blurb, book.blurb, ...names].join("\n");
 }
+function sideTextWidth(text) {
+  let w = 0;
+  for (const ch of String(text)) w += ch.codePointAt(0) < 128 ? 0.55 : 1;
+  return w;
+}
+function sideBudget(depth) {
+  if (depth <= 1) return 19;
+  if (depth === 2) return 17.4;
+  return 17;
+}
+function sideAuthor(author, tight) {
+  const suf = /[译譯编編]$/.test(author) ? author.slice(-1) : "";
+  const parts = author.split(/[、，,]/).map(part => part.trim()).filter(Boolean);
+  const shorts = parts.map(part => part.split(/[·・]/).pop().replace(/[译譯编編著]$/, ""));
+  if (!shorts.length) return author;
+  if (shorts.length === 1) return shorts[0] + suf;
+  if (tight || shorts.length > 2) return shorts[0] + "等";
+  return shorts[0] + "、" + shorts[1];
+}
+function sideManualBook(book) {
+  const fields = bookFields(book);
+  const hant = lang === "zh-Hant" && fields.title !== book.title;
+  if (book.id === "galileo") return hant ? "兩大世界體系的對話" : "两大世界体系的对话";
+  if (book.id === "palepu-valuation") return hant ? "企業分析與估價" : "企业分析与估价";
+  if (book.id === "constant") return hant ? "古代與現代的自由" : "古代与现代的自由";
+  if (book.id === "douglass") return hant ? "七月四日演說" : "七月四日演说";
+  if (book.id === "mariategui") return hant ? "祕魯現實七論" : "秘鲁现实七论";
+  if (book.id === "cambridge-prc") return hant ? "劍橋中國史" : "剑桥中国史";
+  return "";
+}
+function sideFit(book, budget) {
+  const title = bookFields(book).title || "";
+  const parsed = title.match(/^(.*)《(.+)》(.*)$/);
+  if (!parsed) return title;
+  const author = parsed[1];
+  const bookName = parsed[2];
+  const tail = parsed[3];
+  const pack = (a, b, t) => a + "《" + b + "》" + t;
+  const a2 = sideAuthor(author, false);
+  const a3 = sideAuthor(author, true);
+  const shortBook = bookName.split(/[：:—]/)[0].trim();
+  const manual = sideManualBook(book);
+  const steps = [];
+  const add = (text) => { if (text && !steps.includes(text)) steps.push(text); };
+  add(pack(author, bookName, tail));
+  add(pack(a2, bookName, tail));
+  add(pack(a3, bookName, tail));
+  add(pack(a3, bookName, ""));
+  add(pack(a3, shortBook, ""));
+  if (manual) add(pack(a3, manual, ""));
+  for (const text of steps) {
+    if (sideTextWidth(text) <= budget) return text;
+  }
+  return steps[steps.length - 1];
+}
+function sideFullText(book) {
+  const fields = bookFields(book);
+  const aka = (fields.aka || [])[0];
+  let text = fields.title || "";
+  if (aka) text += t("markOpen") + aka + t("markClose");
+  return text;
+}
+function sideNameHtml(book, depth) {
+  const full = sideFullText(book);
+  const zh = lang === "zh-Hans" || lang === "zh-Hant";
+  const label = zh && sideTextWidth(full) > sideBudget(depth) ? sideFit(book, sideBudget(depth)) : full;
+  const shortened = label !== full;
+  const tip = shortened || !zh ? ` title="${esc(full)}"` : "";
+  const inner = shortened ? hi(label) : titleHtml(book, true);
+  return `<span class="side-name"${tip}>${inner}</span>`;
+}
 function titleHtml(book, compact) {
   const fields = bookFields(book);
   let html = hi(fields.title);
@@ -3169,7 +3240,7 @@ function orderSideHtml() {
       }
       const score = bookStar(item.book);
       const star = score ? `<span class="side-star" title="${esc(langMeta().starAria(score))}">${hi(sideStarText(score))}</span>` : "";
-      const btn = `<button type="button" class="side-book" style="--depth:${item.depth}" data-jump="book-${esc(item.book.id)}"><span class="idx">${ordOf.get(item.book.id)}</span><span class="side-name">${titleHtml(item.book, true)}</span>${star}</button>`;
+      const btn = `<button type="button" class="side-book" style="--depth:${item.depth}" data-jump="book-${esc(item.book.id)}"><span class="idx">${ordOf.get(item.book.id)}</span>${sideNameHtml(item.book, item.depth)}${star}</button>`;
       if (nest) nest.push(btn);
       else if (group) group.push(btn);
       else html.push(btn);
