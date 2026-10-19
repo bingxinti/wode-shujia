@@ -680,7 +680,8 @@
     flex: none; display: flex; flex-wrap: nowrap; align-items: center; gap: 2px;
     min-width: 0; padding: 6px 8px;
     border-bottom: 1px solid var(--line); background: var(--aside);
-    overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
+    overflow-x: auto; overflow-y: clip; overscroll-behavior-x: contain; scrollbar-width: none;
+    flex-shrink: 0;
   }
   .plate-switch::-webkit-scrollbar { display: none; }
   .plate-switch button {
@@ -1392,20 +1393,37 @@
   .author-chip[aria-pressed="true"] .author-life { color: var(--on-ink-muted); }
   .author-chip.is-zero:not([aria-pressed="true"]) { opacity: 0.55; }
   @media (min-width: 861px) {
-    html, body, .app { height: 100%; }
-    header { position: sticky; top: 0; z-index: 6; }
-    .body { display: grid; grid-template-columns: 360px minmax(0, 1fr); }
+    html, body, .app { height: 100%; overflow: hidden; }
+    header {
+      position: sticky; top: 0; z-index: 6;
+      backdrop-filter: none; -webkit-backdrop-filter: none;
+    }
+    .body { display: grid; grid-template-columns: 360px minmax(0, 1fr); min-height: 0; }
     aside, main { min-width: 0; }
-    main { overflow: auto; }
+    main { overflow: auto; overscroll-behavior: contain; }
     aside {
-      display: flex; flex-direction: column; overflow: hidden;
+      display: grid;
+      grid-template-rows: auto auto minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr);
+      overflow: hidden;
       border-bottom: 0; border-inline-end: 1px solid var(--line);
       padding-bottom: 0;
     }
-    .side-tools { position: static; flex: none; }
-    .plate-switch { order: -1; }
+    .side-tools { position: relative; z-index: 2; grid-row: 2; grid-column: 1; }
+    #order-sheet {
+      display: grid;
+      grid-template-rows: subgrid;
+      grid-row: 1 / -1;
+      grid-column: 1;
+      min-height: 0;
+      min-width: 0;
+      pointer-events: none;
+    }
+    #order-sheet > * { pointer-events: auto; }
+    .plate-switch { order: 0; grid-row: 1; position: relative; z-index: 3; }
     #side-body {
-      flex: 1 1 auto; min-height: 0; overflow: auto;
+      grid-row: 3;
+      min-height: 0; overflow: auto;
       padding-bottom: 18px; overscroll-behavior: contain;
       scrollbar-gutter: stable;
     }
